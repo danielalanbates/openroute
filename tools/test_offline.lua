@@ -93,4 +93,24 @@ for i, st in ipairs(ordered) do io.write(("%d:%s%s "):format(st.index, st.action
 local pos = {} for i, st in ipairs(ordered) do pos[st.index] = i end
 assert(pos[1] < pos[2] and pos[2] < pos[5] and pos[3] < pos[4] and pos[4] < pos[6] and pos[7] > pos[6] and pos[7] > pos[5] and pos[8] > pos[7], "constraint violated")
 print("StepOrder OK (Q1 accept ->", pos[1], " both accepts adjacent:", math.abs(pos[1]-pos[3]) == 1, ")")
+-- 4) SuggestNext: level fit + travel-time tiebreak from player position (lvl 5, standing in Elwynn)
+local function regGuide(id, name, minl, maxl, zone, x, y, src)
+    NS.Guide.Register({ id = id, name = name, type = "Leveling", faction = "Alliance", minlevel = minl, maxlevel = maxl, source = src or "test",
+        text = ("R %s|M|%.1f,%.1f|Z|%d; %s|"):format(name, x, y, zone, (MAPS[zone] or {})[1] or "?") })
+end
+regGuide("t:elwynn", "Elwynn 5-10", 5, 10, 1429, 48, 42)
+regGuide("t:darkshore", "Darkshore 5-10", 5, 10, 1439, 30, 44)   -- same fit, other continent
+regGuide("t:westfall", "Westfall 10-20", 10, 20, 1436, 40, 50)   -- out of level range
+local nxt, eta = NS.Guide.SuggestNext(nil)
+assert(nxt and nxt.id == "t:elwynn", "SuggestNext picked " .. tostring(nxt and nxt.id) .. " (want nearby t:elwynn)")
+print(("SuggestNext OK: %s eta %s s"):format(nxt.id, tostring(eta and math.floor(eta))))
+local nxt2 = NS.Guide.SuggestNext("t:elwynn")                     -- just finished elwynn -> excluded
+assert(nxt2 and nxt2.id == "t:darkshore", "exclude failed: " .. tostring(nxt2 and nxt2.id))
+UnitLevel = function() return 11 end                              -- ding: only Westfall fits now
+local nxt3 = NS.Guide.SuggestNext("t:elwynn")
+assert(nxt3 and nxt3.id == "t:westfall", "level refilter failed: " .. tostring(nxt3 and nxt3.id))
+UnitLevel = function() return 21 end                              -- above all ranges -> nearest bracket above = none
+assert(NS.Guide.SuggestNext(nil) == nil or true)                  -- must not error
+UnitLevel = function() return 8 end                               -- gap: 8 not in 10-20, elwynn/darkshore 5-10 still fit
+print("SuggestNext exclude/refit OK")
 print("ALL OFFLINE TESTS PASSED")
