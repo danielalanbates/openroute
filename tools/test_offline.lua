@@ -127,4 +127,31 @@ for _, id in ipairs(NS.Guide.list) do
 end
 assert(lv > 3, "baked Zygor leveling guides did not parse")
 print("baked guides parse OK")
+-- 6) guide menu tree (organization): categories ordered, every guide reachable, search works
+GameTooltip = CreateFrame()
+local fn = assert(loadfile("OpenRoute/UI/GuideMenu.lua")) fn(ADDON, NS)
+local T = NS.GuideMenu._test
+local root = T.buildTree()
+assert(#root.kids > 1, "tree has only " .. #root.kids .. " top-level categories")
+assert(root.kids[1].name == "Leveling", "first category is " .. root.kids[1].name .. " (want Leveling)")
+local total = #NS.Guide.Available()
+assert(root.count == total, ("tree count %d ~= available %d"):format(root.count, total))
+-- expand everything: every guide must appear exactly once as a row
+local function expandAll(n) for _, k in ipairs(n.kids) do T.expanded[k.path] = true expandAll(k) end end
+expandAll(root)
+local rows = T.visibleRows()
+local guideRows = 0 for _, r in ipairs(rows) do if r.kind == "guide" then guideRows = guideRows + 1 end end
+assert(guideRows == total, ("expanded rows %d ~= available %d"):format(guideRows, total))
+for k in pairs(T.expanded) do T.expanded[k] = nil end
+-- collapsed: only top-level category rows, no guides
+local collapsed = T.visibleRows()
+for _, r in ipairs(collapsed) do assert(r.kind == "node" and r.depth == 0, "collapsed view leaked a non-root row") end
+-- zygor guides keep their folder structure (a Leveling subfolder exists)
+local lev = root.kidByName["Leveling"]
+assert(lev and #lev.kids > 0, "Leveling category has no subfolders")
+-- search returns only matching guide rows
+local sr = T.searchRows("elwynn")
+assert(#sr > 0, "search 'elwynn' found nothing")
+for _, r in ipairs(sr) do assert(r.kind == "guide") end
+print(("menu tree OK: %d categories, %d guides reachable, %d search hits for 'elwynn'"):format(#root.kids, guideRows, #sr))
 print("ALL OFFLINE TESTS PASSED")
