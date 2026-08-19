@@ -127,6 +127,26 @@ for _, id in ipairs(NS.Guide.list) do
 end
 assert(lv > 3, "baked Zygor leveling guides did not parse")
 print("baked guides parse OK")
+-- 5b) generated quest DB guides (flavor-gated: harness reports TBC 2.5.6 -> only _tbc loads)
+local fq = io.open("OpenRoute/Guides/Imported_Quests_tbc.lua")
+if fq then
+    fq:close()
+    for _, qf in ipairs({ "Guides/Imported_Quests_era.lua", "Guides/Imported_Quests_tbc.lua" }) do load(qf) end
+    local qGuides, qSteps = 0, 0
+    for _, id in ipairs(NS.Guide.list) do
+        local g = NS.Guide.registry[id]
+        if (g.type or "") == "Quests" then
+            qGuides = qGuides + 1
+            if qSteps <= 10 then local st = NS.Guide.Steps(id) qSteps = math.max(qSteps, st and #st or 0) end
+            assert(not id:find("^qdb:era"), "era quest guides leaked into tbc flavor: " .. id)
+        end
+    end
+    assert(qGuides > 150, "expected >150 tbc quest guides, got " .. qGuides)
+    assert(qSteps > 10, "quest guide steps did not parse")
+    print(("quest DB guides OK: %d zone guides (tbc), sample parsed %d steps"):format(qGuides, qSteps))
+else
+    print("quest DB guides SKIPPED (Imported_Quests_tbc.lua not baked)")
+end
 -- 6) guide menu tree (organization): categories ordered, every guide reachable, search works
 GameTooltip = CreateFrame()
 local fn = assert(loadfile("OpenRoute/UI/GuideMenu.lua")) fn(ADDON, NS)
