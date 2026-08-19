@@ -50,7 +50,12 @@ local HBD = { GetAllMapIDs = function() local t = {} for id in pairs(MAPS) do t[
 LibStub = function(name) if name == "HereBeDragons-2.0" then return HBD end return { Fire = function() end } end
 PLAYER = { map = 1429, x = 0.487, y = 0.42 } PLAYER.wx, PLAYER.wy, PLAYER.inst = z2w(PLAYER.x, PLAYER.y, PLAYER.map)
 -- ---- load addon files ----
-local function load(path) local fn = assert(loadfile("OpenRoute/" .. path)) fn(ADDON, NS) end
+local function load(path)
+    if path:match("^Guides/Imported_") and not io.open("OpenRoute/" .. path, "r") then
+        print("skip " .. path .. " (baked locally, gitignored)") return
+    end
+    local fn = assert(loadfile("OpenRoute/" .. path)) fn(ADDON, NS)
+end
 for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Routing/TravelGraph.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Progress.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
 -- fake ADDON_LOADED
 OpenRouteDB, OpenRouteCharDB = nil, nil
@@ -114,19 +119,26 @@ assert(NS.Guide.SuggestNext(nil) == nil or true)                  -- must not er
 UnitLevel = function() return 8 end                               -- gap: 8 not in 10-20, elwynn/darkshore 5-10 still fit
 print("SuggestNext exclude/refit OK")
 -- 5) baked guide import (standalone, no Zygor/WoWPro addons)
+local BAKED = io.open("OpenRoute/Guides/Imported_Zygor.lua", "r") ~= nil
 local nz = NS.Adapters.Zygor.ImportStatic()
 local nw = NS.Adapters.WoWPro.ImportStatic()
 print(("baked import: %d zygor, %d wowpro"):format(nz, nw))
-assert(nz > 500, "expected >500 baked Zygor guides, got " .. nz)
-assert(nw > 50, "expected >50 baked WoW-Pro guides, got " .. nw)
--- a baked Zygor guide must parse into real steps
-local lv = 0
-for _, id in ipairs(NS.Guide.list) do
-    local g = NS.Guide.registry[id]
-    if g.source == "Zygor" and (g.type or ""):lower() == "leveling" then local st = NS.Guide.Steps(id) if st and #st > 10 then lv = lv + 1 end if lv > 3 then break end end
+if BAKED then
+    assert(nz > 500, "expected >500 baked Zygor guides, got " .. nz)
+    assert(nw > 50, "expected >50 baked WoW-Pro guides, got " .. nw)
+else
+    print("baked-count assertions SKIPPED (guides not baked; run tools/install.sh)")
 end
-assert(lv > 3, "baked Zygor leveling guides did not parse")
-print("baked guides parse OK")
+-- a baked Zygor guide must parse into real steps
+if BAKED then
+    local lv = 0
+    for _, id in ipairs(NS.Guide.list) do
+        local g = NS.Guide.registry[id]
+        if g.source == "Zygor" and (g.type or ""):lower() == "leveling" then local st = NS.Guide.Steps(id) if st and #st > 10 then lv = lv + 1 end if lv > 3 then break end end
+    end
+    assert(lv > 3, "baked Zygor leveling guides did not parse")
+    print("baked guides parse OK")
+end
 -- 5b) generated quest DB guides (flavor-gated: harness reports TBC 2.5.6 -> only _tbc loads)
 local fq = io.open("OpenRoute/Guides/Imported_Quests_tbc.lua")
 if fq then
@@ -152,7 +164,8 @@ GameTooltip = CreateFrame()
 local fn = assert(loadfile("OpenRoute/UI/GuideMenu.lua")) fn(ADDON, NS)
 local T = NS.GuideMenu._test
 local root = T.buildTree()
-assert(#root.kids > 1, "tree has only " .. #root.kids .. " top-level categories")
+assert(#root.kids >= 1, "tree has no top-level categories")
+if BAKED then assert(#root.kids > 1, "tree has only " .. #root.kids .. " top-level categories") end
 assert(root.kids[1].name == "Leveling", "first category is " .. root.kids[1].name .. " (want Leveling)")
 local total = #NS.Guide.Available()
 assert(root.count == total, ("tree count %d ~= available %d"):format(root.count, total))
@@ -167,11 +180,13 @@ for k in pairs(T.expanded) do T.expanded[k] = nil end
 local collapsed = T.visibleRows()
 for _, r in ipairs(collapsed) do assert(r.kind == "node" and r.depth == 0, "collapsed view leaked a non-root row") end
 -- zygor guides keep their folder structure (a Leveling subfolder exists)
-local lev = root.kidByName["Leveling"]
-assert(lev and #lev.kids > 0, "Leveling category has no subfolders")
+if BAKED then
+    local lev = root.kidByName["Leveling"]
+    assert(lev and #lev.kids > 0, "Leveling category has no subfolders")
+end
 -- search returns only matching guide rows
 local sr = T.searchRows("elwynn")
-assert(#sr > 0, "search 'elwynn' found nothing")
+if BAKED then assert(#sr > 0, "search 'elwynn' found nothing") end
 for _, r in ipairs(sr) do assert(r.kind == "guide") end
 print(("menu tree OK: %d categories, %d guides reachable, %d search hits for 'elwynn'"):format(#root.kids, guideRows, #sr))
 print("ALL OFFLINE TESTS PASSED")
