@@ -51,7 +51,7 @@ LibStub = function(name) if name == "HereBeDragons-2.0" then return HBD end retu
 PLAYER = { map = 1429, x = 0.487, y = 0.42 } PLAYER.wx, PLAYER.wy, PLAYER.inst = z2w(PLAYER.x, PLAYER.y, PLAYER.map)
 -- ---- load addon files ----
 local function load(path) local fn = assert(loadfile("OpenRoute/" .. path)) fn(ADDON, NS) end
-for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Routing/TravelGraph.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Progress.lua" }) do load(f) end
+for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Routing/TravelGraph.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Progress.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
 -- fake ADDON_LOADED
 OpenRouteDB, OpenRouteCharDB = nil, nil
 for _, h in ipairs(NS.wowHandlers.ADDON_LOADED) do h("ADDON_LOADED", "OpenRoute") end
@@ -113,4 +113,18 @@ UnitLevel = function() return 21 end                              -- above all r
 assert(NS.Guide.SuggestNext(nil) == nil or true)                  -- must not error
 UnitLevel = function() return 8 end                               -- gap: 8 not in 10-20, elwynn/darkshore 5-10 still fit
 print("SuggestNext exclude/refit OK")
+-- 5) baked guide import (standalone, no Zygor/WoWPro addons)
+local nz = NS.Adapters.Zygor.ImportStatic()
+local nw = NS.Adapters.WoWPro.ImportStatic()
+print(("baked import: %d zygor, %d wowpro"):format(nz, nw))
+assert(nz > 500, "expected >500 baked Zygor guides, got " .. nz)
+assert(nw > 50, "expected >50 baked WoW-Pro guides, got " .. nw)
+-- a baked Zygor guide must parse into real steps
+local lv = 0
+for _, id in ipairs(NS.Guide.list) do
+    local g = NS.Guide.registry[id]
+    if g.source == "Zygor" and (g.type or ""):lower() == "leveling" then local st = NS.Guide.Steps(id) if st and #st > 10 then lv = lv + 1 end if lv > 3 then break end end
+end
+assert(lv > 3, "baked Zygor leveling guides did not parse")
+print("baked guides parse OK")
 print("ALL OFFLINE TESTS PASSED")
