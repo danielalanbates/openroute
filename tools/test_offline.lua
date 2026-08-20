@@ -403,6 +403,20 @@ end
 print("target beacon OK: names mined from |T| and titles, nameplate marker + /target button wired")
 
 
+-- a step with no |M| coords must still resolve a location (quest objective, else zone centre)
+do
+    local noloc = NS.Guide.ParseLine("C Kill things|QID|55|Z|1429; Elwynn Forest|", 1)
+    noloc.index = 1
+    assert(not noloc.coords, "test step should have no coords")
+    local wx = NS.Router.StepWorld(noloc)
+    assert(wx, "step with a zone but no coords resolved nowhere")
+    assert(noloc._locSource == "zone", "expected zone fallback, got " .. tostring(noloc._locSource))
+    local nozone = NS.Guide.ParseLine("C Kill things|QID|55|", 1)
+    nozone.index = 1
+    assert(NS.Router.StepWorld(nozone) == nil, "step with nothing should resolve nowhere")
+    print("location fallback OK: zone centre used when a guide line has no coordinates")
+end
+
 -- 9) every documented slash subcommand is actually handled.
 -- A refactor once deleted a whole run of elseif branches (chars/accountwide/forget/beacon/
 -- verifyfeatures) and nothing caught it, because those commands are only reachable by typing.
@@ -411,7 +425,7 @@ do
     local src = f:read("*a") f:close()
     local handled = {}
     for name in src:gmatch('cmd%s*==%s*"([%w_]+)"') do handled[name] = true end
-    local required = { "guides", "load", "icon", "next", "skip", "undo", "reset", "arrow", "beacon", "demo",
+    local required = { "guides", "load", "icon", "why", "next", "skip", "undo", "reset", "arrow", "beacon", "demo",
                        "chars", "accountwide", "forget", "options", "route", "order", "taxi",
                        "hearth", "import", "switch", "scan", "verify", "verifyfeatures",
                        "verifyall", "autoverify", "log", "stats", "debug", "test" }
