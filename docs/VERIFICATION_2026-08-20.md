@@ -81,3 +81,53 @@ one `Arrow.Update()` first. Confirmed by probe in the live client: `UPD true nil
 * The CGWindow owner name is `Wow`, not `World of Warcraft`.
 * Do not enter the world on a Hardcore character to run tests, and check whether the character you
   land on is dead before doing anything.
+
+---
+
+# Second pass — every feature exercised in-world (Mists, a different character)
+
+Run on **Thorfirn-Maladath**, a level 16 Rogue in Darnassus — deliberately not the character used
+in the first pass. Name check first: **CompletionRoute** is unused — 0 projects on CurseForge,
+0 repositories on GitHub, no web results.
+
+| Feature | Evidence |
+|---|---|
+| Over-head marker | `docs/screenshots/overhead_icon_mop.png` — the game's yellow quest `!` over two Darnassus Sentinels and on the target frame; `demo (settled): modernPlates=6 overHeadMarkers=2` |
+| Target/mouseover frame marker | same shot, `targetFrameMarker=true` |
+| One-click target button | `targetButton=Darnassus Sentinel` |
+| Map pins | `pins=1 pin(s) on map 89` (Darnassus) |
+| Next Step category | `docs/screenshots/next_step_mop.png` — 272 matches at level 16, every bracket contains 16, ETA-sorted (6m, 11m, 20m, 22m, 24m…), with account-wide % badges |
+| Account-wide roster | `docs/screenshots/account_roster_mop.png` — three characters across three realms, current one starred |
+| Guide browser | 4264 guides, 12 categories, Next Step first |
+| Arrow + routing | "Talk to Darnassus Sentinel, 0 yd, ETA ~0s" |
+| Whole-catalogue sweep | 4430/4430, 0 failed |
+| Feature verifier | 16/16 |
+
+## Defects this pass found (all fixed, all now covered by offline tests)
+
+1. **The over-head marker never worked.** `C_NamePlate.GetNamePlates(true)` passes `isSecure`;
+   from insecure addon code that returns nothing. The self-check had been reporting PASS because it
+   only asserted the *API existed*. Fixed, plus a WorldFrame fallback for clients that expose no
+   plates through `C_NamePlate` at all.
+2. **A refactor had deleted five slash commands** (`chars`, `accountwide`, `forget`, `beacon`,
+   `verifyfeatures`) when a dead code block was removed. Nothing caught it because those commands
+   are only reachable by typing. Restored, and there is now a test asserting every documented
+   command is both handled and advertised in the help line.
+3. **The bulk sweep wrote into real progress** — 4470 steps across 4384 guides on one character.
+   Now sandboxed; `tools/clean_sweep_progress.py` cleaned the records older builds wrote.
+4. **The marker stuttered** because it was re-anchored on every rescan mid-animation. Anchoring is
+   now idempotent and the bob is optional.
+5. **An unplaced map pin floated in the middle of the screen** — we were calling `Show()` on pin
+   frames that HereBeDragons had declined to place. HBD owns their visibility now.
+6. **The arrow's item button painted an empty ring** when a recommendation had neither an item nor
+   a spell.
+
+Note: the gold starburst visible near the arrow in these screenshots belongs to **Zygor**, which is
+still installed on this client — not to CompletionRoute.
+
+## Verification lesson
+
+The feature verifier passed 16/16 while the headline feature was completely broken, because the
+checks asserted that APIs *existed* rather than that the feature *did something*. Checks now assert
+observable effects (markers actually shown, pins actually placed, errors surfaced instead of
+swallowed by `pcall`). When adding a feature, make its check fail if the feature does nothing.

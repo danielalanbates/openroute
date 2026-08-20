@@ -5,8 +5,9 @@ local ADDON, NS = "CompletionRoute", {}
 -- ---- WoW API stubs ----
 local frames = {}
 function CreateFrame() local f = { scripts = {} } function f:RegisterEvent() end function f:SetScript(k, v) self.scripts[k] = v end
-    for _, m in ipairs({"SetSize","SetPoint","Show","Hide","SetMovable","EnableMouse","SetClampedToScreen","RegisterForDrag","SetFrameStrata","SetScale","SetAlpha","ClearAllPoints","SetBackdrop","SetBackdropColor","SetBackdropBorderColor","SetResizable","SetResizeBounds","SetText","SetAttribute","SetHighlightTexture","RegisterForClicks","SetAllPoints","SetTexCoord","SetTexture","SetJustifyH","SetWidth","SetWordWrap","SetMaxLines","SetTextColor","SetHeight","SetAutoFocus","SetScrollChild","SetChecked","SetColorTexture","SetRotation","SetCooldown","SetMinMaxValues","SetValueStep","SetObeyStepOnDrag","SetValue","SetBlendMode","SetLooping","SetOffset","SetDuration","SetSmoothing","Play","Stop","SetVertexColor","SetFrameLevel","SetParent"}) do f[m] = function() end end
-    function f:CreateTexture() return CreateFrame() end function f:CreateAnimationGroup() return CreateFrame() end function f:CreateAnimation() return CreateFrame() end function f:CreateFontString() return CreateFrame() end function f:IsShown() return false end function f:GetPoint() return "CENTER",nil,nil,0,0 end
+    function f:Show() self.__shown = true end function f:Hide() self.__shown = false end
+    for _, m in ipairs({"SetSize","SetPoint","SetMovable","EnableMouse","SetClampedToScreen","RegisterForDrag","SetFrameStrata","SetScale","SetAlpha","ClearAllPoints","SetBackdrop","SetBackdropColor","SetBackdropBorderColor","SetResizable","SetResizeBounds","SetText","SetAttribute","SetHighlightTexture","RegisterForClicks","SetAllPoints","SetTexCoord","SetTexture","SetJustifyH","SetWidth","SetWordWrap","SetMaxLines","SetTextColor","SetHeight","SetAutoFocus","SetScrollChild","SetChecked","SetColorTexture","SetRotation","SetCooldown","SetMinMaxValues","SetValueStep","SetObeyStepOnDrag","SetValue","SetBlendMode","SetLooping","SetOffset","SetDuration","SetSmoothing","Play","Stop","IsPlaying","SetVertexColor","SetFrameLevel","SetParent","SetShown","SetDrawLayer"}) do f[m] = function() end end
+    function f:CreateTexture() return CreateFrame() end function f:CreateAnimationGroup() local g = CreateFrame() g.__playing = false function g:Play() self.__playing = true end function g:Stop() self.__playing = false end function g:IsPlaying() return self.__playing end return g end function f:CreateAnimation() return CreateFrame() end function f:CreateFontString() return CreateFrame() end function f:IsShown() return false end function f:GetPoint() return "CENTER",nil,nil,0,0 end
     f.Text = CreateFrame and { SetText = function() end } or nil
     return f end
 UIParent = {}; UISpecialFrames = {}
@@ -33,6 +34,8 @@ function GetBindLocation() return "Goldshire" end
 function GetPlayerFacing() return 0 end
 function UnitExists(u) return u == "target" end
 NAMEPLATES = {}
+WORLDFRAME_KIDS = {}
+WorldFrame = { GetChildren = function() return unpack(WORLDFRAME_KIDS) end }
 C_NamePlate = { GetNamePlates = function() return NAMEPLATES end,
     GetNamePlateForUnit = function(u) for _, pl in ipairs(NAMEPLATES) do if pl.namePlateUnitToken == u then return pl end end end }
 HBD_PINS_WORLDMAP_SHOW_PARENT = 1
@@ -261,6 +264,20 @@ NS.Progress.Load("t:acct")
 assert(NS.Account.Forget("Alt-Test") == true and NS.Account.Forget(AK) == false, "forget rules")
 NS.db.global.chars["Alt-Test"] = { name = "Alt", done = { ["t:acct"] = { [2] = true, [3] = true } } }
 NS.db.profile.accountWide = false
+-- a bulk sweep must not write into the character's real progress
+do
+    local before = 0
+    for _ in pairs(NS.Account.me.done) do before = before + 1 end
+    NS.Account.BeginScratch()
+    NS.Progress.Load("t:acct")
+    NS.Progress.MarkDone(NS.Guide.Steps("t:acct")[2])
+    NS.Account.Done("t:sweep-noise")[99] = true
+    NS.Account.EndScratch()
+    local after = 0
+    for _ in pairs(NS.Account.me.done) do after = after + 1 end
+    assert(after == before, ("sweep polluted progress: %d -> %d guides"):format(before, after))
+    assert(NS.Account.me.done["t:sweep-noise"] == nil, "scratch write leaked")
+end
 print("account-wide progression OK: char 25%, account 75%, opt-in gate honoured both ways")
 
 -- 8) target beacon
@@ -294,12 +311,122 @@ NAMEPLATES = { { namePlateUnitToken = "nameplate1" }, { namePlateUnitToken = "na
 UnitName = function(u) return u == "nameplate1" and "Guard Thomas" or "Random Critter" end
 NS.Beacon.RescanPlates()
 assert(NS.Beacon.count == 1, "wanted-name count " .. tostring(NS.Beacon.count))
+-- the marker must actually attach to the wanted plate (and only that one)
+do
+    local shown = 0
+    for _, m in pairs(NS.Beacon._test.plateMarks) do if m.__shown then shown = shown + 1 end end
+    assert(shown == 1, "expected exactly 1 nameplate marker, got " .. shown)
+end
+-- classic clients return an EMPTY C_NamePlate list even with nameplates on screen; the
+-- WorldFrame fallback has to pick them up or the over-head marker never appears there
+do
+    NAMEPLATES = {}
+    local function mkplate(nm)
+        local f = CreateFrame()
+        f.__name = nm
+        function f:IsObjectType(t) return t == "Frame" end
+        function f:IsShown() return true end
+        function f:GetName() return nil end
+        function f:GetRegions()
+            local fs = CreateFrame()
+            function fs:GetObjectType() return "FontString" end
+            function fs:GetText() return nm end
+            return fs
+        end
+        function f:GetChildren() return end
+        return f
+    end
+    WORLDFRAME_KIDS = { mkplate("Guard Thomas"), mkplate("Random Critter") }
+    NS.Beacon.RescanPlates()
+    assert(NS.Beacon.legacyPlateCount == 2, "legacy scan found " .. tostring(NS.Beacon.legacyPlateCount))
+    assert(NS.Beacon.legacyMarked == 1, "legacy marked " .. tostring(NS.Beacon.legacyMarked) .. " (want 1)")
+    -- re-anchoring on every rescan is what made the marker stutter; parking must be idempotent
+    WORLDFRAME_KIDS = { mkplate("Guard Thomas") }
+    NS.Beacon.RescanPlates()
+    local mark
+    for _, m in pairs(NS.Beacon._test.plateMarks) do if m.__shown then mark = m end end
+    assert(mark and mark.__parked, "marker not parked")
+    local parked = mark.__parked
+    mark.__setpoints = 0
+    local realSetPoint = mark.SetPoint
+    mark.SetPoint = function(self, ...) self.__setpoints = self.__setpoints + 1 return realSetPoint(self, ...) end
+    for _ = 1, 5 do NS.Beacon.RescanPlates() end
+    assert(mark.__setpoints == 0, "marker re-anchored " .. mark.__setpoints .. " times while already parked")
+    assert(mark.__parked == parked, "marker changed anchor without moving plates")
+    WORLDFRAME_KIDS = {}
+end
+-- an unplaced HereBeDragons pin that we Show() ourselves floats in the middle of the screen
+do
+    local f = assert(io.open("CompletionRoute/UI/Beacon.lua"))
+    local src = f:read("*a") f:close()
+    assert(not src:find("pins%[i%]:Show%(%)"), "Beacon shows pin frames itself; let HereBeDragons place them")
+end
+-- C_NamePlate.GetNamePlates(isSecure=true) returns nothing for insecure addon code; passing it
+-- silently disabled the over-head marker on live clients. Never pass it.
+do
+    local f = assert(io.open("CompletionRoute/UI/Beacon.lua"))
+    local src = f:read("*a") f:close()
+    assert(not src:find("GetNamePlates%(true%)"), "Beacon passes isSecure to GetNamePlates")
+    assert(not src:find("GetNamePlateForUnit%([%w_]+,%s*true%)"), "Beacon passes isSecure to GetNamePlateForUnit")
+end
 NS.db.profile.beacon.enabled = false
 NS.Beacon.RescanPlates()
 NS.db.profile.beacon.enabled = true
 NS.Beacon.UpdateTargetButton()
 assert(NS.Beacon.targetButton.targetName == "Guard Thomas", "target button macro name = " .. tostring(NS.Beacon.targetButton.targetName))
 UnitName = function() return "Tester" end
+-- the over-head icon must come from the game's own art, and follow the step's action
+do
+    NS.db.profile.beacon.icon = "action"
+    NS.Progress.current = { action = "A", title = "x", index = 1 }
+    local t = NS.Beacon.MarkerTexture(NS.Progress.current)
+    assert(t == NS.Guide.ACTION_ICON.A, "accept step icon = " .. tostring(t))
+    NS.Progress.current = { action = "K", title = "x", index = 1 }
+    assert(NS.Beacon.MarkerTexture(NS.Progress.current):find("RaidTargetingIcon"), "kill step should use the raid skull")
+    NS.Progress.current = { action = "T", title = "x", index = 1 }
+    assert(NS.Beacon.MarkerTexture(NS.Progress.current) == NS.Guide.ACTION_ICON.T, "turn-in icon")
+    NS.db.profile.beacon.icon = "arrow"
+    local t2, rot = NS.Beacon.MarkerTexture(NS.Progress.current)
+    assert(t2:find("arrow_green") and rot, "arrow style should rotate the arrow")
+    NS.db.profile.beacon.icon = "action"
+    print("over-head icon OK: uses Blizzard step art, skull for kill steps, arrow style still available")
+end
+-- the arrow's item button must never paint an empty ring
+do
+    local f = assert(io.open("CompletionRoute/UI/Arrow.lua"))
+    local src = f:read("*a") f:close()
+    assert(src:find('mode == "hide" or %(not itemID and not spellID%)'),
+        "Arrow.applyButton must hide when there is no item and no spell")
+    assert(src:find('and %(rec%.item or rec%.spell%)'),
+        "Arrow.Update must not enter item/hearth mode without an item or spell")
+end
 print("target beacon OK: names mined from |T| and titles, nameplate marker + /target button wired")
+
+
+-- 9) every documented slash subcommand is actually handled.
+-- A refactor once deleted a whole run of elseif branches (chars/accountwide/forget/beacon/
+-- verifyfeatures) and nothing caught it, because those commands are only reachable by typing.
+do
+    local f = assert(io.open("CompletionRoute/Core/Slash.lua"))
+    local src = f:read("*a") f:close()
+    local handled = {}
+    for name in src:gmatch('cmd%s*==%s*"([%w_]+)"') do handled[name] = true end
+    local required = { "guides", "load", "icon", "next", "skip", "undo", "reset", "arrow", "beacon", "demo",
+                       "chars", "accountwide", "forget", "options", "route", "order", "taxi",
+                       "hearth", "import", "switch", "scan", "verify", "verifyfeatures",
+                       "verifyall", "autoverify", "log", "stats", "debug", "test" }
+    local missing = {}
+    for _, c in ipairs(required) do if not handled[c] then missing[#missing + 1] = c end end
+    assert(#missing == 0, "slash commands not handled: " .. table.concat(missing, ", "))
+    -- and the help line must advertise them
+    local help = src:match('NS:Print%("Commands: ([^"]+)"%)')
+    assert(help, "no help line")
+    local advertised = {}
+    for w in help:gmatch("[%w_]+") do advertised[w] = true end
+    local unlisted = {}
+    for _, c in ipairs(required) do if not advertised[c] then unlisted[#unlisted + 1] = c end end
+    assert(#unlisted == 0, "commands missing from the help line: " .. table.concat(unlisted, ", "))
+    print(("slash commands OK: %d handled and advertised"):format(#required))
+end
 
 print("ALL OFFLINE TESTS PASSED")
