@@ -417,6 +417,37 @@ do
     print("location fallback OK: zone centre used when a guide line has no coordinates")
 end
 
+-- flight paths must be learnable without visiting a flight master, and by name on classic
+do
+    NS.db.char.knownTaxi = {}
+    local named = 0
+    for _, n in ipairs(NS.TravelGraph.nodes) do if n.taxiID and n.name then named = named + 1 end end
+    assert(named > 0, "graph has no named taxi nodes to learn")
+    local sample
+    for _, n in ipairs(NS.TravelGraph.nodes) do if n.taxiID and n.name then sample = n break end end
+    local byname = NS.TravelGraph.NodeByName(sample.name)
+    assert(byname and byname.taxiID == sample.taxiID, "NodeByName failed for " .. tostring(sample.name))
+    assert(NS.TravelGraph.NodeByName(sample.name:match("^([^,]+)")), "NodeByName failed on the short name")
+    -- with nothing known, a known-only route must not claim a flight
+    NS.db.profile.routing.assumeAllTaxi = false
+    assert(NS.TravelGraph.IsTaxiKnown(sample) == false, "unknown node reported as known")
+    NS.db.char.knownTaxi[sample.taxiID] = true
+    assert(NS.TravelGraph.IsTaxiKnown(sample) == true, "learned node not reported as known")
+    NS.db.profile.routing.assumeAllTaxi = true
+    print("taxi learning OK: NodeByName resolves classic flight-master names")
+end
+
+-- picking a guide must SHOW the guide window (it read as "the guide was deleted" when hidden)
+do
+    local f = assert(io.open("CompletionRoute/UI/GuideFrame.lua"))
+    local src = f:read("*a") f:close()
+    assert(src:find('NS:On%("GUIDE_LOADED", function%(%)%s*\n%s*%-%-'), "GUIDE_LOADED handler shape changed")
+    assert(src:find("if not f:IsShown%(%) then f:Show%(%) end"), "loading a guide must show the guide window")
+    assert(src:find("function GF.ShowDetail"), "no step detail popup")
+    assert(src:find("else GF.ShowDetail%(self.step%) end"), "left-clicking a step must open its details")
+    print("guide selection UX OK: window opens on load, rows open a detail popup")
+end
+
 -- 9) every documented slash subcommand is actually handled.
 -- A refactor once deleted a whole run of elseif branches (chars/accountwide/forget/beacon/
 -- verifyfeatures) and nothing caught it, because those commands are only reachable by typing.
