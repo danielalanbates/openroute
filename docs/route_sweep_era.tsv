@@ -1,0 +1,1059 @@
+flavor	guide	name	type	faction	zone	zone_name	steps	located	unknown_zone	window	order_ok	order_reason	opt_cost	author_cost	route_ok	route	error
+era	qdb:era:1:Both	Dun Morogh Quests	Quests	Both	1426	Dun Morogh	7	7	0	7	1		326	493	yes	Walk 171 yd to Destination (~31s)	
+era	qdb:era:1:Alliance	Dun Morogh Quests (Alliance)	Quests	Alliance	1426	Dun Morogh	182	182	0	15	1		1044	1063	yes	Follow the road 682 yd to Destination (~1m 49s)	
+era	qdb:era:3:Both	Badlands Quests	Quests	Both	1418	Badlands	56	56	0	15	1		398	618	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:3:Horde	Badlands Quests (Horde)	Quests	Horde	1418	Badlands	90	90	0	15	1		1641	2576	yes	Walk 1.1k yd to Destination (~3m 13s)	
+era	qdb:era:3:Alliance	Badlands Quests (Alliance)	Quests	Alliance	1418	Badlands	29	29	0	15	1		517	801	yes	Walk 138 yd to Destination (~25s)	
+era	qdb:era:4:Both	Blasted Lands Quests	Quests	Both	1419	Blasted Lands	53	53	0	15	1		429	1284	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:4:Alliance	Blasted Lands Quests (Alliance)	Quests	Alliance	1419	Blasted Lands	13	13	0	10	1		1369	2949	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:8:Both	Swamp of Sorrows Quests	Quests	Both	1435	Swamp of Sorrows	46	46	0	15	1		1568	1997	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:8:Alliance	Swamp of Sorrows Quests (Alliance)	Quests	Alliance	1435	Swamp of Sorrows	11	11	0	8	1		362	581	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:8:Horde	Swamp of Sorrows Quests (Horde)	Quests	Horde	1435	Swamp of Sorrows	41	41	0	15	1		659	1271	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:10:Horde	Duskwood Quests (Horde)	Quests	Horde	1431	Duskwood	9	9	0	6	1		488	849	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:10:Alliance	Duskwood Quests (Alliance)	Quests	Alliance	1431	Duskwood	157	157	0	15	1		897	1275	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:11:Alliance	Wetlands Quests (Alliance)	Quests	Alliance	1437	Wetlands	117	117	0	15	1		1556	2327	yes	Walk 292 yd to Destination (~52s)	
+era	qdb:era:12:Both	Elwynn Forest Quests	Quests	Both	1429	Elwynn Forest	49	49	0	15	1		287	662	yes	Hearth to Goldshire; Walk 105 yd to Destination (~1m 19s)	
+era	qdb:era:12:Alliance	Elwynn Forest Quests (Alliance)	Quests	Alliance	1429	Elwynn Forest	181	181	0	15	1		801	956	yes	Hearth to Goldshire; Walk 456 yd to Destination (~2m 22s)	
+era	qdb:era:14:Both	Durotar Quests	Quests	Both	1411	Durotar	4	4	0	4	1		221	381	yes	Walk 279 yd to Destination (~50s)	
+era	qdb:era:14:Horde	Durotar Quests (Horde)	Quests	Horde	1411	Durotar	196	196	0	15	1		625	626	yes	Follow the road 855 yd to Destination (~2m 10s)	
+era	qdb:era:15:Both	Dustwallow Marsh Quests	Quests	Both	1445	Dustwallow Marsh	48	48	0	15	1		990	1303	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:15:Horde	Dustwallow Marsh Quests (Horde)	Quests	Horde	1445	Dustwallow Marsh	65	65	0	15	1		597	1307	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:15:Alliance	Dustwallow Marsh Quests (Alliance)	Quests	Alliance	1445	Dustwallow Marsh	53	53	0	15	1		1300	2337	yes	Walk 730 yd to Destination (~2m 10s)	
+era	qdb:era:16:Both	Azshara Quests	Quests	Both	1447	Azshara	95	95	0	15	1		1102	2844	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:16:Alliance	Azshara Quests (Alliance)	Quests	Alliance	1447	Azshara	3	3	0	3	1		273	273	yes	Walk 816 yd to Destination (~1m 31s)	
+era	qdb:era:16:Horde	Azshara Quests (Horde)	Quests	Horde	1447	Azshara	21	21	0	13	1		1521	2299	yes	Walk 859 yd to Destination (~1m 36s)	
+era	qdb:era:17:Both	The Barrens Quests	Quests	Both	1413	The Barrens	126	126	0	15	1		899	2623	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:17:Alliance	The Barrens Quests (Alliance)	Quests	Alliance	1413	The Barrens	11	11	0	7	1		1698	3739	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:17:Horde	The Barrens Quests (Horde)	Quests	Horde	1413	The Barrens	315	315	0	15	1		917	2007	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:28:Both	Western Plaguelands Quests	Quests	Both	1422	Western Plaguelands	99	99	0	15	1		293	751	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:28:Horde	Western Plaguelands Quests (Horde)	Quests	Horde	1422	Western Plaguelands	17	17	0	9	1		1250	3280	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:28:Alliance	Western Plaguelands Quests (Alliance)	Quests	Alliance	1422	Western Plaguelands	92	92	0	15	1		623	1365	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:33:Both	Stranglethorn Vale Quests	Quests	Both	1434	Stranglethorn Vale	417	417	0	15	1		1009	2336	yes	Walk 1.8k yd to Destination (~5m 29s)	
+era	qdb:era:33:Horde	Stranglethorn Vale Quests (Horde)	Quests	Horde	1434	Stranglethorn Vale	85	85	0	15	1		1169	1762	yes	Walk 1.4k yd to Destination (~4m 19s)	
+era	qdb:era:33:Alliance	Stranglethorn Vale Quests (Alliance)	Quests	Alliance	1434	Stranglethorn Vale	77	77	0	15	1		1311	1500	yes	Walk 1.9k yd to Destination (~5m 35s)	
+era	qdb:era:36:Both	Alterac Mountains Quests	Quests	Both	1416	Alterac Mountains	61	61	0	15	1		548	1212	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:36:Alliance	Alterac Mountains Quests (Alliance)	Quests	Alliance	1416	Alterac Mountains	28	28	0	15	1		1299	2806	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:36:Horde	Alterac Mountains Quests (Horde)	Quests	Horde	1416	Alterac Mountains	42	42	0	15	1		955	1762	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:38:Both	Loch Modan Quests	Quests	Both	1432	Loch Modan	2	2	0	2	1		85	85	yes	Follow the road 509 yd to Destination (~1m 23s)	
+era	qdb:era:38:Alliance	Loch Modan Quests (Alliance)	Quests	Alliance	1432	Loch Modan	116	116	0	15	1		558	751	yes	Walk 361 yd to Destination (~1m 4s)	
+era	qdb:era:40:Both	Westfall Quests	Quests	Both	1436	Westfall	19	19	0	15	1		1139	1508	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:40:Alliance	Westfall Quests (Alliance)	Quests	Alliance	1436	Westfall	84	84	0	15	1		404	832	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:44:Both	Redridge Mountains Quests	Quests	Both	1433	Redridge Mountains	6	6	0	5	1		248	409	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:44:Alliance	Redridge Mountains Quests (Alliance)	Quests	Alliance	1433	Redridge Mountains	96	96	0	15	1		709	921	yes	Walk 441 yd to Destination (~1m 19s)	
+era	qdb:era:45:Both	Arathi Highlands Quests	Quests	Both	1417	Arathi Highlands	32	32	0	15	1		800	1261	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:45:Alliance	Arathi Highlands Quests (Alliance)	Quests	Alliance	1417	Arathi Highlands	63	63	0	15	1		794	954	yes	Walk 162 yd to Destination (~29s)	
+era	qdb:era:45:Horde	Arathi Highlands Quests (Horde)	Quests	Horde	1417	Arathi Highlands	81	81	0	15	1		646	1181	yes	Walk 654 yd to Destination (~1m 57s)	
+era	qdb:era:46:Both	Burning Steppes Quests	Quests	Both	1428	Burning Steppes	82	82	0	15	1		526	1227	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:46:Horde	Burning Steppes Quests (Horde)	Quests	Horde	1428	Burning Steppes	3	3	0	2	1		158	158	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:46:Alliance	Burning Steppes Quests (Alliance)	Quests	Alliance	1428	Burning Steppes	54	54	0	15	1		421	828	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:47:Both	The Hinterlands Quests	Quests	Both	1425	The Hinterlands	9	9	0	8	1		1375	2270	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:47:Alliance	The Hinterlands Quests (Alliance)	Quests	Alliance	1425	The Hinterlands	33	33	0	15	1		1182	2673	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:47:Horde	The Hinterlands Quests (Horde)	Quests	Horde	1425	The Hinterlands	64	64	0	15	1		1798	3707	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:51:Both	Searing Gorge Quests	Quests	Both	1427	Searing Gorge	75	75	0	15	1		1078	1849	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:51:Alliance	Searing Gorge Quests (Alliance)	Quests	Alliance	1427	Searing Gorge	18	18	0	14	1		823	1783	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:85:Both	Tirisfal Glades Quests	Quests	Both	1420	Tirisfal Glades	2	2	0	2	1		98	98	yes	Walk 550 yd to Destination (~1m 38s)	
+era	qdb:era:85:Horde	Tirisfal Glades Quests (Horde)	Quests	Horde	1420	Tirisfal Glades	231	231	0	15	1		232	602	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:130:Both	Silverpine Forest Quests	Quests	Both	1421	Silverpine Forest	5	5	0	4	1		1141	1157	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:130:Horde	Silverpine Forest Quests (Horde)	Quests	Horde	1421	Silverpine Forest	99	99	0	15	1		562	875	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:139:Both	Eastern Plaguelands Quests	Quests	Both	1423	Eastern Plaguelands	586	586	0	15	1		1203	2295	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:139:Horde	Eastern Plaguelands Quests (Horde)	Quests	Horde	1423	Eastern Plaguelands	55	55	0	15	1		1250	2991	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:139:Alliance	Eastern Plaguelands Quests (Alliance)	Quests	Alliance	1423	Eastern Plaguelands	53	53	0	15	1		243	1177	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:141:Both	Teldrassil Quests	Quests	Both	1438	Teldrassil	15	15	0	14	1		2360	4509	yes	Walk 406 yd to Destination (~1m 12s)	
+era	qdb:era:141:Alliance	Teldrassil Quests (Alliance)	Quests	Alliance	1438	Teldrassil	190	190	0	15	1		180	408	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:148:Both	Darkshore Quests	Quests	Both	1439	Darkshore	2	2	0	2	1		156	156	yes	Walk 876 yd to Destination (~2m 36s)	
+era	qdb:era:148:Alliance	Darkshore Quests (Alliance)	Quests	Alliance	1439	Darkshore	176	176	0	15	1		1209	1498	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:215:Both	Mulgore Quests	Quests	Both	1412	Mulgore	79	79	0	15	1		144	867	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:215:Horde	Mulgore Quests (Horde)	Quests	Horde	1412	Mulgore	132	132	0	15	1		291	618	yes	Walk 321 yd to Destination (~57s)	
+era	qdb:era:267:Alliance	Hillsbrad Foothills Quests (Alliance)	Quests	Alliance	1424	Hillsbrad Foothills	67	67	0	15	1		234	322	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:267:Horde	Hillsbrad Foothills Quests (Horde)	Quests	Horde	1424	Hillsbrad Foothills	125	125	0	15	1		835	1149	yes	Walk 753 yd to Destination (~2m 15s)	
+era	qdb:era:331:Both	Ashenvale Quests	Quests	Both	1440	Ashenvale	2	2	0	2	1		151	151	yes	Follow the road 935 yd to Destination (~2m 31s)	
+era	qdb:era:331:Alliance	Ashenvale Quests (Alliance)	Quests	Alliance	1440	Ashenvale	115	115	0	15	1		946	1529	yes	Walk 773 yd to Destination (~2m 18s)	
+era	qdb:era:331:Horde	Ashenvale Quests (Horde)	Quests	Horde	1440	Ashenvale	72	72	0	15	1		1338	2718	yes	Follow the road 1.5k yd to Destination (~4m 3s)	
+era	qdb:era:357:Both	Feralas Quests	Quests	Both	1444	Feralas	26	26	0	15	1		1494	2436	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:357:Horde	Feralas Quests (Horde)	Quests	Horde	1444	Feralas	113	113	0	15	1		1004	2224	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:357:Alliance	Feralas Quests (Alliance)	Quests	Alliance	1444	Feralas	115	115	0	15	1		391	1600	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:361:Both	Felwood Quests	Quests	Both	1448	Felwood	180	180	0	15	1		841	1904	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:361:Horde	Felwood Quests (Horde)	Quests	Horde	1448	Felwood	57	57	0	15	1		748	943	yes	Walk 880 yd to Destination (~1m 38s)	
+era	qdb:era:361:Alliance	Felwood Quests (Alliance)	Quests	Alliance	1448	Felwood	52	52	0	15	1		503	1041	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:400:Both	Thousand Needles Quests	Quests	Both	1441	Thousand Needles	66	66	0	15	1		835	1899	yes	Walk 1.5k yd to Destination (~4m 22s)	
+era	qdb:era:400:Alliance	Thousand Needles Quests (Alliance)	Quests	Alliance	1441	Thousand Needles	5	5	0	3	1		1027	1027	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:400:Horde	Thousand Needles Quests (Horde)	Quests	Horde	1441	Thousand Needles	51	51	0	15	1		677	1056	yes	Walk 238 yd to Destination (~42s)	
+era	qdb:era:405:Both	Desolace Quests	Quests	Both	1443	Desolace	57	57	0	15	1		1106	1465	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:405:Alliance	Desolace Quests (Alliance)	Quests	Alliance	1443	Desolace	57	57	0	15	1		1410	1932	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:405:Horde	Desolace Quests (Horde)	Quests	Horde	1443	Desolace	61	61	0	15	1		1924	4337	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:406:Both	Stonetalon Mountains Quests	Quests	Both	1442	Stonetalon Mountains	12	12	0	9	1		1028	1851	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:406:Alliance	Stonetalon Mountains Quests (Alliance)	Quests	Alliance	1442	Stonetalon Mountains	32	32	0	15	1		1401	3019	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:406:Horde	Stonetalon Mountains Quests (Horde)	Quests	Horde	1442	Stonetalon Mountains	56	56	0	15	1		1382	1543	yes	Walk 476 yd to Destination (~1m 25s)	
+era	qdb:era:440:Both	Tanaris Quests	Quests	Both	1446	Tanaris	323	323	0	15	1		1240	1921	yes	Walk 1.0k yd to Destination (~2m 59s)	
+era	qdb:era:440:Alliance	Tanaris Quests (Alliance)	Quests	Alliance	1446	Tanaris	16	16	0	10	1		1727	5843	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:440:Horde	Tanaris Quests (Horde)	Quests	Horde	1446	Tanaris	22	22	0	13	1		1216	3377	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:490:Both	Un'Goro Crater Quests	Quests	Both	1449	Un'Goro Crater	106	106	0	15	1		926	1304	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:490:Horde	Un'Goro Crater Quests (Horde)	Quests	Horde	1449	Un'Goro Crater	8	8	0	6	1		844	1451	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:490:Alliance	Un'Goro Crater Quests (Alliance)	Quests	Alliance	1449	Un'Goro Crater	8	8	0	6	1		764	1390	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:493:Both	Moonglade Quests	Quests	Both	1450	Moonglade	60	60	0	15	1		1242	2314	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:493:Horde	Moonglade Quests (Horde)	Quests	Horde	1450	Moonglade	16	16	0	9	1		880	4123	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:493:Alliance	Moonglade Quests (Alliance)	Quests	Alliance	1450	Moonglade	16	16	0	9	1		614	2268	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:618:Both	Winterspring Quests	Quests	Both	1452	Winterspring	130	130	0	15	1		2469	4183	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:618:Horde	Winterspring Quests (Horde)	Quests	Horde	1452	Winterspring	13	13	0	11	1		1168	2158	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:618:Alliance	Winterspring Quests (Alliance)	Quests	Alliance	1452	Winterspring	34	34	0	15	1		1592	4646	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:722:Both	Razorfen Downs - Dungeon Quests	Quests	Both	300		4	0	4	3	1		1800	1800	unplaced		
+era	qdb:era:1377:Both	Silithus Quests	Quests	Both	1451	Silithus	327	327	0	15	1		499	511	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1377:Horde	Silithus Quests (Horde)	Quests	Horde	1451	Silithus	52	52	0	15	1		115	284	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1377:Alliance	Silithus Quests (Alliance)	Quests	Alliance	1451	Silithus	52	52	0	15	1		112	363	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1497:Both	Undercity Quests	Quests	Both	1458	Undercity	6	6	0	4	1		969	1835	yes	Walk 176 yd to Destination (~31s)	
+era	qdb:era:1497:Alliance	Undercity Quests (Alliance)	Quests	Alliance	1458	Undercity	4	4	0	4	1		636	1872	yes	Walk 189 yd to Destination (~34s)	
+era	qdb:era:1497:Horde	Undercity Quests (Horde)	Quests	Horde	1458	Undercity	247	247	0	15	1		97	258	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1519:Both	Stormwind City Quests	Quests	Both	1453	Stormwind City	25	25	0	15	1		3840	5957	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1519:Horde	Stormwind City Quests (Horde)	Quests	Horde	1453	Stormwind City	12	12	0	11	1		1309	2415	yes	Walk 186 yd to Destination (~33s)	
+era	qdb:era:1519:Alliance	Stormwind City Quests (Alliance)	Quests	Alliance	1453	Stormwind City	502	502	0	15	1		593	883	yes	Walk 88 yd to Destination (~16s)	
+era	qdb:era:1537:Both	Ironforge Quests	Quests	Both	1455	Ironforge	107	107	0	15	1		482	482	yes	Walk 152 yd to Destination (~27s)	
+era	qdb:era:1537:Horde	Ironforge Quests (Horde)	Quests	Horde	1455	Ironforge	12	12	0	11	1		1165	2094	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1537:Alliance	Ironforge Quests (Alliance)	Quests	Alliance	1455	Ironforge	459	459	0	15	1		2105	3648	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1583:Both	Blackrock Spire - Dungeon Quests	Quests	Both	253		20	0	20	15	1		6000	6000	unplaced		
+era	qdb:era:1583:Alliance	Blackrock Spire - Dungeon Quests (Alliance)	Quests	Alliance	253		3	0	3	3	1		1800	1800	unplaced		
+era	qdb:era:1583:Horde	Blackrock Spire - Dungeon Quests (Horde)	Quests	Horde	253		3	0	3	2	1		1200	1200	unplaced		
+era	qdb:era:1584:Both	Blackrock Depths - Dungeon -- Detention Block Quests	Quests	Both	242		17	0	17	15	1		6000	6000	unplaced		
+era	qdb:era:1584:Alliance	Blackrock Depths - Dungeon -- Detention Block Quests (Alliance)	Quests	Alliance	242		7	0	7	5	1		3000	3000	unplaced		
+era	qdb:era:1584:Horde	Blackrock Depths - Dungeon -- Detention Block Quests (Horde)	Quests	Horde	242		2	0	2	1	1		600	600	unplaced		
+era	qdb:era:1637:Both	Orgrimmar Quests	Quests	Both	1454	Orgrimmar	99	99	0	15	1		1223	2103	yes	Walk 183 yd to Destination (~33s)	
+era	qdb:era:1637:Alliance	Orgrimmar Quests (Alliance)	Quests	Alliance	1454	Orgrimmar	6	6	0	4	1		409	709	yes	Walk 199 yd to Destination (~35s)	
+era	qdb:era:1637:Horde	Orgrimmar Quests (Horde)	Quests	Horde	1454	Orgrimmar	427	427	0	15	1		654	1156	yes	Walk 52 yd to Destination (~9s)	
+era	qdb:era:1638:Both	Thunder Bluff Quests	Quests	Both	1456	Thunder Bluff	22	22	0	15	1		2887	5390	yes	Walk 247 yd to Destination (~44s)	
+era	qdb:era:1638:Horde	Thunder Bluff Quests (Horde)	Quests	Horde	1456	Thunder Bluff	253	253	0	15	1		1150	2112	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1657:Both	Darnassus Quests	Quests	Both	1457	Darnassus	7	7	0	7	1		792	792	yes	Walk 299 yd to Destination (~53s)	
+era	qdb:era:1657:Alliance	Darnassus Quests (Alliance)	Quests	Alliance	1457	Darnassus	141	141	0	15	1		342	661	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:1977:Both	Zul'Gurub - Dungeon pre-cata ZG Quests	Quests	Both	233		30	0	30	15	1		6000	6000	unplaced		
+era	qdb:era:1977:Horde	Zul'Gurub - Dungeon pre-cata ZG Quests (Horde)	Quests	Horde	233		3	0	3	3	1		1800	1800	unplaced		
+era	qdb:era:1977:Alliance	Zul'Gurub - Dungeon pre-cata ZG Quests (Alliance)	Quests	Alliance	233		3	0	3	3	1		1800	1800	unplaced		
+era	qdb:era:2017:Both	Stratholme - Dungeon Quests	Quests	Both	317		11	0	11	8	1		4800	4800	unplaced		
+era	qdb:era:2057:Both	Scholomance - Dungeon Quests	Quests	Both	306		6	0	6	4	1		2400	2400	unplaced		
+era	qdb:era:2100:Both	Maraudon - Dungeon Quests	Quests	Both	280		2	0	2	1	1		600	600	unplaced		
+era	qdb:era:2159:Both	Onyxia's Lair - Dungeon? Quests	Quests	Both	248		3	0	3	2	1		1200	1200	unplaced		
+era	qdb:era:2557:Both	Dire Maul - Dungeon Quests	Quests	Both	234		72	0	72	15	1		6000	6000	unplaced		
+era	qdb:era:2557:Horde	Dire Maul - Dungeon Quests (Horde)	Quests	Horde	234		2	0	2	1	1		600	600	unplaced		
+era	qdb:era:2557:Alliance	Dire Maul - Dungeon Quests (Alliance)	Quests	Alliance	234		2	0	2	1	1		600	600	unplaced		
+era	qdb:era:2597:Both	Alterac Valley - Battleground Quests	Quests	Both	1459	Alterac Valley	18	18	0	15	1		374	649	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:2597:Alliance	Alterac Valley - Battleground Quests (Alliance)	Quests	Alliance	1459	Alterac Valley	63	63	0	15	1		1311	1660	yes	Walk 198 yd to Destination (~35s)	
+era	qdb:era:2597:Horde	Alterac Valley - Battleground Quests (Horde)	Quests	Horde	1459	Alterac Valley	69	69	0	15	1		793	1552	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:2717:Both	Molten Core - Raid Quests	Quests	Both	232		18	0	18	15	1		6000	6000	unplaced		
+era	qdb:era:3277:Both	Warsong Gulch - Battleground Quests	Quests	Both	1460	Warsong Gulch	6	6	0	6	1		0	0	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:3277:Horde	Warsong Gulch - Battleground Quests (Horde)	Quests	Horde	1460	Warsong Gulch	45	45	0	15	1		0	0	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:3277:Alliance	Warsong Gulch - Battleground Quests (Alliance)	Quests	Alliance	1460	Warsong Gulch	45	45	0	15	1		0	0	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:3358:Alliance	Arathi Basin - Battleground Quests (Alliance)	Quests	Alliance	1461	Arathi Basin	33	33	0	15	1		0	0	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:3358:Horde	Arathi Basin - Battleground Quests (Horde)	Quests	Horde	1461	Arathi Basin	33	33	0	15	1		0	0	yes	Walk 0 yd to Destination (~0s)	
+era	qdb:era:3428:Both	Ahn'Qiraj - Raid Quests	Quests	Both	320		121	0	121	15	1		6000	6000	unplaced		
+era	qdb:era:3428:Horde	Ahn'Qiraj - Raid Quests (Horde)	Quests	Horde	320		15	0	15	10	1		6000	6000	unplaced		
+era	qdb:era:3428:Alliance	Ahn'Qiraj - Raid Quests (Alliance)	Quests	Alliance	320		15	0	15	10	1		6000	6000	unplaced		
+era	qdb:era:OTHER:Both	Instances & Other Quests	Quests	Both	Instances & Other		114	0	0	15	1		6000	6000	unplaced		
+era	qdb:era:OTHER:Alliance	Instances & Other Quests (Alliance)	Quests	Alliance	Instances & Other		17	0	0	12	1		6000	6000	unplaced		
+era	qdb:era:OTHER:Horde	Instances & Other Quests (Horde)	Quests	Horde	Instances & Other		12	0	0	9	1		5400	5400	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 1, Capturing Sanctum)	Shattered Sun Dailies (Phase 1, Capturing Sanctum)	Dailies	Both	Shattered Sun Dailies		43	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 2, Capturing Armory, Activating Portal)	Shattered Sun Dailies (Phase 2, Capturing Armory, Activating Portal)	Dailies	Both	Shattered Sun Dailies		71	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 2, Capturing Armory, Portal Activated)	Shattered Sun Dailies (Phase 2, Capturing Armory, Portal Activated)	Dailies	Both	Shattered Sun Dailies		78	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 3, Recovering Harbor, Rebuilding Forge)	Shattered Sun Dailies (Phase 3, Recovering Harbor, Rebuilding Forge)	Dailies	Both	Shattered Sun Dailies		100	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 3, Recovering Harbor, Forge Rebuilt)	Shattered Sun Dailies (Phase 3, Recovering Harbor, Forge Rebuilt)	Dailies	Both	Shattered Sun Dailies		106	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 4, No Alchemy Lab or Monument)	Shattered Sun Dailies (Phase 4, No Alchemy Lab or Monument)	Dailies	Both	Shattered Sun Dailies		130	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 4, Alchemy Lab Built)	Shattered Sun Dailies (Phase 4, Alchemy Lab Built)	Dailies	Both	Shattered Sun Dailies		134	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 4, Monument Built)	Shattered Sun Dailies (Phase 4, Monument Built)	Dailies	Both	Shattered Sun Dailies		130	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 4, Fully Built)	Shattered Sun Dailies (Phase 4, Fully Built)	Dailies	Both	Shattered Sun Dailies		134	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Ogri'la\Ogri'la Daily Quests	Ogri'la Daily Quests	Dailies	Both	Ogri'la Daily Quests		28	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Sha'tari Skyguard\Sha'tari Skyguard Daily Quests	Sha'tari Skyguard Daily Quests	Dailies	Both	Sha'tari Skyguard Daily Quests		24	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Sha'tari Skyguard\Sha'tari Skyguard Terokk Farming	Sha'tari Skyguard Terokk Farming	Dailies	Both	Sha'tari Skyguard Terokk Farming		21	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Shattrath Cooking Dailies	Shattrath Cooking Dailies	Dailies	Both	Shattrath Cooking Dailies		63	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Daily Quests	Netherwing Daily Quests	Dailies	Both	Netherwing Daily Quests		62	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Eggs	Netherwing Eggs	Dailies	Both	Netherwing Eggs		6	0	0	6	1		3600	3600	unplaced		
+era	zygor:Dungeon Guides\Classic\Wailing Caverns (15-25)	Wailing Caverns (15-25)	Dungeon	Both	Wailing Caverns		18	18	0	15	1		1190	1190	unplaced		
+era	zygor:Dungeon Guides\Classic\The Deadmines (17-26)	The Deadmines (17-26)	Dungeon	Both	The Deadmines		17	17	0	15	1		963	963	unplaced		
+era	zygor:Dungeon Guides\Classic\Shadowfang Keep (22-30)	Shadowfang Keep (22-30)	Dungeon	Both	Shadowfang Keep		21	21	0	15	1		1076	1076	unplaced		
+era	zygor:Dungeon Guides\Classic\The Stockade (22-30)	The Stockade (22-30)	Dungeon	Both	The Stockade		13	13	0	13	1		265	265	unplaced		
+era	zygor:Dungeon Guides\Classic\Blackfathom Deeps (24-32)	Blackfathom Deeps (24-32)	Dungeon	Both	Blackfathom Deeps		14	14	0	14	1		1781	1781	unplaced		
+era	zygor:Dungeon Guides\Classic\Gnomeregan (29-38)	Gnomeregan (29-38)	Dungeon	Both	Gnomeregan		14	14	0	14	1		899	899	unplaced		
+era	zygor:Dungeon Guides\Classic\Razorfen Kraul (30-40)	Razorfen Kraul (30-40)	Dungeon	Both	Razorfen Kraul		17	17	0	15	1		1270	1270	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery (Graveyard) (29-35)	Scarlet Monastery (Graveyard) (29-35)	Dungeon	Both	Scarlet Monastery		12	0	0	12	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery (Library) (31-37)	Scarlet Monastery (Library) (31-37)	Dungeon	Both	Scarlet Monastery		6	0	0	6	1		3600	3600	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery (Armory) (35-40)	Scarlet Monastery (Armory) (35-40)	Dungeon	Both	Scarlet Monastery		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery (Cathedral) (36-42)	Scarlet Monastery (Cathedral) (36-42)	Dungeon	Both	Scarlet Monastery		8	0	0	8	1		4800	4800	unplaced		
+era	zygor:Dungeon Guides\Classic\Razorfen Downs (37-43)	Razorfen Downs (37-43)	Dungeon	Both	Razorfen Downs		13	0	0	13	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\Classic\Uldaman (42-52)	Uldaman (42-52)	Dungeon	Both	Uldaman		15	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\Classic\Zul'Farrak (44-49)	Zul'Farrak (44-49)	Dungeon	Both	Zul'Farrak		20	20	0	15	1		1042	1042	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Wicked Grotto - Purple) (45-53)	Maraudon (Wicked Grotto - Purple) (45-53)	Dungeon	Both	Maraudon		4	4	0	4	1		1571	1571	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Foulspore Cavern - Orange) (45-53)	Maraudon (Foulspore Cavern - Orange) (45-53)	Dungeon	Both	Maraudon		6	6	0	6	1		1486	1486	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Poison Falls - Inner) (48-57)	Maraudon (Poison Falls - Inner) (48-57)	Dungeon	Both	Maraudon		6	6	0	6	1		1571	1571	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Earth Song Falls - Inner) (48-57)	Maraudon (Earth Song Falls - Inner) (48-57)	Dungeon	Both	Maraudon		11	11	0	11	1		4197	4197	unplaced		
+era	zygor:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeon	Both	The Temple of Atal'Hakkar		21	21	0	15	1		1065	1065	unplaced		
+era	zygor:Dungeon Guides\Classic\Blackrock Depths (52-60)	Blackrock Depths (52-60)	Dungeon	Both	Blackrock Depths		32	32	0	15	1		541	541	unplaced		
+era	zygor:Dungeon Guides\Classic\Scholomance (58-60)	Scholomance (58-60)	Dungeon	Both	Scholomance		29	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\Classic\Stratholme - Live (58-60)	Stratholme - Live (58-60)	Dungeon	Both	Stratholme - Live		25	25	0	15	1		1144	1144	unplaced		
+era	zygor:Dungeon Guides\Classic\Stratholme - Undead (58-60)	Stratholme - Undead (58-60)	Dungeon	Both	Stratholme - Undead		18	18	0	15	1		887	887	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul East (58-60)	Dire Maul East (58-60)	Dungeon	Both	Dire Maul East		11	11	0	11	1		1389	1389	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeon	Both	Dire Maul North		14	14	0	14	1		1395	1395	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul West (58-60)	Dire Maul West (58-60)	Dungeon	Both	Dire Maul West		14	14	0	14	1		1213	1213	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul North Tribute (58-60)	Dire Maul North Tribute (58-60)	Dungeon	Both	Dire Maul North Tribute		16	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\Classic\Lower Blackrock Spire (55-60)	Lower Blackrock Spire (55-60)	Dungeon	Both	Lower Blackrock Spire		27	27	0	15	1		527	527	unplaced		
+era	zygor:Dungeon Guides\Classic\Upper Blackrock Spire (55-60)	Upper Blackrock Spire (55-60)	Dungeon	Both	Upper Blackrock Spire		17	17	0	15	1		527	527	unplaced		
+era	zygor:Dungeon Guides\Classic\Wailing Caverns Quests	Wailing Caverns Quests	Dungeon	Both	Wailing Caverns Quests		57	56	0	15	1		2041	2041	unplaced		
+era	zygor:Dungeon Guides\Classic\The Deadmines Quests	The Deadmines Quests	Dungeon	Both	The Deadmines Quests		60	59	0	15	1		1247	1247	unplaced		
+era	zygor:Dungeon Guides\Classic\Blackfathom Deeps Quests	Blackfathom Deeps Quests	Dungeon	Both	Blackfathom Deeps Quests		33	32	0	15	1		1783	1783	unplaced		
+era	zygor:Dungeon Guides\Classic\The Stockade Quests	The Stockade Quests	Dungeon	Both	The Stockade Quests		52	51	0	15	1		1412	1422	unplaced		
+era	zygor:Dungeon Guides\Classic\Gnomeregan Quests	Gnomeregan Quests	Dungeon	Both	Gnomeregan Quests		65	64	0	15	1		2172	2172	unplaced		
+era	zygor:Dungeon Guides\Classic\Razorfen Kraul Quests	Razorfen Kraul Quests	Dungeon	Both	Razorfen Kraul Quests		37	36	0	15	1		1473	1473	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery Library Quests	Scarlet Monastery Library Quests	Dungeon	Both	Scarlet Monastery Library Quests		24	23	0	15	1		2639	2639	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery Armory Quests	Scarlet Monastery Armory Quests	Dungeon	Both	Scarlet Monastery Armory Quests		18	17	0	15	1		2639	2639	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery Cathedral Quests	Scarlet Monastery Cathedral Quests	Dungeon	Both	Scarlet Monastery Cathedral Quests		27	26	0	15	1		2639	2639	unplaced		
+era	zygor:Dungeon Guides\Classic\Razorfen Downs Quests	Razorfen Downs Quests	Dungeon	Both	Razorfen Downs Quests		25	24	0	15	1		2040	2041	unplaced		
+era	zygor:Dungeon Guides\Classic\Uldaman Quests	Uldaman Quests	Dungeon	Both	Uldaman Quests		127	126	0	15	1		1807	1807	unplaced		
+era	zygor:Dungeon Guides\Classic\Zul'Farrak Quests	Zul'Farrak Quests	Dungeon	Both	Zul'Farrak Quests		74	73	0	15	1		1898	1898	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon Quests	Maraudon Quests	Dungeon	Both	Maraudon Quests		76	75	0	15	1		2141	2141	unplaced		
+era	zygor:Dungeon Guides\Classic\Temple of Atal'Hakkar Quests	Temple of Atal'Hakkar Quests	Dungeon	Both	Temple of Atal'Hakkar Quests		117	116	0	15	1		2020	2020	unplaced		
+era	zygor:Dungeon Guides\Classic\Blackrock Depths Quests	Blackrock Depths Quests	Dungeon	Both	Blackrock Depths Quests		206	205	0	15	1		2745	2745	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul East Quests	Dire Maul East Quests	Dungeon	Both	Dire Maul East Quests		42	41	0	15	1		4061	4061	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul West Quests	Dire Maul West Quests	Dungeon	Both	Dire Maul West Quests		21	18	0	15	1		3932	3932	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul North Quests	Dire Maul North Quests	Dungeon	Both	Dire Maul North Quests		38	35	0	15	1		3286	3286	unplaced		
+era	zygor:Dungeon Guides\Classic\Lower Blackrock Spire Quests	Lower Blackrock Spire Quests	Dungeon	Both	Lower Blackrock Spire Quests		118	117	0	15	1		3085	3085	unplaced		
+era	zygor:Dungeon Guides\Classic\Scholomance Quests	Scholomance Quests	Dungeon	Both	Scholomance Quests		173	170	0	15	1		2408	2408	unplaced		
+era	zygor:Dungeon Guides\Classic\Stratholme - Live Side Quests	Stratholme - Live Side Quests	Dungeon	Both	Stratholme - Live Side Quests		78	77	0	15	1		1815	1815	unplaced		
+era	zygor:Dungeon Guides\Classic\Stratholme - Undead Side Quests	Stratholme - Undead Side Quests	Dungeon	Both	Stratholme - Undead Side Quests		94	93	0	15	1		2125	2125	unplaced		
+era	zygor:Dungeon Guides\Classic\Upper Blackrock Spire Quests	Upper Blackrock Spire Quests	Dungeon	Both	Upper Blackrock Spire Quests		167	166	0	15	1		1422	1422	unplaced		
+era	zygor:Dungeon Guides\Classic\Raid Attunements\Blackwing Lair Attunement	Blackwing Lair Attunement	Dungeon	Both	Blackwing Lair Attunement		9	8	0	9	1		2166	2166	unplaced		
+era	zygor:Dungeon Guides\Classic\Raid Attunements\Molten Core Attunement	Molten Core Attunement	Dungeon	Both	Molten Core Attunement		9	8	0	9	1		1770	1770	unplaced		
+era	zygor:Dungeon Guides\Classic\Raid Attunements\Onyxia's Lair Attunement	Onyxia's Lair Attunement	Dungeon	Both	Onyxia's Lair Attunement		82	81	0	15	1		1078	1109	unplaced		
+era	zygor:Dungeon Guides\Classic\Raid Attunements\Naxxramas Attunement	Naxxramas Attunement	Dungeon	Both	Naxxramas Attunement		15	14	0	15	1		1528	1528	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Hellfire Ramparts (60-70)	Hellfire Ramparts (60-70)	Dungeon	Both	Hellfire Ramparts		8	0	0	8	1		4800	4800	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Blood Furnace (61-70)	The Blood Furnace (61-70)	Dungeon	Both	The Blood Furnace		7	0	0	7	1		4200	4200	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Slave Pens (62-70)	The Slave Pens (62-70)	Dungeon	Both	The Slave Pens		7	0	0	7	1		4200	4200	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Underbog (63-70)	The Underbog (63-70)	Dungeon	Both	The Underbog		9	0	0	9	1		5400	5400	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Mana-Tombs (64-70)	Mana-Tombs (64-70)	Dungeon	Both	Mana-Tombs		7	0	0	7	1		4200	4200	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Auchenai Crypts (65-70)	Auchenai Crypts (65-70)	Dungeon	Both	Auchenai Crypts		5	0	0	5	1		3000	3000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Sethekk Halls (67-70)	Sethekk Halls (67-70)	Dungeon	Both	Sethekk Halls		5	0	0	5	1		3000	3000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Old Hillsbrad Foothills (66-70)	Old Hillsbrad Foothills (66-70)	Dungeon	Both	Old Hillsbrad Foothills		7	0	0	7	1		4200	4200	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Black Morass (68-70)	The Black Morass (68-70)	Dungeon	Both	The Black Morass		7	0	0	7	1		4200	4200	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Mechanar (70)	The Mechanar (70)	Dungeon	Both	The Mechanar		7	0	0	7	1		4200	4200	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Shattered Halls (70)	The Shattered Halls (70)	Dungeon	Both	The Shattered Halls		9	0	0	9	1		5400	5400	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Steamvault (70)	The Steamvault (70)	Dungeon	Both	The Steamvault		7	0	0	7	1		4200	4200	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Shadow Labyrinth (70)	Shadow Labyrinth (70)	Dungeon	Both	Shadow Labyrinth		8	0	0	8	1		4800	4800	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Arcatraz (70)	The Arcatraz (70)	Dungeon	Both	The Arcatraz		9	0	0	9	1		5400	5400	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Botanica (70)	The Botanica (70)	Dungeon	Both	The Botanica		11	0	0	11	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Magisters' Terrace (70)	Magisters' Terrace (70)	Dungeon	Both	Magisters' Terrace		9	0	0	9	1		5400	5400	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Slave Pens Quests	The Slave Pens Quests	Dungeon	Both	The Slave Pens Quests		15	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Underbog Quests	The Underbog Quests	Dungeon	Both	The Underbog Quests		35	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Mana-Tombs Quests	Mana-Tombs Quests	Dungeon	Both	Mana-Tombs Quests		76	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Old Hillsbrad Foothills Quests	Old Hillsbrad Foothills Quests	Dungeon	Both	Old Hillsbrad Foothills Quests		34	33	0	15	1		1825	1825	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Black Morass Quests	The Black Morass Quests	Dungeon	Both	The Black Morass Quests		49	46	0	15	1		3011	3011	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Mechanar Quests	The Mechanar Quests	Dungeon	Both	The Mechanar Quests		34	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Steamvault Quests	The Steamvault Quests	Dungeon	Both	The Steamvault Quests		61	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Arcatraz Quests	The Arcatraz Quests	Dungeon	Both	The Arcatraz Quests		161	39	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Botanica Quests	The Botanica Quests	Dungeon	Both	The Botanica Quests		68	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Hellfire Ramparts Quests	Hellfire Ramparts Quests	Dungeon	Both	Hellfire Ramparts Quests		18	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Blood Furnace Quests	Blood Furnace Quests	Dungeon	Both	Blood Furnace Quests		13	0	0	13	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Shattered Halls Quests	Shattered Halls Quests	Dungeon	Both	Shattered Halls Quests		23	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Auchenai Crypts Quests	Auchenai Crypts Quests	Dungeon	Both	Auchenai Crypts Quests		68	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Sethekk Halls Quests	Sethekk Halls Quests	Dungeon	Both	Sethekk Halls Quests		19	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Shadow Labyrinth Quests	Shadow Labyrinth Quests	Dungeon	Both	Shadow Labyrinth Quests		139	61	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Hellfire Citadel Attunement	Hellfire Citadel Attunement	Dungeon	Both	Hellfire Citadel Attunement		22	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Serpentshrine Cavern Attunement	Serpentshrine Cavern Attunement	Dungeon	Both	Serpentshrine Cavern Attunement		57	47	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Tempest Keep Attunement	Tempest Keep Attunement	Dungeon	Both	Tempest Keep Attunement		29	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Mount Hyjal Attunement	Mount Hyjal Attunement	Dungeon	Both	Mount Hyjal Attunement		9	8	0	9	1		2004	2004	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Black Temple Attunement	Black Temple Attunement	Dungeon	Both	Black Temple Attunement		98	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\Classic\Ragefire Chasm (13-18)	Ragefire Chasm (13-18)	Dungeon	Both	Ragefire Chasm		8	8	0	8	1		919	919	unplaced		
+era	zygor:Dungeon Guides\Classic\Ragefire Chasm Quests	Ragefire Chasm Quests	Dungeon	Both	Ragefire Chasm Quests		44	43	0	15	1		4413	4413	unplaced		
+era	zygor:Dungeon Guides\Classic\Shadowfang Keep Quests	Shadowfang Keep Quests	Dungeon	Both	Shadowfang Keep Quests		23	22	0	15	1		2110	2110	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery Graveyard Quests	Scarlet Monastery Graveyard Quests	Dungeon	Both	Scarlet Monastery Graveyard Quests		19	18	0	15	1		2305	2305	unplaced		
+era	zygor:Events Guides\Brewfest\Brewfest Quests	Brewfest Quests	Events	Both	Brewfest Quests		36	36	0	15	1		508	508	unplaced		
+era	zygor:Events Guides\Brewfest\Brewfest Dailies	Brewfest Dailies	Events	Both	Brewfest Dailies		39	38	0	15	1		1253	1253	unplaced		
+era	zygor:Events Guides\Children's Week\Children's Week Main Questline	Children's Week Main Questline	Events	Both	Children's Week Main Questline		29	29	0	15	1		317	317	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Sayge's Fortunes (Elwynn Forest)	Sayge's Fortunes (Elwynn Forest)	Events	Both	Sayge's Fortunes		29	28	0	15	1		676	676	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Chronos Turn-Ins (Elwynn Forest)	Chronos Turn-Ins (Elwynn Forest)	Events	Both	Chronos Turn-Ins		22	22	0	15	1		461	461	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Kerri Hicks Turn-Ins (Elwynn Forest)	Kerri Hicks Turn-Ins (Elwynn Forest)	Events	Both	Kerri Hicks Turn-Ins		22	22	0	15	1		492	492	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Rinling Turn-Ins (Elwynn Forest)	Rinling Turn-Ins (Elwynn Forest)	Events	Both	Rinling Turn-Ins		22	22	0	15	1		483	483	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Yebb Neblegear Turn-Ins (Elwynn Forest)	Yebb Neblegear Turn-Ins (Elwynn Forest)	Events	Both	Yebb Neblegear Turn-Ins		28	28	0	15	1		390	390	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Spawn of Jubjub (Elwynn Forest)	Spawn of Jubjub (Elwynn Forest)	Events	Both	Spawn of Jubjub		7	5	0	7	1		1372	1372	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Wood Frog (Elwynn Forest)	Wood Frog (Elwynn Forest)	Events	Both	Wood Frog		2	2	0	2	1		80	80	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Tree Frog (Elwynn Forest)	Tree Frog (Elwynn Forest)	Events	Both	Tree Frog		2	2	0	2	1		80	80	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Sayge's Fortunes (Mulgore)	Sayge's Fortunes (Mulgore)	Events	Both	Sayge's Fortunes		29	28	0	15	1		1896	1896	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Chronos Turn-Ins (Mulgore)	Chronos Turn-Ins (Mulgore)	Events	Both	Chronos Turn-Ins		22	22	0	15	1		1912	1912	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Kerri Hicks Turn-Ins (Mulgore)	Kerri Hicks Turn-Ins (Mulgore)	Events	Both	Kerri Hicks Turn-Ins		22	22	0	15	1		1799	1799	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Rinling Turn-Ins (Mulgore)	Rinling Turn-Ins (Mulgore)	Events	Both	Rinling Turn-Ins		22	22	0	15	1		1859	1859	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Yebb Neblegear Turn-Ins (Mulgore)	Yebb Neblegear Turn-Ins (Mulgore)	Events	Both	Yebb Neblegear Turn-Ins		28	28	0	15	1		1684	1684	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Spawn of Jubjub (Mulgore)	Spawn of Jubjub (Mulgore)	Events	Both	Spawn of Jubjub		7	5	0	7	1		2659	2659	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Wood Frog (Mulgore)	Wood Frog (Mulgore)	Events	Both	Wood Frog		2	2	0	2	1		1297	1297	unplaced		
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Tree Frog (Mulgore)	Tree Frog (Mulgore)	Events	Both	Tree Frog		2	2	0	2	1		1297	1297	unplaced		
+era	zygor:Events Guides\Hallow's End\Hallow's End Quests	Hallow's End Quests	Events	Both	Hallow's End Quests		42	41	0	15	1		898	898	unplaced		
+era	zygor:Events Guides\Hallow's End\Hallow's End Daily Quests	Hallow's End Daily Quests	Events	Both	Hallow's End Daily Quests		27	27	0	15	1		457	457	unplaced		
+era	zygor:Events Guides\Hallow's End\Hallow's End Candy Buckets	Hallow's End Candy Buckets	Events	Both	Hallow's End Candy Buckets		78	78	0	15	1		897	897	unplaced		
+era	zygor:Events Guides\Harvest Festival\Harvest Festival Quest	Harvest Festival Quest	Events	Both	Harvest Festival Quest		8	6	0	8	1		2554	2554	unplaced		
+era	zygor:Events Guides\Feast of Winter Veil\Feast of Winter Veil Quest	Feast of Winter Veil Quest	Events	Both	Feast of Winter Veil Quest		49	48	0	15	1		1172	1172	unplaced		
+era	zygor:Events Guides\Lunar Festival\Lunar Festival Main Questline	Lunar Festival Main Questline	Events	Both	Lunar Festival Main Questline		23	23	0	15	1		458	458	unplaced		
+era	zygor:Events Guides\Lunar Festival\Lunar Festival Optimized Elders Path	Lunar Festival Optimized Elders Path	Events	Both	Lunar Festival Optimized Elders Path		101	101	0	15	1		2373	2373	unplaced		
+era	zygor:Events Guides\Love is in the Air\Love is in the Air Quests	Love is in the Air Quests	Events	Both	Love is in the Air Quests		31	31	0	15	1		231	231	unplaced		
+era	zygor:Events Guides\Love is in the Air\Gift Giving	Gift Giving	Events	Both	Gift Giving		80	80	0	15	1		253	253	unplaced		
+era	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Quests	Midsummer Fire Festival Quests	Events	Both	Midsummer Fire Festival Quests		52	52	0	15	1		244	244	unplaced		
+era	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Dailies	Midsummer Fire Festival Dailies	Events	Both	Midsummer Fire Festival Dailies		38	37	0	15	1		844	844	unplaced		
+era	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Bonfires	Midsummer Fire Festival Bonfires	Events	Both	Midsummer Fire Festival Bonfires		146	146	0	15	1		1008	1008	unplaced		
+era	zygor:Events Guides\Midsummer Fire Festival\The Fires of Azeroth\Midsummer Fire Festival Bonfires	Midsummer Fire Festival Bonfires	Events	Both	Midsummer Fire Festival Bonfires		146	146	0	15	1		2926	2926	unplaced		
+era	zygor:GOLD\Farming\Linen Cloth	Linen Cloth	GOLD	Both	Linen Cloth		1	1	0	1	1		333	333	unplaced		
+era	zygor:GOLD\Farming\Wool Cloth	Wool Cloth	GOLD	Both	Wool Cloth		1	1	0	1	1		425	425	unplaced		
+era	zygor:GOLD\Farming\Silk Cloth	Silk Cloth	GOLD	Both	Silk Cloth		1	1	0	1	1		1141	1141	unplaced		
+era	zygor:GOLD\Farming\Mageweave Cloth	Mageweave Cloth	GOLD	Both	Mageweave Cloth		1	1	0	1	1		1098	1098	unplaced		
+era	zygor:GOLD\Farming\Runecloth	Runecloth	GOLD	Both	Runecloth		1	1	0	1	1		467	467	unplaced		
+era	zygor:GOLD\Farming\Felcloth	Felcloth	GOLD	Both	Felcloth		1	1	0	1	1		1083	1083	unplaced		
+era	zygor:GOLD\Farming\Mooncloth	Mooncloth	GOLD	Both	Mooncloth		3	3	0	3	1		1615	1615	unplaced		
+era	zygor:GOLD\Farming\Spider's Silk	Spider's Silk	GOLD	Both	Spider's Silk		1	1	0	1	1		609	609	unplaced		
+era	zygor:GOLD\Farming\Thick Spider's Silk	Thick Spider's Silk	GOLD	Both	Thick Spider's Silk		1	1	0	1	1		783	783	unplaced		
+era	zygor:GOLD\Farming\Shadow Silk	Shadow Silk	GOLD	Both	Shadow Silk		1	1	0	1	1		455	455	unplaced		
+era	zygor:GOLD\Farming\Ironweb Spider Silk	Ironweb Spider Silk	GOLD	Both	Ironweb Spider Silk		1	1	0	1	1		1084	1084	unplaced		
+era	zygor:GOLD\Farming\Raw Brilliant Smallfish	Raw Brilliant Smallfish	GOLD	Both	Raw Brilliant Smallfish		1	1	0	1	1		123	123	unplaced		
+era	zygor:GOLD\Farming\Chunk of Boar Meat	Chunk of Boar Meat	GOLD	Both	Chunk of Boar Meat		1	1	0	1	1		149	149	unplaced		
+era	zygor:GOLD\Farming\Small Egg	Small Egg	GOLD	Both	Small Egg		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Small Spider Leg	Small Spider Leg	GOLD	Both	Small Spider Leg		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Stringy Wolf Meat	Stringy Wolf Meat	GOLD	Both	Stringy Wolf Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Raw Slitherskin Mackerel	Raw Slitherskin Mackerel	GOLD	Both	Raw Slitherskin Mackerel		1	1	0	1	1		845	845	unplaced		
+era	zygor:GOLD\Farming\Crag Boar Rib	Crag Boar Rib	GOLD	Both	Crag Boar Rib		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Spider Ichor	Spider Ichor	GOLD	Both	Spider Ichor		2	2	0	2	1		767	767	unplaced		
+era	zygor:GOLD\Farming\Coyote Meat, Boar Intestines, Stringy Vulture Meat	Coyote Meat, Boar Intestines, Stringy Vulture Meat	GOLD	Both	Coyote Meat, Boar Intestines, Stringy Vulture Meat		2	2	0	2	1		534	534	unplaced		
+era	zygor:GOLD\Farming\Strider Meat	Strider Meat	GOLD	Both	Strider Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Kodo Meat	Kodo Meat	GOLD	Both	Kodo Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Murloc Eye	Murloc Eye	GOLD	Both	Murloc Eye		1	1	0	1	1		249	249	unplaced		
+era	zygor:GOLD\Farming\Bear Meat	Bear Meat	GOLD	Both	Bear Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Goretusk Snout, Goretusk Liver	Goretusk Snout, Goretusk Liver	GOLD	Both	Goretusk Snout, Goretusk Liver		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Crawler Meat, Crawler Meat	Crawler Meat, Crawler Meat	GOLD	Both	Crawler Meat, Crawler Meat		2	2	0	2	1		544	544	unplaced		
+era	zygor:GOLD\Farming\Clam Meat	Clam Meat	GOLD	Both	Clam Meat		2	2	0	2	1		367	367	unplaced		
+era	zygor:GOLD\Farming\Boar Ribs	Boar Ribs	GOLD	Both	Boar Ribs		2	2	0	2	1		767	767	unplaced		
+era	zygor:GOLD\Farming\Crocolisk Meat	Crocolisk Meat	GOLD	Both	Crocolisk Meat		2	2	0	2	1		741	741	unplaced		
+era	zygor:GOLD\Farming\Raw Rainbow Fin Albacore	Raw Rainbow Fin Albacore	GOLD	Both	Raw Rainbow Fin Albacore		1	1	0	1	1		507	507	unplaced		
+era	zygor:GOLD\Farming\Raw Longjaw Mud Snapper	Raw Longjaw Mud Snapper	GOLD	Both	Raw Longjaw Mud Snapper		1	1	0	1	1		225	225	unplaced		
+era	zygor:GOLD\Farming\Tough Condor Meat	Tough Condor Meat	GOLD	Both	Tough Condor Meat		2	2	0	2	1		538	538	unplaced		
+era	zygor:GOLD\Farming\Soft Frenzy Flesh	Soft Frenzy Flesh	GOLD	Both	Soft Frenzy Flesh		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Raw Loch Frenzy	Raw Loch Frenzy	GOLD	Both	Raw Loch Frenzy		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Murloc Fin	Murloc Fin	GOLD	Both	Murloc Fin		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Lean Wolf Flank	Lean Wolf Flank	GOLD	Both	Lean Wolf Flank		2	2	0	2	1		454	454	unplaced		
+era	zygor:GOLD\Farming\Raw Sagefish	Raw Sagefish	GOLD	Both	Raw Sagefish		1	1	0	1	1		683	683	unplaced		
+era	zygor:GOLD\Farming\Big Bear Meat	Big Bear Meat	GOLD	Both	Big Bear Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Raptor Egg	Raptor Egg	GOLD	Both	Raptor Egg		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Thunder Lizard Tail	Thunder Lizard Tail	GOLD	Both	Thunder Lizard Tail		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Tangy Clam Meat	Tangy Clam Meat	GOLD	Both	Tangy Clam Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:GOLD\Farming\Tender Crocolisk Meat	Tender Crocolisk Meat	GOLD	Both	Tender Crocolisk Meat		2	2	0	2	1		1163	1163	unplaced		
+era	zygor:GOLD\Farming\Lion Meat	Lion Meat	GOLD	Both	Lion Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Stag Meat	Stag Meat	GOLD	Both	Stag Meat		2	2	0	2	1		1145	1145	unplaced		
+era	zygor:GOLD\Farming\Raw Bristle Whisker Catfish	Raw Bristle Whisker Catfish	GOLD	Both	Raw Bristle Whisker Catfish		1	1	0	1	1		225	225	unplaced		
+era	zygor:GOLD\Farming\Gooey Spider Leg	Gooey Spider Leg	GOLD	Both	Gooey Spider Leg		2	2	0	2	1		323	323	unplaced		
+era	zygor:GOLD\Farming\Mystery Meat, Buzzard Wing	Mystery Meat, Buzzard Wing	GOLD	Both	Mystery Meat, Buzzard Wing		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Red Wolf Meat	Red Wolf Meat	GOLD	Both	Red Wolf Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Turtle Meat	Turtle Meat	GOLD	Both	Turtle Meat		2	2	0	2	1		911	911	unplaced		
+era	zygor:GOLD\Farming\Tiger Meat	Tiger Meat	GOLD	Both	Tiger Meat		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Raptor Flesh	Raptor Flesh	GOLD	Both	Raptor Flesh		2	2	0	2	1		594	594	unplaced		
+era	zygor:GOLD\Farming\Raw Mithril Head Trout	Raw Mithril Head Trout	GOLD	Both	Raw Mithril Head Trout		1	1	0	1	1		824	824	unplaced		
+era	zygor:GOLD\Farming\Raw Rockscale Cod	Raw Rockscale Cod	GOLD	Both	Raw Rockscale Cod		1	1	0	1	1		454	454	unplaced		
+era	zygor:GOLD\Farming\Giant Clam Meat	Giant Clam Meat	GOLD	Both	Giant Clam Meat		1	1	0	1	1		569	569	unplaced		
+era	zygor:GOLD\Farming\Raw Sunscale Salmon	Raw Sunscale Salmon	GOLD	Both	Raw Sunscale Salmon		1	1	0	1	1		1194	1194	unplaced		
+era	zygor:GOLD\Farming\Essence of Water	Essence of Water	GOLD	Both	Essence of Water		1	1	0	1	1		873	873	unplaced		
+era	zygor:GOLD\Farming\Living Essence	Living Essence	GOLD	Both	Living Essence		1	1	0	1	1		998	998	unplaced		
+era	zygor:GOLD\Farming\Essence of Fire	Essence of Fire	GOLD	Both	Essence of Fire		1	1	0	1	1		1137	1137	unplaced		
+era	zygor:GOLD\Farming\Essence of Air, Breath of Wind, Elemental Air	Essence of Air, Breath of Wind, Elemental Air	GOLD	Both	Essence of Air, Breath of Wind, Elemental Air		1	1	0	1	1		1172	1172	unplaced		
+era	zygor:GOLD\Farming\Essence of Earth, Core of Earth	Essence of Earth, Core of Earth	GOLD	Both	Essence of Earth, Core of Earth		1	1	0	1	1		1237	1237	unplaced		
+era	zygor:GOLD\Farming\Essence of Undeath	Essence of Undeath	GOLD	Both	Essence of Undeath		2	2	0	2	1		1127	1127	unplaced		
+era	zygor:GOLD\Farming\Heart of the Wild	Heart of the Wild	GOLD	Both	Heart of the Wild		1	1	0	1	1		939	939	unplaced		
+era	zygor:GOLD\Farming\Ichor of Undeath	Ichor of Undeath	GOLD	Both	Ichor of Undeath		1	1	0	1	1		1022	1022	unplaced		
+era	zygor:GOLD\Farming\Heart of Fire	Heart of Fire	GOLD	Both	Heart of Fire		1	1	0	1	1		998	998	unplaced		
+era	zygor:GOLD\Farming\Globe of Water	Globe of Water	GOLD	Both	Globe of Water		1	1	0	1	1		1058	1058	unplaced		
+era	zygor:GOLD\Farming\Elemental Fire	Elemental Fire	GOLD	Both	Elemental Fire		1	1	0	1	1		758	758	unplaced		
+era	zygor:GOLD\Farming\Elemental Earth, Deeprock Salt, Solid Stone	Elemental Earth, Deeprock Salt, Solid Stone	GOLD	Both	Elemental Earth, Deeprock Salt, Solid Stone		1	1	0	1	1		545	545	unplaced		
+era	zygor:GOLD\Farming\Elemental Water	Elemental Water	GOLD	Both	Elemental Water		1	1	0	1	1		757	757	unplaced		
+era	zygor:GOLD\Farming\Elemental Air	Elemental Air	GOLD	Both	Elemental Air		1	1	0	1	1		651	651	unplaced		
+era	zygor:GOLD\Farming\Strange Dust	Strange Dust	GOLD	Both	Strange Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Lesser Magic Essence	Lesser Magic Essence	GOLD	Both	Lesser Magic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Greater Magic Essence	Greater Magic Essence	GOLD	Both	Greater Magic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Lesser Eternal Essence	Lesser Eternal Essence	GOLD	Both	Lesser Eternal Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Greater Eternal Essence	Greater Eternal Essence	GOLD	Both	Greater Eternal Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Small Brilliant Shard	Small Brilliant Shard	GOLD	Both	Small Brilliant Shard		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Large Brilliant Shard	Large Brilliant Shard	GOLD	Both	Large Brilliant Shard		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Illusion Dust	Illusion Dust	GOLD	Both	Illusion Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Lesser Astral Essence	Lesser Astral Essence	GOLD	Both	Lesser Astral Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Greater Astral Essence	Greater Astral Essence	GOLD	Both	Greater Astral Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Soul Dust	Soul Dust	GOLD	Both	Soul Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Lesser Mystic Essence	Lesser Mystic Essence	GOLD	Both	Lesser Mystic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Greater Mystic Essence	Greater Mystic Essence	GOLD	Both	Greater Mystic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Vision Dust	Vision Dust	GOLD	Both	Vision Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Lesser Nether Essence	Lesser Nether Essence	GOLD	Both	Lesser Nether Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Greater Nether Essence	Greater Nether Essence	GOLD	Both	Greater Nether Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Dream Dust	Dream Dust	GOLD	Both	Dream Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Righteous Orb	Righteous Orb	GOLD	Both	Righteous Orb		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:GOLD\Farming\Demonic Rune	Demonic Rune	GOLD	Both	Demonic Rune		1	1	0	1	1		1023	1023	unplaced		
+era	zygor:GOLD\Farming\Dark Rune	Dark Rune	GOLD	Both	Dark Rune		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:GOLD\Farming\Sharp Claw	Sharp Claw	GOLD	Both	Sharp Claw		1	1	0	1	1		832	832	unplaced		
+era	zygor:GOLD\Farming\Ogre Tannin	Ogre Tannin	GOLD	Both	Ogre Tannin		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:GOLD\Farming\Small Venom Sac	Small Venom Sac	GOLD	Both	Small Venom Sac		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Huge Venom Sac	Huge Venom Sac	GOLD	Both	Huge Venom Sac		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Iridescent Pearl	Iridescent Pearl	GOLD	Both	Iridescent Pearl		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:GOLD\Farming\Black Pearl, Golden Pearl, Zesty Clam Meat	Black Pearl, Golden Pearl, Zesty Clam Meat	GOLD	Both	Black Pearl, Golden Pearl, Zesty Clam Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:GOLD\Farming\Giant Egg	Giant Egg	GOLD	Both	Giant Egg		1	1	0	1	1		908	908	unplaced		
+era	zygor:GOLD\Farming\Clefthoof Meat	Clefthoof Meat	GOLD	Both	Clefthoof Meat		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Ravager Flesh	Ravager Flesh	GOLD	Both	Ravager Flesh		9	3	0	9	1		4021	4021	unplaced		
+era	zygor:GOLD\Farming\Bat Flesh, Crunchy Spider Leg	Bat Flesh, Crunchy Spider Leg	GOLD	Both	Bat Flesh, Crunchy Spider Leg		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Bear Flank	Bear Flank	GOLD	Both	Bear Flank		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Buzzard Meat	Buzzard Meat	GOLD	Both	Buzzard Meat		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Chunk o' Basilisk	Chunk o' Basilisk	GOLD	Both	Chunk o' Basilisk		7	3	0	7	1		2821	2821	unplaced		
+era	zygor:GOLD\Farming\Netherweave Cloth, Jaggal Clam Meat, Jaggal Pearl, Fish Oil, Shiny Fish Scales, Unidentified Plant Parts	Netherweave Cloth, Jaggal Clam Meat, Jaggal Pearl, Fish Oil, Shiny Fish Scales, Unidentified Plant Parts	GOLD	Both	Netherweave Cloth, Jaggal Clam Meat, Jaggal Pearl, Fish Oil, Shiny Fish Scales, Unidentified Plant Parts		7	3	0	7	1		2821	2821	unplaced		
+era	zygor:GOLD\Farming\Raptor Ribs	Raptor Ribs	GOLD	Both	Raptor Ribs		7	3	0	7	1		2821	2821	unplaced		
+era	zygor:GOLD\Farming\Serpent Flesh	Serpent Flesh	GOLD	Both	Serpent Flesh		7	3	0	7	1		2821	2821	unplaced		
+era	zygor:GOLD\Farming\Talbuk Venison	Talbuk Venison	GOLD	Both	Talbuk Venison		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Warped Flesh	Warped Flesh	GOLD	Both	Warped Flesh		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Strange Spores, Fertile Spores, Unidentified Plant Parts	Strange Spores, Fertile Spores, Unidentified Plant Parts	GOLD	Both	Strange Spores, Fertile Spores, Unidentified Plant Parts		6	3	0	6	1		2221	2221	unplaced		
+era	zygor:GOLD\Farming\Moongraze Stag Tenderloin	Moongraze Stag Tenderloin	GOLD	Both	Moongraze Stag Tenderloin		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Lynx Meat	Lynx Meat	GOLD	Both	Lynx Meat		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Sunfury Signet, Arcane Tome, Netherweave Cloth	Sunfury Signet, Arcane Tome, Netherweave Cloth	GOLD	Both	Sunfury Signet, Arcane Tome, Netherweave Cloth		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Mark of Kil'jaeden, Fel Armament, Netherweave Cloth, Mote of Shadow	Mark of Kil'jaeden, Fel Armament, Netherweave Cloth, Mote of Shadow	GOLD	Both	Mark of Kil'jaeden, Fel Armament, Netherweave Cloth, Mote of Shadow		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Farming\Meaty Bat Wing	Meaty Bat Wing	GOLD	Both	Meaty Bat Wing		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Scorpid Stinger	Scorpid Stinger	GOLD	Both	Scorpid Stinger		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Farming\Coyote Meat	Coyote Meat	GOLD	Both	Coyote Meat		2	2	0	2	1		534	534	unplaced		
+era	zygor:GOLD\Farming\Crawler Meat, Crawler Claw	Crawler Meat, Crawler Claw	GOLD	Both	Crawler Meat, Crawler Claw		2	2	0	2	1		1438	1438	unplaced		
+era	zygor:GOLD\Gathering\Silverleaf, Peacebloom, Earthroot	Silverleaf, Peacebloom, Earthroot	GOLD	Both	Silverleaf, Peacebloom, Earthroot		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Mageroyal	Mageroyal	GOLD	Both	Mageroyal		2	2	0	2	1		656	656	unplaced		
+era	zygor:GOLD\Gathering\Stranglekelp	Stranglekelp	GOLD	Both	Stranglekelp		2	2	0	2	1		924	924	unplaced		
+era	zygor:GOLD\Gathering\Briarthorn, Swiftthistle	Briarthorn, Swiftthistle	GOLD	Both	Briarthorn, Swiftthistle		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Bruiseweed	Bruiseweed	GOLD	Both	Bruiseweed		2	2	0	2	1		1438	1438	unplaced		
+era	zygor:GOLD\Gathering\Wild Steelbloom	Wild Steelbloom	GOLD	Both	Wild Steelbloom		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Grave Moss	Grave Moss	GOLD	Both	Grave Moss		1	1	0	1	1		728	728	unplaced		
+era	zygor:GOLD\Gathering\Kingsblood	Kingsblood	GOLD	Both	Kingsblood		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Liferoot	Liferoot	GOLD	Both	Liferoot		2	2	0	2	1		948	948	unplaced		
+era	zygor:GOLD\Gathering\Fadeleaf	Fadeleaf	GOLD	Both	Fadeleaf		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Goldthorn, Khadgar's Whisker	Goldthorn, Khadgar's Whisker	GOLD	Both	Goldthorn, Khadgar's Whisker		2	2	0	2	1		729	729	unplaced		
+era	zygor:GOLD\Gathering\Wintersbite	Wintersbite	GOLD	Both	Wintersbite		2	2	0	2	1		957	957	unplaced		
+era	zygor:GOLD\Gathering\Wildvine	Wildvine	GOLD	Both	Wildvine		1	1	0	1	1		845	845	unplaced		
+era	zygor:GOLD\Gathering\Firebloom	Firebloom	GOLD	Both	Firebloom		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Purple Lotus	Purple Lotus	GOLD	Both	Purple Lotus		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Arthas' Tears	Arthas' Tears	GOLD	Both	Arthas' Tears		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Sungrass, Firebloom	Sungrass, Firebloom	GOLD	Both	Sungrass, Firebloom		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Blindweed, Fadeleaf	Blindweed, Fadeleaf	GOLD	Both	Blindweed, Fadeleaf		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Ghost Mushroom, Wildvine	Ghost Mushroom, Wildvine	GOLD	Both	Ghost Mushroom, Wildvine		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Gromsblood, Sungrass, Firebloom	Gromsblood, Sungrass, Firebloom	GOLD	Both	Gromsblood, Sungrass, Firebloom		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Golden Sansam, Dreamfoil	Golden Sansam, Dreamfoil	GOLD	Both	Golden Sansam, Dreamfoil		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Mountain Silversage	Mountain Silversage	GOLD	Both	Mountain Silversage		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Plaguebloom	Plaguebloom	GOLD	Both	Plaguebloom		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Icecap	Icecap	GOLD	Both	Icecap		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Black Lotus	Black Lotus	GOLD	Both	Black Lotus		2	2	0	2	1		721	721	unplaced		
+era	zygor:GOLD\Gathering\Copper Ore, Rough Stone	Copper Ore, Rough Stone	GOLD	Both	Copper Ore, Rough Stone		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Tin Ore, Silver Ore, Coarse Stone, Moss Agate	Tin Ore, Silver Ore, Coarse Stone, Moss Agate	GOLD	Both	Tin Ore, Silver Ore, Coarse Stone, Moss Agate		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Iron Ore, Gold Ore, Heavy Stone	Iron Ore, Gold Ore, Heavy Stone	GOLD	Both	Iron Ore, Gold Ore, Heavy Stone		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Mithril Ore, Truesilver Ore, Solid Stone	Mithril Ore, Truesilver Ore, Solid Stone	GOLD	Both	Mithril Ore, Truesilver Ore, Solid Stone		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Dark Iron Ore	Dark Iron Ore	GOLD	Both	Dark Iron Ore		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Thorium Ore, Dense Stone	Thorium Ore, Dense Stone	GOLD	Both	Thorium Ore, Dense Stone		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Guardian Stone	Guardian Stone	GOLD	Both	Guardian Stone		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Elementium Ore	Elementium Ore	GOLD	Both	Elementium Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:GOLD\Gathering\Green Whelp Scale, Heavy Leather, Medium Leather	Green Whelp Scale, Heavy Leather, Medium Leather	GOLD	Both	Green Whelp Scale, Heavy Leather, Medium Leather		1	1	0	1	1		513	513	unplaced		
+era	zygor:GOLD\Gathering\Black Whelp Scale, Light Leather	Black Whelp Scale, Light Leather	GOLD	Both	Black Whelp Scale, Light Leather		1	1	0	1	1		329	329	unplaced		
+era	zygor:GOLD\Gathering\Light Leather, Ruined Leather Scraps	Light Leather, Ruined Leather Scraps	GOLD	Both	Light Leather, Ruined Leather Scraps		1	1	0	1	1		148	148	unplaced		
+era	zygor:GOLD\Gathering\Thin Kodo Leather	Thin Kodo Leather	GOLD	Both	Thin Kodo Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Light Hide, Light Leather	Light Hide, Light Leather	GOLD	Both	Light Hide, Light Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Slimy Murloc Scale	Slimy Murloc Scale	GOLD	Both	Slimy Murloc Scale		1	1	0	1	1		897	897	unplaced		
+era	zygor:GOLD\Gathering\Medium Leather, Heavy Leather	Medium Leather, Heavy Leather	GOLD	Both	Medium Leather, Heavy Leather		1	1	0	1	1		680	680	unplaced		
+era	zygor:GOLD\Gathering\Medium Hide, Medium Leather, Light Leather	Medium Hide, Medium Leather, Light Leather	GOLD	Both	Medium Hide, Medium Leather, Light Leather		1	1	0	1	1		1130	1130	unplaced		
+era	zygor:GOLD\Gathering\Heavy Leather	Heavy Leather	GOLD	Both	Heavy Leather		1	1	0	1	1		953	953	unplaced		
+era	zygor:GOLD\Gathering\Raptor Hide	Raptor Hide	GOLD	Both	Raptor Hide		1	1	0	1	1		707	707	unplaced		
+era	zygor:GOLD\Gathering\Heavy Hide, Heavy Leather, Thick Leather	Heavy Hide, Heavy Leather, Thick Leather	GOLD	Both	Heavy Hide, Heavy Leather, Thick Leather		1	1	0	1	1		697	697	unplaced		
+era	zygor:GOLD\Gathering\Turtle Scale, Heavy Leather, Thick Leather	Turtle Scale, Heavy Leather, Thick Leather	GOLD	Both	Turtle Scale, Heavy Leather, Thick Leather		1	1	0	1	1		1050	1050	unplaced		
+era	zygor:GOLD\Gathering\Thick Murloc Scale	Thick Murloc Scale	GOLD	Both	Thick Murloc Scale		1	1	0	1	1		821	821	unplaced		
+era	zygor:GOLD\Gathering\Thick Hide, Thick Leather	Thick Hide, Thick Leather	GOLD	Both	Thick Hide, Thick Leather		1	1	0	1	1		1179	1179	unplaced		
+era	zygor:GOLD\Gathering\Worn Dragonscale, Thick Leather, Heavy Leather	Worn Dragonscale, Thick Leather, Heavy Leather	GOLD	Both	Worn Dragonscale, Thick Leather, Heavy Leather		1	1	0	1	1		931	931	unplaced		
+era	zygor:GOLD\Gathering\Scorpid Scale, Thick Leather, Heavy Leather	Scorpid Scale, Thick Leather, Heavy Leather	GOLD	Both	Scorpid Scale, Thick Leather, Heavy Leather		1	1	0	1	1		955	955	unplaced		
+era	zygor:GOLD\Gathering\Devilsaur Leather	Devilsaur Leather	GOLD	Both	Devilsaur Leather		1	1	0	1	1		1110	1110	unplaced		
+era	zygor:GOLD\Gathering\Rugged Leather	Rugged Leather	GOLD	Both	Rugged Leather		1	1	0	1	1		977	977	unplaced		
+era	zygor:GOLD\Gathering\Warbear Leather, Rugged Leather	Warbear Leather, Rugged Leather	GOLD	Both	Warbear Leather, Rugged Leather		1	1	0	1	1		804	804	unplaced		
+era	zygor:GOLD\Gathering\Green Dragonscale, Thick Leather, Heavy Leather	Green Dragonscale, Thick Leather, Heavy Leather	GOLD	Both	Green Dragonscale, Thick Leather, Heavy Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Blue Dragonscale, Rugged Leather, Thick Leather	Blue Dragonscale, Rugged Leather, Thick Leather	GOLD	Both	Blue Dragonscale, Rugged Leather, Thick Leather		1	1	0	1	1		944	944	unplaced		
+era	zygor:GOLD\Gathering\Rugged Hide, Rugged Leather, Thick Leather	Rugged Hide, Rugged Leather, Thick Leather	GOLD	Both	Rugged Hide, Rugged Leather, Thick Leather		1	1	0	1	1		977	977	unplaced		
+era	zygor:GOLD\Gathering\Black Dragonscale, Rugged Leather	Black Dragonscale, Rugged Leather	GOLD	Both	Black Dragonscale, Rugged Leather		1	1	0	1	1		460	460	unplaced		
+era	zygor:GOLD\Gathering\Heavy Scorpid Scale, Rugged Leather	Heavy Scorpid Scale, Rugged Leather	GOLD	Both	Heavy Scorpid Scale, Rugged Leather		1	1	0	1	1		1156	1156	unplaced		
+era	zygor:GOLD\Gathering\Core Leather	Core Leather	GOLD	Both	Core Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Scale of Onyxia	Scale of Onyxia	GOLD	Both	Scale of Onyxia		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Red Dragonscale, Rugged Leather	Red Dragonscale, Rugged Leather	GOLD	Both	Red Dragonscale, Rugged Leather		1	1	0	1	1		849	849	unplaced		
+era	zygor:GOLD\Gathering\Primal Bat Leather	Primal Bat Leather	GOLD	Both	Primal Bat Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Primal Tiger Leather	Primal Tiger Leather	GOLD	Both	Primal Tiger Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Dreamscale	Dreamscale	GOLD	Both	Dreamscale		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Figluster's Mudfish, Icefin Bluefish, Barbed Gill Trout	Figluster's Mudfish, Icefin Bluefish, Barbed Gill Trout	GOLD	Both	Figluster's Mudfish, Icefin Bluefish, Barbed Gill Trout		6	3	0	6	1		2221	2221	unplaced		
+era	zygor:GOLD\Gathering\Barbed Gill Trout, Spotted Feltail, Zangarian Sporefish	Barbed Gill Trout, Spotted Feltail, Zangarian Sporefish	GOLD	Both	Barbed Gill Trout, Spotted Feltail, Zangarian Sporefish		6	3	0	6	1		2221	2221	unplaced		
+era	zygor:GOLD\Gathering\Furious Crawdad, Golden Darter	Furious Crawdad, Golden Darter	GOLD	Both	Furious Crawdad, Golden Darter		8	3	0	8	1		3421	3421	unplaced		
+era	zygor:GOLD\Gathering\Bloodfin Catfish, Crescent-Tail Skullfish	Bloodfin Catfish, Crescent-Tail Skullfish	GOLD	Both	Bloodfin Catfish, Crescent-Tail Skullfish		6	5	0	6	1		1581	1581	unplaced		
+era	zygor:GOLD\Gathering\Felweed	Felweed	GOLD	Both	Felweed		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Ancient Lichen	Ancient Lichen	GOLD	Both	Ancient Lichen		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Dreaming Glory	Dreaming Glory	GOLD	Both	Dreaming Glory		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Nightmare Vine, Fel Lotus	Nightmare Vine, Fel Lotus	GOLD	Both	Nightmare Vine, Fel Lotus		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Mana Thistle	Mana Thistle	GOLD	Both	Mana Thistle		9	3	0	9	1		4021	4021	unplaced		
+era	zygor:GOLD\Gathering\Netherbloom	Netherbloom	GOLD	Both	Netherbloom		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Ragveil	Ragveil	GOLD	Both	Ragveil		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Terocone	Terocone	GOLD	Both	Terocone		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Adamantite Ore, Eternium Ore	Adamantite Ore, Eternium Ore	GOLD	Both	Adamantite Ore, Eternium Ore		6	3	0	6	1		2221	2221	unplaced		
+era	zygor:GOLD\Gathering\Adamantite Ore, Eternium Ore, Khorium Ore	Adamantite Ore, Eternium Ore, Khorium Ore	GOLD	Both	Adamantite Ore, Eternium Ore, Khorium Ore		6	3	0	6	1		2221	2221	unplaced		
+era	zygor:GOLD\Gathering\Fel Iron Ore, Eternium Ore	Fel Iron Ore, Eternium Ore	GOLD	Both	Fel Iron Ore, Eternium Ore		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Knothide Leather	Knothide Leather	GOLD	Both	Knothide Leather		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Thick Clefthoof Leather	Thick Clefthoof Leather	GOLD	Both	Thick Clefthoof Leather		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Fel Hide	Fel Hide	GOLD	Both	Fel Hide		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Fel Scales	Fel Scales	GOLD	Both	Fel Scales		9	3	0	9	1		4021	4021	unplaced		
+era	zygor:GOLD\Gathering\Nether Dragonscale	Nether Dragonscale	GOLD	Both	Nether Dragonscale		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Wind Scales	Wind Scales	GOLD	Both	Wind Scales		5	3	0	5	1		1621	1621	unplaced		
+era	zygor:GOLD\Gathering\Cobra Scales	Cobra Scales	GOLD	Both	Cobra Scales		7	3	0	7	1		2821	2821	unplaced		
+era	zygor:GOLD\Gathering\Silverleaf, Peacebloom	Silverleaf, Peacebloom	GOLD	Both	Silverleaf, Peacebloom		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Earthroot	Earthroot	GOLD	Both	Earthroot		1	0	0	1	1		600	600	unplaced		
+era	zygor:GOLD\Gathering\Silver Ore, Tin Ore, Coarse Stone, Moss Agate	Silver Ore, Tin Ore, Coarse Stone, Moss Agate	GOLD	Both	Silver Ore, Tin Ore, Coarse Stone, Moss Agate		1	0	0	1	1		600	600	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-11)\Human Starter (1-11)	Human Starter (1-11)	Leveling	Both	Human Starter		349	347	0	15	1		830	830	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-11)\Dwarf & Gnome Starter (1-11)	Dwarf & Gnome Starter (1-11)	Leveling	Both	Dwarf & Gnome Starter		390	387	0	15	1		1909	1909	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-11)\Night Elf Starter (1-11)	Night Elf Starter (1-11)	Leveling	Both	Night Elf Starter		353	350	0	15	1		2376	2376	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-11)\Draenei Starter (1-11)	Draenei Starter (1-11)	Leveling	Both	Draenei Starter		417	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Darkshore (11-14)	Darkshore (11-14)	Leveling	Both	Darkshore		136	136	0	15	1		1084	1084	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Bloodmyst Isle (14-20)	Bloodmyst Isle (14-20)	Leveling	Both	Bloodmyst Isle		343	208	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Darkshore (20-21)	Darkshore (20-21)	Leveling	Both	Darkshore		133	133	0	15	1		784	784	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Ashenvale (21-23)	Ashenvale (21-23)	Leveling	Both	Ashenvale		104	104	0	15	1		1199	1199	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Wetlands (23-24)	Wetlands (23-24)	Leveling	Both	Wetlands		157	157	0	15	1		821	821	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Redridge Mountains (24-25)	Redridge Mountains (24-25)	Leveling	Both	Redridge Mountains		39	39	0	15	1		506	506	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Duskwood (25-27)	Duskwood (25-27)	Leveling	Both	Duskwood		187	187	0	15	1		332	332	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Redridge Mountains (27-28)	Redridge Mountains (27-28)	Leveling	Both	Redridge Mountains		60	60	0	15	1		565	565	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Wetlands (28-30)	Wetlands (28-30)	Leveling	Both	Wetlands		163	163	0	15	1		555	555	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Duskwood (30-31)	Duskwood (30-31)	Leveling	Both	Duskwood		124	124	0	15	1		919	919	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Stranglethorn Vale (31-32)	Stranglethorn Vale (31-32)	Leveling	Both	Stranglethorn Vale		143	143	0	15	1		452	452	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Dustwallow Marsh (32-32)	Dustwallow Marsh (32-32)	Leveling	Both	Dustwallow Marsh		44	44	0	15	1		799	799	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Thousand Needles (32-33)	Thousand Needles (32-33)	Leveling	Both	Thousand Needles		55	55	0	15	1		1967	1967	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Hillsbrad Foothills (33-33)	Hillsbrad Foothills (33-33)	Leveling	Both	Hillsbrad Foothills		46	46	0	15	1		655	655	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Arathi Highlands (33-34)	Arathi Highlands (33-34)	Leveling	Both	Arathi Highlands		12	12	0	12	1		910	910	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Hillsbrad Foothills (34-34)	Hillsbrad Foothills (34-34)	Leveling	Both	Hillsbrad Foothills		37	37	0	15	1		951	951	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Arathi Highlands (34-35)	Arathi Highlands (34-35)	Leveling	Both	Arathi Highlands		41	41	0	15	1		802	834	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Dustwallow Marsh (35-35)	Dustwallow Marsh (35-35)	Leveling	Both	Dustwallow Marsh		55	55	0	15	1		849	849	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Stranglethorn Vale (35-37)	Stranglethorn Vale (35-37)	Leveling	Both	Stranglethorn Vale		201	201	0	15	1		1105	1105	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Dustwallow Marsh (37-39)	Dustwallow Marsh (37-39)	Leveling	Both	Dustwallow Marsh		249	249	0	15	1		1120	1120	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Arathi Highlands (39-40)	Arathi Highlands (39-40)	Leveling	Both	Arathi Highlands		68	68	0	15	1		790	790	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Alterac Mountains (40-41)	Alterac Mountains (40-41)	Leveling	Both	Alterac Mountains		41	41	0	15	1		544	544	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Arathi Highlands (41-41)	Arathi Highlands (41-41)	Leveling	Both	Arathi Highlands		68	68	0	15	1		543	543	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Badlands (41-42)	Badlands (41-42)	Leveling	Both	Badlands		175	175	0	15	1		404	404	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Stranglethorn Vale (42-44)	Stranglethorn Vale (42-44)	Leveling	Both	Stranglethorn Vale		107	107	0	15	1		579	579	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Dustwallow Marsh (44-45)	Dustwallow Marsh (44-45)	Leveling	Both	Dustwallow Marsh		81	81	0	15	1		818	818	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Tanaris (45-45)	Tanaris (45-45)	Leveling	Both	Tanaris		44	44	0	15	1		893	893	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Searing Gorge (45-45)	Searing Gorge (45-45)	Leveling	Both	Searing Gorge		58	58	0	15	1		751	751	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Stranglethorn Vale (45-46)	Stranglethorn Vale (45-46)	Leveling	Both	Stranglethorn Vale		216	216	0	15	1		139	139	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Tanaris (46-48)	Tanaris (46-48)	Leveling	Both	Tanaris		90	90	0	15	1		787	787	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Un'Goro Crater (48-49)	Un'Goro Crater (48-49)	Leveling	Both	Un'Goro Crater		94	94	0	15	1		1036	1036	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\The Hinterlands (49-50)	The Hinterlands (49-50)	Leveling	Both	The Hinterlands		85	85	0	15	1		618	618	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Searing Gorge (50-51)	Searing Gorge (50-51)	Leveling	Both	Searing Gorge		114	114	0	15	1		390	390	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Burning Steppes (51-52)	Burning Steppes (51-52)	Leveling	Both	Burning Steppes		77	77	0	15	1		415	415	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Felwood (52-53)	Felwood (52-53)	Leveling	Both	Felwood		97	97	0	15	1		828	828	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Un'Goro Crater (53-54)	Un'Goro Crater (53-54)	Leveling	Both	Un'Goro Crater		185	185	0	15	1		786	786	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Winterspring & Felwood (54-56)	Winterspring & Felwood (54-56)	Leveling	Both	Winterspring & Felwood		217	217	0	15	1		970	970	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Western & Eastern Plaguelands (56-59)	Western & Eastern Plaguelands (56-59)	Leveling	Both	Western & Eastern Plaguelands		279	279	0	15	1		422	422	unplaced		
+era	zygor:Leveling Guides\Classic (11-60)\Silithus (59-60)	Silithus (59-60)	Leveling	Both	Silithus		86	86	0	15	1		1002	1002	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Hellfire Peninsula (60-61)	Hellfire Peninsula (60-61)	Leveling	Both	Hellfire Peninsula		397	396	0	15	1		959	959	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Zangarmarsh (61-63)	Zangarmarsh (61-63)	Leveling	Both	Zangarmarsh		300	184	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Terokkar Forest (63-64)	Terokkar Forest (63-64)	Leveling	Both	Terokkar Forest		346	42	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Nagrand (64-65)	Nagrand (64-65)	Leveling	Both	Nagrand		275	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Blade's Edge Mountains (65-67)	Blade's Edge Mountains (65-67)	Leveling	Both	Blade's Edge Mountains		352	151	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Netherstorm (67-69)	Netherstorm (67-69)	Leveling	Both	Netherstorm		642	11	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Shadowmoon Valley (69-70)	Shadowmoon Valley (69-70)	Leveling	Both	Shadowmoon Valley		583	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Ruins of Ahn'Qiraj Cloak Quest	Ruins of Ahn'Qiraj Cloak Quest	Leveling	Both	Ruins of Ahn'Qiraj Cloak Quest		58	57	0	15	1		1657	1657	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Ruins of Ahn'Qiraj Ring Quest	Ruins of Ahn'Qiraj Ring Quest	Leveling	Both	Ruins of Ahn'Qiraj Ring Quest		58	57	0	15	1		1652	1652	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Ruins of Ahn'Qiraj Weapon Quest	Ruins of Ahn'Qiraj Weapon Quest	Leveling	Both	Ruins of Ahn'Qiraj Weapon Quest		58	57	0	15	1		1654	1654	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Shoulder Quest	Temple of Ahn'Qiraj Shoulder Quest	Leveling	Both	Temple of Ahn'Qiraj Shoulder Quest		58	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Boots Quest	Temple of Ahn'Qiraj Boots Quest	Leveling	Both	Temple of Ahn'Qiraj Boots Quest		58	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Helm Quest	Temple of Ahn'Qiraj Helm Quest	Leveling	Both	Temple of Ahn'Qiraj Helm Quest		58	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Legs Quest	Temple of Ahn'Qiraj Legs Quest	Leveling	Both	Temple of Ahn'Qiraj Legs Quest		58	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Chest Quest	Temple of Ahn'Qiraj Chest Quest	Leveling	Both	Temple of Ahn'Qiraj Chest Quest		58	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Scepter of the Shifting Sands	Scepter of the Shifting Sands	Leveling	Both	Scepter of the Shifting Sands		172	172	0	15	1		2023	2023	unplaced		
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Signet Ring of the Bronze Dragonflight	Signet Ring of the Bronze Dragonflight	Leveling	Both	Signet Ring of the Bronze Dragonflight		39	38	0	15	1		2069	2069	unplaced		
+era	zygor:Leveling Guides\Cenarion Battlegear	Cenarion Battlegear	Leveling	Both	Cenarion Battlegear		38	38	0	15	1		1104	1104	unplaced		
+era	zygor:Leveling Guides\Cenarion Field Duty Combat Assignments	Cenarion Field Duty Combat Assignments	Leveling	Both	Cenarion Field Duty Combat Assignments		62	62	0	15	1		1427	1427	unplaced		
+era	zygor:Leveling Guides\Cenarion Field Duty Tactical Assignments	Cenarion Field Duty Tactical Assignments	Leveling	Both	Cenarion Field Duty Tactical Assignments		65	65	0	15	1		1427	1427	unplaced		
+era	zygor:Leveling Guides\Cenarion Field Duty Logistics Assignments	Cenarion Field Duty Logistics Assignments	Leveling	Both	Cenarion Field Duty Logistics Assignments		84	84	0	15	1		1427	1427	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Hellfire Peninsula Group Quests	Hellfire Peninsula Group Quests	Leveling	Both	Hellfire Peninsula Group Quests		106	105	0	15	1		1270	1270	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Zangarmarsh Group Quests	Zangarmarsh Group Quests	Leveling	Both	Zangarmarsh Group Quests		33	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Terokkar Forest Group Quests	Terokkar Forest Group Quests	Leveling	Both	Terokkar Forest Group Quests		100	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Nagrand Group Quests	Nagrand Group Quests	Leveling	Both	Nagrand Group Quests		211	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Blade's Edge Mountains Group Quests	Blade's Edge Mountains Group Quests	Leveling	Both	Blade's Edge Mountains Group Quests		107	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Netherstorm Group Quests	Netherstorm Group Quests	Leveling	Both	Netherstorm Group Quests		372	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Class Quests\Shaman Class Quests	Shaman Class Quests	Leveling	Both	Shaman Class Quests		113	51	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\The Burning Crusade (60-70)\Isle of Quel'danas	Isle of Quel'danas	Leveling	Both	Isle of Quel'danas		33	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Class Quests\Druid Class Quests	Druid Class Quests	Leveling	Both	Druid Class Quests		183	182	0	15	1		1997	1997	unplaced		
+era	zygor:Leveling Guides\Class Quests\Priest Class Quests	Priest Class Quests	Leveling	Both	Priest Class Quests		26	25	0	15	1		2802	2802	unplaced		
+era	zygor:Leveling Guides\Class Quests\Warrior Class Quests	Warrior Class Quests	Leveling	Both	Warrior Class Quests		91	90	0	15	1		834	834	unplaced		
+era	zygor:Leveling Guides\Class Quests\Hunter Class Quests	Hunter Class Quests	Leveling	Both	Hunter Class Quests		88	87	0	15	1		1826	1826	unplaced		
+era	zygor:Leveling Guides\Class Quests\Rogue Class Quests	Rogue Class Quests	Leveling	Both	Rogue Class Quests		48	47	0	2	1		826	826	unplaced		
+era	zygor:Leveling Guides\Class Quests\Mage Class Quests	Mage Class Quests	Leveling	Both	Mage Class Quests		127	126	0	13	1		1643	1643	unplaced		
+era	zygor:Leveling Guides\Class Quests\Paladin Class Quests	Paladin Class Quests	Leveling	Both	Paladin Class Quests		209	208	0	15	1		917	917	unplaced		
+era	zygor:Leveling Guides\Class Quests\Warlock Class Quests	Warlock Class Quests	Leveling	Both	Warlock Class Quests		206	206	0	15	1		858	858	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Hunter Intro	Boosted Hunter Intro	Leveling	Both	Boosted Hunter Intro		42	41	0	15	1		989	989	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Warrior Intro	Boosted Warrior Intro	Leveling	Both	Boosted Warrior Intro		24	23	0	15	1		942	942	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Paladin Intro	Boosted Paladin Intro	Leveling	Both	Boosted Paladin Intro		24	23	0	15	1		948	948	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Rogue Intro	Boosted Rogue Intro	Leveling	Both	Boosted Rogue Intro		24	23	0	15	1		930	930	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Priest Intro	Boosted Priest Intro	Leveling	Both	Boosted Priest Intro		24	23	0	15	1		966	966	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Mage Intro	Boosted Mage Intro	Leveling	Both	Boosted Mage Intro		24	23	0	15	1		934	934	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Warlock Intro	Boosted Warlock Intro	Leveling	Both	Boosted Warlock Intro		24	23	0	15	1		1000	1000	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Druid Intro	Boosted Druid Intro	Leveling	Both	Boosted Druid Intro		24	23	0	15	1		1017	1017	unplaced		
+era	zygor:Leveling Guides\Boosted Characters\Boosted Shaman Intro	Boosted Shaman Intro	Leveling	Both	Boosted Shaman Intro		1	0	0	1	1		600	600	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Undead Starter (1-6)	Undead Starter (1-6)	Leveling	Both	Undead Starter		115	113	0	15	1		2434	2434	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Tauren Starter (1-10)	Tauren Starter (1-10)	Leveling	Both	Tauren Starter		309	306	0	15	1		2369	2369	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Mulgore (10-13)	Mulgore (10-13)	Leveling	Both	Mulgore		91	91	0	15	1		1484	1912	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Orc & Troll Starter (1-6)	Orc & Troll Starter (1-6)	Leveling	Both	Orc & Troll Starter		136	134	0	15	1		1332	1332	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Durotar (6-10)	Durotar (6-10)	Leveling	Both	Durotar		186	186	0	15	1		972	972	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Durotar (10-13)	Durotar (10-13)	Leveling	Both	Durotar		145	145	0	15	1		1073	1073	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Blood Elf Starter (1-5)	Blood Elf Starter (1-5)	Leveling	Both	Blood Elf Starter		127	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Eversong Woods (5-10)	Eversong Woods (5-10)	Leveling	Both	Eversong Woods		206	33	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Starter Guides (1-12)\Eversong Woods (10-12)	Eversong Woods (10-12)	Leveling	Both	Eversong Woods		136	0	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\The Barrens & Stonetalon Mountain (13-21)	The Barrens & Stonetalon Mountain (13-21)	Leveling	Both	The Barrens & Stonetalon Mountain		392	391	0	15	1		2229	2229	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Ghostlands (12-20)	Ghostlands (12-20)	Leveling	Both	Ghostlands		412	306	0	15	1		6000	6000	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\The Barrens & Stonetalon Mountains (20-22)	The Barrens & Stonetalon Mountains (20-22)	Leveling	Both	The Barrens & Stonetalon Mountains		193	192	0	15	1		1873	1873	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Ashenvale (21-22)	Ashenvale (21-22)	Leveling	Both	Ashenvale		94	94	0	15	1		1081	1081	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Hillsbrad Foothills (22-24)	Hillsbrad Foothills (22-24)	Leveling	Both	Hillsbrad Foothills		112	112	0	15	1		1806	1806	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\The Barrens (24-25)	The Barrens (24-25)	Leveling	Both	The Barrens		70	70	0	15	1		1078	1078	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Stonetalon Mountains (25-26)	Stonetalon Mountains (25-26)	Leveling	Both	Stonetalon Mountains		59	59	0	15	1		1426	1426	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Ashenvale (26-28)	Ashenvale (26-28)	Leveling	Both	Ashenvale		135	135	0	15	1		936	936	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Thousand Needles (28-30)	Thousand Needles (28-30)	Leveling	Both	Thousand Needles		203	203	0	15	1		1240	1240	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Hillsbrad Foothills (30-32)	Hillsbrad Foothills (30-32)	Leveling	Both	Hillsbrad Foothills		106	106	0	15	1		1333	1333	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Arathi Highlands (32-33)	Arathi Highlands (32-33)	Leveling	Both	Arathi Highlands		67	67	0	15	1		871	871	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Thousand Needles (33-34)	Thousand Needles (33-34)	Leveling	Both	Thousand Needles		83	83	0	15	1		1192	1192	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Stranglethorn Vale (34-36)	Stranglethorn Vale (34-36)	Leveling	Both	Stranglethorn Vale		184	184	0	15	1		878	878	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Dustwallow Marsh (36-38)	Dustwallow Marsh (36-38)	Leveling	Both	Dustwallow Marsh		155	155	0	15	1		1125	1125	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Alterac Mountains (38-39)	Alterac Mountains (38-39)	Leveling	Both	Alterac Mountains		79	79	0	15	1		987	987	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Arathi Highlands (39-40)	Arathi Highlands (39-40)	Leveling	Both	Arathi Highlands		114	114	0	15	1		842	842	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Badlands (40-42)	Badlands (40-42)	Leveling	Both	Badlands		159	159	0	15	1		522	522	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Dustwallow Marsh (42-43)	Dustwallow Marsh (42-43)	Leveling	Both	Dustwallow Marsh		157	157	0	15	1		802	802	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Stranglethorn Vale (43-46)	Stranglethorn Vale (43-46)	Leveling	Both	Stranglethorn Vale		265	265	0	15	1		398	398	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Tanaris (46-47)	Tanaris (46-47)	Leveling	Both	Tanaris		97	97	0	15	1		785	785	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Feralas (47-48)	Feralas (47-48)	Leveling	Both	Feralas		96	96	0	15	1		903	903	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Tanaris (48-49)	Tanaris (48-49)	Leveling	Both	Tanaris		124	124	0	15	1		923	923	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\The Hinterlands (49-51)	The Hinterlands (49-51)	Leveling	Both	The Hinterlands		181	181	0	15	1		1243	1243	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Searing Gorge (51-52)	Searing Gorge (51-52)	Leveling	Both	Searing Gorge		102	102	0	15	1		594	594	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Burning Steppes (52-53)	Burning Steppes (52-53)	Leveling	Both	Burning Steppes		59	59	0	15	1		635	635	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Un'Goro Crater (53-54)	Un'Goro Crater (53-54)	Leveling	Both	Un'Goro Crater		214	214	0	15	1		790	790	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Felwood & Winterspring (54-56)	Felwood & Winterspring (54-56)	Leveling	Both	Felwood & Winterspring		138	138	0	15	1		983	983	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Western & Eastern Plaguelands (56-58)	Western & Eastern Plaguelands (56-58)	Leveling	Both	Western & Eastern Plaguelands		311	311	0	15	1		893	893	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Winterspring (58-59)	Winterspring (58-59)	Leveling	Both	Winterspring		125	125	0	15	1		1195	1195	unplaced		
+era	zygor:Leveling Guides\Classic (12-60)\Silithus (59-60)	Silithus (59-60)	Leveling	Both	Silithus		84	84	0	15	1		973	973	unplaced		
+era	zygor:Leveling Guides\Points of interest	Points of interest	Leveling	Both	Points of interest		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Alchemy\Alchemy (1-375)	Alchemy (1-375)	Profession	Both	Alchemy		231	230	0	15	1		983	983	unplaced		
+era	zygor:Profession Guides\Blacksmithing\Blacksmithing (1-375)	Blacksmithing (1-375)	Profession	Both	Blacksmithing		337	336	0	15	1		988	988	unplaced		
+era	zygor:Profession Guides\Cooking\Cooking (1-300)	Cooking (1-300)	Profession	Both	Cooking		91	90	0	15	1		1925	1925	unplaced		
+era	zygor:Profession Guides\Cooking\Cooking + Fishing (1-300)	Cooking + Fishing (1-300)	Profession	Both	Cooking + Fishing		99	98	0	15	1		758	758	unplaced		
+era	zygor:Profession Guides\Cooking\Cooking (300-375)	Cooking (300-375)	Profession	Both	Cooking		22	0	0	15	1		6000	6000	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Chunk of Boar Meat	Chunk of Boar Meat	Profession	Both	Chunk of Boar Meat		2	2	0	2	1		149	149	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Small Egg	Small Egg	Profession	Both	Small Egg		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Small Spider Leg	Small Spider Leg	Profession	Both	Small Spider Leg		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Stringy Wolf Meat	Stringy Wolf Meat	Profession	Both	Stringy Wolf Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Crag Boar Rib	Crag Boar Rib	Profession	Both	Crag Boar Rib		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Spider Ichor	Spider Ichor	Profession	Both	Spider Ichor		4	4	0	4	1		719	767	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Coyote Meat	Coyote Meat	Profession	Both	Coyote Meat		4	4	0	4	1		413	534	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Boar Intestines	Boar Intestines	Profession	Both	Boar Intestines		4	4	0	4	1		413	533	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Stringy Vulture Meat	Stringy Vulture Meat	Profession	Both	Stringy Vulture Meat		4	4	0	4	1		413	533	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Strider Meat	Strider Meat	Profession	Both	Strider Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Kodo Meat	Kodo Meat	Profession	Both	Kodo Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Murloc Eye	Murloc Eye	Profession	Both	Murloc Eye		2	2	0	2	1		249	249	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Bear Meat	Bear Meat	Profession	Both	Bear Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Goretusk Snout	Goretusk Snout	Profession	Both	Goretusk Snout		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Goretusk Liver	Goretusk Liver	Profession	Both	Goretusk Liver		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Crawler Meat	Crawler Meat	Profession	Both	Crawler Meat		4	4	0	4	1		413	544	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Crawler Claw	Crawler Claw	Profession	Both	Crawler Claw		4	4	0	4	1		413	544	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Clam Meat	Clam Meat	Profession	Both	Clam Meat		4	4	0	4	1		367	367	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Boar Ribs	Boar Ribs	Profession	Both	Boar Ribs		4	4	0	4	1		719	767	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Crocolisk Meat	Crocolisk Meat	Profession	Both	Crocolisk Meat		4	4	0	4	1		710	741	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Tough Condor Meat	Tough Condor Meat	Profession	Both	Tough Condor Meat		4	4	0	4	1		458	538	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Soft Frenzy Flesh	Soft Frenzy Flesh	Profession	Both	Soft Frenzy Flesh		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Raw Loch Frenzy	Raw Loch Frenzy	Profession	Both	Raw Loch Frenzy		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Murloc Fin	Murloc Fin	Profession	Both	Murloc Fin		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Lean Wolf Flank	Lean Wolf Flank	Profession	Both	Lean Wolf Flank		4	4	0	4	1		454	454	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Big Bear Meat	Big Bear Meat	Profession	Both	Big Bear Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Raptor Egg	Raptor Egg	Profession	Both	Raptor Egg		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Thunder Lizard Tail	Thunder Lizard Tail	Profession	Both	Thunder Lizard Tail		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Tangy Clam Meat	Tangy Clam Meat	Profession	Both	Tangy Clam Meat		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Tender Crocolisk Meat	Tender Crocolisk Meat	Profession	Both	Tender Crocolisk Meat		4	4	0	4	1		1160	1163	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Lion Meat	Lion Meat	Profession	Both	Lion Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Stag Meat	Stag Meat	Profession	Both	Stag Meat		4	4	0	4	1		1145	1145	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Gooey Spider Leg	Gooey Spider Leg	Profession	Both	Gooey Spider Leg		4	4	0	4	1		323	323	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Mystery Meat	Mystery Meat	Profession	Both	Mystery Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Red Wolf Meat	Red Wolf Meat	Profession	Both	Red Wolf Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Turtle Meat	Turtle Meat	Profession	Both	Turtle Meat		4	4	0	4	1		824	911	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Tiger Meat	Tiger Meat	Profession	Both	Tiger Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Raptor Flesh	Raptor Flesh	Profession	Both	Raptor Flesh		4	4	0	4	1		594	594	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Buzzard Wing	Buzzard Wing	Profession	Both	Buzzard Wing		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Giant Clam Meat	Giant Clam Meat	Profession	Both	Giant Clam Meat		2	2	0	2	1		569	569	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Essence of Water	Essence of Water	Profession	Both	Essence of Water		2	2	0	2	1		873	873	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Living Essence	Living Essence	Profession	Both	Living Essence		2	2	0	2	1		998	998	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Essence of Fire	Essence of Fire	Profession	Both	Essence of Fire		2	2	0	2	1		1137	1137	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Essence of Air	Essence of Air	Profession	Both	Essence of Air		2	2	0	2	1		1172	1172	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Essence of Earth	Essence of Earth	Profession	Both	Essence of Earth		2	2	0	2	1		1237	1237	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Essence of Undeath	Essence of Undeath	Profession	Both	Essence of Undeath		3	3	0	3	1		1127	1127	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Heart of the Wild	Heart of the Wild	Profession	Both	Heart of the Wild		2	2	0	2	1		939	939	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Ichor of Undeath	Ichor of Undeath	Profession	Both	Ichor of Undeath		2	2	0	2	1		1022	1022	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Heart of Fire	Heart of Fire	Profession	Both	Heart of Fire		2	2	0	2	1		998	998	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Globe of Water	Globe of Water	Profession	Both	Globe of Water		2	2	0	2	1		1058	1058	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Core of Earth	Core of Earth	Profession	Both	Core of Earth		2	2	0	2	1		1231	1231	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Breath of Wind	Breath of Wind	Profession	Both	Breath of Wind		2	2	0	2	1		1172	1172	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Elemental Fire	Elemental Fire	Profession	Both	Elemental Fire		2	2	0	2	1		758	758	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Elemental Earth	Elemental Earth	Profession	Both	Elemental Earth		2	2	0	2	1		545	545	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Elemental Water	Elemental Water	Profession	Both	Elemental Water		2	2	0	2	1		757	757	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Elemental Air	Elemental Air	Profession	Both	Elemental Air		2	2	0	2	1		651	651	unplaced		
+era	zygor:Profession Guides\Enchanting\Enchanting (1-375)	Enchanting (1-375)	Profession	Both	Enchanting		254	253	0	15	1		853	853	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Strange Dust	Strange Dust	Profession	Both	Strange Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Magic Essence	Lesser Magic Essence	Profession	Both	Lesser Magic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Greater Magic Essence	Greater Magic Essence	Profession	Both	Greater Magic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Eternal Essence	Lesser Eternal Essence	Profession	Both	Lesser Eternal Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Greater Eternal Essence	Greater Eternal Essence	Profession	Both	Greater Eternal Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Small Brilliant Shard	Small Brilliant Shard	Profession	Both	Small Brilliant Shard		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Large Brilliant Shard	Large Brilliant Shard	Profession	Both	Large Brilliant Shard		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Illusion Dust	Illusion Dust	Profession	Both	Illusion Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Astral Essence	Lesser Astral Essence	Profession	Both	Lesser Astral Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Greater Astral Essence	Greater Astral Essence	Profession	Both	Greater Astral Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Soul Dust	Soul Dust	Profession	Both	Soul Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Mystic Essence	Lesser Mystic Essence	Profession	Both	Lesser Mystic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Greater Mystic Essence	Greater Mystic Essence	Profession	Both	Greater Mystic Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Vision Dust	Vision Dust	Profession	Both	Vision Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Nether Essence	Lesser Nether Essence	Profession	Both	Lesser Nether Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Greater Nether Essence	Greater Nether Essence	Profession	Both	Greater Nether Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Dream Dust	Dream Dust	Profession	Both	Dream Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Engineering\Engineering (1-375)	Engineering (1-375)	Profession	Both	Engineering		281	280	0	15	1		984	984	unplaced		
+era	zygor:Profession Guides\First Aid\First Aid (1-300)	First Aid (1-300)	Profession	Both	First Aid		55	55	0	15	1		2436	2436	unplaced		
+era	zygor:Profession Guides\First Aid\First Aid (300-375)	First Aid (300-375)	Profession	Both	First Aid		14	10	0	14	1		2696	2696	unplaced		
+era	zygor:Profession Guides\Fishing\Fishing (1-300)	Fishing (1-300)	Profession	Both	Fishing		36	35	0	15	1		1080	1080	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Golden Darter	Golden Darter	Profession	Both	Golden Darter		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Figluster's Mudfish	Figluster's Mudfish	Profession	Both	Figluster's Mudfish		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Icefin Bluefish	Icefin Bluefish	Profession	Both	Icefin Bluefish		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Brilliant Smallfish	Raw Brilliant Smallfish	Profession	Both	Raw Brilliant Smallfish		1	1	0	1	1		123	123	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Slitherskin Mackerel	Raw Slitherskin Mackerel	Profession	Both	Raw Slitherskin Mackerel		1	1	0	1	1		845	845	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Rainbow Fin Albacore	Raw Rainbow Fin Albacore	Profession	Both	Raw Rainbow Fin Albacore		1	1	0	1	1		507	507	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Longjaw Mud Snapper	Raw Longjaw Mud Snapper	Profession	Both	Raw Longjaw Mud Snapper		1	1	0	1	1		225	225	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Sagefish	Raw Sagefish	Profession	Both	Raw Sagefish		1	1	0	1	1		683	683	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Bristle Whisker Catfish	Raw Bristle Whisker Catfish	Profession	Both	Raw Bristle Whisker Catfish		1	1	0	1	1		225	225	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Mithril Head Trout	Raw Mithril Head Trout	Profession	Both	Raw Mithril Head Trout		1	1	0	1	1		824	824	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Rockscale Cod	Raw Rockscale Cod	Profession	Both	Raw Rockscale Cod		1	1	0	1	1		454	454	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Sunscale Salmon	Raw Sunscale Salmon	Profession	Both	Raw Sunscale Salmon		1	1	0	1	1		1194	1194	unplaced		
+era	zygor:Profession Guides\Herbalism\Herbalism (1-300)	Herbalism (1-300)	Profession	Both	Herbalism		17	16	0	15	1		993	993	unplaced		
+era	zygor:Profession Guides\Herbalism\Herbalism (300-375)	Herbalism (300-375)	Profession	Both	Herbalism		6	0	0	6	1		3600	3600	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Silverleaf	Silverleaf	Profession	Both	Silverleaf		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Peacebloom	Peacebloom	Profession	Both	Peacebloom		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Earthroot	Earthroot	Profession	Both	Earthroot		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Mageroyal	Mageroyal	Profession	Both	Mageroyal		4	4	0	4	1		656	656	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Stranglekelp	Stranglekelp	Profession	Both	Stranglekelp		4	4	0	4	1		924	924	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Briarthorn	Briarthorn	Profession	Both	Briarthorn		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Swiftthistle	Swiftthistle	Profession	Both	Swiftthistle		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Bruiseweed	Bruiseweed	Profession	Both	Bruiseweed		4	4	0	4	1		1438	1438	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Wild Steelbloom	Wild Steelbloom	Profession	Both	Wild Steelbloom		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Grave Moss	Grave Moss	Profession	Both	Grave Moss		2	2	0	2	1		728	728	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Kingsblood	Kingsblood	Profession	Both	Kingsblood		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Liferoot	Liferoot	Profession	Both	Liferoot		4	4	0	4	1		948	948	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Fadeleaf	Fadeleaf	Profession	Both	Fadeleaf		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Goldthorn	Goldthorn	Profession	Both	Goldthorn		4	4	0	4	1		729	729	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Khadgar's Whisker	Khadgar's Whisker	Profession	Both	Khadgar's Whisker		4	4	0	4	1		729	729	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Wintersbite	Wintersbite	Profession	Both	Wintersbite		4	4	0	4	1		957	957	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Wildvine	Wildvine	Profession	Both	Wildvine		2	2	0	2	1		845	845	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Firebloom	Firebloom	Profession	Both	Firebloom		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Purple Lotus	Purple Lotus	Profession	Both	Purple Lotus		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Arthas' Tears	Arthas' Tears	Profession	Both	Arthas' Tears		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Sungrass	Sungrass	Profession	Both	Sungrass		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Blindweed	Blindweed	Profession	Both	Blindweed		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Ghost Mushroom	Ghost Mushroom	Profession	Both	Ghost Mushroom		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Gromsblood	Gromsblood	Profession	Both	Gromsblood		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Golden Sansam	Golden Sansam	Profession	Both	Golden Sansam		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Dreamfoil	Dreamfoil	Profession	Both	Dreamfoil		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Mountain Silversage	Mountain Silversage	Profession	Both	Mountain Silversage		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Plaguebloom	Plaguebloom	Profession	Both	Plaguebloom		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Icecap	Icecap	Profession	Both	Icecap		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Black Lotus	Black Lotus	Profession	Both	Black Lotus		4	4	0	4	1		721	721	unplaced		
+era	zygor:Profession Guides\Jewelcrafting\Jewelcrafting (1-375)	Jewelcrafting (1-375)	Profession	Both	Jewelcrafting		213	107	0	15	1		6000	6000	unplaced		
+era	zygor:Profession Guides\Leatherworking\Leatherworking (1-375)	Leatherworking (1-375)	Profession	Both	Leatherworking		182	181	0	15	1		1991	2103	unplaced		
+era	zygor:Profession Guides\Lockpicking\Lockpicking (1-300)	Lockpicking (1-300)	Profession	Both	Lockpicking		27	26	0	15	1		1059	1059	unplaced		
+era	zygor:Profession Guides\Mining\Mining (1-300)	Mining (1-300)	Profession	Both	Mining		16	15	0	15	1		1238	1238	unplaced		
+era	zygor:Profession Guides\Mining\Mining (300-375)	Mining (300-375)	Profession	Both	Mining		8	7	0	8	1		817	817	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Copper Ore	Copper Ore	Profession	Both	Copper Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Rough Stone	Rough Stone	Profession	Both	Rough Stone		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Tin Ore	Tin Ore	Profession	Both	Tin Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Coarse Stone	Coarse Stone	Profession	Both	Coarse Stone		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Silver Ore	Silver Ore	Profession	Both	Silver Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Moss Agate	Moss Agate	Profession	Both	Moss Agate		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Iron Ore	Iron Ore	Profession	Both	Iron Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Heavy Stone	Heavy Stone	Profession	Both	Heavy Stone		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Gold Ore	Gold Ore	Profession	Both	Gold Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Mithril Ore	Mithril Ore	Profession	Both	Mithril Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Solid Stone	Solid Stone	Profession	Both	Solid Stone		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Truesilver Ore	Truesilver Ore	Profession	Both	Truesilver Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Dark Iron Ore	Dark Iron Ore	Profession	Both	Dark Iron Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Thorium Ore	Thorium Ore	Profession	Both	Thorium Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Dense Stone	Dense Stone	Profession	Both	Dense Stone		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Guardian Stone	Guardian Stone	Profession	Both	Guardian Stone		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Elementium Ore	Elementium Ore	Profession	Both	Elementium Ore		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Skinning\Skinning (1-300)	Skinning (1-300)	Profession	Both	Skinning		17	16	0	15	1		1536	1536	unplaced		
+era	zygor:Profession Guides\Skinning\Skinning (300-375)	Skinning (300-375)	Profession	Both	Skinning		9	8	0	9	1		926	943	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Green Whelp Scale	Green Whelp Scale	Profession	Both	Green Whelp Scale		2	2	0	2	1		513	513	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Black Whelp Scale	Black Whelp Scale	Profession	Both	Black Whelp Scale		2	2	0	2	1		329	329	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Ruined Leather Scraps	Ruined Leather Scraps	Profession	Both	Ruined Leather Scraps		2	2	0	2	1		148	148	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Light Leather	Light Leather	Profession	Both	Light Leather		2	2	0	2	1		148	148	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Thin Kodo Leather	Thin Kodo Leather	Profession	Both	Thin Kodo Leather		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Light Hide	Light Hide	Profession	Both	Light Hide		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Slimy Murloc Scale	Slimy Murloc Scale	Profession	Both	Slimy Murloc Scale		2	2	0	2	1		897	897	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Medium Leather	Medium Leather	Profession	Both	Medium Leather		2	2	0	2	1		680	680	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Medium Hide	Medium Hide	Profession	Both	Medium Hide		2	2	0	2	1		1130	1130	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Heavy Leather	Heavy Leather	Profession	Both	Heavy Leather		2	2	0	2	1		953	953	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Raptor Hide	Raptor Hide	Profession	Both	Raptor Hide		2	2	0	2	1		707	707	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Heavy Hide	Heavy Hide	Profession	Both	Heavy Hide		2	2	0	2	1		697	697	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Turtle Scale	Turtle Scale	Profession	Both	Turtle Scale		2	2	0	2	1		1050	1050	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Thick Murloc Scale	Thick Murloc Scale	Profession	Both	Thick Murloc Scale		2	2	0	2	1		821	821	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Thick Leather	Thick Leather	Profession	Both	Thick Leather		2	2	0	2	1		1179	1179	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Thick Hide	Thick Hide	Profession	Both	Thick Hide		2	2	0	2	1		1179	1179	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Worn Dragonscale	Worn Dragonscale	Profession	Both	Worn Dragonscale		2	2	0	2	1		931	931	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Scorpid Scale	Scorpid Scale	Profession	Both	Scorpid Scale		2	2	0	2	1		955	955	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Devilsaur Leather	Devilsaur Leather	Profession	Both	Devilsaur Leather		2	2	0	2	1		1110	1110	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Rugged Leather	Rugged Leather	Profession	Both	Rugged Leather		2	2	0	2	1		977	977	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Warbear Leather	Warbear Leather	Profession	Both	Warbear Leather		2	2	0	2	1		804	804	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Green Dragonscale	Green Dragonscale	Profession	Both	Green Dragonscale		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Blue Dragonscale	Blue Dragonscale	Profession	Both	Blue Dragonscale		2	2	0	2	1		944	944	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Rugged Hide	Rugged Hide	Profession	Both	Rugged Hide		2	2	0	2	1		977	977	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Black Dragonscale	Black Dragonscale	Profession	Both	Black Dragonscale		2	2	0	2	1		460	460	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Heavy Scorpid Scale	Heavy Scorpid Scale	Profession	Both	Heavy Scorpid Scale		2	2	0	2	1		1156	1156	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Core Leather	Core Leather	Profession	Both	Core Leather		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Scale of Onyxia	Scale of Onyxia	Profession	Both	Scale of Onyxia		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Red Dragonscale	Red Dragonscale	Profession	Both	Red Dragonscale		2	2	0	2	1		849	849	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Primal Bat Leather	Primal Bat Leather	Profession	Both	Primal Bat Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Primal Tiger Leather	Primal Tiger Leather	Profession	Both	Primal Tiger Leather		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Skinning\Farming Guides\Dreamscale	Dreamscale	Profession	Both	Dreamscale		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Tailoring\Tailoring (1-375)	Tailoring (1-375)	Profession	Both	Tailoring		176	175	0	15	1		2725	2870	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Linen Cloth	Linen Cloth	Profession	Both	Linen Cloth		2	2	0	2	1		333	333	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Wool Cloth	Wool Cloth	Profession	Both	Wool Cloth		2	2	0	2	1		425	425	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Silk Cloth	Silk Cloth	Profession	Both	Silk Cloth		2	2	0	2	1		1141	1141	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Mageweave Cloth	Mageweave Cloth	Profession	Both	Mageweave Cloth		2	2	0	2	1		1098	1098	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Runecloth	Runecloth	Profession	Both	Runecloth		2	2	0	2	1		467	467	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Felcloth	Felcloth	Profession	Both	Felcloth		2	2	0	2	1		1083	1083	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Mooncloth	Mooncloth	Profession	Both	Mooncloth		5	5	0	5	1		1615	1615	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Spider's Silk	Spider's Silk	Profession	Both	Spider's Silk		2	2	0	2	1		609	609	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Thick Spider's Silk	Thick Spider's Silk	Profession	Both	Thick Spider's Silk		2	2	0	2	1		783	783	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Shadow Silk	Shadow Silk	Profession	Both	Shadow Silk		2	2	0	2	1		455	455	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Ironweb Spider Silk	Ironweb Spider Silk	Profession	Both	Ironweb Spider Silk		2	2	0	2	1		1084	1084	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Flask of Mojo	Flask of Mojo	Profession	Both	Flask of Mojo		2	2	0	2	1		700	700	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Righteous Orb	Righteous Orb	Profession	Both	Righteous Orb		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Demonic Rune	Demonic Rune	Profession	Both	Demonic Rune		2	2	0	2	1		1023	1023	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Dark Rune	Dark Rune	Profession	Both	Dark Rune		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Sharp Claw	Sharp Claw	Profession	Both	Sharp Claw		2	2	0	2	1		832	832	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Ogre Tannin	Ogre Tannin	Profession	Both	Ogre Tannin		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Small Venom Sac	Small Venom Sac	Profession	Both	Small Venom Sac		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Huge Venom Sac	Huge Venom Sac	Profession	Both	Huge Venom Sac		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Iridescent Pearl	Iridescent Pearl	Profession	Both	Iridescent Pearl		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Black Pearl	Black Pearl	Profession	Both	Black Pearl		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Golden Pearl	Golden Pearl	Profession	Both	Golden Pearl		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Giant Egg	Giant Egg	Profession	Both	Giant Egg		2	2	0	2	1		908	908	unplaced		
+era	zygor:Profession Guides\Dropped\Farming Guides\Zesty Clam Meat	Zesty Clam Meat	Profession	Both	Zesty Clam Meat		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Blacksmithing\Specialization\Armorsmith\Armorsmith Questline	Armorsmith Questline	Profession	Both	Armorsmith Questline		98	95	0	15	1		2195	2195	unplaced		
+era	zygor:Profession Guides\Blacksmithing\Specialization\Weaponsmith\Weaponsmith Questline	Weaponsmith Questline	Profession	Both	Weaponsmith Questline		42	39	0	15	1		2634	2634	unplaced		
+era	zygor:Profession Guides\Blacksmithing\Specialization\Weaponsmith\Master Axesmith Questline	Master Axesmith Questline	Profession	Both	Master Axesmith Questline		16	12	0	15	1		3668	3668	unplaced		
+era	zygor:Profession Guides\Blacksmithing\Specialization\Weaponsmith\Master Hammersmith Questline	Master Hammersmith Questline	Profession	Both	Master Hammersmith Questline		16	12	0	15	1		3668	3668	unplaced		
+era	zygor:Profession Guides\Blacksmithing\Specialization\Weaponsmith\Master Swordsmith Questline	Master Swordsmith Questline	Profession	Both	Master Swordsmith Questline		16	12	0	15	1		3667	3667	unplaced		
+era	zygor:Profession Guides\Blacksmithing\Specialization\How to Change Blacksmithing Specialization	How to Change Blacksmithing Specialization	Profession	Both	How to Change Blacksmithing Specialization		5	1	0	5	1		3447	3447	unplaced		
+era	zygor:Profession Guides\Engineering\Specialization\Gnomish Engineering\Gnomish Engineering Questline	Gnomish Engineering Questline	Profession	Both	Gnomish Engineering Questline		45	42	0	15	1		2192	2192	unplaced		
+era	zygor:Profession Guides\Engineering\Specialization\Gnomish Engineering\Gnome Engineer Membership Card Renewal	Gnome Engineer Membership Card Renewal	Profession	Both	Gnome Engineer Membership Card Renewal		4	4	0	4	1		381	381	unplaced		
+era	zygor:Profession Guides\Engineering\Specialization\Goblin Engineering\Goblin Engineering Questline	Goblin Engineering Questline	Profession	Both	Goblin Engineering Questline		41	38	0	15	1		2896	2896	unplaced		
+era	zygor:Profession Guides\Engineering\Specialization\Goblin Engineering\Goblin Engineer Membership Card Renewal	Goblin Engineer Membership Card Renewal	Profession	Both	Goblin Engineer Membership Card Renewal		4	4	0	4	1		1061	1061	unplaced		
+era	zygor:Profession Guides\Engineering\Specialization\How to Change Engineering Specialization	How to Change Engineering Specialization	Profession	Both	How to Change Engineering Specialization		5	1	0	5	1		3447	3447	unplaced		
+era	zygor:Profession Guides\Leatherworking\Specialization\Dragonscale Leatherworking\Dragonscale Leatherworking Questline	Dragonscale Leatherworking Questline	Profession	Both	Dragonscale Leatherworking Questline		24	21	0	15	1		2771	2771	unplaced		
+era	zygor:Profession Guides\Leatherworking\Specialization\Elemental Leatherworking\Elemental Leatherworking Questline	Elemental Leatherworking Questline	Profession	Both	Elemental Leatherworking Questline		12	5	0	12	1		4761	4761	unplaced		
+era	zygor:Profession Guides\Leatherworking\Specialization\Tribal Leatherworking\Tribal Leatherworking Questline	Tribal Leatherworking Questline	Profession	Both	Tribal Leatherworking Questline		75	72	0	15	1		2475	2475	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Felweed	Felweed	Profession	Both	Felweed		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Ancient Lichen	Ancient Lichen	Profession	Both	Ancient Lichen		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Dreaming Glory	Dreaming Glory	Profession	Both	Dreaming Glory		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Fel Lotus	Fel Lotus	Profession	Both	Fel Lotus		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Mana Thistle	Mana Thistle	Profession	Both	Mana Thistle		6	0	0	6	1		3600	3600	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Netherbloom	Netherbloom	Profession	Both	Netherbloom		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Nightmare Vine	Nightmare Vine	Profession	Both	Nightmare Vine		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Ragveil	Ragveil	Profession	Both	Ragveil		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Terocone	Terocone	Profession	Both	Terocone		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Arcane Dust	Arcane Dust	Profession	Both	Arcane Dust		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Planar Essence	Lesser Planar Essence	Profession	Both	Lesser Planar Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Greater Planar Essence	Greater Planar Essence	Profession	Both	Greater Planar Essence		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Large Prismatic Shard	Large Prismatic Shard	Profession	Both	Large Prismatic Shard		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Small Prismatic Shard	Small Prismatic Shard	Profession	Both	Small Prismatic Shard		1	0	0	1	1		600	600	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Ravager Flesh	Ravager Flesh	Profession	Both	Ravager Flesh		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Talbuk Venison	Talbuk Venison	Profession	Both	Talbuk Venison		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Raptor Ribs	Raptor Ribs	Profession	Both	Raptor Ribs		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\General Farming Guides\Primal Air	Primal Air	Profession	Both	Primal Air		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\General Farming Guides\Primal Earth	Primal Earth	Profession	Both	Primal Earth		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\General Farming Guides\Primal Fire	Primal Fire	Profession	Both	Primal Fire		5	0	0	5	1		3000	3000	unplaced		
+era	zygor:Profession Guides\General Farming Guides\Primal Life	Primal Life	Profession	Both	Primal Life		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\General Farming Guides\Primal Mana	Primal Mana	Profession	Both	Primal Mana		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\General Farming Guides\Primal Shadow	Primal Shadow	Profession	Both	Primal Shadow		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\General Farming Guides\Primal Water	Primal Water	Profession	Both	Primal Water		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Adamantite Ore	Adamantite Ore	Profession	Both	Adamantite Ore		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Fel Iron Ore	Fel Iron Ore	Profession	Both	Fel Iron Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Mining\Farming Guides\Khorium Ore	Khorium Ore	Profession	Both	Khorium Ore		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Jewelcrafting\Farming Guides\Shadow Pearl	Shadow Pearl	Profession	Both	Shadow Pearl		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Leatherworking\Farming Guides\Knothide Leather	Knothide Leather	Profession	Both	Knothide Leather		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Leatherworking\Farming Guides\Thick Clefthoof Leather	Thick Clefthoof Leather	Profession	Both	Thick Clefthoof Leather		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Leatherworking\Farming Guides\Fel Hide	Fel Hide	Profession	Both	Fel Hide		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Leatherworking\Farming Guides\Fel Scales	Fel Scales	Profession	Both	Fel Scales		6	0	0	6	1		3600	3600	unplaced		
+era	zygor:Profession Guides\Leatherworking\Farming Guides\Nether Dragonscale	Nether Dragonscale	Profession	Both	Nether Dragonscale		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Leatherworking\Farming Guides\Wind Scales	Wind Scales	Profession	Both	Wind Scales		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Leatherworking\Farming Guides\Cobra Scales	Cobra Scales	Profession	Both	Cobra Scales		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Netherweave Cloth	Netherweave Cloth	Profession	Both	Netherweave Cloth		6	0	0	6	1		3600	3600	unplaced		
+era	zygor:Profession Guides\Tailoring\Farming Guides\Netherweb Spider Silk	Netherweb Spider Silk	Profession	Both	Netherweb Spider Silk		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Barbed Gill Trout	Barbed Gill Trout	Profession	Both	Barbed Gill Trout		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Spotted Feltail	Spotted Feltail	Profession	Both	Spotted Feltail		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Zangarian Sporefish	Zangarian Sporefish	Profession	Both	Zangarian Sporefish		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Furious Crawdad	Furious Crawdad	Profession	Both	Furious Crawdad		5	0	0	5	1		3000	3000	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Bloodfin Catfish	Bloodfin Catfish	Profession	Both	Bloodfin Catfish		3	2	0	3	1		1079	1079	unplaced		
+era	zygor:Profession Guides\Fishing\Farming Guides\Crescent-Tail Skullfish	Crescent-Tail Skullfish	Profession	Both	Crescent-Tail Skullfish		3	2	0	3	1		1079	1079	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Bat Flesh	Bat Flesh	Profession	Both	Bat Flesh		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Bear Flank	Bear Flank	Profession	Both	Bear Flank		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Buzzard Meat	Buzzard Meat	Profession	Both	Buzzard Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Chunk o' Basilisk	Chunk o' Basilisk	Profession	Both	Chunk o' Basilisk		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Clefthoof Meat	Clefthoof Meat	Profession	Both	Clefthoof Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Jaggal Clam Meat	Jaggal Clam Meat	Profession	Both	Jaggal Clam Meat		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Serpent Flesh	Serpent Flesh	Profession	Both	Serpent Flesh		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Strange Spores	Strange Spores	Profession	Both	Strange Spores		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Warped Flesh	Warped Flesh	Profession	Both	Warped Flesh		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Crunchy Spider Leg	Crunchy Spider Leg	Profession	Both	Crunchy Spider Leg		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Lynx Meat	Lynx Meat	Profession	Both	Lynx Meat		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Moongraze Stag Tenderloin	Moongraze Stag Tenderloin	Profession	Both	Moongraze Stag Tenderloin		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Jewelcrafting\Farming Guides\Jaggal Pearl	Jaggal Pearl	Profession	Both	Jaggal Pearl		4	0	0	4	1		2400	2400	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Meaty Bat Wing	Meaty Bat Wing	Profession	Both	Meaty Bat Wing		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Profession Guides\Cooking\Farming Guides\Scorpid Stinger	Scorpid Stinger	Profession	Both	Scorpid Stinger		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Reputation Guides\Classic\Bloodsail Buccaneers	Bloodsail Buccaneers	Reputation	Both	Bloodsail Buccaneers		14	12	0	14	1		1962	1962	unplaced		
+era	zygor:Reputation Guides\Classic\Brood of Nozdormu	Brood of Nozdormu	Reputation	Both	Brood of Nozdormu		22	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\Classic\Cenarion Circle	Cenarion Circle	Reputation	Both	Cenarion Circle		11	11	0	11	1		1795	1795	unplaced		
+era	zygor:Reputation Guides\Classic\Gelkis & Magram Centaur Clans	Gelkis & Magram Centaur Clans	Reputation	Both	Gelkis & Magram Centaur Clans		18	17	0	15	1		2811	2811	unplaced		
+era	zygor:Reputation Guides\Classic\Hydraxian Waterlords	Hydraxian Waterlords	Reputation	Both	Hydraxian Waterlords		2	0	0	2	1		1200	1200	unplaced		
+era	zygor:Reputation Guides\Classic\Ravenholdt	Ravenholdt	Reputation	Both	Ravenholdt		5	4	0	5	1		1569	1705	unplaced		
+era	zygor:Reputation Guides\Classic\Steamwheedle Cartel	Steamwheedle Cartel	Reputation	Both	Steamwheedle Cartel		16	16	0	15	1		1300	1300	unplaced		
+era	zygor:Reputation Guides\Classic\Timbermaw Hold	Timbermaw Hold	Reputation	Both	Timbermaw Hold		38	37	0	15	1		2395	2395	unplaced		
+era	zygor:Reputation Guides\Classic\Thorium Brotherhood	Thorium Brotherhood	Reputation	Both	Thorium Brotherhood		39	38	0	15	1		1054	1054	unplaced		
+era	zygor:Reputation Guides\Classic\Wintersaber Trainers	Wintersaber Trainers	Reputation	Both	Wintersaber Trainers		30	29	0	15	1		2353	2353	unplaced		
+era	zygor:Reputation Guides\Classic\Darnassus	Darnassus	Reputation	Both	Darnassus		14	14	0	14	1		948	948	unplaced		
+era	zygor:Reputation Guides\Classic\Gnomeregan Exiles	Gnomeregan Exiles	Reputation	Both	Gnomeregan Exiles		14	10	0	14	1		2749	2749	unplaced		
+era	zygor:Reputation Guides\Classic\Ironforge	Ironforge	Reputation	Both	Ironforge		14	14	0	14	1		401	401	unplaced		
+era	zygor:Reputation Guides\Classic\Stormwind City	Stormwind City	Reputation	Both	Stormwind City		14	14	0	14	1		266	266	unplaced		
+era	zygor:Reputation Guides\Classic\Argent Dawn	Argent Dawn	Reputation	Both	Argent Dawn		37	36	0	15	1		1546	1546	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Honor Hold	Honor Hold	Reputation	Both	Honor Hold		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\The Kurenai	The Kurenai	Reputation	Both	The Kurenai		182	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Sha'tari Skyguard	Sha'tari Skyguard	Reputation	Both	Sha'tari Skyguard		199	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Ogri'la	Ogri'la	Reputation	Both	Ogri'la		142	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputations Guides\The Burning Crusade\The Consortium	The Consortium	Reputations	Both	The Consortium		307	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Netherwing	Netherwing	Reputation	Both	Netherwing		176	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\The Aldor	The Aldor	Reputation	Both	The Aldor		240	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\The Scryers	The Scryers	Reputation	Both	The Scryers		239	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Lower City	Lower City	Reputation	Both	Lower City		18	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\The Sha'tar	The Sha'tar	Reputation	Both	The Sha'tar		485	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Cenarion Expedition	Cenarion Expedition	Reputation	Both	Cenarion Expedition		20	0	0	15	1		6000	6000	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\The Cipher of Damnation	The Cipher of Damnation	Dungeon	Both	The Cipher of Damnation		117	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Keepers of Time	Keepers of Time	Reputation	Both	Keepers of Time		38	38	0	15	1		1308	1308	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Sporeggar	Sporeggar	Reputation	Both	Sporeggar		64	0	0	15	1		6000	6000	unplaced		
+era	zygor:Reputations Guides\The Burning Crusade\The Violet Eye	The Violet Eye	Reputations	Both	The Violet Eye		46	44	0	15	1		1815	1815	unplaced		
+era	zygor:Dungeon Guides\The Burning Crusade\Karazhan Attunement	Karazhan Attunement	Dungeon	Both	Karazhan Attunement		41	39	0	15	1		1775	1775	unplaced		
+era	zygor:Reputations Guides\The Burning Crusade\The Scale of the Sands	The Scale of the Sands	Reputations	Both	The Scale of the Sands		63	63	0	15	1		1386	1386	unplaced		
+era	zygor:Reputation Guides\Classic\Darkspear Trolls	Darkspear Trolls	Reputation	Both	Darkspear Trolls		14	10	0	14	1		3358	3358	unplaced		
+era	zygor:Reputation Guides\Classic\Orgrimmar	Orgrimmar	Reputation	Both	Orgrimmar		14	14	0	14	1		944	944	unplaced		
+era	zygor:Reputation Guides\Classic\Thunder Bluff	Thunder Bluff	Reputation	Both	Thunder Bluff		14	14	0	14	1		1273	1273	unplaced		
+era	zygor:Reputation Guides\Classic\Undercity	Undercity	Reputation	Both	Undercity		14	14	0	14	1		1040	1040	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\Thrallmar	Thrallmar	Reputation	Both	Thrallmar		3	0	0	3	1		1800	1800	unplaced		
+era	zygor:Reputation Guides\The Burning Crusade\The Mag'har	The Mag'har	Reputation	Both	The Mag'har		288	268	0	15	1		6000	6000	unplaced		
+era	zygor:Titles\Burning Crusade Titles\Dungeons & Raids\Champion of the Naaru	Champion of the Naaru	Titles	Both	Champion of the Naaru		137	0	0	15	1		6000	6000	unplaced		
+era	zygor:Titles\Burning Crusade Titles\Dungeons & Raids\Hand of A'dal	Hand of A'dal	Titles	Both	Hand of A'dal		116	116	0	15	1		1658	1658	unplaced		
+era	zygor:Titles\Burning Crusade Titles\Reputation\of the Shattered Sun	of the Shattered Sun	Titles	Both	of the Shattered Sun		6	0	0	6	1		3600	3600	unplaced		
+era	wowpro:BC_Netherwing	Netherwing	Dailies	Neutral	Shadowmoon Valley		147	0	0	15	1		6000	6000	unplaced		
+era	wowpro:BC_Shattered_Sun	Shattered Sun Offensive	Dailies	Neutral	Isle of Quel'Danas		106	0	0	15	1		6000	6000	unplaced		
+era	wowpro:BC_Skyguard	Sha'tari Skyguard	Dailies	Neutral	Terokkar Forest		48	0	0	15	1		6000	6000	unplaced		
+era	wowpro:ClassicDunMorogh0112	Dun Morogh 1-12	Leveling	Alliance	Dun Morogh		286	286	0	15	1		1163	1183	unplaced		
+era	wowpro:ClassicElwynn0112	Elwynn Forest 1-12	Leveling	Alliance	Elwynn Forest		313	313	0	15	1		264	306	unplaced		
+era	wowpro:ClassicTeldrassil0112	Teldrassil 1-12	Leveling	Alliance	Teldrassil		378	378	0	15	1		1317	1317	unplaced		
+era	wowpro:ClassicDarkshore1220	Darkshore 12-20	Leveling	Alliance	Darkshore		277	277	0	15	1		1397	1429	unplaced		
+era	wowpro:ClassicEasternKingdom1220	Eastern Kingdom 12-20	Leveling	Alliance	Loch Modan		320	320	0	15	1		612	620	unplaced		
+era	wowpro:Ludovicus_DM	Dungeon: Deadmines	Leveling	Alliance	Westfall		24	24	0	15	1		884	1338	unplaced		
+era	wowpro:Ludovicus_AWC	Dungeon: Wailing Caverns	Leveling	Alliance	The Barrens		1	1	0	1	1		860	860	unplaced		
+era	wowpro:ClassicAlliance1925	Alliance Leveling 19-25	Leveling	Alliance	Westfall		424	424	0	15	1		1175	1175	unplaced		
+era	wowpro:Ludovicus_BFD	Dungeon: Blackfathom Deeps	Leveling	Horde	Ashenvale		20	20	0	15	1		2391	3665	unplaced		
+era	wowpro:Cag_AStocks	Dungeon: The Stockade	Leveling	Alliance	Orgrimmar		18	18	0	15	1		1329	1997	unplaced		
+era	wowpro:ClassicAlliance2530	Alliance Leveling 25-30	Leveling	Alliance	Westfall		435	435	0	15	1		1046	1048	unplaced		
+era	wowpro:Cag_ARFK	Dungeon: Razorfen Kraul	Leveling	Alliance	Stormwind		1	1	0	1	1		226	226	unplaced		
+era	wowpro:Cag_HGnomer	Dungeon: Gnomeregan	Leveling	Alliance	Ironforge		1	1	0	1	1		381	381	unplaced		
+era	wowpro:Cag_ASM	Dungeon: Scarlet Monastery	Leveling	Alliance	Stormwind		1	1	0	1	1		226	226	unplaced		
+era	wowpro:ClassicAlliance3041	Alliance Leveling 30-41	Leveling	Alliance	Thousand Needles		775	775	0	15	1		1956	1956	unplaced		
+era	wowpro:Cag_ARFD	Dungeon: Razorfen Downs	Leveling	Alliance	Stormwind		1	1	0	1	1		226	226	unplaced		
+era	wowpro:Dungeon_Uld	Dungeon: Uldaman	Leveling	Alliance	Badlands		96	96	0	15	1		1674	1674	unplaced		
+era	wowpro:ClassicAlliance4250	Alliance Leveling 42-50	Leveling	Alliance	Stranglethorn Vale		621	621	0	15	1		1175	1175	unplaced		
+era	wowpro:Cag_HST	Dungeon: Sunken Temple	Leveling	Alliance	Stormwind		1	1	0	1	1		164	164	unplaced		
+era	wowpro:Dungeon_ZF	Dungeon: Zul'Farrak	Leveling	Alliance	Tanaris		69	69	0	15	1		1323	1323	unplaced		
+era	wowpro:Dungeon_Mara	Dungeon: Maraudon	Leveling	Alliance	Desolace		33	33	0	15	1		1746	1746	unplaced		
+era	wowpro:ClassicAlliance5055	Alliance Leveling 50-55	Leveling	Alliance	Tanaris		479	479	0	15	1		2026	2067	unplaced		
+era	wowpro:Cag_HDME	Dungeon: Dire Maul East	Leveling	Alliance	Stormwind		1	1	0	1	1		164	164	unplaced		
+era	wowpro:Dungeon_BRD	Dungeon: Blackrock Depths	Leveling	Alliance	Burning Steppes		158	158	0	15	1		920	920	unplaced		
+era	wowpro:Cag_HDMN	Dungeon: Dire Maul North	Leveling	Alliance	Alliance		1	0	0	1	1		600	600	unplaced		
+era	wowpro:Cag_HDMW	Dungeon: Dire Maul West	Leveling	Alliance	Stormwind		1	1	0	1	1		164	164	unplaced		
+era	wowpro:Cag_HLBRS	Dungeon: Lower Blackrock Spire	Leveling	Alliance	Stormwind		1	1	0	1	1		164	164	unplaced		
+era	wowpro:Cag_HScholo	Dungeon: Scholomance	Leveling	Alliance	Stormwind		1	1	0	1	1		164	164	unplaced		
+era	wowpro:ClassicAlliance5560	Alliance Leveling 55-60	Leveling	Alliance	Tanaris		385	385	0	15	1		838	838	unplaced		
+era	wowpro:Cag_HStrat	Dungeon: Stratholme	Leveling	Alliance	Stormwind		1	1	0	1	1		164	164	unplaced		
+era	wowpro:Cag_HUBRS	Dungeon: Upper Blackrock Spire	Leveling	Alliance	Stormwind		1	1	0	1	1		226	226	unplaced		
+era	wowpro:ClassicDurotar0112	Durotar	Leveling	Horde	Durotar		294	294	0	15	1		1070	1079	unplaced		
+era	wowpro:ClassicMulgore0112	Mulgore	Leveling	Horde	Mulgore		244	244	0	15	1		1399	1422	unplaced		
+era	wowpro:ClassicTirisfalGlades0112	Tirisfal Glades	Leveling	Horde	Tirisfal Glades		274	274	0	15	1		1031	1054	unplaced		
+era	wowpro:ClassicSilverpineForest1215	Silverpine Forest	Leveling	Horde	Silverpine Forest		139	139	0	15	1		1546	1551	unplaced		
+era	wowpro:ClassicTheBarrens1521	The Barrens	Leveling	Horde	The Barrens		575	575	0	15	1		2426	2695	unplaced		
+era	wowpro:Ludovicus_HWC	Dungeon: Wailing Caverns	Leveling	Horde	The Barrens		45	45	0	15	1		2922	2985	unplaced		
+era	wowpro:Ludovicus_SFK	Dungeon: Shadowfang Keep	Leveling	Horde	Silverpine Forest		14	14	0	14	1		1100	1101	unplaced		
+era	wowpro:ClassicHorde2130	Horde Chapter 1	Leveling	Horde	Stonetalon Mountains		491	491	0	15	1		1699	1699	unplaced		
+era	wowpro:ClassicHorde3140	Horde Chapter 2	Leveling	Horde	Thousand Needles		662	662	0	15	1		1567	1576	unplaced		
+era	wowpro:Jame-HordeGuide-3	Horde Guide Part 3	Leveling	Horde	Stranglethorn Vale		631	631	0	15	1		882	889	unplaced		
+era	wowpro:ClassicHorde4050	Horde Chapter 3	Leveling	Horde	Stranglethorn Vale		21	21	0	12	1		684	684	unplaced		
+era	wowpro:Cag_HMara	Dungeon: Maraudon	Leveling	Horde	Orgrimmar		24	24	0	15	1		1866	2179	unplaced		
+era	wowpro:ClassicUngoro5153	Un'Goro Crater (51-53)	Leveling	Horde	Un'Goro Crater		95	95	0	15	1		1581	1694	unplaced		
+era	wowpro:ClassicHordeBurningSteppes5354	Burning Steppes (53-54)	Leveling	Horde	Burning Steppes		26	26	0	15	1		1110	1265	unplaced		
+era	wowpro:ClassicHordeWinterspring5455	Winterspring (54-55)	Leveling	Horde	Winterspring		50	50	0	15	1		1815	1817	unplaced		
+era	wowpro:Cag_HRFC	Dungeon: Ragefire Chasm	Leveling	Horde	Orgrimmar		24	24	0	15	1		1975	2010	unplaced		
+era	wowpro:CLASSIC_BC_Nagrand	Nagrand	Leveling	Alliance	Nagrand		261	0	0	15	1		6000	6000	unplaced		
+era	wowpro:CLASSIC_BC_Blades_Edge_Mountains	Blade's Edge Mountains	Leveling	Alliance	Blade's Edge Mountains		327	0	0	15	1		6000	6000	unplaced		
+era	wowpro:CLASSIC_BC_Hellfire	Hellfire Peninsula	Leveling	Alliance	Hellfire Peninsula		277	276	0	15	1		1285	1290	unplaced		
+era	wowpro:CLASSIC_BC_Shadowmoon	Shadowmoon Valley	Leveling	Alliance	Shadowmoon Valley		316	0	0	15	1		6000	6000	unplaced		
+era	wowpro:CLASSIC_BC_Terokkar	Terokkar Forest	Leveling	Alliance	Terokkar Forest		285	0	0	15	1		6000	6000	unplaced		
+era	wowpro:CLASSIC_BC_Zangarmarsh	Zangarmarsh	Leveling	Alliance	Zangarmarsh		237	0	0	15	1		6000	6000	unplaced		
+era	wowpro:BC-Draenei	Draenei: Intro	Leveling	Alliance	Azuremyst Isle		285	0	285	15	1		6000	6000	unplaced		
+era	wowpro:BC-DwarfGnome	Dun Morogh 1-12	Leveling	Alliance	Dun Morogh		283	283	0	15	1		1133	1193	unplaced		
+era	wowpro:BC-Human	Elwynn Forest 1-12	Leveling	Alliance	Elwynn Forest		280	280	0	15	1		254	294	unplaced		
+era	wowpro:BC-NightElf	Teldrassil 1-12	Leveling	Alliance	Teldrassil		269	269	0	15	1		1434	1496	unplaced		
+era	wowpro:CLASSIC_BC_Bloodmyst	Bloodmyst Isle	Leveling	Alliance	Bloodmyst Isle		315	19	296	15	1		6000	6000	unplaced		
+era	wowpro:CLASSIC_BC_Darkshore	Darkshore 10-19	Leveling	Alliance	Darkshore		261	261	0	15	1		1073	1103	unplaced		
+era	wowpro:CLASSIC_BC_Eastern_Kingdom	Eastern Kingdom 10-19	Leveling	Alliance	Loch Modan		268	268	0	15	1		1016	1222	unplaced		
+era	wowpro:CLASSIC_BC_19_25_Alliance	Alliance Leveling 19-25	Leveling	Alliance	Westfall		424	424	0	15	1		1182	1182	unplaced		
+era	wowpro:CLASSIC_BC_25_30_Alliance	Alliance Leveling 25-30	Leveling	Alliance	Westfall		436	436	0	15	1		1395	1397	unplaced		
+era	wowpro:CLASSIC_BC_30_41_Alliance	Alliance Leveling 30-41	Leveling	Alliance	Thousand Needles		766	766	0	15	1		3583	3583	unplaced		
+era	wowpro:CLASSIC_BC_42_50_Alliance	Alliance Leveling 42-50	Leveling	Alliance	Stranglethorn Vale		626	626	0	15	1		1175	1175	unplaced		
+era	wowpro:CLASSIC_BC_50_55_Alliance	Alliance Leveling 50-55	Leveling	Alliance	Tanaris		477	477	0	15	1		2026	2067	unplaced		
+era	wowpro:CLASSIC_BC_55_60_Alliance	Alliance Leveling 55-60	Leveling	Alliance	Tanaris		386	386	0	15	1		838	838	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_BRD	Dungeon: Blackrock Depths	Leveling	Alliance	Burning Steppes		158	158	0	15	1		920	920	unplaced		
+era	wowpro:CLASSIC_BC_Deadmines	Dungeon: Deadmines	Leveling	Alliance	Westfall		24	24	0	15	1		884	1338	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_Mara	Dungeon: Maraudon	Leveling	Alliance	Desolace		33	33	0	15	1		1746	1746	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_Uld	Dungeon: Uldaman	Leveling	Alliance	Badlands		96	96	0	15	1		1674	1674	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_ZF	Dungeon: Zul'Farrak	Leveling	Alliance	Tanaris		69	69	0	15	1		1323	1323	unplaced		
+era	wowpro:CLASSIC_BC_Blades_Edge	Blade's Edge Mountains	Leveling	Horde	Blade's Edge Mountains		325	0	0	15	1		6000	6000	unplaced		
+era	wowpro:CLASSIC_BC_Hellfire_Peninsula	Hellfire Peninsula	Leveling	Horde	Hellfire Peninsula		361	11	350	15	1		4907	5589	unplaced		
+era	wowpro:CLASSIC_BC_Terokkar_Forest	Terokkar Forest	Leveling	Horde	Terokkar Forest		294	4	290	15	1		6044	6044	unplaced		
+era	wowpro:BC-BloodElf	Blood Elf: Intro	Leveling	Horde	Eversong Woods		323	0	118	15	1		6000	6000	unplaced		
+era	wowpro:BC-Scourge	Tirisfal Glades	Leveling	Horde	Tirisfal Glades		283	283	0	15	1		1607	1609	unplaced		
+era	wowpro:BC-OrcTroll	Durotar	Leveling	Horde	Durotar		319	319	0	15	1		1256	1256	unplaced		
+era	wowpro:BC-Tauren	Mulgore	Leveling	Horde	Mulgore		253	253	0	15	1		1399	1422	unplaced		
+era	wowpro:CLASSIC_BC_Silverpine_Forest	Silverpine Forest	Leveling	Horde	Silverpine Forest		139	139	0	15	1		1187	1190	unplaced		
+era	wowpro:CLASSIC_BC_Ghostlands	Ghostlands	Leveling	Horde	Ghostlands		601	268	333	15	1		6000	6000	unplaced		
+era	wowpro:CLASSIC_BC_The_Barrens	The Barrens	Leveling	Horde	The Barrens		515	515	0	15	1		1145	1148	unplaced		
+era	wowpro:CLASSIC_BC_HordeChapter1	Horde Chapter 1	Leveling	Horde	Stonetalon Mountains		444	444	0	15	1		1965	1965	unplaced		
+era	wowpro:CLASSIC_BC_HordeChapter2	Horde Chapter 2	Leveling	Horde	Thousand Needles		718	718	0	15	1		1715	1716	unplaced		
+era	wowpro:CLASSIC_BC_HordeChapter3	Horde Chapter 3	Leveling	Horde	Stranglethorn Vale		763	763	0	15	1		1107	1107	unplaced		
+era	wowpro:CLASSIC_BC_Azshara	Azshara	Leveling	Horde	Azshara		81	81	0	15	1		1332	1332	unplaced		
+era	wowpro:CLASSIC_BC_UnGoro_Crater	Un'Goro Crater	Leveling	Horde	Un'Goro Crater		108	108	0	15	1		1794	1794	unplaced		
+era	wowpro:CLASSIC_BC_Burning_Steppes	Burning Steppes	Leveling	Horde	Burning Steppes		49	49	0	15	1		1060	1061	unplaced		
+era	wowpro:CLASSIC_BC_Felwood	Felwood (54)	Leveling	Horde	Felwood		83	83	0	15	1		1093	1096	unplaced		
+era	wowpro:CLASSIC_BC_Winterspring	Winterspring	Leveling	Horde	Winterspring		159	159	0	15	1		1270	1274	unplaced		
+era	wowpro:CLASSIC_BC_Western_Plaguelands	Western Plaguelands (56)	Leveling	Horde	Western Plaguelands		95	95	0	15	1		790	790	unplaced		
+era	wowpro:CLASSIC_BC_Eastern_Plaguelands	Eastern Plaguelands (56-57)	Leveling	Horde	Western Plaguelands		45	45	0	15	1		1101	1243	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_Blackfathom	Dungeon: Blackfathom Deeps	Leveling	Horde	Ashenvale		20	20	0	15	1		2391	3665	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_Shadowfang_Keep	Dungeon: Shadowfang Keep	Leveling	Horde	Silverpine Forest		14	14	0	14	1		1100	1101	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_Wailing_Caverns	Dungeon: Wailing Caverns	Leveling	Horde	The Barrens		45	45	0	15	1		2922	2985	unplaced		
+era	wowpro:CLASSIC_BC_Netherstorm	Netherstorm	Leveling	Neutral	Netherstorm		504	0	0	15	1		6000	6000	unplaced		
+era	wowpro:Alchemy	Alchemy	Profession	Neutral	Alchemy		57	26	0	15	1		6000	6000	unplaced		
+era	wowpro:Blacksmithing	Blacksmithing	Profession	Neutral	Blacksmithing		109	57	0	15	1		6000	6000	unplaced		
+era	wowpro:Enchanting	Enchanting	Profession	Neutral	Enchanting		127	94	0	15	1		6000	6000	unplaced		
+era	wowpro:Engineering	Engineering	Profession	Neutral	Engineering		86	60	0	15	1		6000	6000	unplaced		
+era	wowpro:First Aid	First Aid	Profession	Neutral	First Aid		43	26	0	15	1		6000	6000	unplaced		
+era	wowpro:Leatherworking	Leatherworking	Profession	Neutral	Leatherworking		74	41	0	15	1		6000	6000	unplaced		
+era	wowpro:Tailoring	Tailoring	Profession	Neutral	Tailoring		71	50	0	15	1		6000	6000	unplaced		
+era	wowpro:BC_Alchemy	Alchemy	Profession	Neutral	Alchemy_Classic		94	0	64	15	1		6000	6000	unplaced		
+era	wowpro:BC_Blacksmithing	Blacksmithing	Profession	Neutral	Blacksmithing		129	16	24	15	1		6000	6000	unplaced		
+era	wowpro:BC_Enchanting	Enchanting	Profession	Neutral	Enchanting_Classic		210	85	84	15	1		6000	6000	unplaced		
+era	wowpro:BC_Engineering	Engineering	Profession	Neutral	Engineering		179	96	48	15	1		6000	6000	unplaced		
+era	wowpro:BC_FirstAid	First Aid	Profession	Neutral	First Aid		55	25	12	15	1		6000	6000	unplaced		
+era	wowpro:BC_Jewelcrafting	Jewelcrafting	Profession	Neutral	Jewelcrafting		76	0	16	15	1		6000	6000	unplaced		
+era	wowpro:BC_Leatherworking	Leatherworking	Profession	Neutral	Leatherworking		114	63	28	15	1		6000	6000	unplaced		
+era	wowpro:BC_Tailoring	Tailoring	Profession	Neutral	Tailoring		89	0	23	15	1		6000	6000	unplaced		
