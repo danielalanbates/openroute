@@ -5,8 +5,8 @@ local ADDON, NS = "OpenRoute", {}
 -- ---- WoW API stubs ----
 local frames = {}
 function CreateFrame() local f = { scripts = {} } function f:RegisterEvent() end function f:SetScript(k, v) self.scripts[k] = v end
-    for _, m in ipairs({"SetSize","SetPoint","Show","Hide","SetMovable","EnableMouse","SetClampedToScreen","RegisterForDrag","SetFrameStrata","SetScale","SetAlpha","ClearAllPoints","SetBackdrop","SetBackdropColor","SetBackdropBorderColor","SetResizable","SetResizeBounds","SetText","SetAttribute","SetHighlightTexture","RegisterForClicks","SetAllPoints","SetTexCoord","SetTexture","SetJustifyH","SetWidth","SetWordWrap","SetMaxLines","SetTextColor","SetHeight","SetAutoFocus","SetScrollChild","SetChecked","SetColorTexture","SetRotation","SetCooldown","SetMinMaxValues","SetValueStep","SetObeyStepOnDrag","SetValue"}) do f[m] = function() end end
-    function f:CreateTexture() return CreateFrame() end function f:CreateFontString() return CreateFrame() end function f:IsShown() return false end function f:GetPoint() return "CENTER",nil,nil,0,0 end
+    for _, m in ipairs({"SetSize","SetPoint","Show","Hide","SetMovable","EnableMouse","SetClampedToScreen","RegisterForDrag","SetFrameStrata","SetScale","SetAlpha","ClearAllPoints","SetBackdrop","SetBackdropColor","SetBackdropBorderColor","SetResizable","SetResizeBounds","SetText","SetAttribute","SetHighlightTexture","RegisterForClicks","SetAllPoints","SetTexCoord","SetTexture","SetJustifyH","SetWidth","SetWordWrap","SetMaxLines","SetTextColor","SetHeight","SetAutoFocus","SetScrollChild","SetChecked","SetColorTexture","SetRotation","SetCooldown","SetMinMaxValues","SetValueStep","SetObeyStepOnDrag","SetValue","SetBlendMode","SetLooping","SetOffset","SetDuration","SetSmoothing","Play","Stop","SetVertexColor","SetFrameLevel","SetParent"}) do f[m] = function() end end
+    function f:CreateTexture() return CreateFrame() end function f:CreateAnimationGroup() return CreateFrame() end function f:CreateAnimation() return CreateFrame() end function f:CreateFontString() return CreateFrame() end function f:IsShown() return false end function f:GetPoint() return "CENTER",nil,nil,0,0 end
     f.Text = CreateFrame and { SetText = function() end } or nil
     return f end
 UIParent = {}; UISpecialFrames = {}
@@ -17,6 +17,7 @@ strsplit = function(sep, s) local out = {} for piece in (s .. sep):gmatch("(.-)"
 strtrim = function(s) return s:match("^%s*(.-)%s*$") end
 C_Timer = { After = function(_, fn) fn() end }
 function GetTime() return os.clock() end
+date = os.date
 function debugprofilestop() return os.clock() * 1000 end
 function UnitFactionGroup() return "Alliance" end
 function UnitClass() return "Warrior", "WARRIOR" end
@@ -30,6 +31,11 @@ function IsMounted() return false end
 function InCombatLockdown() return false end
 function GetBindLocation() return "Goldshire" end
 function GetPlayerFacing() return 0 end
+function UnitExists(u) return u == "target" end
+NAMEPLATES = {}
+C_NamePlate = { GetNamePlates = function() return NAMEPLATES end,
+    GetNamePlateForUnit = function(u) for _, pl in ipairs(NAMEPLATES) do if pl.namePlateUnitToken == u then return pl end end end }
+HBD_PINS_WORLDMAP_SHOW_PARENT = 1
 C_QuestLog = { IsQuestFlaggedCompleted = function() return false end, IsOnQuest = function() return false end, GetQuestObjectives = function() return {} end, GetLogIndexForQuestID = function() return nil end }
 C_Item = { GetItemCount = function(id) return id == 6948 and 1 or 0 end, GetItemNameByID = function(id) return "item" .. id end, GetItemIconByID = function() return "" end }
 C_Container = { GetItemCooldown = function() return 0, 0 end }
@@ -56,7 +62,7 @@ local function load(path)
     end
     local fn = assert(loadfile("OpenRoute/" .. path)) fn(ADDON, NS)
 end
-for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Routing/TravelGraph.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Progress.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
+for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Routing/TravelGraph.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Account.lua", "Core/Progress.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
 -- fake ADDON_LOADED
 OpenRouteDB, OpenRouteCharDB = nil, nil
 for _, h in ipairs(NS.wowHandlers.ADDON_LOADED) do h("ADDON_LOADED", "OpenRoute") end
@@ -189,4 +195,76 @@ local sr = T.searchRows("elwynn")
 if BAKED then assert(#sr > 0, "search 'elwynn' found nothing") end
 for _, r in ipairs(sr) do assert(r.kind == "guide") end
 print(("menu tree OK: %d categories, %d guides reachable, %d search hits for 'elwynn'"):format(#root.kids, guideRows, #sr))
+
+-- 7) account-wide progression
+NS.Account.Init()
+local AK = NS.Account.key
+assert(AK == "Tester-Test", "account key " .. tostring(AK))
+NS.Guide.Register({ id = "t:acct", name = "Acct Test", faction = "Alliance", minlevel = 1, maxlevel = 5, source = "test",
+    text = "A One|QID|901|M|48,42|Z|1429; Elwynn Forest|\nA Two|QID|902|M|49,42|Z|1429; Elwynn Forest|\nA Three|QID|903|M|50,42|Z|1429; Elwynn Forest|\nA Four|QID|904|M|51,42|Z|1429; Elwynn Forest|" })
+local ast = NS.Guide.Steps("t:acct")
+assert(#ast == 4, "acct guide steps " .. #ast)
+NS.Progress.Load("t:acct")
+NS.Progress.MarkDone(ast[1])
+local cn, cp = NS.Account.GuideProgress("t:acct", 4, "char")
+assert(cn == 1 and cp == 25, ("char progress %d/%d%%"):format(cn, cp))
+-- a second character on the account finished steps 2 and 3
+NS.db.global.chars["Alt-Test"] = { name = "Alt", realm = "Test", class = "MAGE", faction = "Alliance",
+    done = { ["t:acct"] = { [2] = true, [3] = true } }, skipped = {} }
+local an, ap = NS.Account.GuideProgress("t:acct", 4, "account")
+assert(an == 3 and ap == 75, ("account progress %d/%d%%"):format(an, ap))
+-- opt-in OFF: the alt's work must not affect this character
+NS.db.profile.accountWide = false
+assert(NS.Progress.IsDone(ast[2]) == false, "accountWide OFF leaked the alt's progress")
+assert(NS.Account.OtherDid("t:acct", 2) == false, "OtherDid must respect the opt-in")
+-- opt-in ON: it does
+NS.db.profile.accountWide = true
+assert(NS.Progress.IsDone(ast[2]) == true, "accountWide ON did not honour the alt's progress")
+assert(NS.Account.OtherDid("t:acct", 2) == "Alt-Test")
+assert(NS.Progress.IsDone(ast[4]) == false, "step nobody did came back done")
+-- pending list shrinks to the one step no character has done
+NS.Progress.Refresh()
+local pend = NS.Progress.Pending(10)
+assert(#pend == 1 and pend[1].index == 4, "pending = " .. #pend)
+assert(#NS.Account.Characters() == 2, "character roster")
+assert(NS.Account.Forget("Alt-Test") == true and NS.Account.Forget(AK) == false, "forget rules")
+NS.db.global.chars["Alt-Test"] = { name = "Alt", done = { ["t:acct"] = { [2] = true, [3] = true } } }
+NS.db.profile.accountWide = false
+print("account-wide progression OK: char 25%, account 75%, opt-in gate honoured both ways")
+
+-- 8) target beacon
+local Bfn = assert(loadfile("OpenRoute/UI/Beacon.lua")) Bfn(ADDON, NS)
+local BT = NS.Beacon
+assert(BT._test.cleanName("Marshal McBride ") == "Marshal McBride")
+assert(BT._test.cleanName("Kobold Vermin (x8)") == "Kobold Vermin")
+assert(BT._test.cleanName("12") == nil, "numeric fragment accepted as a name")
+local function wantsFor(line)
+    local st = NS.Guide.ParseLine(line, 1) st.index = 1
+    NS.Progress.current = st
+    NS.Progress.order = { st }
+    return NS.Beacon.WantedNames()
+end
+local w = wantsFor("A Kobold Camp Cleanup|QID|11|M|48,42|Z|1429; Elwynn Forest|N|from Marshal McBride|T|Marshal McBride|")
+assert(w["marshal mcbride"] == "Marshal McBride", "|T| target not picked up")
+w = wantsFor("T A Threat Within|QID|12|M|48,42|Z|1429; Elwynn Forest|")
+assert(w["a threat within"] == nil, "turn-in with no 'to' should not invent a name")
+w = wantsFor("T Report to Goldshire to Marshal Dughan|QID|13|M|43,65|Z|1429; Elwynn Forest|")
+assert(w["marshal dughan"] == "Marshal Dughan", "turn-in NPC not mined from title: " .. tostring(next(w)))
+w = wantsFor("K Kill Hogger|QID|14|M|30,50|Z|1429; Elwynn Forest|")
+assert(w["hogger"] == "Hogger", "kill target not mined")
+w = wantsFor("A Bounty on Murlocs from Guard Thomas|QID|15|M|43,65|Z|1429; Elwynn Forest|")
+assert(w["guard thomas"] == "Guard Thomas", "accept NPC not mined")
+-- nameplate marker attaches only for wanted units, and clears when the step moves on
+NAMEPLATES = { { namePlateUnitToken = "nameplate1" }, { namePlateUnitToken = "nameplate2" } }
+UnitName = function(u) return u == "nameplate1" and "Guard Thomas" or "Random Critter" end
+NS.Beacon.RescanPlates()
+assert(NS.Beacon.count == 1, "wanted-name count " .. tostring(NS.Beacon.count))
+NS.db.profile.beacon.enabled = false
+NS.Beacon.RescanPlates()
+NS.db.profile.beacon.enabled = true
+NS.Beacon.UpdateTargetButton()
+assert(NS.Beacon.targetButton.targetName == "Guard Thomas", "target button macro name = " .. tostring(NS.Beacon.targetButton.targetName))
+UnitName = function() return "Tester" end
+print("target beacon OK: names mined from |T| and titles, nameplate marker + /target button wired")
+
 print("ALL OFFLINE TESTS PASSED")
