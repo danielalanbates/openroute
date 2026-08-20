@@ -1,11 +1,11 @@
--- OpenRoute :: tools/export_guides.lua  (run with luajit on the Mac, NOT in WoW)
--- Bakes locally-installed Zygor + WoW-Pro guide files into OpenRoute data files so the
+-- CompletionRoute :: tools/export_guides.lua  (run with luajit on the Mac, NOT in WoW)
+-- Bakes locally-installed Zygor + WoW-Pro guide files into CompletionRoute data files so the
 -- addon is fully standalone (source addons can stay disabled).  Output files contain
 -- proprietary (Zygor) / CC BY-NC-ND (WoW-Pro) text: they are gitignored, never committed.
 -- Usage: luajit tools/export_guides.lua "<WoW _anniversary_ dir>"
 local WOW = arg[1] or "/Volumes/x10/Video Games/Mac/World of Warcraft/_anniversary_"
 local AD = WOW .. "/Interface/AddOns"
-local OUT = (arg[0]:match("^(.*)/tools/") or ".") .. "/OpenRoute/Guides"
+local OUT = (arg[0]:match("^(.*)/tools/") or ".") .. "/CompletionRoute/Guides"
 
 local function listLua(dir)
     local out = {}

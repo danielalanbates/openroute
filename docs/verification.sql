@@ -1,4 +1,4 @@
--- OpenRoute :: verification chart of record
+-- CompletionRoute :: verification chart of record
 -- Applies to docs/verification.sqlite, which tools/collect_verify.py populates directly from each
 -- WoW flavor's SavedVariables after running /or verifyall and /or verifyfeatures in the live client.
 --   sqlite3 docs/verification.sqlite < docs/verification.sql     -- (re)create schema + read the report

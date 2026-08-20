@@ -1,7 +1,7 @@
--- Offline smoke test for OpenRoute's parser + routing, run with: luajit tools/test_offline.lua
+-- Offline smoke test for CompletionRoute's parser + routing, run with: luajit tools/test_offline.lua
 -- Stubs just enough of the WoW API + HereBeDragons to exercise Guide.ParseLine, TravelGraph.FindPath, StepOrder.
 package.path = "./?.lua;" .. package.path
-local ADDON, NS = "OpenRoute", {}
+local ADDON, NS = "CompletionRoute", {}
 -- ---- WoW API stubs ----
 local frames = {}
 function CreateFrame() local f = { scripts = {} } function f:RegisterEvent() end function f:SetScript(k, v) self.scripts[k] = v end
@@ -57,15 +57,15 @@ LibStub = function(name) if name == "HereBeDragons-2.0" then return HBD end retu
 PLAYER = { map = 1429, x = 0.487, y = 0.42 } PLAYER.wx, PLAYER.wy, PLAYER.inst = z2w(PLAYER.x, PLAYER.y, PLAYER.map)
 -- ---- load addon files ----
 local function load(path)
-    if path:match("^Guides/Imported_") and not io.open("OpenRoute/" .. path, "r") then
+    if path:match("^Guides/Imported_") and not io.open("CompletionRoute/" .. path, "r") then
         print("skip " .. path .. " (baked locally, gitignored)") return
     end
-    local fn = assert(loadfile("OpenRoute/" .. path)) fn(ADDON, NS)
+    local fn = assert(loadfile("CompletionRoute/" .. path)) fn(ADDON, NS)
 end
 for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Routing/TravelGraph.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Account.lua", "Core/Progress.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
 -- fake ADDON_LOADED
-OpenRouteDB, OpenRouteCharDB = nil, nil
-for _, h in ipairs(NS.wowHandlers.ADDON_LOADED) do h("ADDON_LOADED", "OpenRoute") end
+CompletionRouteDB, CompletionRouteCharDB = nil, nil
+for _, h in ipairs(NS.wowHandlers.ADDON_LOADED) do h("ADDON_LOADED", "CompletionRoute") end
 NS.db.profile.debug = true
 NS.db.profile.routing.assumeAllTaxi = true
 -- 1) parser
@@ -125,7 +125,7 @@ assert(NS.Guide.SuggestNext(nil) == nil or true)                  -- must not er
 UnitLevel = function() return 8 end                               -- gap: 8 not in 10-20, elwynn/darkshore 5-10 still fit
 print("SuggestNext exclude/refit OK")
 -- 5) baked guide import (standalone, no Zygor/WoWPro addons)
-local BAKED = io.open("OpenRoute/Guides/Imported_Zygor.lua", "r") ~= nil
+local BAKED = io.open("CompletionRoute/Guides/Imported_Zygor.lua", "r") ~= nil
 local nz = NS.Adapters.Zygor.ImportStatic()
 local nw = NS.Adapters.WoWPro.ImportStatic()
 print(("baked import: %d zygor, %d wowpro"):format(nz, nw))
@@ -146,7 +146,7 @@ if BAKED then
     print("baked guides parse OK")
 end
 -- 5b) generated quest DB guides (flavor-gated: harness reports TBC 2.5.6 -> only _tbc loads)
-local fq = io.open("OpenRoute/Guides/Imported_Quests_tbc.lua")
+local fq = io.open("CompletionRoute/Guides/Imported_Quests_tbc.lua")
 if fq then
     fq:close()
     for _, qf in ipairs({ "Guides/Imported_Quests_era.lua", "Guides/Imported_Quests_tbc.lua" }) do load(qf) end
@@ -167,24 +167,39 @@ else
 end
 -- 6) guide menu tree (organization): categories ordered, every guide reachable, search works
 GameTooltip = CreateFrame()
-local fn = assert(loadfile("OpenRoute/UI/GuideMenu.lua")) fn(ADDON, NS)
+local fn = assert(loadfile("CompletionRoute/UI/GuideMenu.lua")) fn(ADDON, NS)
 local T = NS.GuideMenu._test
 local root = T.buildTree()
 assert(#root.kids >= 1, "tree has no top-level categories")
 if BAKED then assert(#root.kids > 1, "tree has only " .. #root.kids .. " top-level categories") end
-assert(root.kids[1].name == "Leveling", "first category is " .. root.kids[1].name .. " (want Leveling)")
+-- "Next Step" is the synthetic level-matched bucket and always sorts first when non-empty;
+-- Leveling is the first real category after it.
+local firstReal = root.kids[1].name == "Next Step" and root.kids[2] or root.kids[1]
+assert(firstReal and firstReal.name == "Leveling", "first real category is " .. tostring(firstReal and firstReal.name))
 local total = #NS.Guide.Available()
-assert(root.count == total, ("tree count %d ~= available %d"):format(root.count, total))
+local nextN = #NS.GuideMenu.NextStepGuides(true)
+assert(root.count == total + nextN, ("tree count %d ~= available %d + next %d"):format(root.count, total, nextN))
+assert(root.kids[1].name == "Next Step" or nextN == 0, "Next Step is not the first category")
+-- every Next Step guide must actually contain the player's level (or be level-agnostic)
+UnitLevel = function() return 8 end
+for _, g in ipairs(NS.GuideMenu.NextStepGuides(true)) do
+    if g.minlevel or g.maxlevel then
+        assert((not g.minlevel or 8 >= g.minlevel) and (not g.maxlevel or 8 <= g.maxlevel + 0.99),
+            ("Next Step offered %s [%s-%s] at level 8"):format(g.id, tostring(g.minlevel), tostring(g.maxlevel)))
+    end
+end
+print(("Next Step OK: %d level-matched guides at level 8"):format(#NS.GuideMenu.NextStepGuides(true)))
 -- expand everything: every guide must appear exactly once as a row
 local function expandAll(n) for _, k in ipairs(n.kids) do T.expanded[k.path] = true expandAll(k) end end
 expandAll(root)
 local rows = T.visibleRows()
 local guideRows = 0 for _, r in ipairs(rows) do if r.kind == "guide" then guideRows = guideRows + 1 end end
-assert(guideRows == total, ("expanded rows %d ~= available %d"):format(guideRows, total))
+assert(guideRows == total + nextN, ("expanded rows %d ~= available %d + next %d"):format(guideRows, total, nextN))
 for k in pairs(T.expanded) do T.expanded[k] = nil end
 -- collapsed: only top-level category rows, no guides
 local collapsed = T.visibleRows()
 for _, r in ipairs(collapsed) do assert(r.kind == "node" and r.depth == 0, "collapsed view leaked a non-root row") end
+assert(#collapsed == #root.kids, "collapsed row count")
 -- zygor guides keep their folder structure (a Leveling subfolder exists)
 if BAKED then
     local lev = root.kidByName["Leveling"]
@@ -249,7 +264,7 @@ NS.db.profile.accountWide = false
 print("account-wide progression OK: char 25%, account 75%, opt-in gate honoured both ways")
 
 -- 8) target beacon
-local Bfn = assert(loadfile("OpenRoute/UI/Beacon.lua")) Bfn(ADDON, NS)
+local Bfn = assert(loadfile("CompletionRoute/UI/Beacon.lua")) Bfn(ADDON, NS)
 local BT = NS.Beacon
 assert(BT._test.cleanName("Marshal McBride ") == "Marshal McBride")
 assert(BT._test.cleanName("Kobold Vermin (x8)") == "Kobold Vermin")
@@ -268,6 +283,10 @@ w = wantsFor("T Report to Goldshire to Marshal Dughan|QID|13|M|43,65|Z|1429; Elw
 assert(w["marshal dughan"] == "Marshal Dughan", "turn-in NPC not mined from title: " .. tostring(next(w)))
 w = wantsFor("K Kill Hogger|QID|14|M|30,50|Z|1429; Elwynn Forest|")
 assert(w["hogger"] == "Hogger", "kill target not mined")
+w = wantsFor("N Talk to Shadow Hunter Denjai|M|48,42|Z|1429; Elwynn Forest|")
+assert(w["shadow hunter denjai"] == "Shadow Hunter Denjai", "note 'Talk to X' not mined: " .. tostring(next(w)))
+w = wantsFor("C Kill 6 Cavern Crawler|QID|16|M|48,42|Z|1429; Elwynn Forest|")
+assert(next(w) == nil or w["cavern crawler"] ~= nil, "C step invented a bad name: " .. tostring(next(w)))
 w = wantsFor("A Bounty on Murlocs from Guard Thomas|QID|15|M|43,65|Z|1429; Elwynn Forest|")
 assert(w["guard thomas"] == "Guard Thomas", "accept NPC not mined")
 -- nameplate marker attaches only for wanted units, and clears when the step moves on
