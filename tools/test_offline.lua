@@ -227,6 +227,22 @@ NS.Progress.Refresh()
 local pend = NS.Progress.Pending(10)
 assert(#pend == 1 and pend[1].index == 4, "pending = " .. #pend)
 assert(#NS.Account.Characters() == 2, "character roster")
+-- quest-level union: an alt that turned in a quest clears the matching step in ANOTHER guide
+NS.Guide.Register({ id = "t:acct2", name = "Acct Test B", faction = "Alliance", minlevel = 1, maxlevel = 5, source = "test",
+    text = "T One|QID|901|M|48,42|Z|1429; Elwynn Forest|\nT Nine|QID|909|M|48,42|Z|1429; Elwynn Forest|" })
+local bst = NS.Guide.Steps("t:acct2")
+NS.db.global.chars["Alt-Test"].quests = { [901] = true }
+NS.db.profile.accountWide = true
+NS.Progress.Load("t:acct2")
+assert(NS.Progress.IsDone(bst[1]) == true, "quest 901 done on an alt did not clear the step in another guide")
+assert(NS.Progress.IsDone(bst[2]) == false, "quest nobody did came back done")
+NS.db.profile.accountQuests = false
+assert(NS.Progress.IsDone(bst[1]) == false, "accountQuests=false still unioned by quest id")
+NS.db.profile.accountQuests = true
+NS.db.profile.accountWide = false
+assert(NS.Progress.IsDone(bst[1]) == false, "accountWide=false still unioned by quest id")
+NS.db.profile.accountWide = true
+NS.Progress.Load("t:acct")
 assert(NS.Account.Forget("Alt-Test") == true and NS.Account.Forget(AK) == false, "forget rules")
 NS.db.global.chars["Alt-Test"] = { name = "Alt", done = { ["t:acct"] = { [2] = true, [3] = true } } }
 NS.db.profile.accountWide = false
