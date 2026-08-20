@@ -65,7 +65,7 @@ local function load(path)
     end
     local fn = assert(loadfile("CompletionRoute/" .. path)) fn(ADDON, NS)
 end
-for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Routing/TravelGraph.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Account.lua", "Core/Progress.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
+for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Inns.lua", "Data/Roads_ek.lua", "Data/Roads_kalimdor.lua", "Routing/TravelGraph.lua", "Routing/Roads.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Account.lua", "Core/Progress.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
 -- fake ADDON_LOADED
 CompletionRouteDB, CompletionRouteCharDB = nil, nil
 for _, h in ipairs(NS.wowHandlers.ADDON_LOADED) do h("ADDON_LOADED", "CompletionRoute") end
@@ -435,6 +435,62 @@ do
     assert(NS.TravelGraph.IsTaxiKnown(sample) == true, "learned node not reported as known")
     NS.db.profile.routing.assumeAllTaxi = true
     print("taxi learning OK: NodeByName resolves classic flight-master names")
+end
+
+-- faction policy: with ZERO learned flight paths the route must still fly (walk to the flight master first)
+do
+    NS.db.char.knownTaxi = {}
+    NS.db.profile.routing.assumeAllTaxi = nil
+    NS.db.profile.routing.taxiPolicy = "faction"
+    assert(NS.TravelGraph.TaxiPolicy() == "faction")
+    local sx, sy, si = z2w(0.42, 0.65, 1429)      -- Goldshire
+    local gx, gy, gi = z2w(0.5, 0.5, 1437)        -- Wetlands (far: flying should win)
+    local p = NS.TravelGraph.FindPath(sx, sy, si, gx, gy, gi, { hearth = false })
+    assert(p, "no path Goldshire->Wetlands")
+    local flew, discover = false, false
+    for _, l in ipairs(p.legs) do if l.mode == "taxi" then flew = true if l.discover then discover = true end end end
+    assert(flew, "faction policy did not use a flight: " .. NS.TravelGraph.Describe(p))
+    assert(discover, "unlearned flight not labelled as discover")
+    print("faction taxi OK:", NS.TravelGraph.Describe(p))
+    NS.db.profile.routing.taxiPolicy = "known"
+    local p2 = NS.TravelGraph.FindPath(sx, sy, si, gx, gy, gi, { hearth = false })
+    for _, l in ipairs(p2.legs) do assert(l.mode ~= "taxi", "known policy flew with nothing learned") end
+    print("known taxi OK: walks when nothing is learned")
+    NS.db.profile.routing.taxiPolicy = "faction"
+end
+
+-- roads: authored polylines become graph vertices; a detour road beats the straight line only when cheaper,
+-- and the path keeps its via points so the arrow can follow it
+do
+    assert((NS.TravelGraph.roadCount or 0) > 0, "no road vertices built from Data/Roads_*.lua")
+    -- synthetic road on EK: a gentle arc between A and B (shorter in cost than off-road straight line x1.25)
+    local A = { -9000, 300 } local B = { -9000, 1200 }
+    local old = NS.RoadData
+    NS.RoadData = { { inst = 0, name = "test arc", w = { A, { -8990, 600 }, { -8990, 900 }, B } } }
+    NS.TravelGraph.RebuildRoads()
+    local p = NS.TravelGraph.FindPath(A[1], A[2] - 10, 0, B[1], B[2] + 10, 0, { hearth = false, taxi = false, transit = false })
+    assert(p and p.legs[1] and p.legs[1].road, "router did not take the road: " .. NS.TravelGraph.Describe(p))
+    assert(p.legs[1].via and #p.legs[1].via >= 2, "road via points missing")
+    print("roads OK:", NS.TravelGraph.Describe(p))
+    -- a big detour road must NOT be taken
+    NS.RoadData = { { inst = 0, name = "test detour", w = { A, { -7000, 600 }, { -7000, 900 }, B } } }
+    NS.TravelGraph.RebuildRoads()
+    p = NS.TravelGraph.FindPath(A[1], A[2] - 10, 0, B[1], B[2] + 10, 0, { hearth = false, taxi = false, transit = false })
+    assert(p and not p.legs[1].road, "router took a 4000-yd detour road")
+    print("roads OK: detour rejected")
+    NS.RoadData = old
+    NS.TravelGraph.RebuildRoads()
+    -- recorder: decimation + segment break + feeding back into the graph
+    NS.db.global = NS.db.global or {}
+    NS.db.global.roadTrace = { [0] = { { { -20000, 20000 }, { -20025, 20000 }, { -20050, 20000 }, { -20075, 20000 }, { -20100, 20000 } } } }
+    local before = NS.TravelGraph.roadCount
+    NS.TravelGraph.RebuildRoads()
+    assert(NS.TravelGraph.roadCount == before + 5, "recorded trace did not enter the graph")
+    local segs, pts = NS.Roads.Stats()
+    assert(segs == 1 and pts == 5)
+    NS.db.global.roadTrace = {}
+    NS.TravelGraph.RebuildRoads()
+    print("road recorder OK: traces feed the graph")
 end
 
 -- picking a guide must SHOW the guide window (it read as "the guide was deleted" when hidden)
