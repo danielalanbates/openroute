@@ -14,6 +14,7 @@ INSERT INTO runs VALUES(8,'mop','_classic_','2026-08-20 11:24:12','2026-08-20 11
 INSERT INTO runs VALUES(9,'tbc','_anniversary_','2026-08-20 18:38:44','2026-08-20 18:42:36',1641,1641,0);
 INSERT INTO runs VALUES(10,'era','_classic_era_','2026-08-20 18:54:19','2026-08-20 18:55:37',1445,1445,0);
 INSERT INTO runs VALUES(11,'mop','_classic_','2026-08-21 08:19:45','2026-08-21 08:28:49',1311,1311,0);
+INSERT INTO runs VALUES(12,'retail','_retail_','2026-08-21 09:56:41','2026-08-21 11:27:12',9519,9519,0);
 CREATE TABLE failures(
             run_id INTEGER REFERENCES runs(id), guide_id TEXT, error TEXT);
 INSERT INTO failures VALUES(1,'wowpro:ClassicTeldrassil0112','4 line errors');
@@ -151,6 +152,7 @@ INSERT INTO feature_runs VALUES(15,'mop','_classic_','50504','0.1.0','2026-08-20
 INSERT INTO feature_runs VALUES(16,'retail','_retail_','120100','0.1.0','2026-08-21 07:45:34',16,0);
 INSERT INTO feature_runs VALUES(17,'mop','_classic_','50504','0.1.0','2026-08-21 08:19:40',16,0);
 INSERT INTO feature_runs VALUES(18,'retail','_retail_','120100','0.1.0','2026-08-21 10:27:49',16,0);
+INSERT INTO feature_runs VALUES(19,'retail','_retail_','120100','0.1.0','2026-08-21 10:59:30',16,0);
 CREATE TABLE feature_checks(
     run_id  INTEGER REFERENCES feature_runs(id),
     feature TEXT,   -- beacon | account | core
@@ -445,6 +447,22 @@ INSERT INTO feature_checks VALUES(18,'account','quest-level union',1,'593 quests
 INSERT INTO feature_checks VALUES(18,'core','guides registered',1,'9519');
 INSERT INTO feature_checks VALUES(18,'core','guide loaded + routed',1,'zygor:DUNGEONS\\Shadowlands Dungeons\\Tazavesh');
 INSERT INTO feature_checks VALUES(18,'core','arrow shown',1,'visible');
+INSERT INTO feature_checks VALUES(19,'beacon','module loaded',1,'');
+INSERT INTO feature_checks VALUES(19,'beacon','names mined from current step',1,'none on this step');
+INSERT INTO feature_checks VALUES(19,'beacon','nameplate source',1,'modern=0 legacy=0 -> using WorldFrame');
+INSERT INTO feature_checks VALUES(19,'beacon','nameplate rescan runs',1,'0 tracked names');
+INSERT INTO feature_checks VALUES(19,'beacon','map pin library',1,'');
+INSERT INTO feature_checks VALUES(19,'beacon','pins placed for step coords',1,'1 pin(s) on map 1165');
+INSERT INTO feature_checks VALUES(19,'beacon','target button secure macro',1,'no named target on this step');
+INSERT INTO feature_checks VALUES(19,'account','store initialised',1,'Orialan-Muradin');
+INSERT INTO feature_checks VALUES(19,'account','opt-in flag',1,'accountWide=false');
+INSERT INTO feature_checks VALUES(19,'account','character roster',1,'6 character(s): Orialan-Muradin(449)');
+INSERT INTO feature_checks VALUES(19,'account','per-guide progress math',1,'char 0/5 (0%)');
+INSERT INTO feature_checks VALUES(19,'account','opt-in gate honoured',1,'off => other characters ignored');
+INSERT INTO feature_checks VALUES(19,'account','quest-level union',1,'593 quests recorded');
+INSERT INTO feature_checks VALUES(19,'core','guides registered',1,'9519');
+INSERT INTO feature_checks VALUES(19,'core','guide loaded + routed',1,'zygor:PETSMOUNTS\\Battle Pets\\Beast Pets\\Kunchong Hatchling -> N Expedition Map');
+INSERT INTO feature_checks VALUES(19,'core','arrow shown',1,'visible');
 CREATE TABLE route_sweep(
   flavor TEXT, at TEXT, guide TEXT, name TEXT, type TEXT, faction TEXT, zone INTEGER, zone_name TEXT,
   steps INTEGER, located INTEGER, unknown_zone INTEGER, window INTEGER, order_ok INTEGER, order_reason TEXT,
@@ -7757,6 +7775,7 @@ CREATE TABLE ingame_sweep_partials(
             total INTEGER, done INTEGER, steps INTEGER, located INTEGER, precedence INTEGER, slower INTEGER,
             no_route INTEGER, ui_empty INTEGER, load_fail INTEGER, UNIQUE(flavor, started));
 INSERT INTO ingame_sweep_partials VALUES(3,'retail','_retail_','2026-08-21 07:45:50','2026-08-21 08:49:18','Orgrimmar',9456,2230,174117,167724,0,0,541,0,0);
+INSERT INTO ingame_sweep_partials VALUES(4,'retail','_retail_','2026-08-21 10:59:45','2026-08-21 11:29:45','Orgrimmar',9456,2840,182539,174066,0,0,848,0,0);
 CREATE TABLE run_partials(
             id INTEGER PRIMARY KEY, flavor TEXT, client_dir TEXT, started TEXT, collected TEXT,
             total INTEGER, done INTEGER, failed INTEGER, UNIQUE(flavor, started));
