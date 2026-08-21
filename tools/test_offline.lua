@@ -447,8 +447,40 @@ do
     assert(src:find('NS:On%("GUIDE_LOADED", function%(%)%s*\n%s*%-%-'), "GUIDE_LOADED handler shape changed")
     assert(src:find("if not f:IsShown%(%) then f:Show%(%) end"), "loading a guide must show the guide window")
     assert(src:find("function GF.ShowDetail"), "no step detail popup")
-    assert(src:find("else GF.ShowDetail%(self.step%) end"), "left-clicking a step must open its details")
-    print("guide selection UX OK: window opens on load, rows open a detail popup")
+    assert(src:find("GF.ShowDetail%(self.step%)"), "clicking the step card must open its details")
+    assert(not src:find("UICheckButtonTemplate"), "the guide window must not have a tick box - steps complete themselves")
+    assert(src:find("P.Undo%(%)") and src:find("P.MarkDone%(P.current, true%)"), "back/forward arrows missing")
+    print("guide selection UX OK: window opens on load, one step at a time, arrows, no checkbox")
+end
+
+-- login sync: completed quests come from the client, and a guide is "(Character)" only when WHOLLY done
+do
+    local A = NS.Account
+    NS.Guide.Register({ id = "t:sync", name = "Sync Test", text = "A One|QID|5001|\nT One|QID|5001|\nA Two|QID|5002|\nT Two|QID|5002|" })
+    local g = NS.Guide.registry["t:sync"]
+    COMPLETED_QUESTS = { 5001 }
+    A.me.quests = {}
+    assert(A.HarvestCompleted(true) == 1, "harvest did not pick up the completed quest")
+    assert(A.me.quests[5001], "harvested quest not stored on the character")
+    assert(A.GuideCompletedBy(g) == nil, "half-finished guide reported as complete")
+    COMPLETED_QUESTS = { 5001, 5002 }
+    A.HarvestCompleted(true)
+    local key, who = A.GuideCompletedBy(g)
+    assert(key == A.key and who, "wholly finished guide not credited to this character")
+    -- another character finished a different guide wholly
+    NS.Guide.Register({ id = "t:sync2", name = "Sync Test 2", text = "A Three|QID|5003|\nT Three|QID|5003|" })
+    NS.db.global.chars["Alt-Test"] = { name = "Alt", faction = "Alliance", quests = { [5003] = true } }
+    A.completedCache = {}
+    local _, who2 = A.GuideCompletedBy(NS.Guide.registry["t:sync2"])
+    assert(who2 == "Alt", "alt's wholly finished guide not credited: " .. tostring(who2))
+    -- autofill: loading the half-done guide auto-completes the finished quest's steps
+    COMPLETED_QUESTS = { 5001 }
+    A.me.quests = {} A.completedCache = {}
+    NS.Progress.Load("t:sync")
+    assert(NS.Progress.current and NS.Progress.current.qid[1] == 5002, "autofill did not skip past the completed quest: " .. tostring(NS.Progress.current and NS.Progress.current.title))
+    COMPLETED_QUESTS = {}
+    NS.db.global.chars["Alt-Test"] = nil
+    print("login sync OK: harvest, autofill, (Character) only when wholly complete")
 end
 
 -- 9) every documented slash subcommand is actually handled.
