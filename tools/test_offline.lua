@@ -227,6 +227,50 @@ do
 end
 print("account-wide progression OK: char 25%, account 75%, opt-in gate honoured both ways")
 
+-- ---------------------------------------------------------------------------
+-- Manual step navigation: Back must reopen the previous step and KEEP it open even though the
+-- game still reports its quest as complete (that re-tick is what made the Back arrow a no-op).
+-- ---------------------------------------------------------------------------
+do
+    NS.db.profile.accountWide = false
+    NS.Guide.Register({ id = "t:nav", name = "Nav Test", faction = "Alliance", minlevel = 1, maxlevel = 5, source = "test",
+        text = "T One|QID|801|M|48,42|Z|1429; Elwynn Forest|\nT Two|QID|802|M|48,42|Z|1429; Elwynn Forest|\nT Three|QID|803|M|48,42|Z|1429; Elwynn Forest|" })
+    COMPLETED_QUESTS = { 801, 802 }   -- the game says these two are already finished
+    NS.Progress.Load("t:nav")
+    local st = NS.Progress.steps
+    NS.Progress.Refresh()
+    assert(NS.Progress.current == st[3], "autofill should land on step 3")
+    NS.Progress.Undo()
+    assert(NS.Progress.current == st[2], "Back did not move to step 2")
+    NS.Progress.Refresh()
+    assert(NS.Progress.current == st[2], "Back was undone by the auto-completer")
+    NS.Progress.Undo()
+    assert(NS.Progress.current == st[1], "second Back did not reach step 1")
+    NS.Progress.Forward()
+    assert(NS.Progress.current == st[2], "Forward did not advance")
+    -- a done step far AHEAD of the current one must not be what Back picks
+    NS.Progress.MarkDone(st[3])
+    NS.Progress.Undo()
+    assert(NS.Progress.current ~= st[3], "Back jumped forward to a look-ahead step")
+    NS.Progress.Reset()
+    COMPLETED_QUESTS = {}
+end
+print("manual step navigation OK: Back reopens and pins, Forward advances")
+
+-- PRE lists: ";" = any one prerequisite, "&" = all of them
+do
+    local one = NS.Guide.ParseLine("A Vengeful|QID|10842|PRE|10849;10852|M|37,50|Z|1952; Terokkar Forest|", 1)
+    local all = NS.Guide.ParseLine("A Vengeful|QID|10842|PRE|10849&10852|M|37,50|Z|1952; Terokkar Forest|", 1)
+    assert(one.pre.andor == "or" and all.pre.andor == "and", "PRE and/or parse")
+    COMPLETED_QUESTS = { 10849 }
+    assert(NS.Cond.StepApplies(one) == true, "any-of prereq with one done should apply")
+    assert(NS.Cond.StepApplies(all) == false, "all-of prereq with one missing should not apply")
+    COMPLETED_QUESTS = { 10849, 10852 }
+    assert(NS.Cond.StepApplies(all) == true, "all-of prereq fully done should apply")
+    COMPLETED_QUESTS = {}
+end
+print("prereq gating OK: any-of vs all-of PRE lists")
+
 -- 8) target beacon
 local Bfn = assert(loadfile("CompletionRoute/UI/Beacon.lua")) Bfn(ADDON, NS)
 local BT = NS.Beacon
@@ -449,7 +493,7 @@ do
     assert(src:find("function GF.ShowDetail"), "no step detail popup")
     assert(src:find("GF.ShowDetail%(self.step%)"), "clicking the step card must open its details")
     assert(not src:find("UICheckButtonTemplate"), "the guide window must not have a tick box - steps complete themselves")
-    assert(src:find("P.Undo%(%)") and src:find("P.MarkDone%(P.current, true%)"), "back/forward arrows missing")
+    assert(src:find("P.Undo%(%)") and src:find("P.Forward%(%)"), "back/forward arrows missing")
     print("guide selection UX OK: window opens on load, one step at a time, arrows, no checkbox")
 end
 
