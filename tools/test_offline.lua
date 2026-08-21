@@ -161,6 +161,41 @@ if BAKED then assert(#sr > 0, "search 'elwynn' found nothing") end
 for _, r in ipairs(sr) do assert(r.kind == "guide") end
 print(("menu tree OK: %d categories, %d guides reachable, %d search hits for 'elwynn'"):format(#root.kids, guideRows, #sr))
 
+-- ---------------------------------------------------------------------------
+-- Guide menu header + the completion column on the right of every row
+-- ---------------------------------------------------------------------------
+do
+    local src = (function() local h = assert(io.open("CompletionRoute/UI/GuideMenu.lua")) local t = h:read("*a") h:close() return t end)()
+    assert(src:find('"CheckButton", "CompletionRouteGuideMenuScope"'), "no scope check box at the top of the guide menu")
+    assert(src:find("All characters") and src:find("This character"), "scope label must name both states")
+    assert(src:find("b.right"), "no right-hand completion column")
+    assert(src:find("completed"), "completion count text missing")
+
+    -- label follows the setting, both ways
+    NS.db.profile.accountWide = true  NS.GuideMenu.UpdateScopeLabel()
+    NS.db.profile.accountWide = false NS.GuideMenu.UpdateScopeLabel()
+
+    -- the background scan fills in per-guide answers and the node roll-up counts them
+    NS.Guide.Register({ id = "t:menu:done", name = "Menu Done", type = "Events", faction = "Alliance", source = "test",
+        text = "T Finished Thing|QID|4242|M|48,42|Z|1429; Elwynn Forest|" })
+    NS.Guide.Register({ id = "t:menu:open", name = "Menu Open", type = "Events", faction = "Alliance", source = "test",
+        text = "T Unfinished Thing|QID|4243|M|48,42|Z|1429; Elwynn Forest|" })
+    NS.Account.me.quests[4242] = true
+    NS.Account.ClearCompletionCaches()
+    NS.GuideMenu.RescanCompletion()
+    local guard = 0
+    repeat guard = guard + 1 until T.scanSlice() or guard > 500
+    local sc = T.scanned()
+    assert(sc["t:menu:done"] == true, "a guide whose quest is done did not scan as complete")
+    assert(sc["t:menu:open"] == false, "an unfinished guide scanned as complete")
+    local events = T.buildTree().kidByName["Events"]
+    assert(events, "no Events category")
+    local d, tot, pending = T.nodeCompletion(events)
+    assert(pending == 0, "scan left rows unresolved: " .. pending)
+    assert(d >= 1 and tot >= 2, ("Events roll-up wrong: %d/%d"):format(d, tot))
+end
+print("guide menu OK: scope check box, per-guide scan, category completion counts")
+
 -- 7) account-wide progression
 NS.Account.Init()
 local AK = NS.Account.key
