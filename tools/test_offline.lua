@@ -271,6 +271,56 @@ do
 end
 print("prereq gating OK: any-of vs all-of PRE lists")
 
+-- ---------------------------------------------------------------------------
+-- Death: the pointer stops offering the Hearthstone / quest items (unusable as a corpse) and points
+-- at the body instead.  Works with a guide loaded or not.
+-- ---------------------------------------------------------------------------
+do
+    NS.Guide.Register({ id = "t:dead", name = "Dead Test", faction = "Alliance", minlevel = 1, maxlevel = 5, source = "test",
+        text = "H Hearth to Sentinel Hill|M|20,20|Z|1436; Westfall|" })
+    NS.Progress.Load("t:dead")
+    local alive = NS.Router.Recommendation()
+    assert(alive.mode == "hearth", "alive: hearth step should offer the Hearthstone, got " .. tostring(alive.mode))
+
+    PLAYER_DEAD = true
+    local justdied = NS.Router.Recommendation()
+    assert(justdied.dead and justdied.mode == "release", "dead-but-not-released should ask for a release, got " .. tostring(justdied.mode))
+    assert(not justdied.item and not justdied.spell, "no usable item while dead")
+
+    PLAYER_DEAD, PLAYER_GHOST = false, true
+    CORPSE_POS = { 1429, 0.60, 0.30 }
+    local ghost = NS.Router.Recommendation()
+    assert(ghost.mode == "corpse" and ghost.wx, "ghost should be pointed at the corpse")
+    assert(not ghost.item and not ghost.spell, "no Hearthstone while dead")
+    local cwx, cwy = z2w(0.60, 0.30, 1429)
+    assert(math.abs(ghost.wx - cwx) < 1 and math.abs(ghost.wy - cwy) < 1, "corpse world coords wrong")
+    assert(ghost.dist and ghost.dist > 0, "corpse distance")
+
+    CORPSE_POS = nil
+    local nopos = NS.Router.Recommendation()
+    assert(nopos.mode == "corpse" and not nopos.wx and nopos.why, "unknown corpse position must still say something useful")
+
+    PLAYER_GHOST = false
+    assert(NS.Router.IsDead() == false, "alive again")
+    NS.Progress.Reset()
+end
+print("death handling OK: no hearth as a corpse, pointer aims at the body")
+
+-- pointer style: hand tinted to the class colour, arrow chevron still selectable
+do
+    local f = assert(io.open("CompletionRoute/UI/Arrow.lua"))
+    local src = f:read("*a") f:close()
+    assert(src:find('TEX %.%. "hand"'), "hand texture not used")
+    assert(src:find("RAID_CLASS_COLORS"), "hand is not tinted to the class colour")
+    assert(src:find("SetVertexColor"), "no vertex colouring")
+    assert(src:find("rec.dead"), "arrow has no dead branch")
+    local h = assert(io.open("CompletionRoute/Textures/hand.tga")) h:close()
+    local o = assert(io.open("CompletionRoute/UI/Options.lua"))
+    local osrc = o:read("*a") o:close()
+    assert(osrc:find("arrow.style"), "no pointer style option")
+end
+print("pointer style OK: class-coloured hand default, chevron still available")
+
 -- 8) target beacon
 local Bfn = assert(loadfile("CompletionRoute/UI/Beacon.lua")) Bfn(ADDON, NS)
 local BT = NS.Beacon
@@ -302,6 +352,15 @@ NAMEPLATES = { { namePlateUnitToken = "nameplate1" }, { namePlateUnitToken = "na
 UnitName = function(u) return u == "nameplate1" and "Guard Thomas" or "Random Critter" end
 NS.Beacon.RescanPlates()
 assert(NS.Beacon.count == 1, "wanted-name count " .. tostring(NS.Beacon.count))
+-- a corpse cannot talk to anyone: markers and the target macro go away while dead
+do
+    PLAYER_GHOST = true
+    local _, n = NS.Beacon.WantedNames()
+    assert(n == 0, "over-head markers still wanted while dead: " .. tostring(n))
+    PLAYER_GHOST = false
+    local _, n2 = NS.Beacon.WantedNames()
+    assert(n2 > 0, "markers did not come back after resurrecting")
+end
 -- the marker must actually attach to the wanted plate (and only that one)
 do
     local shown = 0
