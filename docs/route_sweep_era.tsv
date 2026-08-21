@@ -18,7 +18,7 @@ era	qdb:era:14:Both	Durotar Quests	Quests	Both	1411	Durotar	4	4	0	4	1		221	381	y
 era	qdb:era:14:Horde	Durotar Quests (Horde)	Quests	Horde	1411	Durotar	196	196	0	15	1		625	626	yes	Follow the road 855 yd to Destination (~2m 10s)	
 era	qdb:era:15:Both	Dustwallow Marsh Quests	Quests	Both	1445	Dustwallow Marsh	48	48	0	15	1		990	1303	yes	Walk 0 yd to Destination (~0s)	
 era	qdb:era:15:Horde	Dustwallow Marsh Quests (Horde)	Quests	Horde	1445	Dustwallow Marsh	65	65	0	15	1		597	1307	yes	Walk 0 yd to Destination (~0s)	
-era	qdb:era:15:Alliance	Dustwallow Marsh Quests (Alliance)	Quests	Alliance	1445	Dustwallow Marsh	53	53	0	15	1		1300	2337	yes	Walk 730 yd to Destination (~2m 10s)	
+era	qdb:era:15:Alliance	Dustwallow Marsh Quests (Alliance)	Quests	Alliance	1445	Dustwallow Marsh	53	53	0	15	1		1300	2337	yes	Walk 863 yd to Destination (~2m 34s)	
 era	qdb:era:16:Both	Azshara Quests	Quests	Both	1447	Azshara	95	95	0	15	1		1102	2844	yes	Walk 0 yd to Destination (~0s)	
 era	qdb:era:16:Alliance	Azshara Quests (Alliance)	Quests	Alliance	1447	Azshara	3	3	0	3	1		273	273	yes	Walk 816 yd to Destination (~1m 31s)	
 era	qdb:era:16:Horde	Azshara Quests (Horde)	Quests	Horde	1447	Azshara	21	21	0	13	1		1521	2299	yes	Walk 859 yd to Destination (~1m 36s)	
@@ -162,12 +162,12 @@ era	zygor:Dailies Guides\The Burning Crusade\Sha'tari Skyguard\Sha'tari Skyguard
 era	zygor:Dailies Guides\The Burning Crusade\Shattrath Cooking Dailies	Shattrath Cooking Dailies	Dailies	Both	Shattrath Cooking Dailies		63	0	0	15	1		6000	6000	unplaced		
 era	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Daily Quests	Netherwing Daily Quests	Dailies	Both	Netherwing Daily Quests		62	0	0	15	1		6000	6000	unplaced		
 era	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Eggs	Netherwing Eggs	Dailies	Both	Netherwing Eggs		6	0	0	6	1		3600	3600	unplaced		
-era	zygor:Dungeon Guides\Classic\Wailing Caverns (15-25)	Wailing Caverns (15-25)	Dungeon	Both	Wailing Caverns		18	18	0	15	1		1190	1190	unplaced		
-era	zygor:Dungeon Guides\Classic\The Deadmines (17-26)	The Deadmines (17-26)	Dungeon	Both	The Deadmines		17	17	0	15	1		963	963	unplaced		
+era	zygor:Dungeon Guides\Classic\Wailing Caverns (15-25)	Wailing Caverns (15-25)	Dungeon	Both	Wailing Caverns		18	18	0	15	1		1134	1134	unplaced		
+era	zygor:Dungeon Guides\Classic\The Deadmines (17-26)	The Deadmines (17-26)	Dungeon	Both	The Deadmines		17	17	0	15	1		907	907	unplaced		
 era	zygor:Dungeon Guides\Classic\Shadowfang Keep (22-30)	Shadowfang Keep (22-30)	Dungeon	Both	Shadowfang Keep		21	21	0	15	1		1076	1076	unplaced		
 era	zygor:Dungeon Guides\Classic\The Stockade (22-30)	The Stockade (22-30)	Dungeon	Both	The Stockade		13	13	0	13	1		265	265	unplaced		
-era	zygor:Dungeon Guides\Classic\Blackfathom Deeps (24-32)	Blackfathom Deeps (24-32)	Dungeon	Both	Blackfathom Deeps		14	14	0	14	1		1781	1781	unplaced		
-era	zygor:Dungeon Guides\Classic\Gnomeregan (29-38)	Gnomeregan (29-38)	Dungeon	Both	Gnomeregan		14	14	0	14	1		899	899	unplaced		
+era	zygor:Dungeon Guides\Classic\Blackfathom Deeps (24-32)	Blackfathom Deeps (24-32)	Dungeon	Both	Blackfathom Deeps		14	14	0	14	1		1819	1819	unplaced		
+era	zygor:Dungeon Guides\Classic\Gnomeregan (29-38)	Gnomeregan (29-38)	Dungeon	Both	Gnomeregan		14	14	0	14	1		1212	1212	unplaced		
 era	zygor:Dungeon Guides\Classic\Razorfen Kraul (30-40)	Razorfen Kraul (30-40)	Dungeon	Both	Razorfen Kraul		17	17	0	15	1		1270	1270	unplaced		
 era	zygor:Dungeon Guides\Classic\Scarlet Monastery (Graveyard) (29-35)	Scarlet Monastery (Graveyard) (29-35)	Dungeon	Both	Scarlet Monastery		12	0	0	12	1		6000	6000	unplaced		
 era	zygor:Dungeon Guides\Classic\Scarlet Monastery (Library) (31-37)	Scarlet Monastery (Library) (31-37)	Dungeon	Both	Scarlet Monastery		6	0	0	6	1		3600	3600	unplaced		
@@ -176,21 +176,21 @@ era	zygor:Dungeon Guides\Classic\Scarlet Monastery (Cathedral) (36-42)	Scarlet M
 era	zygor:Dungeon Guides\Classic\Razorfen Downs (37-43)	Razorfen Downs (37-43)	Dungeon	Both	Razorfen Downs		13	0	0	13	1		6000	6000	unplaced		
 era	zygor:Dungeon Guides\Classic\Uldaman (42-52)	Uldaman (42-52)	Dungeon	Both	Uldaman		15	0	0	15	1		6000	6000	unplaced		
 era	zygor:Dungeon Guides\Classic\Zul'Farrak (44-49)	Zul'Farrak (44-49)	Dungeon	Both	Zul'Farrak		20	20	0	15	1		1042	1042	unplaced		
-era	zygor:Dungeon Guides\Classic\Maraudon (Wicked Grotto - Purple) (45-53)	Maraudon (Wicked Grotto - Purple) (45-53)	Dungeon	Both	Maraudon		4	4	0	4	1		1571	1571	unplaced		
-era	zygor:Dungeon Guides\Classic\Maraudon (Foulspore Cavern - Orange) (45-53)	Maraudon (Foulspore Cavern - Orange) (45-53)	Dungeon	Both	Maraudon		6	6	0	6	1		1486	1486	unplaced		
-era	zygor:Dungeon Guides\Classic\Maraudon (Poison Falls - Inner) (48-57)	Maraudon (Poison Falls - Inner) (48-57)	Dungeon	Both	Maraudon		6	6	0	6	1		1571	1571	unplaced		
-era	zygor:Dungeon Guides\Classic\Maraudon (Earth Song Falls - Inner) (48-57)	Maraudon (Earth Song Falls - Inner) (48-57)	Dungeon	Both	Maraudon		11	11	0	11	1		4197	4197	unplaced		
-era	zygor:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeon	Both	The Temple of Atal'Hakkar		21	21	0	15	1		1065	1065	unplaced		
-era	zygor:Dungeon Guides\Classic\Blackrock Depths (52-60)	Blackrock Depths (52-60)	Dungeon	Both	Blackrock Depths		32	32	0	15	1		541	541	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Wicked Grotto - Purple) (45-53)	Maraudon (Wicked Grotto - Purple) (45-53)	Dungeon	Both	Maraudon		4	4	0	4	1		1651	1651	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Foulspore Cavern - Orange) (45-53)	Maraudon (Foulspore Cavern - Orange) (45-53)	Dungeon	Both	Maraudon		6	6	0	6	1		1674	1674	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Poison Falls - Inner) (48-57)	Maraudon (Poison Falls - Inner) (48-57)	Dungeon	Both	Maraudon		6	6	0	6	1		1651	1651	unplaced		
+era	zygor:Dungeon Guides\Classic\Maraudon (Earth Song Falls - Inner) (48-57)	Maraudon (Earth Song Falls - Inner) (48-57)	Dungeon	Both	Maraudon		11	11	0	11	1		5584	5584	unplaced		
+era	zygor:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeon	Both	The Temple of Atal'Hakkar		21	21	0	15	1		970	970	unplaced		
+era	zygor:Dungeon Guides\Classic\Blackrock Depths (52-60)	Blackrock Depths (52-60)	Dungeon	Both	Blackrock Depths		32	32	0	15	1		594	594	unplaced		
 era	zygor:Dungeon Guides\Classic\Scholomance (58-60)	Scholomance (58-60)	Dungeon	Both	Scholomance		29	0	0	15	1		6000	6000	unplaced		
-era	zygor:Dungeon Guides\Classic\Stratholme - Live (58-60)	Stratholme - Live (58-60)	Dungeon	Both	Stratholme - Live		25	25	0	15	1		1144	1144	unplaced		
+era	zygor:Dungeon Guides\Classic\Stratholme - Live (58-60)	Stratholme - Live (58-60)	Dungeon	Both	Stratholme - Live		25	25	0	15	1		1228	1228	unplaced		
 era	zygor:Dungeon Guides\Classic\Stratholme - Undead (58-60)	Stratholme - Undead (58-60)	Dungeon	Both	Stratholme - Undead		18	18	0	15	1		887	887	unplaced		
-era	zygor:Dungeon Guides\Classic\Dire Maul East (58-60)	Dire Maul East (58-60)	Dungeon	Both	Dire Maul East		11	11	0	11	1		1389	1389	unplaced		
-era	zygor:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeon	Both	Dire Maul North		14	14	0	14	1		1395	1395	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul East (58-60)	Dire Maul East (58-60)	Dungeon	Both	Dire Maul East		11	11	0	11	1		1500	1500	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeon	Both	Dire Maul North		14	14	0	14	1		1525	1525	unplaced		
 era	zygor:Dungeon Guides\Classic\Dire Maul West (58-60)	Dire Maul West (58-60)	Dungeon	Both	Dire Maul West		14	14	0	14	1		1213	1213	unplaced		
 era	zygor:Dungeon Guides\Classic\Dire Maul North Tribute (58-60)	Dire Maul North Tribute (58-60)	Dungeon	Both	Dire Maul North Tribute		16	0	0	15	1		6000	6000	unplaced		
-era	zygor:Dungeon Guides\Classic\Lower Blackrock Spire (55-60)	Lower Blackrock Spire (55-60)	Dungeon	Both	Lower Blackrock Spire		27	27	0	15	1		527	527	unplaced		
-era	zygor:Dungeon Guides\Classic\Upper Blackrock Spire (55-60)	Upper Blackrock Spire (55-60)	Dungeon	Both	Upper Blackrock Spire		17	17	0	15	1		527	527	unplaced		
+era	zygor:Dungeon Guides\Classic\Lower Blackrock Spire (55-60)	Lower Blackrock Spire (55-60)	Dungeon	Both	Lower Blackrock Spire		27	27	0	15	1		590	590	unplaced		
+era	zygor:Dungeon Guides\Classic\Upper Blackrock Spire (55-60)	Upper Blackrock Spire (55-60)	Dungeon	Both	Upper Blackrock Spire		17	17	0	15	1		590	590	unplaced		
 era	zygor:Dungeon Guides\Classic\Wailing Caverns Quests	Wailing Caverns Quests	Dungeon	Both	Wailing Caverns Quests		57	56	0	15	1		2041	2041	unplaced		
 era	zygor:Dungeon Guides\Classic\The Deadmines Quests	The Deadmines Quests	Dungeon	Both	The Deadmines Quests		60	59	0	15	1		1247	1247	unplaced		
 era	zygor:Dungeon Guides\Classic\Blackfathom Deeps Quests	Blackfathom Deeps Quests	Dungeon	Both	Blackfathom Deeps Quests		33	32	0	15	1		1783	1783	unplaced		
@@ -207,15 +207,15 @@ era	zygor:Dungeon Guides\Classic\Maraudon Quests	Maraudon Quests	Dungeon	Both	Ma
 era	zygor:Dungeon Guides\Classic\Temple of Atal'Hakkar Quests	Temple of Atal'Hakkar Quests	Dungeon	Both	Temple of Atal'Hakkar Quests		117	116	0	15	1		2020	2020	unplaced		
 era	zygor:Dungeon Guides\Classic\Blackrock Depths Quests	Blackrock Depths Quests	Dungeon	Both	Blackrock Depths Quests		206	205	0	15	1		2745	2745	unplaced		
 era	zygor:Dungeon Guides\Classic\Dire Maul East Quests	Dire Maul East Quests	Dungeon	Both	Dire Maul East Quests		42	41	0	15	1		4061	4061	unplaced		
-era	zygor:Dungeon Guides\Classic\Dire Maul West Quests	Dire Maul West Quests	Dungeon	Both	Dire Maul West Quests		21	18	0	15	1		3932	3932	unplaced		
+era	zygor:Dungeon Guides\Classic\Dire Maul West Quests	Dire Maul West Quests	Dungeon	Both	Dire Maul West Quests		21	18	0	15	1		3957	3957	unplaced		
 era	zygor:Dungeon Guides\Classic\Dire Maul North Quests	Dire Maul North Quests	Dungeon	Both	Dire Maul North Quests		38	35	0	15	1		3286	3286	unplaced		
 era	zygor:Dungeon Guides\Classic\Lower Blackrock Spire Quests	Lower Blackrock Spire Quests	Dungeon	Both	Lower Blackrock Spire Quests		118	117	0	15	1		3085	3085	unplaced		
 era	zygor:Dungeon Guides\Classic\Scholomance Quests	Scholomance Quests	Dungeon	Both	Scholomance Quests		173	170	0	15	1		2408	2408	unplaced		
 era	zygor:Dungeon Guides\Classic\Stratholme - Live Side Quests	Stratholme - Live Side Quests	Dungeon	Both	Stratholme - Live Side Quests		78	77	0	15	1		1815	1815	unplaced		
-era	zygor:Dungeon Guides\Classic\Stratholme - Undead Side Quests	Stratholme - Undead Side Quests	Dungeon	Both	Stratholme - Undead Side Quests		94	93	0	15	1		2125	2125	unplaced		
+era	zygor:Dungeon Guides\Classic\Stratholme - Undead Side Quests	Stratholme - Undead Side Quests	Dungeon	Both	Stratholme - Undead Side Quests		94	93	0	15	1		2013	2013	unplaced		
 era	zygor:Dungeon Guides\Classic\Upper Blackrock Spire Quests	Upper Blackrock Spire Quests	Dungeon	Both	Upper Blackrock Spire Quests		167	166	0	15	1		1422	1422	unplaced		
-era	zygor:Dungeon Guides\Classic\Raid Attunements\Blackwing Lair Attunement	Blackwing Lair Attunement	Dungeon	Both	Blackwing Lair Attunement		9	8	0	9	1		2166	2166	unplaced		
-era	zygor:Dungeon Guides\Classic\Raid Attunements\Molten Core Attunement	Molten Core Attunement	Dungeon	Both	Molten Core Attunement		9	8	0	9	1		1770	1770	unplaced		
+era	zygor:Dungeon Guides\Classic\Raid Attunements\Blackwing Lair Attunement	Blackwing Lair Attunement	Dungeon	Both	Blackwing Lair Attunement		9	8	0	9	1		2239	2239	unplaced		
+era	zygor:Dungeon Guides\Classic\Raid Attunements\Molten Core Attunement	Molten Core Attunement	Dungeon	Both	Molten Core Attunement		9	8	0	9	1		1844	1844	unplaced		
 era	zygor:Dungeon Guides\Classic\Raid Attunements\Onyxia's Lair Attunement	Onyxia's Lair Attunement	Dungeon	Both	Onyxia's Lair Attunement		82	81	0	15	1		1078	1109	unplaced		
 era	zygor:Dungeon Guides\Classic\Raid Attunements\Naxxramas Attunement	Naxxramas Attunement	Dungeon	Both	Naxxramas Attunement		15	14	0	15	1		1528	1528	unplaced		
 era	zygor:Dungeon Guides\The Burning Crusade\Hellfire Ramparts (60-70)	Hellfire Ramparts (60-70)	Dungeon	Both	Hellfire Ramparts		8	0	0	8	1		4800	4800	unplaced		
@@ -257,7 +257,7 @@ era	zygor:Dungeon Guides\The Burning Crusade\Black Temple Attunement	Black Templ
 era	zygor:Dungeon Guides\Classic\Ragefire Chasm (13-18)	Ragefire Chasm (13-18)	Dungeon	Both	Ragefire Chasm		8	8	0	8	1		919	919	unplaced		
 era	zygor:Dungeon Guides\Classic\Ragefire Chasm Quests	Ragefire Chasm Quests	Dungeon	Both	Ragefire Chasm Quests		44	43	0	15	1		4413	4413	unplaced		
 era	zygor:Dungeon Guides\Classic\Shadowfang Keep Quests	Shadowfang Keep Quests	Dungeon	Both	Shadowfang Keep Quests		23	22	0	15	1		2110	2110	unplaced		
-era	zygor:Dungeon Guides\Classic\Scarlet Monastery Graveyard Quests	Scarlet Monastery Graveyard Quests	Dungeon	Both	Scarlet Monastery Graveyard Quests		19	18	0	15	1		2305	2305	unplaced		
+era	zygor:Dungeon Guides\Classic\Scarlet Monastery Graveyard Quests	Scarlet Monastery Graveyard Quests	Dungeon	Both	Scarlet Monastery Graveyard Quests		19	18	0	15	1		2701	2701	unplaced		
 era	zygor:Events Guides\Brewfest\Brewfest Quests	Brewfest Quests	Events	Both	Brewfest Quests		36	36	0	15	1		508	508	unplaced		
 era	zygor:Events Guides\Brewfest\Brewfest Dailies	Brewfest Dailies	Events	Both	Brewfest Dailies		39	38	0	15	1		1253	1253	unplaced		
 era	zygor:Events Guides\Children's Week\Children's Week Main Questline	Children's Week Main Questline	Events	Both	Children's Week Main Questline		29	29	0	15	1		317	317	unplaced		
@@ -283,7 +283,7 @@ era	zygor:Events Guides\Hallow's End\Hallow's End Candy Buckets	Hallow's End Can
 era	zygor:Events Guides\Harvest Festival\Harvest Festival Quest	Harvest Festival Quest	Events	Both	Harvest Festival Quest		8	6	0	8	1		2554	2554	unplaced		
 era	zygor:Events Guides\Feast of Winter Veil\Feast of Winter Veil Quest	Feast of Winter Veil Quest	Events	Both	Feast of Winter Veil Quest		49	48	0	15	1		1172	1172	unplaced		
 era	zygor:Events Guides\Lunar Festival\Lunar Festival Main Questline	Lunar Festival Main Questline	Events	Both	Lunar Festival Main Questline		23	23	0	15	1		458	458	unplaced		
-era	zygor:Events Guides\Lunar Festival\Lunar Festival Optimized Elders Path	Lunar Festival Optimized Elders Path	Events	Both	Lunar Festival Optimized Elders Path		101	101	0	15	1		2373	2373	unplaced		
+era	zygor:Events Guides\Lunar Festival\Lunar Festival Optimized Elders Path	Lunar Festival Optimized Elders Path	Events	Both	Lunar Festival Optimized Elders Path		101	101	0	15	1		2120	2120	unplaced		
 era	zygor:Events Guides\Love is in the Air\Love is in the Air Quests	Love is in the Air Quests	Events	Both	Love is in the Air Quests		31	31	0	15	1		231	231	unplaced		
 era	zygor:Events Guides\Love is in the Air\Gift Giving	Gift Giving	Events	Both	Gift Giving		80	80	0	15	1		253	253	unplaced		
 era	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Quests	Midsummer Fire Festival Quests	Events	Both	Midsummer Fire Festival Quests		52	52	0	15	1		244	244	unplaced		
@@ -350,7 +350,7 @@ era	zygor:GOLD\Farming\Living Essence	Living Essence	GOLD	Both	Living Essence		1
 era	zygor:GOLD\Farming\Essence of Fire	Essence of Fire	GOLD	Both	Essence of Fire		1	1	0	1	1		1137	1137	unplaced		
 era	zygor:GOLD\Farming\Essence of Air, Breath of Wind, Elemental Air	Essence of Air, Breath of Wind, Elemental Air	GOLD	Both	Essence of Air, Breath of Wind, Elemental Air		1	1	0	1	1		1172	1172	unplaced		
 era	zygor:GOLD\Farming\Essence of Earth, Core of Earth	Essence of Earth, Core of Earth	GOLD	Both	Essence of Earth, Core of Earth		1	1	0	1	1		1237	1237	unplaced		
-era	zygor:GOLD\Farming\Essence of Undeath	Essence of Undeath	GOLD	Both	Essence of Undeath		2	2	0	2	1		1127	1127	unplaced		
+era	zygor:GOLD\Farming\Essence of Undeath	Essence of Undeath	GOLD	Both	Essence of Undeath		2	2	0	2	1		1402	1402	unplaced		
 era	zygor:GOLD\Farming\Heart of the Wild	Heart of the Wild	GOLD	Both	Heart of the Wild		1	1	0	1	1		939	939	unplaced		
 era	zygor:GOLD\Farming\Ichor of Undeath	Ichor of Undeath	GOLD	Both	Ichor of Undeath		1	1	0	1	1		1022	1022	unplaced		
 era	zygor:GOLD\Farming\Heart of Fire	Heart of Fire	GOLD	Both	Heart of Fire		1	1	0	1	1		998	998	unplaced		
@@ -673,7 +673,7 @@ era	zygor:Profession Guides\Elements\Farming Guides\Living Essence	Living Essenc
 era	zygor:Profession Guides\Elements\Farming Guides\Essence of Fire	Essence of Fire	Profession	Both	Essence of Fire		2	2	0	2	1		1137	1137	unplaced		
 era	zygor:Profession Guides\Elements\Farming Guides\Essence of Air	Essence of Air	Profession	Both	Essence of Air		2	2	0	2	1		1172	1172	unplaced		
 era	zygor:Profession Guides\Elements\Farming Guides\Essence of Earth	Essence of Earth	Profession	Both	Essence of Earth		2	2	0	2	1		1237	1237	unplaced		
-era	zygor:Profession Guides\Elements\Farming Guides\Essence of Undeath	Essence of Undeath	Profession	Both	Essence of Undeath		3	3	0	3	1		1127	1127	unplaced		
+era	zygor:Profession Guides\Elements\Farming Guides\Essence of Undeath	Essence of Undeath	Profession	Both	Essence of Undeath		3	3	0	3	1		1402	1402	unplaced		
 era	zygor:Profession Guides\Elements\Farming Guides\Heart of the Wild	Heart of the Wild	Profession	Both	Heart of the Wild		2	2	0	2	1		939	939	unplaced		
 era	zygor:Profession Guides\Elements\Farming Guides\Ichor of Undeath	Ichor of Undeath	Profession	Both	Ichor of Undeath		2	2	0	2	1		1022	1022	unplaced		
 era	zygor:Profession Guides\Elements\Farming Guides\Heart of Fire	Heart of Fire	Profession	Both	Heart of Fire		2	2	0	2	1		998	998	unplaced		
@@ -955,7 +955,7 @@ era	wowpro:ClassicEasternKingdom1220	Eastern Kingdom 12-20	Leveling	Alliance	Loc
 era	wowpro:Ludovicus_DM	Dungeon: Deadmines	Leveling	Alliance	Westfall		24	24	0	15	1		884	1338	unplaced		
 era	wowpro:Ludovicus_AWC	Dungeon: Wailing Caverns	Leveling	Alliance	The Barrens		1	1	0	1	1		860	860	unplaced		
 era	wowpro:ClassicAlliance1925	Alliance Leveling 19-25	Leveling	Alliance	Westfall		424	424	0	15	1		1175	1175	unplaced		
-era	wowpro:Ludovicus_BFD	Dungeon: Blackfathom Deeps	Leveling	Horde	Ashenvale		20	20	0	15	1		2391	3665	unplaced		
+era	wowpro:Ludovicus_BFD	Dungeon: Blackfathom Deeps	Leveling	Horde	Ashenvale		20	20	0	15	1		2484	3850	unplaced		
 era	wowpro:Cag_AStocks	Dungeon: The Stockade	Leveling	Alliance	Orgrimmar		18	18	0	15	1		1329	1997	unplaced		
 era	wowpro:ClassicAlliance2530	Alliance Leveling 25-30	Leveling	Alliance	Westfall		435	435	0	15	1		1046	1048	unplaced		
 era	wowpro:Cag_ARFK	Dungeon: Razorfen Kraul	Leveling	Alliance	Stormwind		1	1	0	1	1		226	226	unplaced		
@@ -1038,7 +1038,7 @@ era	wowpro:CLASSIC_BC_Felwood	Felwood (54)	Leveling	Horde	Felwood		83	83	0	15	1	
 era	wowpro:CLASSIC_BC_Winterspring	Winterspring	Leveling	Horde	Winterspring		159	159	0	15	1		1270	1274	unplaced		
 era	wowpro:CLASSIC_BC_Western_Plaguelands	Western Plaguelands (56)	Leveling	Horde	Western Plaguelands		95	95	0	15	1		790	790	unplaced		
 era	wowpro:CLASSIC_BC_Eastern_Plaguelands	Eastern Plaguelands (56-57)	Leveling	Horde	Western Plaguelands		45	45	0	15	1		1101	1243	unplaced		
-era	wowpro:CLASSIC_BC_Dungeon_Blackfathom	Dungeon: Blackfathom Deeps	Leveling	Horde	Ashenvale		20	20	0	15	1		2391	3665	unplaced		
+era	wowpro:CLASSIC_BC_Dungeon_Blackfathom	Dungeon: Blackfathom Deeps	Leveling	Horde	Ashenvale		20	20	0	15	1		2484	3850	unplaced		
 era	wowpro:CLASSIC_BC_Dungeon_Shadowfang_Keep	Dungeon: Shadowfang Keep	Leveling	Horde	Silverpine Forest		14	14	0	14	1		1100	1101	unplaced		
 era	wowpro:CLASSIC_BC_Dungeon_Wailing_Caverns	Dungeon: Wailing Caverns	Leveling	Horde	The Barrens		45	45	0	15	1		2922	2985	unplaced		
 era	wowpro:CLASSIC_BC_Netherstorm	Netherstorm	Leveling	Neutral	Netherstorm		504	0	0	15	1		6000	6000	unplaced		

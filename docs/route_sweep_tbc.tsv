@@ -24,7 +24,7 @@ tbc	qdb:tbc:14:Both	Durotar Quests	Quests	Both	1411	Durotar	8	8	0	8	1		245	413	y
 tbc	qdb:tbc:14:Alliance	Durotar Quests (Alliance)	Quests	Alliance	1411	Durotar	2	2	0	2	1		26	26	yes	Walk 145 yd to Destination (~26s)	
 tbc	qdb:tbc:15:Both	Dustwallow Marsh Quests	Quests	Both	1445	Dustwallow Marsh	115	115	0	15	1		398	595	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:15:Horde	Dustwallow Marsh Quests (Horde)	Quests	Horde	1445	Dustwallow Marsh	93	93	0	15	1		669	1039	yes	Walk 714 yd to Destination (~2m 8s)	
-tbc	qdb:tbc:15:Alliance	Dustwallow Marsh Quests (Alliance)	Quests	Alliance	1445	Dustwallow Marsh	138	138	0	15	1		913	1190	yes	Walk 759 yd to Destination (~2m 15s)	
+tbc	qdb:tbc:15:Alliance	Dustwallow Marsh Quests (Alliance)	Quests	Alliance	1445	Dustwallow Marsh	138	138	0	15	1		913	1190	yes	Walk 794 yd to Destination (~2m 22s)	
 tbc	qdb:tbc:16:Both	Azshara Quests	Quests	Both	1447	Azshara	98	98	0	15	1		717	1248	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:16:Horde	Azshara Quests (Horde)	Quests	Horde	1447	Azshara	21	21	0	13	1		1512	2233	yes	Walk 859 yd to Destination (~1m 36s)	
 tbc	qdb:tbc:16:Alliance	Azshara Quests (Alliance)	Quests	Alliance	1447	Azshara	3	3	0	3	1		273	273	yes	Walk 816 yd to Destination (~1m 31s)	
@@ -49,7 +49,7 @@ tbc	qdb:tbc:41:Both	Deadwind Pass Quests	Quests	Both	1430	Deadwind Pass	83	83	0	
 tbc	qdb:tbc:44:Both	Redridge Mountains Quests	Quests	Both	1433	Redridge Mountains	5	5	0	4	1		106	283	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:44:Horde	Redridge Mountains Quests (Horde)	Quests	Horde	1433	Redridge Mountains	2	2	0	2	1		100	100	yes	Walk 562 yd to Destination (~1m 40s)	
 tbc	qdb:tbc:44:Alliance	Redridge Mountains Quests (Alliance)	Quests	Alliance	1433	Redridge Mountains	99	99	0	15	1		691	929	yes	Walk 441 yd to Destination (~1m 19s)	
-tbc	qdb:tbc:45:Horde	Arathi Highlands Quests (Horde)	Quests	Horde	1417	Arathi Highlands	84	84	0	15	1		706	1272	yes	Walk 659 yd to Destination (~1m 58s)	
+tbc	qdb:tbc:45:Horde	Arathi Highlands Quests (Horde)	Quests	Horde	1417	Arathi Highlands	84	84	0	15	1		706	1272	yes	Walk 732 yd to Destination (~2m 11s)	
 tbc	qdb:tbc:45:Both	Arathi Highlands Quests	Quests	Both	1417	Arathi Highlands	36	36	0	15	1		529	916	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:45:Alliance	Arathi Highlands Quests (Alliance)	Quests	Alliance	1417	Arathi Highlands	68	68	0	15	1		838	941	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:46:Horde	Burning Steppes Quests (Horde)	Quests	Horde	1428	Burning Steppes	5	5	0	4	1		284	365	yes	Walk 0 yd to Destination (~0s)	
@@ -84,13 +84,13 @@ tbc	qdb:tbc:331:Horde	Ashenvale Quests (Horde)	Quests	Horde	1440	Ashenvale	87	87
 tbc	qdb:tbc:331:Both	Ashenvale Quests	Quests	Both	1440	Ashenvale	6	6	0	6	1		517	607	yes	Walk 726 yd to Destination (~2m 10s)	
 tbc	qdb:tbc:331:Alliance	Ashenvale Quests (Alliance)	Quests	Alliance	1440	Ashenvale	141	141	0	15	1		1276	1568	yes	Walk 773 yd to Destination (~2m 18s)	
 tbc	qdb:tbc:357:Both	Feralas Quests	Quests	Both	1444	Feralas	30	30	0	15	1		1723	2883	yes	Walk 0 yd to Destination (~0s)	
-tbc	qdb:tbc:357:Horde	Feralas Quests (Horde)	Quests	Horde	1444	Feralas	115	115	0	15	1		1544	2431	yes	Walk 1.1k yd to Destination (~3m 14s)	
+tbc	qdb:tbc:357:Horde	Feralas Quests (Horde)	Quests	Horde	1444	Feralas	115	115	0	15	1		1544	2431	yes	Walk 1.1k yd to Destination (~3m 16s)	
 tbc	qdb:tbc:357:Alliance	Feralas Quests (Alliance)	Quests	Alliance	1444	Feralas	117	117	0	15	1		582	2135	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:361:Both	Felwood Quests	Quests	Both	1448	Felwood	185	185	0	15	1		1004	2706	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:361:Horde	Felwood Quests (Horde)	Quests	Horde	1448	Felwood	57	57	0	15	1		697	893	yes	Walk 880 yd to Destination (~1m 38s)	
 tbc	qdb:tbc:361:Alliance	Felwood Quests (Alliance)	Quests	Alliance	1448	Felwood	52	52	0	15	1		472	979	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:400:Both	Thousand Needles Quests	Quests	Both	1441	Thousand Needles	71	71	0	15	1		918	935	yes	Walk 0 yd to Destination (~0s)	
-tbc	qdb:tbc:400:Horde	Thousand Needles Quests (Horde)	Quests	Horde	1441	Thousand Needles	59	59	0	15	1		732	1055	yes	Walk 276 yd to Destination (~49s)	
+tbc	qdb:tbc:400:Horde	Thousand Needles Quests (Horde)	Quests	Horde	1441	Thousand Needles	59	59	0	15	1		732	1055	yes	Walk 396 yd to Destination (~1m 11s)	
 tbc	qdb:tbc:400:Alliance	Thousand Needles Quests (Alliance)	Quests	Alliance	1441	Thousand Needles	7	7	0	5	1		849	858	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:405:Horde	Desolace Quests (Horde)	Quests	Horde	1443	Desolace	63	63	0	15	1		2151	2948	yes	Walk 0 yd to Destination (~0s)	
 tbc	qdb:tbc:405:Both	Desolace Quests	Quests	Both	1443	Desolace	61	61	0	15	1		1322	2057	yes	Walk 0 yd to Destination (~0s)	
@@ -219,16 +219,16 @@ tbc	zygor:Dailies Guides\The Burning Crusade\Shattrath Cooking Dailies	Shattrath
 tbc	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Daily Quests	Netherwing Daily Quests	Dailies	Both	Netherwing Daily Quests		62	60	0	15	1		1976	1976	unplaced		
 tbc	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Eggs	Netherwing Eggs	Dailies	Both	Netherwing Eggs		6	5	0	6	1		1393	1393	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Wailing Caverns (15-25)	Wailing Caverns (15-25)	Dungeon	Both	Wailing Caverns		18	18	0	15	1		1414	1414	unplaced		
-tbc	zygor:Dungeon Guides\Classic\The Deadmines (17-26)	The Deadmines (17-26)	Dungeon	Both	The Deadmines		17	17	0	15	1		1161	1161	unplaced		
+tbc	zygor:Dungeon Guides\Classic\The Deadmines (17-26)	The Deadmines (17-26)	Dungeon	Both	The Deadmines		17	17	0	15	1		1095	1095	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Shadowfang Keep (22-30)	Shadowfang Keep (22-30)	Dungeon	Both	Shadowfang Keep		21	21	0	15	1		1556	1556	unplaced		
 tbc	zygor:Dungeon Guides\Classic\The Stockade (22-30)	The Stockade (22-30)	Dungeon	Both	The Stockade		13	13	0	13	1		839	839	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Blackfathom Deeps (24-32)	Blackfathom Deeps (24-32)	Dungeon	Both	Blackfathom Deeps		14	14	0	14	1		1642	1642	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Gnomeregan (29-38)	Gnomeregan (29-38)	Dungeon	Both	Gnomeregan		14	14	0	14	1		1198	1198	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Gnomeregan (29-38)	Gnomeregan (29-38)	Dungeon	Both	Gnomeregan		14	14	0	14	1		1350	1350	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Razorfen Kraul (30-40)	Razorfen Kraul (30-40)	Dungeon	Both	Razorfen Kraul		17	17	0	15	1		1581	1581	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Graveyard) (29-35)	Scarlet Monastery (Graveyard) (29-35)	Dungeon	Both	Scarlet Monastery		12	12	0	12	1		633	633	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Library) (31-37)	Scarlet Monastery (Library) (31-37)	Dungeon	Both	Scarlet Monastery		6	6	0	6	1		633	633	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Armory) (35-40)	Scarlet Monastery (Armory) (35-40)	Dungeon	Both	Scarlet Monastery		4	4	0	4	1		633	633	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Cathedral) (36-42)	Scarlet Monastery (Cathedral) (36-42)	Dungeon	Both	Scarlet Monastery		8	8	0	8	1		633	633	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Graveyard) (29-35)	Scarlet Monastery (Graveyard) (29-35)	Dungeon	Both	Scarlet Monastery		12	12	0	12	1		664	664	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Library) (31-37)	Scarlet Monastery (Library) (31-37)	Dungeon	Both	Scarlet Monastery		6	6	0	6	1		665	665	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Armory) (35-40)	Scarlet Monastery (Armory) (35-40)	Dungeon	Both	Scarlet Monastery		4	4	0	4	1		665	665	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery (Cathedral) (36-42)	Scarlet Monastery (Cathedral) (36-42)	Dungeon	Both	Scarlet Monastery		8	8	0	8	1		665	665	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Razorfen Downs (37-43)	Razorfen Downs (37-43)	Dungeon	Both	Razorfen Downs		13	13	0	13	1		618	618	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Uldaman (42-52)	Uldaman (42-52)	Dungeon	Both	Uldaman		15	15	0	15	1		600	600	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Zul'Farrak (44-49)	Zul'Farrak (44-49)	Dungeon	Both	Zul'Farrak		20	20	0	15	1		1434	1434	unplaced		
@@ -236,17 +236,17 @@ tbc	zygor:Dungeon Guides\Classic\Maraudon (Wicked Grotto - Purple) (45-53)	Marau
 tbc	zygor:Dungeon Guides\Classic\Maraudon (Foulspore Cavern - Orange) (45-53)	Maraudon (Foulspore Cavern - Orange) (45-53)	Dungeon	Both	Maraudon		6	6	0	6	1		1698	1698	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Maraudon (Poison Falls - Inner) (48-57)	Maraudon (Poison Falls - Inner) (48-57)	Dungeon	Both	Maraudon		6	6	0	6	1		1663	1663	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Maraudon (Earth Song Falls - Inner) (48-57)	Maraudon (Earth Song Falls - Inner) (48-57)	Dungeon	Both	Maraudon		11	11	0	11	1		1729	1729	unplaced		
-tbc	zygor:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeon	Both	The Temple of Atal'Hakkar		21	21	0	15	1		1015	1015	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Blackrock Depths (52-60)	Blackrock Depths (52-60)	Dungeon	Both	Blackrock Depths		32	32	0	15	1		1001	1001	unplaced		
+tbc	zygor:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeon	Both	The Temple of Atal'Hakkar		21	21	0	15	1		975	975	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Blackrock Depths (52-60)	Blackrock Depths (52-60)	Dungeon	Both	Blackrock Depths		32	32	0	15	1		989	989	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Scholomance (58-60)	Scholomance (58-60)	Dungeon	Both	Scholomance		29	0	0	15	1		6000	6000	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Stratholme - Live (58-60)	Stratholme - Live (58-60)	Dungeon	Both	Stratholme - Live		25	25	0	15	1		1763	1763	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Stratholme - Live (58-60)	Stratholme - Live (58-60)	Dungeon	Both	Stratholme - Live		25	25	0	15	1		1580	1580	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Stratholme - Undead (58-60)	Stratholme - Undead (58-60)	Dungeon	Both	Stratholme - Undead		18	18	0	15	1		538	538	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Dire Maul East (58-60)	Dire Maul East (58-60)	Dungeon	Both	Dire Maul East		11	11	0	11	1		1488	1488	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeon	Both	Dire Maul North		14	14	0	14	1		1513	1513	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Dire Maul West (58-60)	Dire Maul West (58-60)	Dungeon	Both	Dire Maul West		14	14	0	14	1		1201	1201	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Dire Maul North Tribute (58-60)	Dire Maul North Tribute (58-60)	Dungeon	Both	Dire Maul North Tribute		16	0	0	15	1		6000	6000	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Lower Blackrock Spire (55-60)	Lower Blackrock Spire (55-60)	Dungeon	Both	Lower Blackrock Spire		27	27	0	15	1		765	765	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Upper Blackrock Spire (55-60)	Upper Blackrock Spire (55-60)	Dungeon	Both	Upper Blackrock Spire		17	17	0	15	1		765	765	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Lower Blackrock Spire (55-60)	Lower Blackrock Spire (55-60)	Dungeon	Both	Lower Blackrock Spire		27	27	0	15	1		770	770	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Upper Blackrock Spire (55-60)	Upper Blackrock Spire (55-60)	Dungeon	Both	Upper Blackrock Spire		17	17	0	15	1		770	770	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Wailing Caverns Quests	Wailing Caverns Quests	Dungeon	Both	Wailing Caverns Quests		57	56	0	15	1		1998	1998	unplaced		
 tbc	zygor:Dungeon Guides\Classic\The Deadmines Quests	The Deadmines Quests	Dungeon	Both	The Deadmines Quests		60	59	0	15	1		1247	1247	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Blackfathom Deeps Quests	Blackfathom Deeps Quests	Dungeon	Both	Blackfathom Deeps Quests		33	32	0	15	1		1783	1783	unplaced		
@@ -268,10 +268,10 @@ tbc	zygor:Dungeon Guides\Classic\Dire Maul North Quests	Dire Maul North Quests	D
 tbc	zygor:Dungeon Guides\Classic\Lower Blackrock Spire Quests	Lower Blackrock Spire Quests	Dungeon	Both	Lower Blackrock Spire Quests		118	117	0	15	1		3023	3023	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Scholomance Quests	Scholomance Quests	Dungeon	Both	Scholomance Quests		173	170	0	15	1		2404	2404	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Stratholme - Live Side Quests	Stratholme - Live Side Quests	Dungeon	Both	Stratholme - Live Side Quests		78	77	0	15	1		1630	1630	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Stratholme - Undead Side Quests	Stratholme - Undead Side Quests	Dungeon	Both	Stratholme - Undead Side Quests		94	93	0	15	1		2922	2922	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Stratholme - Undead Side Quests	Stratholme - Undead Side Quests	Dungeon	Both	Stratholme - Undead Side Quests		94	93	0	15	1		2746	2746	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Upper Blackrock Spire Quests	Upper Blackrock Spire Quests	Dungeon	Both	Upper Blackrock Spire Quests		167	166	0	15	1		1418	1418	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Blackwing Lair Attunement	Blackwing Lair Attunement	Dungeon	Both	Blackwing Lair Attunement		9	8	0	9	1		2724	2724	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Molten Core Attunement	Molten Core Attunement	Dungeon	Both	Molten Core Attunement		9	8	0	9	1		2206	2206	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Blackwing Lair Attunement	Blackwing Lair Attunement	Dungeon	Both	Blackwing Lair Attunement		9	8	0	9	1		2805	2805	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Molten Core Attunement	Molten Core Attunement	Dungeon	Both	Molten Core Attunement		9	8	0	9	1		2250	2250	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Onyxia's Lair Attunement	Onyxia's Lair Attunement	Dungeon	Both	Onyxia's Lair Attunement		82	81	0	15	1		1074	1105	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Naxxramas Attunement	Naxxramas Attunement	Dungeon	Both	Naxxramas Attunement		15	14	0	15	1		1344	1344	unplaced		
 tbc	zygor:Dungeon Guides\The Burning Crusade\Hellfire Ramparts (60-70)	Hellfire Ramparts (60-70)	Dungeon	Both	Hellfire Ramparts		8	8	0	8	1		637	637	unplaced		
@@ -313,7 +313,7 @@ tbc	zygor:Dungeon Guides\The Burning Crusade\Black Temple Attunement	Black Templ
 tbc	zygor:Dungeon Guides\Classic\Ragefire Chasm (13-18)	Ragefire Chasm (13-18)	Dungeon	Both	Ragefire Chasm		8	8	0	8	1		1467	1467	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Ragefire Chasm Quests	Ragefire Chasm Quests	Dungeon	Both	Ragefire Chasm Quests		44	43	0	15	1		4169	4169	unplaced		
 tbc	zygor:Dungeon Guides\Classic\Shadowfang Keep Quests	Shadowfang Keep Quests	Dungeon	Both	Shadowfang Keep Quests		23	22	0	15	1		2076	2076	unplaced		
-tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery Graveyard Quests	Scarlet Monastery Graveyard Quests	Dungeon	Both	Scarlet Monastery Graveyard Quests		19	18	0	15	1		3887	3887	unplaced		
+tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery Graveyard Quests	Scarlet Monastery Graveyard Quests	Dungeon	Both	Scarlet Monastery Graveyard Quests		19	18	0	15	1		3680	3680	unplaced		
 tbc	zygor:Events Guides\Brewfest\Brewfest Quests	Brewfest Quests	Events	Both	Brewfest Quests		36	36	0	15	1		508	508	unplaced		
 tbc	zygor:Events Guides\Brewfest\Brewfest Dailies	Brewfest Dailies	Events	Both	Brewfest Dailies		39	38	0	15	1		1253	1253	unplaced		
 tbc	zygor:Events Guides\Children's Week\Children's Week Main Questline	Children's Week Main Questline	Events	Both	Children's Week Main Questline		29	29	0	15	1		317	317	unplaced		
@@ -339,7 +339,7 @@ tbc	zygor:Events Guides\Hallow's End\Hallow's End Candy Buckets	Hallow's End Can
 tbc	zygor:Events Guides\Harvest Festival\Harvest Festival Quest	Harvest Festival Quest	Events	Both	Harvest Festival Quest		8	6	0	8	1		2520	2520	unplaced		
 tbc	zygor:Events Guides\Feast of Winter Veil\Feast of Winter Veil Quest	Feast of Winter Veil Quest	Events	Both	Feast of Winter Veil Quest		49	48	0	15	1		1172	1172	unplaced		
 tbc	zygor:Events Guides\Lunar Festival\Lunar Festival Main Questline	Lunar Festival Main Questline	Events	Both	Lunar Festival Main Questline		23	23	0	15	1		458	458	unplaced		
-tbc	zygor:Events Guides\Lunar Festival\Lunar Festival Optimized Elders Path	Lunar Festival Optimized Elders Path	Events	Both	Lunar Festival Optimized Elders Path		101	101	0	15	1		1959	1959	unplaced		
+tbc	zygor:Events Guides\Lunar Festival\Lunar Festival Optimized Elders Path	Lunar Festival Optimized Elders Path	Events	Both	Lunar Festival Optimized Elders Path		101	101	0	15	1		1854	1854	unplaced		
 tbc	zygor:Events Guides\Love is in the Air\Love is in the Air Quests	Love is in the Air Quests	Events	Both	Love is in the Air Quests		31	31	0	15	1		231	231	unplaced		
 tbc	zygor:Events Guides\Love is in the Air\Gift Giving	Gift Giving	Events	Both	Gift Giving		80	80	0	15	1		253	253	unplaced		
 tbc	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Quests	Midsummer Fire Festival Quests	Events	Both	Midsummer Fire Festival Quests		52	52	0	15	1		244	244	unplaced		
@@ -406,7 +406,7 @@ tbc	zygor:GOLD\Farming\Living Essence	Living Essence	GOLD	Both	Living Essence		1
 tbc	zygor:GOLD\Farming\Essence of Fire	Essence of Fire	GOLD	Both	Essence of Fire		1	1	0	1	1		1075	1075	unplaced		
 tbc	zygor:GOLD\Farming\Essence of Air, Breath of Wind, Elemental Air	Essence of Air, Breath of Wind, Elemental Air	GOLD	Both	Essence of Air, Breath of Wind, Elemental Air		1	1	0	1	1		1111	1111	unplaced		
 tbc	zygor:GOLD\Farming\Essence of Earth, Core of Earth	Essence of Earth, Core of Earth	GOLD	Both	Essence of Earth, Core of Earth		1	1	0	1	1		1175	1175	unplaced		
-tbc	zygor:GOLD\Farming\Essence of Undeath	Essence of Undeath	GOLD	Both	Essence of Undeath		2	2	0	2	1		1739	1739	unplaced		
+tbc	zygor:GOLD\Farming\Essence of Undeath	Essence of Undeath	GOLD	Both	Essence of Undeath		2	2	0	2	1		1546	1546	unplaced		
 tbc	zygor:GOLD\Farming\Heart of the Wild	Heart of the Wild	GOLD	Both	Heart of the Wild		1	1	0	1	1		905	905	unplaced		
 tbc	zygor:GOLD\Farming\Ichor of Undeath	Ichor of Undeath	GOLD	Both	Ichor of Undeath		1	1	0	1	1		977	977	unplaced		
 tbc	zygor:GOLD\Farming\Heart of Fire	Heart of Fire	GOLD	Both	Heart of Fire		1	1	0	1	1		905	905	unplaced		
@@ -729,7 +729,7 @@ tbc	zygor:Profession Guides\Elements\Farming Guides\Living Essence	Living Essenc
 tbc	zygor:Profession Guides\Elements\Farming Guides\Essence of Fire	Essence of Fire	Profession	Both	Essence of Fire		2	2	0	2	1		1075	1075	unplaced		
 tbc	zygor:Profession Guides\Elements\Farming Guides\Essence of Air	Essence of Air	Profession	Both	Essence of Air		2	2	0	2	1		1111	1111	unplaced		
 tbc	zygor:Profession Guides\Elements\Farming Guides\Essence of Earth	Essence of Earth	Profession	Both	Essence of Earth		2	2	0	2	1		1175	1175	unplaced		
-tbc	zygor:Profession Guides\Elements\Farming Guides\Essence of Undeath	Essence of Undeath	Profession	Both	Essence of Undeath		3	3	0	3	1		1739	1739	unplaced		
+tbc	zygor:Profession Guides\Elements\Farming Guides\Essence of Undeath	Essence of Undeath	Profession	Both	Essence of Undeath		3	3	0	3	1		1546	1546	unplaced		
 tbc	zygor:Profession Guides\Elements\Farming Guides\Heart of the Wild	Heart of the Wild	Profession	Both	Heart of the Wild		2	2	0	2	1		905	905	unplaced		
 tbc	zygor:Profession Guides\Elements\Farming Guides\Ichor of Undeath	Ichor of Undeath	Profession	Both	Ichor of Undeath		2	2	0	2	1		977	977	unplaced		
 tbc	zygor:Profession Guides\Elements\Farming Guides\Heart of Fire	Heart of Fire	Profession	Both	Heart of Fire		2	2	0	2	1		905	905	unplaced		
