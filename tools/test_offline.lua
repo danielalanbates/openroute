@@ -166,14 +166,39 @@ print(("menu tree OK: %d categories, %d guides reachable, %d search hits for 'el
 -- ---------------------------------------------------------------------------
 do
     local src = (function() local h = assert(io.open("CompletionRoute/UI/GuideMenu.lua")) local t = h:read("*a") h:close() return t end)()
-    assert(src:find('"CheckButton", "CompletionRouteGuideMenuScope"'), "no scope check box at the top of the guide menu")
-    assert(src:find("All characters") and src:find("This character"), "scope label must name both states")
+    assert(src:find('"CompletionRouteGuideMenuScope"'), "no scope selector at the top of the guide menu")
+    assert(src:find("stepScope") and src:find("ScrollUpButton") and src:find("ScrollDownButton"), "scope must step with up/down arrows")
     assert(src:find("b.right"), "no right-hand completion column")
     assert(src:find("completed"), "completion count text missing")
 
-    -- label follows the setting, both ways
-    NS.db.profile.accountWide = true  NS.GuideMenu.UpdateScopeLabel()
-    NS.db.profile.accountWide = false NS.GuideMenu.UpdateScopeLabel()
+    -- the four scopes, narrow to wide, each with a label and an explanation
+    local A2 = NS.Account
+    assert(#A2.SCOPES == 4 and A2.SCOPES[1] == "char" and A2.SCOPES[4] == "account", "scope order")
+    for _, sc in ipairs(A2.SCOPES) do
+        A2.SetScope(sc)
+        assert(A2.Scope() == sc, "scope did not stick: " .. sc)
+        assert(A2.ScopeLabel(sc) ~= "?" and #A2.ScopeDetail(sc) > 0, "scope " .. sc .. " has no label/detail")
+        assert(NS.db.profile.accountWide == (sc ~= "char"), "legacy accountWide mirror out of step for " .. sc)
+        NS.GuideMenu.UpdateScopeLabel()
+    end
+    assert(A2.ScopeLabel("realm") == "This server" and A2.ScopeLabel("flavor") == "This game type", "scope labels")
+    assert(A2.GameTypeName("tbc"):find("Anniversary") and A2.GameTypeName("retail"):find("Modern")
+           and A2.GameTypeName("era-hardcore"):find("Hardcore"), "game type names")
+
+    -- scope actually filters other characters: same realm counts under "realm", a foreign realm does not
+    NS.db.global.chars["Sameserver-Test"] = { name = "Sameserver", realm = NS.Account.me.realm, flavor = NS.flavor,
+        gametype = NS.Account.GameType(), faction = "Alliance", quests = { [4243] = true }, done = {} }
+    NS.db.global.chars["Otherserver-Elsewhere"] = { name = "Otherserver", realm = "Elsewhere", flavor = "retail",
+        gametype = "retail", faction = "Alliance", quests = { [4244] = true }, done = {} }
+    A2.SetScope("realm")
+    assert(A2.CharInScope("Sameserver-Test", NS.db.global.chars["Sameserver-Test"]) == true, "same-realm alt excluded")
+    assert(A2.CharInScope("Otherserver-Elsewhere", NS.db.global.chars["Otherserver-Elsewhere"]) == false, "foreign-realm alt included")
+    A2.SetScope("flavor")
+    assert(A2.CharInScope("Otherserver-Elsewhere", NS.db.global.chars["Otherserver-Elsewhere"]) == false, "other game type included")
+    A2.SetScope("account")
+    assert(A2.CharInScope("Otherserver-Elsewhere", NS.db.global.chars["Otherserver-Elsewhere"]) == true, "account scope excluded someone")
+    A2.SetScope("char")
+    NS.db.global.chars["Sameserver-Test"], NS.db.global.chars["Otherserver-Elsewhere"] = nil, nil
 
     -- the background scan fills in per-guide answers and the node roll-up counts them
     NS.Guide.Register({ id = "t:menu:done", name = "Menu Done", type = "Events", faction = "Alliance", source = "test",
@@ -194,7 +219,7 @@ do
     assert(pending == 0, "scan left rows unresolved: " .. pending)
     assert(d >= 1 and tot >= 2, ("Events roll-up wrong: %d/%d"):format(d, tot))
 end
-print("guide menu OK: scope check box, per-guide scan, category completion counts")
+print("guide menu OK: four-way scope selector, per-guide scan, category completion counts")
 
 -- 7) account-wide progression
 NS.Account.Init()
