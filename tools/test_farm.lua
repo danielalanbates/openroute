@@ -221,4 +221,12 @@ assert(ex and math.abs(ex - doorx) < 1 and math.abs(ey - doory) < 1, "dungeon st
 assert(dstep._locSource == "entrance", "entrance substitution not flagged")
 print("instance entrance routing OK (dungeon step -> the door)")
 
+-- 15) the in-client self test drives the engine with the player standing still
+PLAYER.map, PLAYER.x, PLAYER.y = 1429, 0.50, 0.50
+PLAYER.wx, PLAYER.wy, PLAYER.inst = z2w(0.50, 0.50, 1429)
+local st = F.SelfTest()
+assert(st and st.failed == 0, "circuit self test failed: " .. tostring(st and st.failed))
+assert(#st.checks == 5, "expected 5 self-test checks, got " .. #st.checks)
+print(("in-client self test OK: %d checks, %d failed"):format(#st.checks, st.failed))
+
 print("ALL FARM TESTS PASSED")
