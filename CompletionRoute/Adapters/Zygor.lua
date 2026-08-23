@@ -27,12 +27,25 @@ end
 
 -- Convert one Zygor step block (array of lines) into native lines
 local function convertStep(lines, ctx)
+    ctx = ctx or {}
     local out = {}
+    local pathPts = {}
     local tips, gotoZone, gx, gy, only, onlyClass, onlyRace, qidGlobal = {}, nil, nil, nil, nil, nil, nil, nil
     local actions = {}
     for _, raw in ipairs(lines) do
         local line = U.trim(raw)
         if line ~= "" then
+            -- Zygor's gold/farming guides are already routes: "map <Zone>" + "path" vertex lists
+            -- ("path follow smart; loop on; dist 20").  Those become G waypoints, which is the whole
+            -- point of a farm guide - the player walks the ring instead of clicking through steps.
+            local m = line:match("^map%s+(.+)$")
+            if m then ctx.map = U.trim((m:gsub("/%d+%s*$", ""))) end
+            if line:match("^path%s") or line == "path" then
+                if line:match("loop%s+on") then ctx.loop = true end
+                for px, py in line:gmatch("(%d+%.?%d*)%s*,%s*(%d+%.?%d*)") do
+                    pathPts[#pathPts + 1] = { tonumber(px), tonumber(py) }
+                end
+            end
             local z, x, y = parseGoto(line)
             if z then gotoZone, gx, gy = z, x, y end
             local q = line:match("|q%s+(%d+)")
@@ -49,7 +62,7 @@ local function convertStep(lines, ctx)
                 local cmd, rest = line:match("^(%a+)%s+(.*)$")
                 if not cmd then cmd = line:match("^(%a+)$") rest = "" end
                 cmd = cmd and cmd:lower()
-                if cmd == "accept" or cmd == "turnin" or cmd == "kill" or cmd == "collect" or cmd == "talk" or cmd == "use" or cmd == "fly" or cmd == "hearth" or cmd == "home" or cmd == "level" or cmd == "goto" or cmd == "click" or cmd == "buy" or cmd == "learn" or cmd == "trash" or cmd == "get" or cmd == "kill" or cmd == "destroy" or cmd == "invehicle" or cmd == "clicknpc" or cmd == "achieve" or cmd == "skill" or cmd == "learnspell" or cmd == "learnpet" or cmd == "earn" or cmd == "cast" or cmd == "confirm" then
+                if cmd == "accept" or cmd == "turnin" or cmd == "kill" or cmd == "collect" or cmd == "goldcollect" or cmd == "talk" or cmd == "use" or cmd == "fly" or cmd == "hearth" or cmd == "home" or cmd == "level" or cmd == "goto" or cmd == "click" or cmd == "buy" or cmd == "learn" or cmd == "trash" or cmd == "get" or cmd == "kill" or cmd == "destroy" or cmd == "invehicle" or cmd == "clicknpc" or cmd == "achieve" or cmd == "skill" or cmd == "learnspell" or cmd == "learnpet" or cmd == "earn" or cmd == "cast" or cmd == "confirm" then
                     local body = rest:gsub("|.*$", "")
                     body = U.trim(body)
                     local name, id = body:match("^(.-)##(%d+)")
@@ -70,13 +83,26 @@ local function convertStep(lines, ctx)
     if onlyClass then suffix = suffix .. "|C|" .. onlyClass end
     if onlyRace then suffix = suffix .. "|R|" .. onlyRace end
     if note ~= "" then suffix = suffix .. "|N|" .. esc(note) end
+    -- path waypoints first: they are the route, the kill/collect lines describe what to do on it
+    local zoneForPath = ctx.map or gotoZone
+    if #pathPts > 0 and zoneForPath then
+        local what = {}
+        for _, a in ipairs(actions) do
+            if a.cmd == "kill" or a.cmd == "collect" or a.cmd == "get" or a.cmd == "goldcollect" then what[#what + 1] = a.name end
+        end
+        local n = (#what > 0) and ("|N|" .. esc(table.concat(what, ", "))) or ""
+        for i, p in ipairs(pathPts) do
+            out[#out + 1] = ("G %s %d|Z|%s|M|%.2f,%.2f|RAD|40%s|"):format(
+                esc(#what > 0 and what[1] or (zoneForPath .. " route")), i, esc(zoneForPath), p[1], p[2], n)
+        end
+    end
     local emitted = false
     for _, a in ipairs(actions) do
         local act, title, qid, extra = nil, a.name, a.qid or nil, ""
         if a.cmd == "accept" then act = "A" qid = a.id or qid
         elseif a.cmd == "turnin" then act = "T" qid = a.id or qid
         elseif a.cmd == "kill" then act = "C" title = "Kill " .. a.name qid = a.qid or qidGlobal
-        elseif a.cmd == "collect" or a.cmd == "get" then act = "C" title = "Collect " .. a.name qid = a.qid or qidGlobal if a.id then extra = extra .. "|L|" .. a.id .. " " .. (a.name:match("^(%d+)") or 1) end
+        elseif a.cmd == "collect" or a.cmd == "get" or a.cmd == "goldcollect" then act = "C" title = "Collect " .. a.name qid = a.qid or qidGlobal if a.id then extra = extra .. "|L|" .. a.id .. " " .. (a.name:match("^(%d+)") or 1) end
         elseif a.cmd == "goto" then act = "R" title = "Go to " .. (gotoZone or a.name)
         elseif a.cmd == "fly" then act = "F" title = a.name
         elseif a.cmd == "hearth" then act = "H" title = a.name
@@ -108,9 +134,10 @@ function A.ConvertText(raw)
         elseif cur then cur[#cur + 1] = line end
     end
     if cur then steps[#steps + 1] = cur end
-    local out = {}
-    for _, s in ipairs(steps) do for _, l in ipairs(convertStep(s)) do out[#out + 1] = l end end
-    return table.concat(out, "\n")
+    local out, ctx = {}, {}
+    for _, s in ipairs(steps) do for _, l in ipairs(convertStep(s, ctx)) do out[#out + 1] = l end end
+    A.lastWasLoop = ctx.loop and true or false
+    return table.concat(out, "\n"), ctx.loop
 end
 
 -- Register one guide given its Zygor title + raw text (shared by live + baked import)

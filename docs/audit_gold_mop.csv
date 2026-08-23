@@ -1,0 +1,9 @@
+metric,value
+imported_gold_guides,204
+folded_to_circuit,178
+authored_rings,106
+solved_rings,72
+avg_stops,25.6
+avg_yards_solved,2116
+not_folded:no farmable stops and no zone to sweep,25
+not_folded:could not close a loop here,1
