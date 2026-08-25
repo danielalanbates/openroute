@@ -169,6 +169,72 @@ for _, g in ipairs(wowpro) do
 end
 wowpro = dw
 
+
+-- ---------------- flavor gate ----------------
+-- The classic clients' Zygor installs ship the FULL modern catalog, so tagging by install dir
+-- alone floods the tbc/mop bakes with guides whose zones do not exist on that client (Icecrown on
+-- TBC Anniversary, Mechagon on MoP Classic...).  Gate each guide by whether its zone names resolve
+-- on the flavor's own map list (tools/maps_<flavor>.lua): keep it when a majority resolve, or when
+-- the unresolved names are not outdoor world zones (dungeon interiors have no uiMap on classic
+-- clients but the guide is still that flavor's content).
+local MT = {}
+local RETAIL_OUTDOOR = {}
+local function normKey(s) return (s:lower():gsub("[^%w]", "")) end
+local ALIASES = (function()
+    local NSx = {}
+    local fn = loadfile("CompletionRoute/Data/ZoneAliases.lua")
+    if fn then pcall(fn, "CompletionRoute", NSx) end
+    return NSx.ZoneNameAliases or {}
+end)()
+for _, fl in ipairs({ "era", "tbc", "mop", "retail" }) do
+    local ok, maps = pcall(dofile, "tools/maps_" .. fl .. ".lua")
+    local ex, no = {}, {}
+    if ok and type(maps) == "table" then
+        for _, d in pairs(maps) do
+            ex[d[1]] = true no[normKey(d[1])] = true
+            if fl == "retail" and d[3] and (tonumber(d[8]) or 3) <= 3 then RETAIL_OUTDOOR[normKey(d[1])] = true end
+        end
+    end
+    MT[fl] = { exact = ex, norm = no }
+end
+local function resolvesOn(fl, name)
+    local m = MT[fl]
+    if m.exact[name] or m.norm[normKey(name)] then return true end
+    for _, alt in ipairs(ALIASES[name] or {}) do if m.exact[alt] or m.norm[normKey(alt)] then return true end end
+    local base = name:match("^(.-)%s+%u$") or name:match("^(.-)%s+%d+$") or name:match("^(.-)%s+New$")
+    if base and base ~= "" and (m.exact[base] or m.norm[normKey(base)]) then return true end
+    return false
+end
+local function guideZoneNames(raw)
+    local names, seen = {}, {}
+    for line in (raw .. "\n"):gmatch("([^\r\n]*)\r?\n") do
+        local z = line:match("^%s*map%s+(.+)$")
+        if z then z = z:gsub("%s*|.*$", ""):gsub("/%d+%s*$", "")
+        else
+            z = line:match("|goto%s+([^|]-)%s*/%d*%s+[%d%.]+,[%d%.]+")
+                or line:match("|goto%s+([^|]-)%s+[%d%.]+,[%d%.]+")
+                or line:match("|goto%s+([^|,%d]+)%s*$")
+        end
+        if z then
+            z = z:gsub("^%s+", ""):gsub("%s+$", "")
+            if z ~= "" and not seen[z] then seen[z] = true names[#names + 1] = z end
+        end
+    end
+    return names
+end
+local function keepForFlavor(fl, raw)
+    if fl == "retail" then return true end
+    local names = guideZoneNames(raw)
+    if #names == 0 then return true end
+    local res, foreignOutdoor = 0, false
+    for _, n in ipairs(names) do
+        if resolvesOn(fl, n) then res = res + 1
+        elseif RETAIL_OUTDOOR[normKey(n)] then foreignOutdoor = true end
+    end
+    if res * 2 >= #names then return true end
+    return not foreignOutdoor
+end
+
 -- ---------------- emit ----------------
 -- One file per flavor.  A single merged file is ~100 MB once retail's expansions are in it, and every
 -- client would have to parse all of it to use its own era's slice; split, each client parses only its
@@ -188,9 +254,10 @@ local counts = {}
 for _, flavor in ipairs(FLAVORS) do
     local zf = openOut("Imported_Zygor_" .. flavor .. ".lua", flavor)
     zf:write("NS.ImportedZygor = {\n")
-    local nz = 0
+    local nz, dropped = 0, 0
     for _, g in ipairs(zygor) do
-        if g.flavor == flavor then
+        if g.flavor == flavor and not keepForFlavor(flavor, g.raw) then dropped = dropped + 1
+        elseif g.flavor == flavor then
             nz = nz + 1
             zf:write(("{ title = %q, flavor = %q, next = %s, raw = %q },\n"):format(
                 g.title, g.flavor, g.next and ("%q"):format(g.next) or "nil", g.raw))
@@ -212,7 +279,7 @@ for _, flavor in ipairs(FLAVORS) do
         end
     end
     wf:write("}\n") wf:close()
-    counts[#counts + 1] = ("%s: %d zygor / %d wowpro"):format(flavor, nz, nw)
+    counts[#counts + 1] = ("%s: %d zygor (%d out-of-flavor dropped) / %d wowpro"):format(flavor, nz, dropped, nw)
 end
 -- the old single-file bake would now shadow the per-flavor ones
 os.remove(OUT .. "/Imported_Zygor.lua")

@@ -39,7 +39,7 @@ local function convertStep(lines, ctx)
             -- ("path follow smart; loop on; dist 20").  Those become G waypoints, which is the whole
             -- point of a farm guide - the player walks the ring instead of clicking through steps.
             local m = line:match("^map%s+(.+)$")
-            if m then ctx.map = U.trim((m:gsub("/%d+%s*$", ""))) end
+            if m then ctx.map = U.trim((m:gsub("%s*|.*$", ""):gsub("/%d+%s*$", ""))) end
             if line:match("^path%s") or line == "path" then
                 if line:match("loop%s+on") then ctx.loop = true end
                 for px, py in line:gmatch("(%d+%.?%d*)%s*,%s*(%d+%.?%d*)") do
@@ -67,7 +67,12 @@ local function convertStep(lines, ctx)
                     body = U.trim(body)
                     local name, id = body:match("^(.-)##(%d+)")
                     local qid = line:match("|q%s+(%d+)")
-                    actions[#actions + 1] = { cmd = cmd, name = U.trim(name or body), id = tonumber(id), qid = tonumber(qid), raw = line }
+                    -- the item id of a "Use ..." caption lives in the |use Name##id tag, and the
+                    -- real completion condition is the |q qid/objective goal
+                    local useId = line:match("|use%s+[^|]-##(%d+)")
+                    local qobj = line:match("|q%s+%d+/(%d+)")
+                    actions[#actions + 1] = { cmd = cmd, name = U.trim(name or body), id = tonumber(id),
+                        useId = tonumber(useId), qobj = tonumber(qobj), qid = tonumber(qid), raw = line }
                 elseif line:sub(1, 1) ~= "|" then
                     -- free text
                     local body = U.trim(line:gsub("|.*$", ""))
@@ -108,11 +113,12 @@ local function convertStep(lines, ctx)
         elseif a.cmd == "hearth" then act = "H" title = a.name
         elseif a.cmd == "home" then act = "h" title = a.name
         elseif a.cmd == "level" then act = "L" title = "Level " .. a.name
-        elseif a.cmd == "use" then act = "U" title = "Use " .. a.name if a.id then extra = extra .. "|U|" .. a.id end qid = a.qid or qidGlobal
+        elseif a.cmd == "use" then act = "U" title = "Use " .. a.name local uid = a.id or a.useId if uid then extra = extra .. "|U|" .. uid end qid = a.qid or qidGlobal
         elseif a.cmd == "buy" then act = "B" title = "Buy " .. a.name
         elseif a.cmd == "talk" or a.cmd == "clicknpc" or a.cmd == "click" or a.cmd == "confirm" then act = "N" title = (a.cmd == "talk" and "Talk to " or "") .. a.name
         else act = "N" title = a.cmd .. " " .. a.name end
         if act then
+            if a.qobj and (act == "C" or act == "U") then extra = extra .. "|QO|" .. a.qobj end
             local q = qid and ("|QID|" .. qid) or ""
             out[#out + 1] = ("%s %s%s%s%s|"):format(act, esc(title), q, extra, suffix)
             emitted = true
