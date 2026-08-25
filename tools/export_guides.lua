@@ -92,16 +92,31 @@ end
 -- (Legion .. Midnight); the classic installs carry the era guides.  A guide is tagged with the
 -- flavor it was found under and only registers on that client (Adapters/Zygor.lua ImportStatic),
 -- so a Dragonflight guide never lands on an Era character that cannot resolve its zones.
+-- Zygor keys a guide's era by the folder it lives in, NOT by the client it was installed under:
+-- MoP Classic's install carries BOTH Guides-MOP and Guides-Retail, and TBC Anniversary's carries a
+-- Guides-MOP.  Tagging by install directory therefore baked Shadowlands guides into MoP Classic and
+-- MoP guides into TBC — 222 Shadowlands guides were registering on a client with no Shadowlands.
+-- Take the flavor from the guide folder suffix, which is what Zygor's own files-<ERA>.xml loads.
+local ZG_DIR_FLAVOR = { Classic = "era", TBC = "tbc", MOP = "mop", Retail = "retail" }
 for _, t in ipairs(targets) do
-    CURFLAVOR = t.flavor
     local zd = io.popen(('ls -d %q/Interface/AddOns/ZygorGuidesViewer* 2>/dev/null'):format(t.dir))
     if zd then
         for dir in zd:lines() do
-            local before = #zygor
+            local counts = {}
             for _, f in ipairs(listLua(dir)) do
-                if f:find("/Guides%-") or f:find("/Guides/") then loadZygorFile(f, "Alliance") loadZygorFile(f, "Horde") end
+                local era = f:match("/Guides%-([A-Za-z]+)/")
+                local fl = era and ZG_DIR_FLAVOR[era]
+                if not era and f:find("/Guides/") then fl = t.flavor end   -- unsuffixed folder = this client's own
+                if fl then
+                    CURFLAVOR = fl
+                    local before = #zygor
+                    loadZygorFile(f, "Alliance") loadZygorFile(f, "Horde")
+                    counts[fl] = (counts[fl] or 0) + (#zygor - before)
+                end
             end
-            io.stderr:write(("zygor %-7s %-40s +%d\n"):format(t.flavor, dir:match("([^/]+)$"), #zygor - before))
+            for fl, n in pairs(counts) do
+                io.stderr:write(("zygor %-7s %-40s +%d\n"):format(fl, dir:match("([^/]+)$"), n))
+            end
         end
         zd:close()
     end
