@@ -71,7 +71,7 @@ tbc	zygor:GOLD\Farming\Ichor of Undeath	Ichor of Undeath	Gold	Both	Ichor of Unde
 tbc	zygor:GOLD\Farming\Elemental Air	Elemental Air	Gold	Both	Elemental Air		1	18	18	0	0	0	2	1647	1084	0	1		
 tbc	zygor:GOLD\Farming\Small Brilliant Shard	Small Brilliant Shard	Gold	Both	Small Brilliant Shard		1	1	0	1	0	1	0	0	0	0	1	travel step with unresolvable zone	
 tbc	zygor:GOLD\Farming\Lesser Mystic Essence	Lesser Mystic Essence	Gold	Both	Lesser Mystic Essence		1	1	0	1	0	1	0	0	0	0	1	travel step with unresolvable zone	
-tbc	zygor:GOLD\Farming\Righteous Orb	Righteous Orb	Gold	Both	Righteous Orb		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+tbc	zygor:GOLD\Farming\Righteous Orb	Righteous Orb	Gold	Both	Righteous Orb		2	2	0	2	0	2	0	0	0	0	1	objective without QID or loot	
 tbc	zygor:GOLD\Farming\Huge Venom Sac	Huge Venom Sac	Gold	Both	Huge Venom Sac		23	46	44	2	0	2	2	4791	1619	0	1	objective without QID or loot	
 tbc	zygor:GOLD\Farming\Bat Flesh, Crunchy Spider Leg	Bat Flesh, Crunchy Spider Leg	Gold	Both	Bat Flesh, Crunchy Spider Leg		50	52	45	7	0	7	2	3017	2666	0	1	note-class step (N)	
 tbc	zygor:GOLD\Farming\Serpent Flesh	Serpent Flesh	Gold	Both	Serpent Flesh		63	4	0	4	0	4	2	0	0	0	1	note-class step (N)	

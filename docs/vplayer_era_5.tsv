@@ -82,7 +82,7 @@ era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Burnout [Dun Morogh]	Bu
 era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Ice Lance [Elwynn Forest]	Ice Lance [Elwynn Forest]	Leveling	Both	Ice Lance [Elwynn Forest]		8	6	3	3	0	3	0	3775	482	0	1	note-class step (N)	
 era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Regeneration [Loch Modan]	Regeneration [Loch Modan]	Leveling	Both	Regeneration [Loch Modan]		4	4	1	3	0	3	0	6668	591	0	1	note-class step (N)	
 era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Phase 2 Runes\Hot Streak [Alterac Mountains]	Hot Streak [Alterac Mountains]	Leveling	Both	Hot Streak [Alterac Mountains]		4	4	2	2	0	2	0	6610	586	0	1	objective without QID or loot	
-era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Phase 3 Runes\Displacement	Displacement	Leveling	Both	Displacement		14	14	5	9	0	9	0	33686	4041	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Phase 3 Runes\Displacement	Displacement	Leveling	Both	Displacement		14	14	5	9	0	9	0	33686	4041	0	1	note-class step (N)	
 era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Phase 4 Runes\Overheat	Overheat	Leveling	Both	Overheat		6	3	3	0	0	0	0	3422	587	0	1		
 era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Demonic Grace [Elwynn Forest]	Demonic Grace [Elwynn Forest]	Leveling	Both	Demonic Grace [Elwynn Forest]		9	9	5	4	0	4	0	14002	1220	0	1	objective without QID or loot	
 era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Incinerate [Redridge Mountains]	Incinerate [Redridge Mountains]	Leveling	Both	Incinerate [Redridge Mountains]		2	2	1	1	0	1	0	4358	401	0	1	objective without QID or loot	
@@ -172,7 +172,7 @@ era	zygor:Profession Guides\Engineering\Specialization\Gnomish Engineering\Gnomi
 era	zygor:Profession Guides\Leatherworking\Specialization\Elemental Leatherworking\Elemental Leatherworking Questline	Elemental Leatherworking Questline	Professions	Both	Elemental Leatherworking Questline		12	8	2	6	0	6	0	2970	339	0	1	note-class step (N)	
 era	zygor:Profession Guides\Non-Trainer Recipes\Blacksmithing\Armorsmith\Dark Iron Helm	Dark Iron Helm	Professions	Both	Dark Iron Helm		5	5	1	4	0	4	0	0	0	0	1	note-class step (N)	
 era	zygor:Profession Guides\Non-Trainer Recipes\Engineering\Goblin Engineering\Dimensional Ripper - Everlook	Dimensional Ripper - Everlook	Professions	Both	Dimensional Ripper - Everlook		3	3	1	2	0	2	0	0	818	0	1	note-class step (N)	
-era	zygor:Reputation Guides\Reputations\Hydraxian Waterlords	Hydraxian Waterlords	Reputation	Both	Hydraxian Waterlords		2	2	0	2	0	2	0	0	0	0	1	objective without QID or loot	
+era	zygor:Reputation Guides\Reputations\Hydraxian Waterlords	Hydraxian Waterlords	Reputation	Both	Hydraxian Waterlords		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
 era	zygor:Reputation Guides\Reputations\Darnassus	Darnassus	Reputation	Both	Darnassus		14	9	4	5	0	5	0	7974	463	0	1	note-class step (N)	
 era	zygor:Reputation Guides\Reputations\Orgrimmar	Orgrimmar	Reputation	Both	Orgrimmar		14	9	4	5	0	5	0	10798	695	0	1	note-class step (N)	
 era	wowpro:ClassicDarkshore1220	Darkshore 12-20	Leveling	Alliance	Darkshore		277	206	183	23	0	23	0	125615	18121	0	1	note-class step (N)	

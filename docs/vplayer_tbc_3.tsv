@@ -36,17 +36,17 @@ tbc	qdb:tbc:4131:Both	Magisters' Terrace - Dungeon Quests	Quests	Both	349		3	2	2
 tbc	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 2, Capturing Armory, Portal Activated)	Shattered Sun Dailies (Phase 2, Capturing Armory, Portal Activated)	Dailies	Both	Shattered Sun Dailies		78	57	34	23	0	23	0	66491	4636	0	1	note-class step (N)	
 tbc	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 4, Fully Built)	Shattered Sun Dailies (Phase 4, Fully Built)	Dailies	Both	Shattered Sun Dailies		134	96	57	39	0	39	0	92909	6393	0	1	note-class step (N)	
 tbc	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Eggs	Netherwing Eggs	Dailies	Both	Netherwing Eggs		6	6	2	4	0	4	0	19376	1651	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\Gnomeregan (29-38)	Gnomeregan (29-38)	Dungeons	Both	Gnomeregan		14	14	2	12	0	12	0	281	626	1	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\Classic\Razorfen Downs (37-43)	Razorfen Downs (37-43)	Dungeons	Both	Razorfen Downs		13	13	1	12	0	12	0	103	18	1	1	objective without QID or loot	
+tbc	zygor:Dungeon Guides\Classic\Gnomeregan (29-38)	Gnomeregan (29-38)	Dungeons	Both	Gnomeregan		14	14	2	12	0	12	0	281	626	1	1	note-class step (N)	
+tbc	zygor:Dungeon Guides\Classic\Razorfen Downs (37-43)	Razorfen Downs (37-43)	Dungeons	Both	Razorfen Downs		13	13	1	12	0	12	0	103	18	1	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Maraudon (Earth Song Falls - Inner) (48-57)	Maraudon (Earth Song Falls - Inner) (48-57)	Dungeons	Both	Maraudon		11	11	1	10	0	10	0	586	65	2	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\Dire Maul East (58-60)	Dire Maul East (58-60)	Dungeons	Both	Dire Maul East		11	11	1	10	0	10	0	4982	553	1	1	objective without QID or loot	
+tbc	zygor:Dungeon Guides\Classic\Dire Maul East (58-60)	Dire Maul East (58-60)	Dungeons	Both	Dire Maul East		11	11	1	10	0	10	0	4982	553	1	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Wailing Caverns Quests	Wailing Caverns Quests	Dungeons	Both	Wailing Caverns Quests		57	48	24	24	0	24	0	27110	3360	0	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery Library Quests	Scarlet Monastery Library Quests	Dungeons	Both	Scarlet Monastery Library Quests		24	24	14	10	0	10	0	33779	6349	0	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Maraudon Quests	Maraudon Quests	Dungeons	Both	Maraudon Quests		76	48	27	21	0	21	0	44171	4977	0	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Lower Blackrock Spire Quests	Lower Blackrock Spire Quests	Dungeons	Both	Lower Blackrock Spire Quests		118	91	53	38	0	38	0	68734	15657	0	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Molten Core Attunement	Molten Core Attunement	Dungeons	Both	Molten Core Attunement		9	9	5	4	0	4	0	7819	2078	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\The Burning Crusade\The Underbog (63-70)	The Underbog (63-70)	Dungeons	Both	The Underbog		9	9	1	8	0	8	0	538	48	1	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\The Burning Crusade\The Mechanar (70)	The Mechanar (70)	Dungeons	Both	The Mechanar		7	7	1	6	0	6	0	406	73	1	1	objective without QID or loot	
+tbc	zygor:Dungeon Guides\The Burning Crusade\The Underbog (63-70)	The Underbog (63-70)	Dungeons	Both	The Underbog		9	9	1	8	0	8	0	538	48	1	1	note-class step (N)	
+tbc	zygor:Dungeon Guides\The Burning Crusade\The Mechanar (70)	The Mechanar (70)	Dungeons	Both	The Mechanar		7	7	1	6	0	6	0	406	73	1	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\The Burning Crusade\Magisters' Terrace (70)	Magisters' Terrace (70)	Dungeons	Both	Magisters' Terrace		9	9	0	9	0	9	0	0	0	0	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\The Burning Crusade\The Mechanar Quests	The Mechanar Quests	Dungeons	Both	The Mechanar Quests		34	26	15	11	0	11	0	10351	1847	3	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\The Burning Crusade\Shattered Halls Quests	Shattered Halls Quests	Dungeons	Both	Shattered Halls Quests		23	15	9	6	0	6	0	5157	568	4	1	note-class step (N)	
@@ -54,7 +54,7 @@ tbc	zygor:Dungeon Guides\The Burning Crusade\Tempest Keep Attunement	Tempest Kee
 tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery Graveyard Quests	Scarlet Monastery Graveyard Quests	Dungeons	Both	Scarlet Monastery Graveyard Quests		19	17	10	7	0	7	0	20455	3915	0	1	note-class step (N)	
 tbc	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Kerri Hicks Turn-Ins (Elwynn Forest)	Kerri Hicks Turn-Ins (Elwynn Forest)	Events	Both	Kerri Hicks Turn-Ins		22	16	10	6	0	6	0	12131	1110	0	1	note-class step (N)	
 tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Sayge's Fortunes (Mulgore)	Sayge's Fortunes (Mulgore)	Events	Both	Sayge's Fortunes		29	29	14	15	0	15	0	2034	3837	0	1	note-class step (N)	
-tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Wood Frog (Mulgore)	Wood Frog (Mulgore)	Events	Both	Wood Frog		2	2	0	2	0	2	0	834	149	0	1	buy without loot list	
+tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Wood Frog (Mulgore)	Wood Frog (Mulgore)	Events	Both	Wood Frog		2	2	0	2	0	2	0	834	149	0	1	note-class step (N)	
 tbc	zygor:Events Guides\Feast of Winter Veil\Feast of Winter Veil Quest	Feast of Winter Veil Quest	Events	Both	Feast of Winter Veil Quest		49	43	20	23	0	23	0	12727	3872	0	1	note-class step (N)	
 tbc	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Dailies	Midsummer Fire Festival Dailies	Events	Both	Midsummer Fire Festival Dailies		38	37	24	13	0	13	0	21352	4773	0	1	note-class step (N)	
 tbc	zygor:GOLD\Farming\Mageweave Cloth	Mageweave Cloth	Gold	Both	Mageweave Cloth		1	18	18	0	0	0	2	1646	1231	0	1		
@@ -100,7 +100,7 @@ tbc	zygor:Leveling Guides\Classic (11-60)\Tanaris (46-48)	Tanaris (46-48)	Leveli
 tbc	zygor:Leveling Guides\Classic (11-60)\Un'Goro Crater (53-54)	Un'Goro Crater (53-54)	Leveling	Both	Un'Goro Crater		185	139	76	63	0	63	0	47081	3896	0	1	note-class step (N)	
 tbc	zygor:Leveling Guides\The Burning Crusade (60-70)\Terokkar Forest (63-64)	Terokkar Forest (63-64)	Leveling	Both	Terokkar Forest		374	330	204	126	0	126	0	66932	5469	0	1	note-class step (N)	
 tbc	zygor:Leveling Guides\Ahn'Qiraj Gear\Ruins of Ahn'Qiraj Ring Quest	Ruins of Ahn'Qiraj Ring Quest	Leveling	Both	Ruins of Ahn'Qiraj Ring Quest		58	30	27	3	0	3	0	569	870	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Chest Quest	Temple of Ahn'Qiraj Chest Quest	Leveling	Both	Temple of Ahn'Qiraj Chest Quest		58	22	18	4	0	4	0	0	0	0	1	travel step with unresolvable zone	
+tbc	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Chest Quest	Temple of Ahn'Qiraj Chest Quest	Leveling	Both	Temple of Ahn'Qiraj Chest Quest		58	22	18	4	0	4	0	0	0	0	1	note-class step (N)	
 tbc	zygor:Leveling Guides\Cenarion Field Duty Logistics Assignments	Cenarion Field Duty Logistics Assignments	Leveling	Both	Cenarion Field Duty Logistics Assignments		84	63	51	12	0	12	0	16770	3667	0	1	note-class step (N)	
 tbc	zygor:Leveling Guides\The Burning Crusade (60-70)\Netherstorm Group Quests	Netherstorm Group Quests	Leveling	Both	Netherstorm Group Quests		388	327	213	114	0	114	0	140136	19445	0	1	note-class step (N)	
 tbc	zygor:Leveling Guides\Class Quests\Hunter Class Quests	Hunter Class Quests	Leveling	Both	Hunter Class Quests		194	141	130	11	0	11	0	44465	9553	0	1	note-class step (N)	
@@ -126,7 +126,7 @@ tbc	zygor:Profession Guides\Elements\Farming Guides\Elemental Air	Elemental Air	
 tbc	zygor:Profession Guides\Enchanting\Farming Guides\Greater Eternal Essence	Greater Eternal Essence	Professions	Both	Greater Eternal Essence		1	1	1	0	0	0	0	0	0	0	1		
 tbc	zygor:Profession Guides\Enchanting\Farming Guides\Soul Dust	Soul Dust	Professions	Both	Soul Dust		1	1	1	0	0	0	0	0	0	0	1		
 tbc	zygor:Profession Guides\Enchanting\Farming Guides\Dream Dust	Dream Dust	Professions	Both	Dream Dust		1	1	1	0	0	0	0	0	0	0	1		
-tbc	zygor:Profession Guides\Fishing\Farming Guides\Figluster's Mudfish	Figluster's Mudfish	Professions	Both	Figluster's Mudfish		3	3	1	2	0	2	0	0	829	0	1	travel step with unresolvable zone	
+tbc	zygor:Profession Guides\Fishing\Farming Guides\Figluster's Mudfish	Figluster's Mudfish	Professions	Both	Figluster's Mudfish		3	3	1	2	0	2	0	0	829	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Fishing\Farming Guides\Raw Sagefish	Raw Sagefish	Professions	Both	Raw Sagefish		1	1	1	0	0	0	0	0	474	0	1		
 tbc	zygor:Profession Guides\Herbalism\Herbalism (300-375)	Herbalism (300-375)	Professions	Both	Herbalism		302	301	296	5	0	5	0	63113	6016	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Herbalism\Farming Guides\Briarthorn	Briarthorn	Professions	Both	Briarthorn		28	28	27	1	0	1	0	4101	1431	0	1	note-class step (N)	
@@ -156,7 +156,7 @@ tbc	zygor:Profession Guides\General Farming Guides\Primal Earth	Primal Earth	Pro
 tbc	zygor:Profession Guides\Mining\Farming Guides\Adamantite Ore	Adamantite Ore	Professions	Both	Adamantite Ore		68	68	66	2	0	2	0	12470	2227	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Leatherworking\Farming Guides\Fel Hide	Fel Hide	Professions	Both	Fel Hide		11	11	10	1	0	1	0	9021	942	0	1	objective without QID or loot	
 tbc	zygor:Profession Guides\Tailoring\Farming Guides\Netherweb Spider Silk	Netherweb Spider Silk	Professions	Both	Netherweb Spider Silk		2	2	1	1	0	1	0	6845	550	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Fishing\Farming Guides\Crescent-Tail Skullfish	Crescent-Tail Skullfish	Professions	Both	Crescent-Tail Skullfish		3	3	1	2	0	2	0	0	368	0	1	travel step with unresolvable zone	
+tbc	zygor:Profession Guides\Fishing\Farming Guides\Crescent-Tail Skullfish	Crescent-Tail Skullfish	Professions	Both	Crescent-Tail Skullfish		3	3	1	2	0	2	0	0	368	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Cooking\Farming Guides\Jaggal Clam Meat	Jaggal Clam Meat	Professions	Both	Jaggal Clam Meat		4	4	3	1	0	1	0	0	659	0	1	objective without QID or loot	
 tbc	zygor:Profession Guides\Cooking\Farming Guides\Moongraze Stag Tenderloin	Moongraze Stag Tenderloin	Professions	Both	Moongraze Stag Tenderloin		66	66	65	1	0	1	0	25951	1282	0	1	objective without QID or loot	
 tbc	zygor:Reputation Guides\Classic\Cenarion Circle	Cenarion Circle	Reputation	Both	Cenarion Circle		11	9	4	5	0	5	0	3576	1752	0	1	note-class step (N)	

@@ -125,7 +125,12 @@ local function convertStep(lines, ctx)
         end
     end
     if not emitted and (gotoZone or note ~= "") then
-        out[#out + 1] = ("R %s%s|"):format(esc(gotoZone and ("Go to " .. gotoZone) or "Note"), suffix)
+        -- R means "travel to X": it completes by being there.  A step that carries only a note (a
+        -- |tip block, a "wait for the race to start" line) has no X, so an R could never tick and the
+        -- guide dead-ended on it - six Dragonflight guides stalled exactly there.  With no
+        -- destination it is what Zygor shows too: a note you step past with the forward arrow.
+        if gotoZone then out[#out + 1] = ("R %s%s|"):format(esc("Go to " .. gotoZone), suffix)
+        else out[#out + 1] = ("N %s%s|"):format(esc("Note"), suffix) end
     end
     return out
 end

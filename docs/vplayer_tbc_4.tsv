@@ -19,7 +19,7 @@ tbc	qdb:tbc:440:Both	Tanaris Quests	Quests	Both	1446	Tanaris	407	354	354	0	0	0	0
 tbc	qdb:tbc:493:Horde	Moonglade Quests (Horde)	Quests	Horde	1450	Moonglade	16	9	9	0	0	0	0	12377	804	0	1		
 tbc	qdb:tbc:718:Both	Wailing Caverns - Dungeon Quests	Quests	Both	279	Wailing Caverns	6	6	6	0	0	0	0	0	0	0	1		
 tbc	qdb:tbc:1497:Both	Undercity Quests	Quests	Both	1458	Undercity	20	16	16	0	0	0	0	7284	1785	0	1		
-tbc	qdb:tbc:1537:Alliance	Ironforge Quests (Alliance)	Quests	Alliance	1455	Ironforge	487	377	377	0	0	0	0	185597	21691	0	0		guide time cap
+tbc	qdb:tbc:1537:Alliance	Ironforge Quests (Alliance)	Quests	Alliance	1455	Ironforge	487	385	385	0	0	0	0	207201	22934	0	1		
 tbc	qdb:tbc:1584:Alliance	Blackrock Depths - Dungeon -- Detention Block Quests (Alliance)	Quests	Alliance	242	Blackrock Depths	7	5	5	0	0	0	0	0	0	0	1		
 tbc	qdb:tbc:1657:Both	Darnassus Quests	Quests	Both	1457	Darnassus	13	13	13	0	0	0	0	1810	323	0	1		
 tbc	qdb:tbc:2159:Both	Onyxia's Lair - Dungeon? Quests	Quests	Both	248	Onyxia's Lair	3	2	2	0	0	0	0	0	0	0	1		
@@ -39,7 +39,7 @@ tbc	zygor:Dungeon Guides\Classic\Wailing Caverns (15-25)	Wailing Caverns (15-25)
 tbc	zygor:Dungeon Guides\Classic\Razorfen Kraul (30-40)	Razorfen Kraul (30-40)	Dungeons	Both	Razorfen Kraul		17	17	1	16	0	16	0	0	0	2	1	objective without QID or loot	
 tbc	zygor:Dungeon Guides\Classic\Uldaman (42-52)	Uldaman (42-52)	Dungeons	Both	Uldaman		15	15	0	15	0	15	0	0	0	1	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeons	Both	The Temple of Atal'Hakkar		21	21	4	17	0	17	0	477	53	2	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeons	Both	Dire Maul North		14	14	0	14	0	14	0	4715	526	1	1	note-class step (N)	
+tbc	zygor:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeons	Both	Dire Maul North		14	14	0	14	0	14	0	4715	526	1	1	objective without QID or loot	
 tbc	zygor:Dungeon Guides\Classic\The Deadmines Quests	The Deadmines Quests	Dungeons	Both	The Deadmines Quests		67	59	40	19	0	19	0	37526	4182	0	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery Armory Quests	Scarlet Monastery Armory Quests	Dungeons	Both	Scarlet Monastery Armory Quests		18	18	10	8	0	8	0	22656	4999	0	1	note-class step (N)	
 tbc	zygor:Dungeon Guides\Classic\Temple of Atal'Hakkar Quests	Temple of Atal'Hakkar Quests	Dungeons	Both	Temple of Atal'Hakkar Quests		117	96	60	36	0	36	0	118257	16306	0	1	note-class step (N)	
@@ -54,7 +54,7 @@ tbc	zygor:Dungeon Guides\The Burning Crusade\Mount Hyjal Attunement	Mount Hyjal 
 tbc	zygor:Events Guides\Brewfest\Brewfest Quests	Brewfest Quests	Events	Both	Brewfest Quests		47	40	27	13	0	13	0	3339	1453	1	1	note-class step (N)	
 tbc	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Rinling Turn-Ins (Elwynn Forest)	Rinling Turn-Ins (Elwynn Forest)	Events	Both	Rinling Turn-Ins		22	16	10	6	0	6	0	1119	200	1	1	note-class step (N)	
 tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Chronos Turn-Ins (Mulgore)	Chronos Turn-Ins (Mulgore)	Events	Both	Chronos Turn-Ins		22	16	10	6	0	6	0	1748	1514	0	1	note-class step (N)	
-tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Tree Frog (Mulgore)	Tree Frog (Mulgore)	Events	Both	Tree Frog		2	2	0	2	0	2	0	80	14	0	1	buy without loot list	
+tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Tree Frog (Mulgore)	Tree Frog (Mulgore)	Events	Both	Tree Frog		2	2	0	2	0	2	0	80	14	0	1	note-class step (N)	
 tbc	zygor:Events Guides\Lunar Festival\Lunar Festival Main Questline	Lunar Festival Main Questline	Events	Both	Lunar Festival Main Questline		23	21	13	8	0	8	0	789	1771	0	1	note-class step (N)	
 tbc	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Bonfires	Midsummer Fire Festival Bonfires	Events	Both	Midsummer Fire Festival Bonfires		146	142	75	67	0	67	0	123973	21805	0	1	note-class step (N)	
 tbc	zygor:GOLD\Farming\Runecloth	Runecloth	Gold	Both	Runecloth		1	18	18	0	0	0	2	1647	855	0	1		
@@ -126,7 +126,7 @@ tbc	zygor:Profession Guides\Enchanting\Enchanting (1-375)	Enchanting (1-375)	Pro
 tbc	zygor:Profession Guides\Enchanting\Farming Guides\Small Brilliant Shard	Small Brilliant Shard	Professions	Both	Small Brilliant Shard		1	1	1	0	0	0	0	0	0	0	1		
 tbc	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Mystic Essence	Lesser Mystic Essence	Professions	Both	Lesser Mystic Essence		1	1	1	0	0	0	0	0	0	0	1		
 tbc	zygor:Profession Guides\Engineering\Engineering (1-375)	Engineering (1-375)	Professions	Both	Engineering		2321	2208	2093	115	0	115	0	593372	91040	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Fishing\Farming Guides\Icefin Bluefish	Icefin Bluefish	Professions	Both	Icefin Bluefish		3	3	1	2	0	2	0	5758	394	0	1	travel step with unresolvable zone	
+tbc	zygor:Profession Guides\Fishing\Farming Guides\Icefin Bluefish	Icefin Bluefish	Professions	Both	Icefin Bluefish		3	3	1	2	0	2	0	5758	394	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Fishing\Farming Guides\Raw Bristle Whisker Catfish	Raw Bristle Whisker Catfish	Professions	Both	Raw Bristle Whisker Catfish		1	1	1	0	0	0	0	0	188	0	1		
 tbc	zygor:Profession Guides\Herbalism\Farming Guides\Silverleaf	Silverleaf	Professions	Both	Silverleaf		43	43	42	1	0	1	0	6787	1212	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Herbalism\Farming Guides\Swiftthistle	Swiftthistle	Professions	Both	Swiftthistle		28	28	27	1	0	1	0	8684	1180	0	1	note-class step (N)	
@@ -155,7 +155,7 @@ tbc	zygor:Profession Guides\Enchanting\Farming Guides\Small Prismatic Shard	Smal
 tbc	zygor:Profession Guides\General Farming Guides\Primal Fire	Primal Fire	Professions	Both	Primal Fire		14	13	10	3	0	3	0	7844	736	0	1	objective without QID or loot	
 tbc	zygor:Profession Guides\Mining\Farming Guides\Fel Iron Ore	Fel Iron Ore	Professions	Both	Fel Iron Ore		51	51	50	1	0	1	0	11200	1952	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Leatherworking\Farming Guides\Fel Scales	Fel Scales	Professions	Both	Fel Scales		37	35	32	3	0	3	0	5204	902	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Fishing\Farming Guides\Barbed Gill Trout	Barbed Gill Trout	Professions	Both	Barbed Gill Trout		3	3	1	2	0	2	0	2334	417	0	1	travel step with unresolvable zone	
+tbc	zygor:Profession Guides\Fishing\Farming Guides\Barbed Gill Trout	Barbed Gill Trout	Professions	Both	Barbed Gill Trout		3	3	1	2	0	2	0	2334	417	0	1	note-class step (N)	
 tbc	zygor:Profession Guides\Cooking\Farming Guides\Bat Flesh	Bat Flesh	Professions	Both	Bat Flesh		47	47	46	1	0	1	0	17155	1234	0	1	objective without QID or loot	
 tbc	zygor:Profession Guides\Cooking\Farming Guides\Serpent Flesh	Serpent Flesh	Professions	Both	Serpent Flesh		60	58	56	2	0	2	0	16360	2089	0	1	objective without QID or loot	
 tbc	zygor:Profession Guides\Jewelcrafting\Farming Guides\Jaggal Pearl	Jaggal Pearl	Professions	Both	Jaggal Pearl		4	4	3	1	0	1	0	4473	441	0	1	objective without QID or loot	
