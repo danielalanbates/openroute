@@ -167,7 +167,10 @@ end
 function A.ImportStatic()
     local n = 0
     for _, g in ipairs(NS.ImportedZygor or {}) do
-        if registerZ(g.title, g.raw, g.next) then n = n + 1 end
+        -- The bake covers every installed flavor at once (tools/export_guides.lua), so retail gets
+        -- Zygor's modern expansions and Era does not get handed Dragonflight zones it cannot resolve.
+        -- An untagged guide predates the per-flavor bake and is accepted anywhere.
+        if (not g.flavor or g.flavor == "" or g.flavor == NS.flavor) and registerZ(g.title, g.raw, g.next) then n = n + 1 end
     end
     if n > 0 then NS:Print(("Loaded %d baked Zygor guide(s)."):format(n)) end
     return n
