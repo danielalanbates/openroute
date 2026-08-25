@@ -1,0 +1,26 @@
+flavor	guide	name	type	faction	zone	zone_name	steps	simulated	auto	manual	stalls	forced	laps	yards	seconds	no_route	finished	manual_reason	error
+tbc	qdb:tbc:1:Both	Dun Morogh Quests	Quests	Both	1426	Dun Morogh	13	12	12	0	0	0	0	2443	436	0	1		
+tbc	qdb:tbc:4:Horde	Blasted Lands Quests (Horde)	Quests	Horde	1419	Blasted Lands	4	4	4	0	0	0	0	303	185	0	1		
+tbc	qdb:tbc:10:Both	Duskwood Quests	Quests	Both	1431	Duskwood	4	4	4	0	0	0	0	645	115	0	1		
+tbc	qdb:tbc:12:Both	Elwynn Forest Quests	Quests	Both	1429	Elwynn Forest	97	97	97	0	0	0	0	11572	4388	0	1		
+tbc	qdb:tbc:15:Horde	Dustwallow Marsh Quests (Horde)	Quests	Horde	1445	Dustwallow Marsh	93	85	85	0	0	0	0	39871	6265	0	1		
+tbc	qdb:tbc:17:Both	The Barrens Quests	Quests	Both	1413	The Barrens	122	100	100	0	0	0	0	72507	13634	0	1		
+tbc	qdb:tbc:33:Horde	Stranglethorn Vale Quests (Horde)	Quests	Horde	1434	Stranglethorn Vale	90	80	80	0	0	0	0	53630	6327	0	1		
+tbc	qdb:tbc:38:Alliance	Loch Modan Quests (Alliance)	Quests	Alliance	1432	Loch Modan	116	107	107	0	0	0	0	58229	9005	0	1		
+tbc	qdb:tbc:44:Horde	Redridge Mountains Quests (Horde)	Quests	Horde	1433	Redridge Mountains	2	2	2	0	0	0	0	562	100	0	1		
+tbc	qdb:tbc:46:Both	Burning Steppes Quests	Quests	Both	1428	Burning Steppes	86	73	73	0	0	0	0	32678	5095	0	1		
+tbc	qdb:tbc:51:Alliance	Searing Gorge Quests (Alliance)	Quests	Alliance	1427	Searing Gorge	18	16	16	0	0	0	0	6686	1109	0	1		
+tbc	qdb:tbc:139:Both	Eastern Plaguelands Quests	Quests	Both	1423	Eastern Plaguelands	586	478	478	0	0	0	0	112191	15917	0	1		
+tbc	qdb:tbc:148:Both	Darkshore Quests	Quests	Both	1439	Darkshore	6	6	6	0	0	0	0	2258	383	0	1		
+tbc	qdb:tbc:267:Horde	Hillsbrad Foothills Quests (Horde)	Quests	Horde	1424	Hillsbrad Foothills	127	116	116	0	0	0	0	51313	9073	0	1		
+tbc	qdb:tbc:357:Both	Feralas Quests	Quests	Both	1444	Feralas	30	30	30	0	0	0	0	14417	3849	0	1		
+tbc	qdb:tbc:400:Both	Thousand Needles Quests	Quests	Both	1441	Thousand Needles	71	63	63	0	0	0	0	35029	5276	0	1		
+tbc	qdb:tbc:406:Horde	Stonetalon Mountains Quests (Horde)	Quests	Horde	1442	Stonetalon Mountains	68	64	64	0	0	0	0	43660	6850	0	1		
+tbc	qdb:tbc:490:Both	Un'Goro Crater Quests	Quests	Both	1449	Un'Goro Crater	106	90	90	0	0	0	0	46278	6814	0	1		
+tbc	qdb:tbc:618:Both	Winterspring Quests	Quests	Both	1452	Winterspring	132	107	107	0	0	0	0	68970	11596	0	0		guide time cap
+tbc	qdb:tbc:1377:Horde	Silithus Quests (Horde)	Quests	Horde	1451	Silithus	25	25	25	0	0	0	0	3784	422	0	1		
+tbc	qdb:tbc:1519:Alliance	Stormwind City Quests (Alliance)	Quests	Alliance	1453	Stormwind City	419	125	125	0	0	0	0	85838	8963	0	0		guide time cap
+tbc	qdb:tbc:1583:Alliance	Blackrock Spire - Dungeon Quests (Alliance)	Quests	Alliance	253	Blackrock Spire	3	3	3	0	0	0	0	0	0	0	1		
+tbc	qdb:tbc:1637:Alliance	Orgrimmar Quests (Alliance)	Quests	Alliance	1454	Orgrimmar	4	2	2	0	0	0	0	2678	951	0	1		
+tbc	qdb:tbc:2017:Both	Stratholme - Dungeon Quests	Quests	Both	317	Stratholme	11	8	8	0	0	0	0	0	0	0	1		
+tbc	qdb:tbc:2557:Alliance	Dire Maul - Dungeon Quests (Alliance)	Quests	Alliance	234	Dire Maul	4	3	3	0	0	0	0	0	0	0	1		
