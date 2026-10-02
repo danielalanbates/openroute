@@ -17,6 +17,7 @@ INSERT INTO runs VALUES(11,'mop','_classic_','2026-08-21 08:19:45','2026-08-21 0
 INSERT INTO runs VALUES(12,'retail','_retail_','2026-08-21 09:56:41','2026-08-21 11:27:12',9519,9519,0);
 INSERT INTO runs VALUES(13,'retail','_retail_','2026-08-21 11:30:25','2026-08-21 11:57:40',9519,9519,0);
 INSERT INTO runs VALUES(14,'retail','_retail_','2026-08-21 12:01:21','2026-08-21 12:55:57',9519,9519,0);
+INSERT INTO runs VALUES(15,'era','_classic_era_','2026-08-24 17:29:00','2026-08-24 17:30:57',1518,1518,0);
 CREATE TABLE failures(
             run_id INTEGER REFERENCES runs(id), guide_id TEXT, error TEXT);
 INSERT INTO failures VALUES(1,'wowpro:ClassicTeldrassil0112','4 line errors');
@@ -158,6 +159,9 @@ INSERT INTO feature_runs VALUES(19,'retail','_retail_','120100','0.1.0','2026-08
 INSERT INTO feature_runs VALUES(20,'retail','_retail_','120100','0.1.0','2026-08-21 11:30:20',16,0);
 INSERT INTO feature_runs VALUES(21,'retail','_retail_','120100','0.1.0','2026-08-21 12:01:16',16,0);
 INSERT INTO feature_runs VALUES(22,'retail','_retail_','120100','0.1.0','2026-08-21 13:33:14',16,0);
+INSERT INTO feature_runs VALUES(23,'retail','_retail_','120100','0.1.0','2026-10-02 11:27:56',27,0);
+INSERT INTO feature_runs VALUES(24,'era','_classic_era_','11509','0.1.0','2026-08-24 17:28:55',27,0);
+INSERT INTO feature_runs VALUES(25,'tbc','_anniversary_','20506','0.1.0','2026-08-22 18:40:44',16,0);
 CREATE TABLE feature_checks(
     run_id  INTEGER REFERENCES feature_runs(id),
     feature TEXT,   -- beacon | account | core
@@ -516,6 +520,76 @@ INSERT INTO feature_checks VALUES(22,'account','quest-level union',1,'593 quests
 INSERT INTO feature_checks VALUES(22,'core','guides registered',1,'9519');
 INSERT INTO feature_checks VALUES(22,'core','guide loaded + routed',1,'zygor:ACHIEVEMENTS\\Dungeons & Raids\\Northrend Raids\\Three Sixty Pain Spike (10 player) -> C Kill Lord Jaraxxus');
 INSERT INTO feature_checks VALUES(22,'core','arrow shown',1,'visible');
+INSERT INTO feature_checks VALUES(23,'beacon','module loaded',1,'');
+INSERT INTO feature_checks VALUES(23,'beacon','names mined from current step',1,'Lord Greymane');
+INSERT INTO feature_checks VALUES(23,'beacon','nameplate source',1,'modern=0 legacy=0 -> using WorldFrame');
+INSERT INTO feature_checks VALUES(23,'beacon','nameplate rescan runs',1,'1 tracked names');
+INSERT INTO feature_checks VALUES(23,'beacon','map pin library',1,'');
+INSERT INTO feature_checks VALUES(23,'beacon','pins placed for step coords',1,'step has no map coords');
+INSERT INTO feature_checks VALUES(23,'beacon','target button secure macro',1,'Lord Greymane');
+INSERT INTO feature_checks VALUES(23,'account','store initialised',1,'Jorson-Muradin');
+INSERT INTO feature_checks VALUES(23,'account','opt-in flag',1,'accountWide=false');
+INSERT INTO feature_checks VALUES(23,'account','character roster',1,'7 character(s): Jorson-Muradin(1346)');
+INSERT INTO feature_checks VALUES(23,'account','per-guide progress math',1,'char 0/55 (0%)');
+INSERT INTO feature_checks VALUES(23,'account','opt-in gate honoured',1,'off => other characters ignored');
+INSERT INTO feature_checks VALUES(23,'account','quest-level union',1,'631 quests recorded');
+INSERT INTO feature_checks VALUES(23,'farm','module loaded',1,'');
+INSERT INTO feature_checks VALUES(23,'farm','seed circuits registered',1,'31 coarse rings for this client''s zones');
+INSERT INTO feature_checks VALUES(23,'farm','a circuit parses into G waypoints that locate',1,'Elwynn Forest - Herbalism/Mining circuit (coarse): 14 waypoints');
+INSERT INTO feature_checks VALUES(23,'farm','route exists to a circuit''s first waypoint',1,'Elwynn Forest - Herbalism/Mining circuit (coarse): 3m 56s away');
+INSERT INTO feature_checks VALUES(23,'farm','imported gold guides fold into circuits',1,'0 of 0 sampled gold guides became circuits');
+INSERT INTO feature_checks VALUES(23,'farm','lap engine present',1,'laps recorded: 0 guide(s)');
+INSERT INTO feature_checks VALUES(23,'farm','node recorder wired',1,'recording=true');
+INSERT INTO feature_checks VALUES(23,'farm','gather-node import path',1,'0 imported now (Routes: Routes database not found');
+INSERT INTO feature_checks VALUES(23,'farm','lap pricing source',1,'Auctionator prices');
+INSERT INTO feature_checks VALUES(23,'dungeon','instance entrances known',1,'194 learned/known');
+INSERT INTO feature_checks VALUES(23,'dungeon','instance step routes to a door when one is known',1,'no parsed dungeon guide with an instance step yet');
+INSERT INTO feature_checks VALUES(23,'core','guides registered',1,'12002');
+INSERT INTO feature_checks VALUES(23,'core','guide loaded + routed',1,'wowpro:Reclaiming Gilneas -> R Valdrakken');
+INSERT INTO feature_checks VALUES(23,'core','arrow shown',1,'visible');
+INSERT INTO feature_checks VALUES(24,'beacon','module loaded',1,'');
+INSERT INTO feature_checks VALUES(24,'beacon','names mined from current step',1,'none on this step');
+INSERT INTO feature_checks VALUES(24,'beacon','nameplate source',1,'modern=0 legacy=0 -> using WorldFrame');
+INSERT INTO feature_checks VALUES(24,'beacon','nameplate rescan runs',1,'0 tracked names');
+INSERT INTO feature_checks VALUES(24,'beacon','map pin library',1,'');
+INSERT INTO feature_checks VALUES(24,'beacon','pins placed for step coords',1,'1 pin(s) on map 1424');
+INSERT INTO feature_checks VALUES(24,'beacon','target button secure macro',1,'no named target on this step');
+INSERT INTO feature_checks VALUES(24,'account','store initialised',1,'Majaba-Mankrik');
+INSERT INTO feature_checks VALUES(24,'account','opt-in flag',1,'accountWide=false');
+INSERT INTO feature_checks VALUES(24,'account','character roster',1,'6 character(s): Majaba-Mankrik(310)');
+INSERT INTO feature_checks VALUES(24,'account','per-guide progress math',1,'char 0/125 (0%)');
+INSERT INTO feature_checks VALUES(24,'account','opt-in gate honoured',1,'off => other characters ignored');
+INSERT INTO feature_checks VALUES(24,'account','quest-level union',1,'140 quests recorded');
+INSERT INTO feature_checks VALUES(24,'farm','module loaded',1,'');
+INSERT INTO feature_checks VALUES(24,'farm','seed circuits registered',1,'20 coarse rings for this client''s zones');
+INSERT INTO feature_checks VALUES(24,'farm','a circuit parses into G waypoints that locate',1,'Elwynn Forest - Herbalism/Mining circuit (coarse): 14 waypoints');
+INSERT INTO feature_checks VALUES(24,'farm','route exists to a circuit''s first waypoint',1,'Elwynn Forest - Herbalism/Mining circuit (coarse): 16m 42s away');
+INSERT INTO feature_checks VALUES(24,'farm','imported gold guides fold into circuits',1,'1 of 1 sampled gold guides became circuits');
+INSERT INTO feature_checks VALUES(24,'farm','lap engine present',1,'laps recorded: 0 guide(s)');
+INSERT INTO feature_checks VALUES(24,'farm','node recorder wired',1,'recording=true');
+INSERT INTO feature_checks VALUES(24,'farm','gather-node import path',1,'0 imported now (Routes: Routes database not found');
+INSERT INTO feature_checks VALUES(24,'farm','lap pricing source',1,'vendor prices (Auctionator not loaded)');
+INSERT INTO feature_checks VALUES(24,'dungeon','instance entrances known',1,'0 learned/known');
+INSERT INTO feature_checks VALUES(24,'dungeon','instance step routes to a door when one is known',1,'no parsed dungeon guide with an instance step yet');
+INSERT INTO feature_checks VALUES(24,'core','guides registered',1,'1518');
+INSERT INTO feature_checks VALUES(24,'core','guide loaded + routed',1,'qdb:era:267:Horde -> A Time To Strike');
+INSERT INTO feature_checks VALUES(24,'core','arrow shown',1,'visible');
+INSERT INTO feature_checks VALUES(25,'beacon','module loaded',1,'');
+INSERT INTO feature_checks VALUES(25,'beacon','names mined from current step',1,'the Mag''har');
+INSERT INTO feature_checks VALUES(25,'beacon','nameplate source',1,'modern=0 legacy=0 -> using WorldFrame');
+INSERT INTO feature_checks VALUES(25,'beacon','nameplate rescan runs',1,'1 tracked names');
+INSERT INTO feature_checks VALUES(25,'beacon','map pin library',1,'');
+INSERT INTO feature_checks VALUES(25,'beacon','pins placed for step coords',1,'1 pin(s) on map 1955');
+INSERT INTO feature_checks VALUES(25,'beacon','target button secure macro',1,'the Mag''har');
+INSERT INTO feature_checks VALUES(25,'account','store initialised',1,'Solcus-Dreamscythe');
+INSERT INTO feature_checks VALUES(25,'account','opt-in flag',1,'accountWide=true');
+INSERT INTO feature_checks VALUES(25,'account','character roster',1,'6 character(s): Majaba-Mankrik(310)');
+INSERT INTO feature_checks VALUES(25,'account','per-guide progress math',1,'char 148/294 (50%)');
+INSERT INTO feature_checks VALUES(25,'account','opt-in gate honoured',1,'off => other characters ignored');
+INSERT INTO feature_checks VALUES(25,'account','quest-level union',1,'756 quests recorded');
+INSERT INTO feature_checks VALUES(25,'core','guides registered',1,'1641');
+INSERT INTO feature_checks VALUES(25,'core','guide loaded + routed',1,'wowpro:CLASSIC_BC_Terokkar_Forest -> A Restoring the Light');
+INSERT INTO feature_checks VALUES(25,'core','arrow shown',1,'visible');
 CREATE TABLE route_sweep(
   flavor TEXT, at TEXT, guide TEXT, name TEXT, type TEXT, faction TEXT, zone INTEGER, zone_name TEXT,
   steps INTEGER, located INTEGER, unknown_zone INTEGER, window INTEGER, order_ok INTEGER, order_reason TEXT,
@@ -16396,6 +16470,7 @@ INSERT INTO ingame_sweeps VALUES(4,'retail','_retail_','2026-08-21 08:52:48','20
 INSERT INTO ingame_sweeps VALUES(5,'retail','_retail_','2026-08-21 10:59:45','2026-08-21 11:54:15','Orgrimmar',9456,263329,239009,0,0,1637,0,0,0);
 INSERT INTO ingame_sweeps VALUES(6,'retail','_retail_','2026-08-21 12:01:31','2026-08-21 12:55:54','Orgrimmar',9456,263329,239009,0,0,261,0,0,902);
 INSERT INTO ingame_sweeps VALUES(7,'retail','_retail_','2026-08-21 13:33:29','2026-08-21 14:25:12','Orgrimmar',9456,263329,239009,0,4,37,0,0,895);
+INSERT INTO ingame_sweeps VALUES(8,'era','_classic_era_','2026-08-24 17:29:10','2026-08-24 17:31:26','Orgrimmar',1436,71541,68576,0,2,3,0,0,0);
 CREATE TABLE ingame_sweep_errors(
             run_id INTEGER REFERENCES ingame_sweeps(id), guide_id TEXT, error TEXT);
 INSERT INTO ingame_sweep_errors VALUES(1,'qdb:tbc:718:Both','no route to step 1');
@@ -23036,17 +23111,24 @@ INSERT INTO ingame_sweep_errors VALUES(7,'zygor:EVENTS\\Darkmoon Faire\\Achievem
 INSERT INTO ingame_sweep_errors VALUES(7,'zygor:EVENTS\\Darkmoon Faire\\Achievements\\Step Right Up','no route to step 1 (instance map, expected)');
 INSERT INTO ingame_sweep_errors VALUES(7,'zygor:EVENTS\\Darkmoon Faire\\Achievements\\That Rabbit''s Dynamite!','no route to step 1 (instance map, expected)');
 INSERT INTO ingame_sweep_errors VALUES(7,'zygor:EVENTS\\Lunar Festival\\Achievements\\Elders of the Dungeons','no route to step 1 (instance map, expected)');
+INSERT INTO ingame_sweep_errors VALUES(8,'qdb:era:3277:Both','no route to step 1');
+INSERT INTO ingame_sweep_errors VALUES(8,'qdb:era:3277:Horde','no route to step 1');
+INSERT INTO ingame_sweep_errors VALUES(8,'qdb:era:3358:Horde','no route to step 1');
+INSERT INTO ingame_sweep_errors VALUES(8,'zygor:Reputation Guides\\Reputations\\Ravenholdt','slower 1843s vs 1834s');
+INSERT INTO ingame_sweep_errors VALUES(8,'zygor:REPUTATIONS\\Reputations\\Ravenholdt','slower 1843s vs 1834s');
 CREATE TABLE ingame_sweep_partials(
             id INTEGER PRIMARY KEY, flavor TEXT, client_dir TEXT, started TEXT, collected TEXT, location TEXT,
             total INTEGER, done INTEGER, steps INTEGER, located INTEGER, precedence INTEGER, slower INTEGER,
             no_route INTEGER, ui_empty INTEGER, load_fail INTEGER, UNIQUE(flavor, started));
 INSERT INTO ingame_sweep_partials VALUES(3,'retail','_retail_','2026-08-21 07:45:50','2026-08-21 08:49:18','Orgrimmar',9456,2230,174117,167724,0,0,541,0,0);
 INSERT INTO ingame_sweep_partials VALUES(4,'retail','_retail_','2026-08-21 10:59:45','2026-08-21 11:29:45','Orgrimmar',9456,2840,182539,174066,0,0,848,0,0);
+INSERT INTO ingame_sweep_partials VALUES(5,'retail','_retail_','2026-09-25 13:44:38','2026-10-02 11:46:57','Tiragarde Sound',18574,534,87524,87335,0,3,13,0,0);
 CREATE TABLE run_partials(
             id INTEGER PRIMARY KEY, flavor TEXT, client_dir TEXT, started TEXT, collected TEXT,
             total INTEGER, done INTEGER, failed INTEGER, UNIQUE(flavor, started));
 INSERT INTO run_partials VALUES(3,'retail','_retail_','2026-08-21 07:45:39','2026-08-21 08:49:18',9519,1981,0);
 INSERT INTO run_partials VALUES(4,'retail','_retail_','2026-08-21 09:56:41','2026-08-21 10:58:33',9519,6204,0);
+INSERT INTO run_partials VALUES(5,'retail','_retail_','2026-09-25 13:44:25','2026-10-02 11:46:57',18697,434,0);
 CREATE TABLE route_sweep_from(
   flavor TEXT, origin_map INTEGER, faction TEXT, at TEXT, guide TEXT, name TEXT, type TEXT, steps INTEGER, located INTEGER,
   order_ok INTEGER, opt_cost REAL, author_cost REAL, route_ok TEXT, route TEXT, error TEXT, PRIMARY KEY(flavor, origin_map, faction, guide));
