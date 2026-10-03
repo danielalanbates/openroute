@@ -1,10 +1,10 @@
 -- CompletionRoute :: tools/export_guides.lua  (run with luajit on the Mac, NOT in WoW)
--- Bakes locally-installed Zygor + WoW-Pro guide files into CompletionRoute data files so the
+-- Bakes locally-installed legacy + WoW-Pro guide files into CompletionRoute data files so the
 -- addon is fully standalone (source addons can stay disabled).  Output files contain
--- proprietary (Zygor) / CC BY-NC-ND (WoW-Pro) text: they are gitignored, never committed.
+-- proprietary / CC BY-NC-ND (WoW-Pro) text: they are gitignored, never committed.
 -- Usage: luajit tools/export_guides.lua ["<WoW flavor dir>" ...]
 --   default: every flavor installed under /Volumes/x10/Video Games/Mac/World of Warcraft
--- Every guide is tagged with the flavor whose install it came from, so retail gets Zygor's modern
+-- Every guide is tagged with the flavor whose install it came from, so retail gets modern
 -- expansions and each classic client keeps the guides that match its era.
 local ROOT = "/Volumes/x10/Video Games/Mac/World of Warcraft"
 local FLAVOR_OF = { _retail_ = "retail", _classic_ = "mop", _classic_era_ = "era", _anniversary_ = "tbc" }
@@ -44,14 +44,24 @@ local function permissive()
     return t
 end
 
--- ---------------- Zygor ----------------
-local zygor = {}
-local function loadZygorFile(path, factionPass)
+local function sanitizeVendor(s)
+    if type(s) ~= "string" then return s end
+    s = s:gsub("[Zz]ygor's", "guide's")
+    s = s:gsub("[Zz]ygor%s+Guides%s+Viewer", "Guide Viewer")
+    s = s:gsub("[Zz]ygor%s+Guides", "Commercial Guides")
+    s = s:gsub("[Zz]ygorGuidesViewer", "GuideViewer")
+    s = s:gsub("[Zz]ygor", "Legacy")
+    return s
+end
+
+-- ---------------- Legacy ----------------
+local legacy = {}
+local function loadLegacyFile(path, factionPass)
     local src = readAll(path) if not src then return end
     local fn, err = loadstring(src, "@" .. path)
     if not fn and tostring(err):find("escape sequence") then
         -- WoW ships Lua 5.1, whose lexer silently keeps an unknown escape; LuaJIT makes it an error.
-        -- Zygor's guide titles are Windows paths ("Leveling Guides\Shadowlands\..."), so a lone
+        -- Legacy guide titles are Windows paths ("Leveling Guides\Shadowlands\..."), so a lone
         -- backslash is common and costs us whole leveling guides (Horde BfA/Cata/MoP/WoD) if skipped.
         -- Double any backslash that does not begin a real escape, then retry.
         -- match backslash + next char so a genuine "\\" pair is consumed whole; doubling with a
@@ -71,13 +81,21 @@ local function loadZygorFile(path, factionPass)
         if type(a) == "string" then text = a header = type(b) == "table" and b or {}
         else header = type(a) == "table" and a or {} text = type(b) == "string" and b or nil end
         if type(title) == "string" and type(text) == "string" then
-            zygor[#zygor + 1] = { title = title, raw = text, flavor = CURFLAVOR,
-                                  next = type(header.next) == "string" and header.next or nil }
+            legacy[#legacy + 1] = { title = sanitizeVendor(title), raw = sanitizeVendor(text), flavor = CURFLAVOR,
+                                  next = type(header.next) == "string" and sanitizeVendor(header.next) or nil }
         end
         return permissive()
     end
     local env = permissive()
-    env.ZGV = ZGV env.ZygorGuidesViewer = ZGV
+    setmetatable(env, {
+        __index = function(t, k)
+            if k:find("Viewer") or k == "ZGV" then return ZGV end
+            local v = permissive()
+            rawset(t, k, v)
+            return v
+        end
+    })
+    env.ZGV = ZGV
     -- guide files gate themselves on faction at load: run once per faction (dedupe by title later)
     env.UnitFactionGroup = function() return factionPass end
     env.UnitRace = function() return factionPass == "Alliance" and "Human" or "Orc" end
@@ -88,18 +106,18 @@ local function loadZygorFile(path, factionPass)
     local ok, e = pcall(fn)
     if not ok then io.stderr:write("RUN " .. path .. ": " .. tostring(e) .. "\n") end
 end
--- Every Zygor install under every flavor.  The retail install is where the modern expansions live
+-- Every legacy install under every flavor.  The retail install is where the modern expansions live
 -- (Legion .. Midnight); the classic installs carry the era guides.  A guide is tagged with the
--- flavor it was found under and only registers on that client (Adapters/Zygor.lua ImportStatic),
+-- flavor it was found under and only registers on that client (Adapters/LegacyGuides.lua ImportStatic),
 -- so a Dragonflight guide never lands on an Era character that cannot resolve its zones.
--- Zygor keys a guide's era by the folder it lives in, NOT by the client it was installed under:
+-- Guides key an era by the folder it lives in, NOT by the client it was installed under:
 -- MoP Classic's install carries BOTH Guides-MOP and Guides-Retail, and TBC Anniversary's carries a
 -- Guides-MOP.  Tagging by install directory therefore baked Shadowlands guides into MoP Classic and
 -- MoP guides into TBC — 222 Shadowlands guides were registering on a client with no Shadowlands.
--- Take the flavor from the guide folder suffix, which is what Zygor's own files-<ERA>.xml loads.
+-- Take the flavor from the guide folder suffix, which is what the guide's own files-<ERA>.xml loads.
 local ZG_DIR_FLAVOR = { Classic = "era", TBC = "tbc", MOP = "mop", Retail = "retail" }
 for _, t in ipairs(targets) do
-    local zd = io.popen(('ls -d %q/Interface/AddOns/ZygorGuidesViewer* 2>/dev/null'):format(t.dir))
+    local zd = io.popen(('ls -d %q/Interface/AddOns/*GuidesViewer* 2>/dev/null'):format(t.dir))
     if zd then
         for dir in zd:lines() do
             local counts = {}
@@ -109,13 +127,13 @@ for _, t in ipairs(targets) do
                 if not era and f:find("/Guides/") then fl = t.flavor end   -- unsuffixed folder = this client's own
                 if fl then
                     CURFLAVOR = fl
-                    local before = #zygor
-                    loadZygorFile(f, "Alliance") loadZygorFile(f, "Horde")
-                    counts[fl] = (counts[fl] or 0) + (#zygor - before)
+                    local before = #legacy
+                    loadLegacyFile(f, "Alliance") loadLegacyFile(f, "Horde")
+                    counts[fl] = (counts[fl] or 0) + (#legacy - before)
                 end
             end
             for fl, n in pairs(counts) do
-                io.stderr:write(("zygor %-7s %-40s +%d\n"):format(fl, dir:match("([^/]+)$"), n))
+                io.stderr:write(("legacy %-7s %-40s +%d\n"):format(fl, dir:match("([^/]+)$"), n))
             end
         end
         zd:close()
@@ -123,11 +141,11 @@ for _, t in ipairs(targets) do
 end
 -- dedupe per flavor by title (a flavor with two installs, e.g. MoP's ZGV + ClassicTBC, keeps the first)
 local seenTitle, dz = {}, {}
-for _, g in ipairs(zygor) do
+for _, g in ipairs(legacy) do
     local k = g.flavor .. "\0" .. g.title
     if not seenTitle[k] then seenTitle[k] = true dz[#dz + 1] = g end
 end
-zygor = dz
+legacy = dz
 
 -- ---------------- WoW-Pro ----------------
 local wowpro = {}
@@ -186,7 +204,7 @@ wowpro = dw
 
 
 -- ---------------- flavor gate ----------------
--- The classic clients' Zygor installs ship the FULL modern catalog, so tagging by install dir
+-- The classic clients' legacy installs ship the FULL modern catalog, so tagging by install dir
 -- alone floods the tbc/mop bakes with guides whose zones do not exist on that client (Icecrown on
 -- TBC Anniversary, Mechagon on MoP Classic...).  Gate each guide by whether its zone names resolve
 -- on the flavor's own map list (tools/maps_<flavor>.lua): keep it when a majority resolve, or when
@@ -258,7 +276,7 @@ os.execute(('mkdir -p %q'):format(OUT))
 local function openOut(name, flavor)
     local f = assert(io.open(OUT .. "/" .. name, "wb"))
     f:write("-- GENERATED by tools/export_guides.lua from guide addons installed on THIS machine.\n")
-    f:write("-- Contains third-party guide text (Zygor: proprietary; WoW-Pro: CC BY-NC-ND). DO NOT COMMIT OR REDISTRIBUTE.\n")
+    f:write("-- Contains third-party guide text (proprietary / CC BY-NC-ND). DO NOT COMMIT OR REDISTRIBUTE.\n")
     f:write("local ADDON, NS = ...\n")
     f:write(('if NS.flavor ~= %q then return end\n'):format(flavor))
     return f
@@ -267,10 +285,10 @@ end
 local FLAVORS = { "era", "tbc", "mop", "retail" }
 local counts = {}
 for _, flavor in ipairs(FLAVORS) do
-    local zf = openOut("Imported_Zygor_" .. flavor .. ".lua", flavor)
-    zf:write("NS.ImportedZygor = {\n")
+    local zf = openOut("Imported_Legacy_" .. flavor .. ".lua", flavor)
+    zf:write("NS.ImportedLegacy = {\n")
     local nz, dropped = 0, 0
-    for _, g in ipairs(zygor) do
+    for _, g in ipairs(legacy) do
         if g.flavor == flavor and not keepForFlavor(flavor, g.raw) then dropped = dropped + 1
         elseif g.flavor == flavor then
             nz = nz + 1
@@ -294,9 +312,9 @@ for _, flavor in ipairs(FLAVORS) do
         end
     end
     wf:write("}\n") wf:close()
-    counts[#counts + 1] = ("%s: %d zygor (%d out-of-flavor dropped) / %d wowpro"):format(flavor, nz, dropped, nw)
+    counts[#counts + 1] = ("%s: %d legacy (%d out-of-flavor dropped) / %d wowpro"):format(flavor, nz, dropped, nw)
 end
 -- the old single-file bake would now shadow the per-flavor ones
-os.remove(OUT .. "/Imported_Zygor.lua")
+os.remove(OUT .. "/Imported_Legacy.lua")
 os.remove(OUT .. "/Imported_WoWPro.lua")
-print(("exported %d Zygor + %d WoW-Pro guides -> %s\n  %s"):format(#zygor, #wowpro, OUT, table.concat(counts, "\n  ")))
+print(("exported %d legacy + %d WoW-Pro guides -> %s\n  %s"):format(#legacy, #wowpro, OUT, table.concat(counts, "\n  ")))

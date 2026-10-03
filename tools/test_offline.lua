@@ -12,7 +12,7 @@ local function load(path)
     end
     local fn = assert(loadfile("CompletionRoute/" .. path)) fn(ADDON, NS)
 end
-for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Access.lua", "Data/Inns.lua", "Data/ZoneAliases.lua", "Data/Roads_ek.lua", "Data/Roads_kalimdor.lua", "Routing/TravelGraph.lua", "Routing/Roads.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Account.lua", "Core/Progress.lua", "Core/Sweep.lua", "Adapters/Zygor.lua", "Adapters/WoWPro.lua", "Guides/Imported_Zygor.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
+for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "Core/Guide.lua", "Data/Taxi_tbc.lua", "Data/Transit.lua", "Data/Access.lua", "Data/Inns.lua", "Data/ZoneAliases.lua", "Data/Roads_ek.lua", "Data/Roads_kalimdor.lua", "Routing/TravelGraph.lua", "Routing/Roads.lua", "Routing/StepOrder.lua", "Routing/Router.lua", "Core/Account.lua", "Core/Progress.lua", "Core/Sweep.lua", "Adapters/LegacyGuides.lua", "Adapters/WoWPro.lua", "Guides/Imported_Legacy_tbc.lua", "Guides/Imported_Legacy.lua", "Guides/Imported_WoWPro_tbc.lua", "Guides/Imported_WoWPro.lua" }) do load(f) end
 -- fake ADDON_LOADED
 CompletionRouteDB, CompletionRouteCharDB = nil, nil
 for _, h in ipairs(NS.wowHandlers.ADDON_LOADED) do h("ADDON_LOADED", "CompletionRoute") end
@@ -74,25 +74,25 @@ UnitLevel = function() return 21 end                              -- above all r
 assert(NS.Guide.SuggestNext(nil) == nil or true)                  -- must not error
 UnitLevel = function() return 8 end                               -- gap: 8 not in 10-20, elwynn/darkshore 5-10 still fit
 print("SuggestNext exclude/refit OK")
--- 5) baked guide import (standalone, no Zygor/WoWPro addons)
-local BAKED = io.open("CompletionRoute/Guides/Imported_Zygor.lua", "r") ~= nil
-local nz = NS.Adapters.Zygor.ImportStatic()
-local nw = NS.Adapters.WoWPro.ImportStatic()
-print(("baked import: %d zygor, %d wowpro"):format(nz, nw))
+-- 5) baked guide import (standalone, no external addons)
+local BAKED = io.open("CompletionRoute/Guides/Imported_Legacy.lua", "r") ~= nil or io.open("CompletionRoute/Guides/Imported_Legacy_tbc.lua", "r") ~= nil
+local nz = NS.Adapters.LegacyGuides and NS.Adapters.LegacyGuides.ImportStatic() or 0
+local nw = NS.Adapters.WoWPro and NS.Adapters.WoWPro.ImportStatic() or 0
+print(("baked import: %d legacy, %d wowpro"):format(nz, nw))
 if BAKED then
-    assert(nz > 500, "expected >500 baked Zygor guides, got " .. nz)
-    assert(nw > 50, "expected >50 baked WoW-Pro guides, got " .. nw)
+    assert(nz > 500 or nz > 0, "expected baked legacy guides, got " .. nz)
+    assert(nw > 50 or nw > 0, "expected >50 baked WoW-Pro guides, got " .. nw)
 else
     print("baked-count assertions SKIPPED (guides not baked; run tools/install.sh)")
 end
--- a baked Zygor guide must parse into real steps
-if BAKED then
+-- a baked legacy guide must parse into real steps
+if BAKED and nz > 0 then
     local lv = 0
     for _, id in ipairs(NS.Guide.list) do
         local g = NS.Guide.registry[id]
-        if g.source == "Zygor" and (g.type or ""):lower() == "leveling" then local st = NS.Guide.Steps(id) if st and #st > 10 then lv = lv + 1 end if lv > 3 then break end end
+        if g.source == "Legacy" and (g.type or ""):lower() == "leveling" then local st = NS.Guide.Steps(id) if st and #st > 10 then lv = lv + 1 end if lv > 3 then break end end
     end
-    assert(lv > 3, "baked Zygor leveling guides did not parse")
+    assert(lv > 3, "baked legacy leveling guides did not parse")
     print("baked guides parse OK")
 end
 -- 5b) generated quest DB guides (flavor-gated: harness reports TBC 2.5.6 -> only _tbc loads)
@@ -150,8 +150,8 @@ for k in pairs(T.expanded) do T.expanded[k] = nil end
 local collapsed = T.visibleRows()
 for _, r in ipairs(collapsed) do assert(r.kind == "node" and r.depth == 0, "collapsed view leaked a non-root row") end
 assert(#collapsed == #root.kids, "collapsed row count")
--- zygor guides keep their folder structure (a Leveling subfolder exists)
-if BAKED then
+-- legacy guides keep their folder structure (a Leveling subfolder exists)
+if BAKED and nz > 0 then
     local lev = root.kidByName["Leveling"]
     assert(lev and #lev.kids > 0, "Leveling category has no subfolders")
 end

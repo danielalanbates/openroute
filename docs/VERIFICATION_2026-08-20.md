@@ -17,7 +17,7 @@ Armed without typing in the client via `tools/queue_verify.py` (see below).
 
 Mists started this run at 4420/4423. The three failures were real defects, fixed and re-verified:
 * WoW-Pro `s` (speak-with) steps were rejected as a bad action → now normalise to a note step.
-* Two Zygor guides supply their text through a lazy function that returns empty, which slipped past
+* Two imported legacy guides supply their text through a lazy function that returns empty, which slipped past
   `Guide.Register`'s placeholder guard and appeared in the browser as unloadable 0-step entries →
   `Guide.Steps` now marks them `g.empty` and `Guide.Available` hides them.
 
@@ -122,7 +122,7 @@ in the first pass. Name check first: **CompletionRoute** is unused — 0 project
 6. **The arrow's item button painted an empty ring** when a recommendation had neither an item nor
    a spell.
 
-Note: the gold starburst visible near the arrow in these screenshots belongs to **Zygor**, which is
+Note: the gold starburst visible near the arrow in these screenshots belongs to the legacy commercial addon, which was
 still installed on this client — not to CompletionRoute.
 
 ## Verification lesson

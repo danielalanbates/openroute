@@ -33,139 +33,139 @@ tbc	qdb:tbc:3523:Both	Netherstorm Quests	Quests	Both	1953	Netherstorm	446	392	39
 tbc	qdb:tbc:3525:Both	Bloodmyst Isle Quests	Quests	Both	1950	Bloodmyst Isle	10	10	10	0	0	0	0	1721	307	0	1		
 tbc	qdb:tbc:3703:Horde	Shattrath City Quests (Horde)	Quests	Horde	1955	Shattrath City	11	10	10	0	0	0	0	3532	1058	0	1		
 tbc	qdb:tbc:OTHER:Both	Instances & Other Quests	Quests	Both	Instances & Other		437	389	389	0	0	0	0	10823	1882	0	1		
-tbc	zygor:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 3, Recovering Harbor, Rebuilding Forge)	Shattered Sun Dailies (Phase 3, Recovering Harbor, Rebuilding Forge)	Dailies	Both	Shattered Sun Dailies		100	74	43	31	0	31	0	49526	6248	0	1	note-class step (N)	
-tbc	zygor:Dailies Guides\The Burning Crusade\Ogri'la\Ogri'la Daily Quests	Ogri'la Daily Quests	Dailies	Both	Ogri'la Daily Quests		28	25	12	13	0	13	0	8834	1052	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\Wailing Caverns (15-25)	Wailing Caverns (15-25)	Dungeons	Both	Wailing Caverns		18	18	1	17	0	17	0	0	1018	1	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\Classic\Razorfen Kraul (30-40)	Razorfen Kraul (30-40)	Dungeons	Both	Razorfen Kraul		17	17	1	16	0	16	0	0	0	2	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\Classic\Uldaman (42-52)	Uldaman (42-52)	Dungeons	Both	Uldaman		15	15	0	15	0	15	0	0	0	1	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeons	Both	The Temple of Atal'Hakkar		21	21	4	17	0	17	0	477	53	2	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeons	Both	Dire Maul North		14	14	0	14	0	14	0	4715	526	1	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\The Deadmines Quests	The Deadmines Quests	Dungeons	Both	The Deadmines Quests		67	59	40	19	0	19	0	37526	4182	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\Scarlet Monastery Armory Quests	Scarlet Monastery Armory Quests	Dungeons	Both	Scarlet Monastery Armory Quests		18	18	10	8	0	8	0	22656	4999	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\Temple of Atal'Hakkar Quests	Temple of Atal'Hakkar Quests	Dungeons	Both	Temple of Atal'Hakkar Quests		117	96	60	36	0	36	0	118257	16306	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\Scholomance Quests	Scholomance Quests	Dungeons	Both	Scholomance Quests		206	179	116	63	0	63	0	127561	22681	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\Classic\Raid Attunements\Onyxia's Lair Attunement	Onyxia's Lair Attunement	Dungeons	Both	Onyxia's Lair Attunement		82	70	45	25	0	25	0	52548	8376	0	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\The Burning Crusade\Mana-Tombs (64-70)	Mana-Tombs (64-70)	Dungeons	Both	Mana-Tombs		7	7	1	6	0	6	0	495	44	1	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\The Burning Crusade\The Shattered Halls (70)	The Shattered Halls (70)	Dungeons	Both	The Shattered Halls		9	9	1	8	0	8	0	639	114	1	1	objective without QID or loot	
-tbc	zygor:Dungeon Guides\The Burning Crusade\The Slave Pens Quests	The Slave Pens Quests	Dungeons	Both	The Slave Pens Quests		15	12	5	7	0	7	0	1073	192	4	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\The Burning Crusade\The Steamvault Quests	The Steamvault Quests	Dungeons	Both	The Steamvault Quests		61	48	30	18	0	18	0	29900	3844	6	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\The Burning Crusade\Auchenai Crypts Quests	Auchenai Crypts Quests	Dungeons	Both	Auchenai Crypts Quests		68	57	36	21	0	21	0	23498	4024	2	1	note-class step (N)	
-tbc	zygor:Dungeon Guides\The Burning Crusade\Mount Hyjal Attunement	Mount Hyjal Attunement	Dungeons	Both	Mount Hyjal Attunement		9	6	3	3	0	3	0	1619	1337	0	1	note-class step (N)	
-tbc	zygor:Events Guides\Brewfest\Brewfest Quests	Brewfest Quests	Events	Both	Brewfest Quests		47	43	27	16	0	16	0	3443	1472	1	1	note-class step (N)	
-tbc	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Rinling Turn-Ins (Elwynn Forest)	Rinling Turn-Ins (Elwynn Forest)	Events	Both	Rinling Turn-Ins		22	20	10	10	0	10	0	4474	799	1	1	note-class step (N)	
-tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Chronos Turn-Ins (Mulgore)	Chronos Turn-Ins (Mulgore)	Events	Both	Chronos Turn-Ins		22	20	10	10	0	10	0	6992	2430	0	1	note-class step (N)	
-tbc	zygor:Events Guides\Darkmoon Faire\Mulgore\Tree Frog (Mulgore)	Tree Frog (Mulgore)	Events	Both	Tree Frog		2	2	0	2	0	2	0	80	14	0	1	note-class step (N)	
-tbc	zygor:Events Guides\Lunar Festival\Lunar Festival Main Questline	Lunar Festival Main Questline	Events	Both	Lunar Festival Main Questline		23	21	13	8	0	8	0	789	1771	0	1	note-class step (N)	
-tbc	zygor:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Bonfires	Midsummer Fire Festival Bonfires	Events	Both	Midsummer Fire Festival Bonfires		146	142	75	67	0	67	0	123973	21805	0	1	note-class step (N)	
-tbc	zygor:GOLD\Farming\Runecloth	Runecloth	Gold	Both	Runecloth		1	18	18	0	0	0	2	1647	855	0	1		
-tbc	zygor:GOLD\Farming\Ironweb Spider Silk	Ironweb Spider Silk	Gold	Both	Ironweb Spider Silk		1	18	18	0	0	0	2	1646	1332	0	1		
-tbc	zygor:GOLD\Farming\Raw Slitherskin Mackerel	Raw Slitherskin Mackerel	Gold	Both	Raw Slitherskin Mackerel		1	14	14	0	0	0	2	16382	995	0	1		
-tbc	zygor:GOLD\Farming\Murloc Eye	Murloc Eye	Gold	Both	Murloc Eye		1	18	18	0	0	0	2	1646	1083	0	1		
-tbc	zygor:GOLD\Farming\Crocolisk Meat	Crocolisk Meat	Gold	Both	Crocolisk Meat		32	61	57	4	0	4	2	10457	1262	0	1	objective without QID or loot	
-tbc	zygor:GOLD\Farming\Murloc Fin	Murloc Fin	Gold	Both	Murloc Fin		10	20	18	2	0	2	2	6176	1897	0	1	objective without QID or loot	
-tbc	zygor:GOLD\Farming\Tangy Clam Meat	Tangy Clam Meat	Gold	Both	Tangy Clam Meat		18	18	17	1	0	1	1	2738	1107	0	1	objective without QID or loot	
-tbc	zygor:GOLD\Farming\Mystery Meat, Buzzard Wing	Mystery Meat, Buzzard Wing	Gold	Both	Mystery Meat, Buzzard Wing		41	82	80	2	0	2	2	9853	2761	0	1	objective without QID or loot	
-tbc	zygor:GOLD\Farming\Raw Rockscale Cod	Raw Rockscale Cod	Gold	Both	Raw Rockscale Cod		1	18	18	0	0	0	2	1645	1123	0	1		
-tbc	zygor:GOLD\Farming\Essence of Air, Breath of Wind, Elemental Air	Essence of Air, Breath of Wind, Elemental Air	Gold	Both	Essence of Air, Breath of Wind, Elemental Air		1	18	18	0	0	0	2	1646	1033	0	1		
-tbc	zygor:GOLD\Farming\Globe of Water	Globe of Water	Gold	Both	Globe of Water		1	11	11	0	0	0	2	13772	1238	0	1		
-tbc	zygor:GOLD\Farming\Lesser Magic Essence	Lesser Magic Essence	Gold	Both	Lesser Magic Essence		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
-tbc	zygor:GOLD\Farming\Illusion Dust	Illusion Dust	Gold	Both	Illusion Dust		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
-tbc	zygor:GOLD\Farming\Vision Dust	Vision Dust	Gold	Both	Vision Dust		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
-tbc	zygor:GOLD\Farming\Dark Rune	Dark Rune	Gold	Both	Dark Rune		2	2	0	2	0	2	0	0	0	0	1	objective without QID or loot	
-tbc	zygor:GOLD\Farming\Black Pearl, Golden Pearl, Zesty Clam Meat	Black Pearl, Golden Pearl, Zesty Clam Meat	Gold	Both	Black Pearl, Golden Pearl, Zesty Clam Meat		15	15	14	1	0	1	1	2183	1473	0	1	objective without QID or loot	
-tbc	zygor:GOLD\Farming\Buzzard Meat	Buzzard Meat	Gold	Both	Buzzard Meat		5	19	19	0	0	0	2	9199	2582	0	1		
-tbc	zygor:GOLD\Farming\Warped Flesh	Warped Flesh	Gold	Both	Warped Flesh		48	23	16	7	0	7	2	3194	827	0	1	note-class step (N)	
-tbc	zygor:GOLD\Farming\Meaty Bat Wing	Meaty Bat Wing	Gold	Both	Meaty Bat Wing		42	76	74	2	0	2	2	14462	1903	0	1	objective without QID or loot	
-tbc	zygor:GOLD\Gathering\Stranglekelp	Stranglekelp	Gold	Both	Stranglekelp		48	93	89	4	0	4	2	34736	4796	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Liferoot	Liferoot	Gold	Both	Liferoot		22	32	28	4	0	4	2	13921	1651	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Purple Lotus	Purple Lotus	Gold	Both	Purple Lotus		42	84	82	2	0	2	2	14509	3325	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Golden Sansam, Dreamfoil	Golden Sansam, Dreamfoil	Gold	Both	Golden Sansam, Dreamfoil		37	74	72	2	0	2	2	11190	1998	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Tin Ore, Silver Ore, Coarse Stone, Moss Agate	Tin Ore, Silver Ore, Coarse Stone, Moss Agate	Gold	Both	Tin Ore, Silver Ore, Coarse Stone, Moss Agate		43	86	84	2	0	2	2	13085	3454	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Elementium Ore	Elementium Ore	Gold	Both	Elementium Ore		2	13	13	0	0	0	2	808	144	1	1		
-tbc	zygor:GOLD\Gathering\Slimy Murloc Scale	Slimy Murloc Scale	Gold	Both	Slimy Murloc Scale		1	18	18	0	0	0	2	1647	294	1	1		
-tbc	zygor:GOLD\Gathering\Turtle Scale, Heavy Leather, Thick Leather	Turtle Scale, Heavy Leather, Thick Leather	Gold	Both	Turtle Scale, Heavy Leather, Thick Leather		1	18	18	0	0	0	2	1645	1295	0	1		
-tbc	zygor:GOLD\Gathering\Rugged Leather	Rugged Leather	Gold	Both	Rugged Leather		1	11	11	0	0	0	2	14378	1012	0	1		
-tbc	zygor:GOLD\Gathering\Heavy Scorpid Scale, Rugged Leather	Heavy Scorpid Scale, Rugged Leather	Gold	Both	Heavy Scorpid Scale, Rugged Leather		1	15	15	0	0	0	2	16031	1142	0	1		
-tbc	zygor:GOLD\Gathering\Dreamscale	Dreamscale	Gold	Both	Dreamscale		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Ancient Lichen	Ancient Lichen	Gold	Both	Ancient Lichen		12	14	7	7	0	7	2	2577	2006	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Terocone	Terocone	Gold	Both	Terocone		62	4	0	4	0	4	2	0	0	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Fel Hide	Fel Hide	Gold	Both	Fel Hide		14	4	0	4	0	4	2	0	0	0	1	note-class step (N)	
-tbc	zygor:GOLD\Gathering\Earthroot	Earthroot	Gold	Both	Earthroot		114	228	226	2	0	2	2	22816	4995	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (11-60)\Darkshore (11-14)	Darkshore (11-14)	Leveling	Both	Darkshore		136	116	61	55	0	55	0	23704	3489	0	0	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (11-60)\Duskwood (25-27)	Duskwood (25-27)	Leveling	Both	Duskwood		187	131	83	48	0	48	0	24138	4124	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (11-60)\Thousand Needles (32-33)	Thousand Needles (32-33)	Leveling	Both	Thousand Needles		55	45	28	17	0	17	0	16035	2701	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (11-60)\Stranglethorn Vale (35-37)	Stranglethorn Vale (35-37)	Leveling	Both	Stranglethorn Vale		201	166	99	67	0	67	0	44062	5965	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (11-60)\Stranglethorn Vale (42-44)	Stranglethorn Vale (42-44)	Leveling	Both	Stranglethorn Vale		107	89	55	34	0	34	0	16803	1392	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (11-60)\Un'Goro Crater (48-49)	Un'Goro Crater (48-49)	Leveling	Both	Un'Goro Crater		94	75	37	38	0	38	0	24047	2963	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (11-60)\Winterspring & Felwood (54-56)	Winterspring & Felwood (54-56)	Leveling	Both	Winterspring & Felwood		290	255	174	81	0	81	0	52221	6224	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\The Burning Crusade (60-70)\Nagrand (64-65)	Nagrand (64-65)	Leveling	Both	Nagrand		344	315	220	95	0	95	0	53778	5169	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Ahn'Qiraj Gear\Ruins of Ahn'Qiraj Weapon Quest	Ruins of Ahn'Qiraj Weapon Quest	Leveling	Both	Ruins of Ahn'Qiraj Weapon Quest		58	31	27	4	0	4	0	519	1008	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Scepter of the Shifting Sands	Scepter of the Shifting Sands	Leveling	Both	Scepter of the Shifting Sands		172	126	77	49	0	49	0	177698	22097	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\The Burning Crusade (60-70)\Hellfire Peninsula Group Quests	Hellfire Peninsula Group Quests	Leveling	Both	Hellfire Peninsula Group Quests		106	96	60	36	0	36	0	34773	6578	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Class Quests\Shaman Class Quests	Shaman Class Quests	Leveling	Both	Shaman Class Quests		113	49	25	24	0	24	0	44182	5052	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Class Quests\Rogue Class Quests	Rogue Class Quests	Leveling	Both	Rogue Class Quests		48	2	0	2	0	2	0	342	61	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Boosted Characters\Boosted Paladin Intro	Boosted Paladin Intro	Leveling	Both	Boosted Paladin Intro		24	24	12	12	0	12	0	6894	646	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Boosted Characters\Boosted Shaman Intro	Boosted Shaman Intro	Leveling	Both	Boosted Shaman Intro		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Starter Guides (1-12)\Durotar (10-13)	Durotar (10-13)	Leveling	Both	Durotar		163	134	86	48	0	48	0	67709	12535	0	0	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (12-60)\The Barrens & Stonetalon Mountains (20-22)	The Barrens & Stonetalon Mountains (20-22)	Leveling	Both	The Barrens & Stonetalon Mountains		210	150	92	58	0	58	0	43679	7430	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (12-60)\Thousand Needles (28-30)	Thousand Needles (28-30)	Leveling	Both	Thousand Needles		225	181	105	76	0	76	0	83630	14113	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (12-60)\Alterac Mountains (38-39)	Alterac Mountains (38-39)	Leveling	Both	Alterac Mountains		79	60	38	22	0	22	0	11580	2945	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (12-60)\Feralas (47-48)	Feralas (47-48)	Leveling	Both	Feralas		96	81	54	27	0	27	0	20866	2992	0	1	note-class step (N)	
-tbc	zygor:Leveling Guides\Classic (12-60)\Felwood & Winterspring (54-56)	Felwood & Winterspring (54-56)	Leveling	Both	Felwood & Winterspring		138	109	54	55	0	55	0	57777	6962	0	0	note-class step (N)	
-tbc	zygor:Profession Guides\Blacksmithing\Blacksmithing (1-375)	Blacksmithing (1-375)	Professions	Both	Blacksmithing		2959	2885	2732	153	0	153	0	645233	103941	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Small Spider Leg	Small Spider Leg	Professions	Both	Small Spider Leg		28	28	27	1	0	1	0	2513	995	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Stringy Vulture Meat	Stringy Vulture Meat	Professions	Both	Stringy Vulture Meat		46	44	42	2	0	2	0	4449	1788	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Goretusk Liver	Goretusk Liver	Professions	Both	Goretusk Liver		30	30	29	1	0	1	0	3186	569	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Tough Condor Meat	Tough Condor Meat	Professions	Both	Tough Condor Meat		27	26	24	2	0	2	0	5338	474	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Raptor Egg	Raptor Egg	Professions	Both	Raptor Egg		13	13	12	1	0	1	0	7793	864	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Gooey Spider Leg	Gooey Spider Leg	Professions	Both	Gooey Spider Leg		30	28	26	2	0	2	0	8672	997	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Buzzard Wing	Buzzard Wing	Professions	Both	Buzzard Wing		42	42	41	1	0	1	0	4842	1899	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Elements\Farming Guides\Essence of Earth	Essence of Earth	Professions	Both	Essence of Earth		2	2	1	1	0	1	0	5175	810	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Elements\Farming Guides\Core of Earth	Core of Earth	Professions	Both	Core of Earth		2	2	1	1	0	1	0	34	6	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Enchanting\Enchanting (1-375)	Enchanting (1-375)	Professions	Both	Enchanting		254	183	41	142	0	142	0	48884	9586	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Enchanting\Farming Guides\Small Brilliant Shard	Small Brilliant Shard	Professions	Both	Small Brilliant Shard		1	1	1	0	0	0	0	0	0	0	1		
-tbc	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Mystic Essence	Lesser Mystic Essence	Professions	Both	Lesser Mystic Essence		1	1	1	0	0	0	0	0	0	0	1		
-tbc	zygor:Profession Guides\Engineering\Engineering (1-375)	Engineering (1-375)	Professions	Both	Engineering		2321	2220	2093	127	0	127	0	594991	91168	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Fishing\Farming Guides\Icefin Bluefish	Icefin Bluefish	Professions	Both	Icefin Bluefish		3	3	1	2	0	2	0	5758	394	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Fishing\Farming Guides\Raw Bristle Whisker Catfish	Raw Bristle Whisker Catfish	Professions	Both	Raw Bristle Whisker Catfish		1	1	1	0	0	0	0	0	188	0	1		
-tbc	zygor:Profession Guides\Herbalism\Farming Guides\Silverleaf	Silverleaf	Professions	Both	Silverleaf		43	43	42	1	0	1	0	6787	1212	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Herbalism\Farming Guides\Swiftthistle	Swiftthistle	Professions	Both	Swiftthistle		28	28	27	1	0	1	0	8684	1180	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Herbalism\Farming Guides\Fadeleaf	Fadeleaf	Professions	Both	Fadeleaf		22	22	21	1	0	1	0	8086	1042	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Herbalism\Farming Guides\Purple Lotus	Purple Lotus	Professions	Both	Purple Lotus		43	43	42	1	0	1	0	6228	1808	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Herbalism\Farming Guides\Golden Sansam	Golden Sansam	Professions	Both	Golden Sansam		38	38	37	1	0	1	0	5595	999	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Jewelcrafting\Jewelcrafting (1-375)	Jewelcrafting (1-375)	Professions	Both	Jewelcrafting		2353	2296	2174	122	0	122	0	412701	96638	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Mining\Farming Guides\Rough Stone	Rough Stone	Professions	Both	Rough Stone		62	62	61	1	0	1	0	6376	1467	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Mining\Farming Guides\Heavy Stone	Heavy Stone	Professions	Both	Heavy Stone		66	66	65	1	0	1	0	16630	2106	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Mining\Farming Guides\Thorium Ore	Thorium Ore	Professions	Both	Thorium Ore		60	60	59	1	0	1	0	7398	2202	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Skinning\Farming Guides\Green Whelp Scale	Green Whelp Scale	Professions	Both	Green Whelp Scale		2	2	1	1	0	1	0	0	1093	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Skinning\Farming Guides\Slimy Murloc Scale	Slimy Murloc Scale	Professions	Both	Slimy Murloc Scale		2	2	1	1	0	1	0	11721	953	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Skinning\Farming Guides\Turtle Scale	Turtle Scale	Professions	Both	Turtle Scale		2	2	1	1	0	1	0	0	988	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Skinning\Farming Guides\Devilsaur Leather	Devilsaur Leather	Professions	Both	Devilsaur Leather		2	2	1	1	0	1	0	4125	465	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Skinning\Farming Guides\Black Dragonscale	Black Dragonscale	Professions	Both	Black Dragonscale		2	2	1	1	0	1	0	0	822	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Skinning\Farming Guides\Primal Tiger Leather	Primal Tiger Leather	Professions	Both	Primal Tiger Leather		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Tailoring\Farming Guides\Mageweave Cloth	Mageweave Cloth	Professions	Both	Mageweave Cloth		2	2	1	1	0	1	0	0	1040	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Tailoring\Farming Guides\Shadow Silk	Shadow Silk	Professions	Both	Shadow Silk		2	2	1	1	0	1	0	0	1013	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Dropped\Farming Guides\Sharp Claw	Sharp Claw	Professions	Both	Sharp Claw		2	2	1	1	0	1	0	7619	915	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Dropped\Farming Guides\Golden Pearl	Golden Pearl	Professions	Both	Golden Pearl		17	17	16	1	0	1	0	5297	946	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Blacksmithing\Specialization\Weaponsmith\Master Hammersmith Questline	Master Hammersmith Questline	Professions	Both	Master Hammersmith Questline		16	15	4	11	0	11	0	3027	1489	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Engineering\Specialization\Goblin Engineering\Goblin Engineer Membership Card Renewal	Goblin Engineer Membership Card Renewal	Professions	Both	Goblin Engineer Membership Card Renewal		4	4	3	1	0	1	0	14356	928	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Herbalism\Farming Guides\Ancient Lichen	Ancient Lichen	Professions	Both	Ancient Lichen		9	9	8	1	0	1	0	2577	1662	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Herbalism\Farming Guides\Ragveil	Ragveil	Professions	Both	Ragveil		88	88	87	1	0	1	0	14571	2602	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Enchanting\Farming Guides\Small Prismatic Shard	Small Prismatic Shard	Professions	Both	Small Prismatic Shard		1	1	1	0	0	0	0	0	0	0	1		
-tbc	zygor:Profession Guides\General Farming Guides\Primal Fire	Primal Fire	Professions	Both	Primal Fire		14	13	10	3	0	3	0	7844	736	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Mining\Farming Guides\Fel Iron Ore	Fel Iron Ore	Professions	Both	Fel Iron Ore		51	51	50	1	0	1	0	11200	1952	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Leatherworking\Farming Guides\Fel Scales	Fel Scales	Professions	Both	Fel Scales		37	35	32	3	0	3	0	5204	902	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Fishing\Farming Guides\Barbed Gill Trout	Barbed Gill Trout	Professions	Both	Barbed Gill Trout		3	3	1	2	0	2	0	2334	417	0	1	note-class step (N)	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Bat Flesh	Bat Flesh	Professions	Both	Bat Flesh		47	47	46	1	0	1	0	17155	1234	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Cooking\Farming Guides\Serpent Flesh	Serpent Flesh	Professions	Both	Serpent Flesh		60	58	56	2	0	2	0	16360	2089	0	1	objective without QID or loot	
-tbc	zygor:Profession Guides\Jewelcrafting\Farming Guides\Jaggal Pearl	Jaggal Pearl	Professions	Both	Jaggal Pearl		4	4	3	1	0	1	0	4473	441	0	1	objective without QID or loot	
-tbc	zygor:Reputation Guides\Classic\Gelkis & Magram Centaur Clans	Gelkis & Magram Centaur Clans	Reputation	Both	Gelkis & Magram Centaur Clans		18	18	8	10	0	10	0	10986	3025	0	1	note-class step (N)	
-tbc	zygor:Reputation Guides\Classic\Wintersaber Trainers	Wintersaber Trainers	Reputation	Both	Wintersaber Trainers		30	23	12	11	0	11	0	33499	4528	0	1	note-class step (N)	
-tbc	zygor:Reputation Guides\The Burning Crusade\Honor Hold	Honor Hold	Reputation	Both	Honor Hold		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
-tbc	zygor:Reputation Guides\The Burning Crusade\The Aldor	The Aldor	Reputation	Both	The Aldor		240	183	116	67	0	67	0	119016	13935	0	1	note-class step (N)	
-tbc	zygor:Reputation Guides\The Burning Crusade\Keepers of Time	Keepers of Time	Reputation	Both	Keepers of Time		38	37	19	18	0	18	0	3635	1502	0	1	note-class step (N)	
-tbc	zygor:Reputation Guides\Classic\Orgrimmar	Orgrimmar	Reputation	Both	Orgrimmar		14	10	4	6	0	6	0	10580	818	0	1	note-class step (N)	
-tbc	zygor:Titles\Burning Crusade Titles\Dungeons & Raids\Hand of A'dal	Hand of A'dal	Titles	Both	Hand of A'dal		116	91	59	32	0	32	0	49163	7254	0	1	note-class step (N)	
+tbc	legacy:Dailies Guides\The Burning Crusade\Shattered Sun Offensive\Shattered Sun Dailies (Phase 3, Recovering Harbor, Rebuilding Forge)	Shattered Sun Dailies (Phase 3, Recovering Harbor, Rebuilding Forge)	Dailies	Both	Shattered Sun Dailies		100	74	43	31	0	31	0	49526	6248	0	1	note-class step (N)	
+tbc	legacy:Dailies Guides\The Burning Crusade\Ogri'la\Ogri'la Daily Quests	Ogri'la Daily Quests	Dailies	Both	Ogri'la Daily Quests		28	25	12	13	0	13	0	8834	1052	0	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\Classic\Wailing Caverns (15-25)	Wailing Caverns (15-25)	Dungeons	Both	Wailing Caverns		18	18	1	17	0	17	0	0	1018	1	1	objective without QID or loot	
+tbc	legacy:Dungeon Guides\Classic\Razorfen Kraul (30-40)	Razorfen Kraul (30-40)	Dungeons	Both	Razorfen Kraul		17	17	1	16	0	16	0	0	0	2	1	objective without QID or loot	
+tbc	legacy:Dungeon Guides\Classic\Uldaman (42-52)	Uldaman (42-52)	Dungeons	Both	Uldaman		15	15	0	15	0	15	0	0	0	1	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\Classic\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeons	Both	The Temple of Atal'Hakkar		21	21	4	17	0	17	0	477	53	2	1	objective without QID or loot	
+tbc	legacy:Dungeon Guides\Classic\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeons	Both	Dire Maul North		14	14	0	14	0	14	0	4715	526	1	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\Classic\The Deadmines Quests	The Deadmines Quests	Dungeons	Both	The Deadmines Quests		67	59	40	19	0	19	0	37526	4182	0	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\Classic\Scarlet Monastery Armory Quests	Scarlet Monastery Armory Quests	Dungeons	Both	Scarlet Monastery Armory Quests		18	18	10	8	0	8	0	22656	4999	0	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\Classic\Temple of Atal'Hakkar Quests	Temple of Atal'Hakkar Quests	Dungeons	Both	Temple of Atal'Hakkar Quests		117	96	60	36	0	36	0	118257	16306	0	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\Classic\Scholomance Quests	Scholomance Quests	Dungeons	Both	Scholomance Quests		206	179	116	63	0	63	0	127561	22681	0	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\Classic\Raid Attunements\Onyxia's Lair Attunement	Onyxia's Lair Attunement	Dungeons	Both	Onyxia's Lair Attunement		82	70	45	25	0	25	0	52548	8376	0	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\The Burning Crusade\Mana-Tombs (64-70)	Mana-Tombs (64-70)	Dungeons	Both	Mana-Tombs		7	7	1	6	0	6	0	495	44	1	1	objective without QID or loot	
+tbc	legacy:Dungeon Guides\The Burning Crusade\The Shattered Halls (70)	The Shattered Halls (70)	Dungeons	Both	The Shattered Halls		9	9	1	8	0	8	0	639	114	1	1	objective without QID or loot	
+tbc	legacy:Dungeon Guides\The Burning Crusade\The Slave Pens Quests	The Slave Pens Quests	Dungeons	Both	The Slave Pens Quests		15	12	5	7	0	7	0	1073	192	4	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\The Burning Crusade\The Steamvault Quests	The Steamvault Quests	Dungeons	Both	The Steamvault Quests		61	48	30	18	0	18	0	29900	3844	6	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\The Burning Crusade\Auchenai Crypts Quests	Auchenai Crypts Quests	Dungeons	Both	Auchenai Crypts Quests		68	57	36	21	0	21	0	23498	4024	2	1	note-class step (N)	
+tbc	legacy:Dungeon Guides\The Burning Crusade\Mount Hyjal Attunement	Mount Hyjal Attunement	Dungeons	Both	Mount Hyjal Attunement		9	6	3	3	0	3	0	1619	1337	0	1	note-class step (N)	
+tbc	legacy:Events Guides\Brewfest\Brewfest Quests	Brewfest Quests	Events	Both	Brewfest Quests		47	43	27	16	0	16	0	3443	1472	1	1	note-class step (N)	
+tbc	legacy:Events Guides\Darkmoon Faire\Elwynn Forest\Rinling Turn-Ins (Elwynn Forest)	Rinling Turn-Ins (Elwynn Forest)	Events	Both	Rinling Turn-Ins		22	20	10	10	0	10	0	4474	799	1	1	note-class step (N)	
+tbc	legacy:Events Guides\Darkmoon Faire\Mulgore\Chronos Turn-Ins (Mulgore)	Chronos Turn-Ins (Mulgore)	Events	Both	Chronos Turn-Ins		22	20	10	10	0	10	0	6992	2430	0	1	note-class step (N)	
+tbc	legacy:Events Guides\Darkmoon Faire\Mulgore\Tree Frog (Mulgore)	Tree Frog (Mulgore)	Events	Both	Tree Frog		2	2	0	2	0	2	0	80	14	0	1	note-class step (N)	
+tbc	legacy:Events Guides\Lunar Festival\Lunar Festival Main Questline	Lunar Festival Main Questline	Events	Both	Lunar Festival Main Questline		23	21	13	8	0	8	0	789	1771	0	1	note-class step (N)	
+tbc	legacy:Events Guides\Midsummer Fire Festival\Midsummer Fire Festival Bonfires	Midsummer Fire Festival Bonfires	Events	Both	Midsummer Fire Festival Bonfires		146	142	75	67	0	67	0	123973	21805	0	1	note-class step (N)	
+tbc	legacy:GOLD\Farming\Runecloth	Runecloth	Gold	Both	Runecloth		1	18	18	0	0	0	2	1647	855	0	1		
+tbc	legacy:GOLD\Farming\Ironweb Spider Silk	Ironweb Spider Silk	Gold	Both	Ironweb Spider Silk		1	18	18	0	0	0	2	1646	1332	0	1		
+tbc	legacy:GOLD\Farming\Raw Slitherskin Mackerel	Raw Slitherskin Mackerel	Gold	Both	Raw Slitherskin Mackerel		1	14	14	0	0	0	2	16382	995	0	1		
+tbc	legacy:GOLD\Farming\Murloc Eye	Murloc Eye	Gold	Both	Murloc Eye		1	18	18	0	0	0	2	1646	1083	0	1		
+tbc	legacy:GOLD\Farming\Crocolisk Meat	Crocolisk Meat	Gold	Both	Crocolisk Meat		32	61	57	4	0	4	2	10457	1262	0	1	objective without QID or loot	
+tbc	legacy:GOLD\Farming\Murloc Fin	Murloc Fin	Gold	Both	Murloc Fin		10	20	18	2	0	2	2	6176	1897	0	1	objective without QID or loot	
+tbc	legacy:GOLD\Farming\Tangy Clam Meat	Tangy Clam Meat	Gold	Both	Tangy Clam Meat		18	18	17	1	0	1	1	2738	1107	0	1	objective without QID or loot	
+tbc	legacy:GOLD\Farming\Mystery Meat, Buzzard Wing	Mystery Meat, Buzzard Wing	Gold	Both	Mystery Meat, Buzzard Wing		41	82	80	2	0	2	2	9853	2761	0	1	objective without QID or loot	
+tbc	legacy:GOLD\Farming\Raw Rockscale Cod	Raw Rockscale Cod	Gold	Both	Raw Rockscale Cod		1	18	18	0	0	0	2	1645	1123	0	1		
+tbc	legacy:GOLD\Farming\Essence of Air, Breath of Wind, Elemental Air	Essence of Air, Breath of Wind, Elemental Air	Gold	Both	Essence of Air, Breath of Wind, Elemental Air		1	18	18	0	0	0	2	1646	1033	0	1		
+tbc	legacy:GOLD\Farming\Globe of Water	Globe of Water	Gold	Both	Globe of Water		1	11	11	0	0	0	2	13772	1238	0	1		
+tbc	legacy:GOLD\Farming\Lesser Magic Essence	Lesser Magic Essence	Gold	Both	Lesser Magic Essence		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+tbc	legacy:GOLD\Farming\Illusion Dust	Illusion Dust	Gold	Both	Illusion Dust		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+tbc	legacy:GOLD\Farming\Vision Dust	Vision Dust	Gold	Both	Vision Dust		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+tbc	legacy:GOLD\Farming\Dark Rune	Dark Rune	Gold	Both	Dark Rune		2	2	0	2	0	2	0	0	0	0	1	objective without QID or loot	
+tbc	legacy:GOLD\Farming\Black Pearl, Golden Pearl, Zesty Clam Meat	Black Pearl, Golden Pearl, Zesty Clam Meat	Gold	Both	Black Pearl, Golden Pearl, Zesty Clam Meat		15	15	14	1	0	1	1	2183	1473	0	1	objective without QID or loot	
+tbc	legacy:GOLD\Farming\Buzzard Meat	Buzzard Meat	Gold	Both	Buzzard Meat		5	19	19	0	0	0	2	9199	2582	0	1		
+tbc	legacy:GOLD\Farming\Warped Flesh	Warped Flesh	Gold	Both	Warped Flesh		48	23	16	7	0	7	2	3194	827	0	1	note-class step (N)	
+tbc	legacy:GOLD\Farming\Meaty Bat Wing	Meaty Bat Wing	Gold	Both	Meaty Bat Wing		42	76	74	2	0	2	2	14462	1903	0	1	objective without QID or loot	
+tbc	legacy:GOLD\Gathering\Stranglekelp	Stranglekelp	Gold	Both	Stranglekelp		48	93	89	4	0	4	2	34736	4796	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Liferoot	Liferoot	Gold	Both	Liferoot		22	32	28	4	0	4	2	13921	1651	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Purple Lotus	Purple Lotus	Gold	Both	Purple Lotus		42	84	82	2	0	2	2	14509	3325	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Golden Sansam, Dreamfoil	Golden Sansam, Dreamfoil	Gold	Both	Golden Sansam, Dreamfoil		37	74	72	2	0	2	2	11190	1998	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Tin Ore, Silver Ore, Coarse Stone, Moss Agate	Tin Ore, Silver Ore, Coarse Stone, Moss Agate	Gold	Both	Tin Ore, Silver Ore, Coarse Stone, Moss Agate		43	86	84	2	0	2	2	13085	3454	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Elementium Ore	Elementium Ore	Gold	Both	Elementium Ore		2	13	13	0	0	0	2	808	144	1	1		
+tbc	legacy:GOLD\Gathering\Slimy Murloc Scale	Slimy Murloc Scale	Gold	Both	Slimy Murloc Scale		1	18	18	0	0	0	2	1647	294	1	1		
+tbc	legacy:GOLD\Gathering\Turtle Scale, Heavy Leather, Thick Leather	Turtle Scale, Heavy Leather, Thick Leather	Gold	Both	Turtle Scale, Heavy Leather, Thick Leather		1	18	18	0	0	0	2	1645	1295	0	1		
+tbc	legacy:GOLD\Gathering\Rugged Leather	Rugged Leather	Gold	Both	Rugged Leather		1	11	11	0	0	0	2	14378	1012	0	1		
+tbc	legacy:GOLD\Gathering\Heavy Scorpid Scale, Rugged Leather	Heavy Scorpid Scale, Rugged Leather	Gold	Both	Heavy Scorpid Scale, Rugged Leather		1	15	15	0	0	0	2	16031	1142	0	1		
+tbc	legacy:GOLD\Gathering\Dreamscale	Dreamscale	Gold	Both	Dreamscale		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Ancient Lichen	Ancient Lichen	Gold	Both	Ancient Lichen		12	14	7	7	0	7	2	2577	2006	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Terocone	Terocone	Gold	Both	Terocone		62	4	0	4	0	4	2	0	0	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Fel Hide	Fel Hide	Gold	Both	Fel Hide		14	4	0	4	0	4	2	0	0	0	1	note-class step (N)	
+tbc	legacy:GOLD\Gathering\Earthroot	Earthroot	Gold	Both	Earthroot		114	228	226	2	0	2	2	22816	4995	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (11-60)\Darkshore (11-14)	Darkshore (11-14)	Leveling	Both	Darkshore		136	116	61	55	0	55	0	23704	3489	0	0	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (11-60)\Duskwood (25-27)	Duskwood (25-27)	Leveling	Both	Duskwood		187	131	83	48	0	48	0	24138	4124	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (11-60)\Thousand Needles (32-33)	Thousand Needles (32-33)	Leveling	Both	Thousand Needles		55	45	28	17	0	17	0	16035	2701	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (11-60)\Stranglethorn Vale (35-37)	Stranglethorn Vale (35-37)	Leveling	Both	Stranglethorn Vale		201	166	99	67	0	67	0	44062	5965	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (11-60)\Stranglethorn Vale (42-44)	Stranglethorn Vale (42-44)	Leveling	Both	Stranglethorn Vale		107	89	55	34	0	34	0	16803	1392	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (11-60)\Un'Goro Crater (48-49)	Un'Goro Crater (48-49)	Leveling	Both	Un'Goro Crater		94	75	37	38	0	38	0	24047	2963	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (11-60)\Winterspring & Felwood (54-56)	Winterspring & Felwood (54-56)	Leveling	Both	Winterspring & Felwood		290	255	174	81	0	81	0	52221	6224	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\The Burning Crusade (60-70)\Nagrand (64-65)	Nagrand (64-65)	Leveling	Both	Nagrand		344	315	220	95	0	95	0	53778	5169	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Ahn'Qiraj Gear\Ruins of Ahn'Qiraj Weapon Quest	Ruins of Ahn'Qiraj Weapon Quest	Leveling	Both	Ruins of Ahn'Qiraj Weapon Quest		58	31	27	4	0	4	0	519	1008	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Scepter of the Shifting Sands	Scepter of the Shifting Sands	Leveling	Both	Scepter of the Shifting Sands		172	126	77	49	0	49	0	177698	22097	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\The Burning Crusade (60-70)\Hellfire Peninsula Group Quests	Hellfire Peninsula Group Quests	Leveling	Both	Hellfire Peninsula Group Quests		106	96	60	36	0	36	0	34773	6578	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Class Quests\Shaman Class Quests	Shaman Class Quests	Leveling	Both	Shaman Class Quests		113	49	25	24	0	24	0	44182	5052	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Class Quests\Rogue Class Quests	Rogue Class Quests	Leveling	Both	Rogue Class Quests		48	2	0	2	0	2	0	342	61	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Boosted Characters\Boosted Paladin Intro	Boosted Paladin Intro	Leveling	Both	Boosted Paladin Intro		24	24	12	12	0	12	0	6894	646	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Boosted Characters\Boosted Shaman Intro	Boosted Shaman Intro	Leveling	Both	Boosted Shaman Intro		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Starter Guides (1-12)\Durotar (10-13)	Durotar (10-13)	Leveling	Both	Durotar		163	134	86	48	0	48	0	67709	12535	0	0	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (12-60)\The Barrens & Stonetalon Mountains (20-22)	The Barrens & Stonetalon Mountains (20-22)	Leveling	Both	The Barrens & Stonetalon Mountains		210	150	92	58	0	58	0	43679	7430	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (12-60)\Thousand Needles (28-30)	Thousand Needles (28-30)	Leveling	Both	Thousand Needles		225	181	105	76	0	76	0	83630	14113	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (12-60)\Alterac Mountains (38-39)	Alterac Mountains (38-39)	Leveling	Both	Alterac Mountains		79	60	38	22	0	22	0	11580	2945	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (12-60)\Feralas (47-48)	Feralas (47-48)	Leveling	Both	Feralas		96	81	54	27	0	27	0	20866	2992	0	1	note-class step (N)	
+tbc	legacy:Leveling Guides\Classic (12-60)\Felwood & Winterspring (54-56)	Felwood & Winterspring (54-56)	Leveling	Both	Felwood & Winterspring		138	109	54	55	0	55	0	57777	6962	0	0	note-class step (N)	
+tbc	legacy:Profession Guides\Blacksmithing\Blacksmithing (1-375)	Blacksmithing (1-375)	Professions	Both	Blacksmithing		2959	2885	2732	153	0	153	0	645233	103941	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Small Spider Leg	Small Spider Leg	Professions	Both	Small Spider Leg		28	28	27	1	0	1	0	2513	995	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Stringy Vulture Meat	Stringy Vulture Meat	Professions	Both	Stringy Vulture Meat		46	44	42	2	0	2	0	4449	1788	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Goretusk Liver	Goretusk Liver	Professions	Both	Goretusk Liver		30	30	29	1	0	1	0	3186	569	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Tough Condor Meat	Tough Condor Meat	Professions	Both	Tough Condor Meat		27	26	24	2	0	2	0	5338	474	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Raptor Egg	Raptor Egg	Professions	Both	Raptor Egg		13	13	12	1	0	1	0	7793	864	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Gooey Spider Leg	Gooey Spider Leg	Professions	Both	Gooey Spider Leg		30	28	26	2	0	2	0	8672	997	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Buzzard Wing	Buzzard Wing	Professions	Both	Buzzard Wing		42	42	41	1	0	1	0	4842	1899	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Elements\Farming Guides\Essence of Earth	Essence of Earth	Professions	Both	Essence of Earth		2	2	1	1	0	1	0	5175	810	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Elements\Farming Guides\Core of Earth	Core of Earth	Professions	Both	Core of Earth		2	2	1	1	0	1	0	34	6	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Enchanting\Enchanting (1-375)	Enchanting (1-375)	Professions	Both	Enchanting		254	183	41	142	0	142	0	48884	9586	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Enchanting\Farming Guides\Small Brilliant Shard	Small Brilliant Shard	Professions	Both	Small Brilliant Shard		1	1	1	0	0	0	0	0	0	0	1		
+tbc	legacy:Profession Guides\Enchanting\Farming Guides\Lesser Mystic Essence	Lesser Mystic Essence	Professions	Both	Lesser Mystic Essence		1	1	1	0	0	0	0	0	0	0	1		
+tbc	legacy:Profession Guides\Engineering\Engineering (1-375)	Engineering (1-375)	Professions	Both	Engineering		2321	2220	2093	127	0	127	0	594991	91168	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Fishing\Farming Guides\Icefin Bluefish	Icefin Bluefish	Professions	Both	Icefin Bluefish		3	3	1	2	0	2	0	5758	394	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Fishing\Farming Guides\Raw Bristle Whisker Catfish	Raw Bristle Whisker Catfish	Professions	Both	Raw Bristle Whisker Catfish		1	1	1	0	0	0	0	0	188	0	1		
+tbc	legacy:Profession Guides\Herbalism\Farming Guides\Silverleaf	Silverleaf	Professions	Both	Silverleaf		43	43	42	1	0	1	0	6787	1212	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Herbalism\Farming Guides\Swiftthistle	Swiftthistle	Professions	Both	Swiftthistle		28	28	27	1	0	1	0	8684	1180	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Herbalism\Farming Guides\Fadeleaf	Fadeleaf	Professions	Both	Fadeleaf		22	22	21	1	0	1	0	8086	1042	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Herbalism\Farming Guides\Purple Lotus	Purple Lotus	Professions	Both	Purple Lotus		43	43	42	1	0	1	0	6228	1808	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Herbalism\Farming Guides\Golden Sansam	Golden Sansam	Professions	Both	Golden Sansam		38	38	37	1	0	1	0	5595	999	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Jewelcrafting\Jewelcrafting (1-375)	Jewelcrafting (1-375)	Professions	Both	Jewelcrafting		2353	2296	2174	122	0	122	0	412701	96638	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Mining\Farming Guides\Rough Stone	Rough Stone	Professions	Both	Rough Stone		62	62	61	1	0	1	0	6376	1467	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Mining\Farming Guides\Heavy Stone	Heavy Stone	Professions	Both	Heavy Stone		66	66	65	1	0	1	0	16630	2106	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Mining\Farming Guides\Thorium Ore	Thorium Ore	Professions	Both	Thorium Ore		60	60	59	1	0	1	0	7398	2202	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Skinning\Farming Guides\Green Whelp Scale	Green Whelp Scale	Professions	Both	Green Whelp Scale		2	2	1	1	0	1	0	0	1093	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Skinning\Farming Guides\Slimy Murloc Scale	Slimy Murloc Scale	Professions	Both	Slimy Murloc Scale		2	2	1	1	0	1	0	11721	953	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Skinning\Farming Guides\Turtle Scale	Turtle Scale	Professions	Both	Turtle Scale		2	2	1	1	0	1	0	0	988	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Skinning\Farming Guides\Devilsaur Leather	Devilsaur Leather	Professions	Both	Devilsaur Leather		2	2	1	1	0	1	0	4125	465	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Skinning\Farming Guides\Black Dragonscale	Black Dragonscale	Professions	Both	Black Dragonscale		2	2	1	1	0	1	0	0	822	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Skinning\Farming Guides\Primal Tiger Leather	Primal Tiger Leather	Professions	Both	Primal Tiger Leather		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Tailoring\Farming Guides\Mageweave Cloth	Mageweave Cloth	Professions	Both	Mageweave Cloth		2	2	1	1	0	1	0	0	1040	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Tailoring\Farming Guides\Shadow Silk	Shadow Silk	Professions	Both	Shadow Silk		2	2	1	1	0	1	0	0	1013	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Dropped\Farming Guides\Sharp Claw	Sharp Claw	Professions	Both	Sharp Claw		2	2	1	1	0	1	0	7619	915	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Dropped\Farming Guides\Golden Pearl	Golden Pearl	Professions	Both	Golden Pearl		17	17	16	1	0	1	0	5297	946	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Blacksmithing\Specialization\Weaponsmith\Master Hammersmith Questline	Master Hammersmith Questline	Professions	Both	Master Hammersmith Questline		16	15	4	11	0	11	0	3027	1489	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Engineering\Specialization\Goblin Engineering\Goblin Engineer Membership Card Renewal	Goblin Engineer Membership Card Renewal	Professions	Both	Goblin Engineer Membership Card Renewal		4	4	3	1	0	1	0	14356	928	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Herbalism\Farming Guides\Ancient Lichen	Ancient Lichen	Professions	Both	Ancient Lichen		9	9	8	1	0	1	0	2577	1662	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Herbalism\Farming Guides\Ragveil	Ragveil	Professions	Both	Ragveil		88	88	87	1	0	1	0	14571	2602	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Enchanting\Farming Guides\Small Prismatic Shard	Small Prismatic Shard	Professions	Both	Small Prismatic Shard		1	1	1	0	0	0	0	0	0	0	1		
+tbc	legacy:Profession Guides\General Farming Guides\Primal Fire	Primal Fire	Professions	Both	Primal Fire		14	13	10	3	0	3	0	7844	736	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Mining\Farming Guides\Fel Iron Ore	Fel Iron Ore	Professions	Both	Fel Iron Ore		51	51	50	1	0	1	0	11200	1952	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Leatherworking\Farming Guides\Fel Scales	Fel Scales	Professions	Both	Fel Scales		37	35	32	3	0	3	0	5204	902	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Fishing\Farming Guides\Barbed Gill Trout	Barbed Gill Trout	Professions	Both	Barbed Gill Trout		3	3	1	2	0	2	0	2334	417	0	1	note-class step (N)	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Bat Flesh	Bat Flesh	Professions	Both	Bat Flesh		47	47	46	1	0	1	0	17155	1234	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Cooking\Farming Guides\Serpent Flesh	Serpent Flesh	Professions	Both	Serpent Flesh		60	58	56	2	0	2	0	16360	2089	0	1	objective without QID or loot	
+tbc	legacy:Profession Guides\Jewelcrafting\Farming Guides\Jaggal Pearl	Jaggal Pearl	Professions	Both	Jaggal Pearl		4	4	3	1	0	1	0	4473	441	0	1	objective without QID or loot	
+tbc	legacy:Reputation Guides\Classic\Gelkis & Magram Centaur Clans	Gelkis & Magram Centaur Clans	Reputation	Both	Gelkis & Magram Centaur Clans		18	18	8	10	0	10	0	10986	3025	0	1	note-class step (N)	
+tbc	legacy:Reputation Guides\Classic\Wintersaber Trainers	Wintersaber Trainers	Reputation	Both	Wintersaber Trainers		30	23	12	11	0	11	0	33499	4528	0	1	note-class step (N)	
+tbc	legacy:Reputation Guides\The Burning Crusade\Honor Hold	Honor Hold	Reputation	Both	Honor Hold		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+tbc	legacy:Reputation Guides\The Burning Crusade\The Aldor	The Aldor	Reputation	Both	The Aldor		240	183	116	67	0	67	0	119016	13935	0	1	note-class step (N)	
+tbc	legacy:Reputation Guides\The Burning Crusade\Keepers of Time	Keepers of Time	Reputation	Both	Keepers of Time		38	37	19	18	0	18	0	3635	1502	0	1	note-class step (N)	
+tbc	legacy:Reputation Guides\Classic\Orgrimmar	Orgrimmar	Reputation	Both	Orgrimmar		14	10	4	6	0	6	0	10580	818	0	1	note-class step (N)	
+tbc	legacy:Titles\Burning Crusade Titles\Dungeons & Raids\Hand of A'dal	Hand of A'dal	Titles	Both	Hand of A'dal		116	91	59	32	0	32	0	49163	7254	0	1	note-class step (N)	
 tbc	wowpro:CLASSIC_BC_Blades_Edge_Mountains	Blade's Edge Mountains	Leveling	Alliance	Blade's Edge Mountains		327	265	253	12	0	12	0	78982	7455	0	1	note-class step (r)	
 tbc	wowpro:BC-DwarfGnome	Dun Morogh 1-12	Leveling	Alliance	Dun Morogh		283	173	156	17	0	17	0	50380	8859	0	0	note-class step (r)	
 tbc	wowpro:CLASSIC_BC_19_25_Alliance	Alliance Leveling 19-25	Leveling	Alliance	Westfall		424	306	294	12	0	12	0	165235	21870	0	1	note-class step (N)	

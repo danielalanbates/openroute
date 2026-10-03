@@ -27,7 +27,7 @@ for _, f in ipairs({ "Core/Init.lua", "Core/Util.lua", "Core/Conditions.lua", "C
     "Data/Transit.lua", "Data/Access.lua", "Data/Inns.lua", "Data/ZoneAliases.lua", "Data/Roads_ek.lua",
     "Data/Roads_kalimdor.lua", "Routing/TravelGraph.lua", "Routing/Roads.lua", "Routing/StepOrder.lua",
     "Routing/Router.lua", "Routing/Loop.lua", "Core/Account.lua", "Core/Progress.lua", "Core/Farm.lua",
-    "Data/Farm_routes.lua", "Core/Instances.lua", "Adapters/Zygor.lua" }) do load(f) end
+    "Data/Farm_routes.lua", "Core/Instances.lua", "Adapters/LegacyGuides.lua" }) do load(f) end
 CompletionRouteDB, CompletionRouteCharDB = nil, nil
 for _, h in ipairs(NS.wowHandlers.ADDON_LOADED) do h("ADDON_LOADED", "CompletionRoute") end
 NS.db.profile.routing.assumeAllTaxi = true
@@ -172,7 +172,7 @@ assert(math.abs(st2.avgValue - 10 * 500) < 1, "lap value wrong: " .. tostring(st
 print(("lap stats OK: %d laps, %s per lap"):format(st2.laps, U.FmtMoney(st2.avgValue)))
 
 -- 12) an imported "gold guide" that is a wall of clickable notes becomes a circuit
-G.Register({ id = "t:gold_notes", name = "Bear Meat", type = "GOLD", source = "Zygor", text = table.concat({
+G.Register({ id = "t:gold_notes", name = "Bear Meat", type = "GOLD", source = "Legacy", text = table.concat({
     "N Kill bears here|Z|1429; Elwynn Forest|M|40.00,50.00|N|They drop bear meat.|",
     "C Collect Bear Meat|Z|1429; Elwynn Forest|M|44.00,52.00|",
     "N More bears|Z|1429; Elwynn Forest|M|46.00,58.00|",
@@ -190,7 +190,7 @@ assert((gs[1].note or ""):find("bear meat") or (gs[2].note or ""):find("bear mea
     "the guide's own text was lost in the fold")
 print(("gold-guide circuitize OK: %d stops, %d patrol legs, notes preserved"):format(stops, patrol))
 
--- 13) Zygor's own farming guides are already rings: map + path must survive the import as G waypoints
+-- 13) Authored legacy farming guides are already rings: map + path must survive the import as G waypoints
 local zraw = table.concat({
     "step",
     "map Elwynn Forest",
@@ -200,15 +200,15 @@ local zraw = table.concat({
     "kill Webwood Lurker##1998+",
     "|goldcollect Small Spider Leg##5465 |n",
 }, "\n")
-local converted = NS.Adapters.Zygor.ConvertText(zraw)
+local converted = NS.Adapters.LegacyGuides.ConvertText(zraw)
 local wp = select(2, converted:gsub("\nG ", "")) + (converted:sub(1, 2) == "G " and 1 or 0)
 assert(wp == 6, "expected 6 path waypoints, got " .. wp)
 assert(converted:find("Elwynn Forest"), "path waypoints lost their zone")
-G.Register({ id = "t:zygor_path", name = "Small Spider Leg", type = "GOLD", source = "Zygor", text = converted })
-local zg = G.registry["t:zygor_path"]
+G.Register({ id = "t:legacy_path", name = "Small Spider Leg", type = "GOLD", source = "Legacy", text = converted })
+local zg = G.registry["t:legacy_path"]
 local zres, zn, zlen = F.Circuitize(zg)
 assert(zres and zg.loop and zn == 6 and zlen == nil, "an authored ring must be kept as authored, not re-solved")
-print(("Zygor path import OK: %d waypoints kept in the author's order"):format(zn))
+print(("Legacy path import OK: %d waypoints kept in the author's order"):format(zn))
 
 -- 14) instance entrance: a step inside a dungeon routes to the door we learned
 MAPS[2000] = { "Test Dungeon", 0, -9000, 200, 500, 500, 1429, 4 }   -- mapType 4 = dungeon interior
