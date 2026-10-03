@@ -1,0 +1,630 @@
+flavor	guide	name	type	faction	zone	zone_name	steps	simulated	auto	manual	stalls	forced	laps	yards	seconds	no_route	finished	manual_reason	error
+mop	qdb:mop:3:Both	Badlands Quests	Quests	Both	1418		101	91	91	0	0	0	0	12814	2813	0	1		
+mop	qdb:mop:8:Both	Swamp of Sorrows Quests	Quests	Both	1435		109	94	94	0	0	0	0	26390	4618	0	1		
+mop	qdb:mop:11:Both	Wetlands Quests	Quests	Both	1437		33	26	26	0	0	0	0	19922	1488	0	1		
+mop	qdb:mop:14:Both	Durotar Quests	Quests	Both	1411		26	24	24	0	0	0	0	9263	2333	0	1		
+mop	qdb:mop:16:Both	Azshara Quests	Quests	Both	1447		113	105	105	0	0	0	0	49422	6085	0	1		
+mop	qdb:mop:28:Both	Western Plaguelands Quests	Quests	Both	1422		157	133	133	0	0	0	0	30032	5143	0	1		
+mop	qdb:mop:36:Both	Alterac Mountains Quests	Quests	Both	1416		5	4	4	0	0	0	0	0	0	0	1		
+mop	qdb:mop:41:Alliance	Deadwind Pass Quests (Alliance)	Quests	Alliance	1430		2	2	2	0	0	0	0	16772	978	0	1		
+mop	qdb:mop:45:Alliance	Arathi Highlands Quests (Alliance)	Quests	Alliance	1417		134	126	126	0	0	0	0	23050	2706	0	1		
+mop	qdb:mop:47:Horde	The Hinterlands Quests (Horde)	Quests	Horde	1425		168	158	158	0	0	0	0	42647	6100	0	1		
+mop	qdb:mop:65:Horde	Dragonblight Quests (Horde)	Quests	Horde	115	Dragonblight	254	228	228	0	0	0	0	128638	15622	0	1		
+mop	qdb:mop:67:Alliance	The Storm Peaks Quests (Alliance)	Quests	Alliance	120	The Storm Peaks	81	69	69	0	0	0	0	28953	4419	0	1		
+mop	qdb:mop:130:Horde	Silverpine Forest Quests (Horde)	Quests	Horde	1421		150	132	132	0	0	0	0	42534	6105	0	1		
+mop	qdb:mop:141:Both	Teldrassil Quests	Quests	Both	1438		28	24	24	0	0	0	0	6264	1638	0	1		
+mop	qdb:mop:209:Alliance	Shadowfang Keep - Dungeon Quests (Alliance)	Quests	Alliance	310	Shadowfang Keep	14	14	14	0	0	0	0	0	0	0	1		
+mop	qdb:mop:215:Horde	Mulgore Quests (Horde)	Quests	Horde	1412		121	107	107	0	0	0	0	17886	2755	1	1		
+mop	qdb:mop:331:Horde	Ashenvale Quests (Horde)	Quests	Horde	1440		220	204	204	0	0	0	0	106833	11821	0	1		
+mop	qdb:mop:361:Alliance	Felwood Quests (Alliance)	Quests	Alliance	1448		55	43	43	0	0	0	0	12265	1797	0	1		
+mop	qdb:mop:400:Alliance	Thousand Needles Quests (Alliance)	Quests	Alliance	1441		118	109	109	0	0	0	0	45611	6436	0	1		
+mop	qdb:mop:406:Alliance	Stonetalon Mountains Quests (Alliance)	Quests	Alliance	1442		165	146	146	0	0	0	0	55664	5844	0	1		
+mop	qdb:mop:490:Alliance	Un'Goro Crater Quests (Alliance)	Quests	Alliance	1449		13	12	12	0	0	0	0	9623	776	0	1		
+mop	qdb:mop:493:Alliance	Moonglade Quests (Alliance)	Quests	Alliance	1450		23	14	14	0	0	0	0	16321	646	0	1		
+mop	qdb:mop:616:Alliance	Mount Hyjal Quests (Alliance)	Quests	Alliance	198	Mount Hyjal	27	20	20	0	0	0	0	5278	488	0	1		
+mop	qdb:mop:717:Alliance	The Stockade - Dungeon Quests (Alliance)	Quests	Alliance	225	The Stockade	17	16	16	0	0	0	0	0	0	2	1		
+mop	qdb:mop:721:Alliance	Gnomeregan - Dungeon Quests (Alliance)	Quests	Alliance	226	Gnomeregan	11	10	10	0	0	0	0	0	0	0	1		
+mop	qdb:mop:796:Alliance	Scarlet Monastery - Dungeon Quests (Alliance)	Quests	Alliance	302	Scarlet Monastery	9	8	8	0	0	0	0	0	0	0	1		
+mop	qdb:mop:1337:Alliance	Uldaman - Dungeon Quests (Alliance)	Quests	Alliance	230	Uldaman	12	12	12	0	0	0	0	0	0	0	1		
+mop	qdb:mop:1497:Horde	Undercity Quests (Horde)	Quests	Horde	1458		300	234	234	0	0	0	0	93356	8320	1	1		
+mop	qdb:mop:1581:Alliance	The Deadmines - Dungeon - The Deadmines Quests (Alliance)	Quests	Alliance	291	The Deadmines	17	17	17	0	0	0	0	0	0	0	1		
+mop	qdb:mop:1584:Both	Blackrock Depths - Dungeon -- Detention Block Quests	Quests	Both	242	Blackrock Depths	47	42	42	0	0	0	0	0	0	0	1		
+mop	qdb:mop:1657:Alliance	Darnassus Quests (Alliance)	Quests	Alliance	1457		256	200	200	0	0	0	0	137787	13777	1	1		
+mop	qdb:mop:2057:Both	Scholomance - Dungeon Quests	Quests	Both	306	ScholomanceOLD	43	39	39	0	0	0	0	0	0	0	1		
+mop	qdb:mop:2366:Both	The Black Morass - Dungeon Quests	Quests	Both	273	The Black Morass	2	1	1	0	0	0	0	0	0	0	1		
+mop	qdb:mop:2557:Both	Dire Maul - Dungeon Quests	Quests	Both	234	Dire Maul	119	106	106	0	0	0	0	0	0	0	1		
+mop	qdb:mop:2817:Horde	Crystalsong Forest Quests (Horde)	Quests	Horde	127	Crystalsong Forest	4	4	4	0	0	0	0	1223	217	0	1		
+mop	qdb:mop:3358:Alliance	Arathi Basin - Battleground Quests (Alliance)	Quests	Alliance	1461		35	35	35	0	0	0	0	0	0	1	1		
+mop	qdb:mop:3433:Both	Ghostlands Quests	Quests	Both	1942		32	30	30	0	0	0	0	3441	614	1	1		
+mop	qdb:mop:3487:Horde	Silvermoon City Quests (Horde)	Quests	Horde	1954		104	73	73	0	0	0	0	9233	3577	0	1		
+mop	qdb:mop:3519:Both	Terokkar Forest Quests	Quests	Both	1952		270	246	246	0	0	0	0	117693	18438	0	1		
+mop	qdb:mop:3521:Both	Zangarmarsh Quests	Quests	Both	1946		168	149	149	0	0	0	0	73737	12336	0	1		
+mop	qdb:mop:3523:Both	Netherstorm Quests	Quests	Both	1953		448	393	393	0	0	0	0	196681	29594	0	1		
+mop	qdb:mop:3525:Both	Bloodmyst Isle Quests	Quests	Both	1950		5	5	5	0	0	0	0	1321	1323	0	1		
+mop	qdb:mop:3557:Both	The Exodar Quests	Quests	Both	1947		16	10	10	0	0	0	0	3392	490	0	1		
+mop	qdb:mop:3703:Alliance	Shattrath City Quests (Alliance)	Quests	Alliance	1955		14	13	13	0	0	0	0	27640	3363	0	1		
+mop	qdb:mop:3714:Alliance	The Shattered Halls - Dungeon Quests (Alliance)	Quests	Alliance	246	The Shattered Halls	12	12	12	0	0	0	0	0	0	0	1		
+mop	qdb:mop:3790:Both	Auchenai Crypts - Dungeon Quests	Quests	Both	256	Auchenai Crypts	12	11	11	0	0	0	0	0	0	0	1		
+mop	qdb:mop:3959:Both	Black Temple - Raid Quests	Quests	Both	339	Black Temple	6	5	5	0	0	0	0	0	0	0	1		
+mop	qdb:mop:4131:Both	Magisters' Terrace - Dungeon Quests	Quests	Both	349	Magisters' Terrace	17	14	14	0	0	0	0	0	0	0	1		
+mop	qdb:mop:4264:Both	Halls of Stone Quests	Quests	Both	140	Halls of Stone	9	9	9	0	0	0	0	0	0	0	1		
+mop	qdb:mop:4298:Both	Plaguelands: The Scarlet Enclave Quests	Quests	Both	124	Plaguelands: The Scarlet Enclave	109	64	64	0	0	0	0	9086	1334	1	1		
+mop	qdb:mop:4395:Both	Dalaran - Dungeon? Quests	Quests	Both	125	Dalaran	216	209	209	0	0	0	0	24984	2475	12	1		
+mop	qdb:mop:4706:Both	Ruins of Gilneas Quests	Quests	Both	217	Ruins of Gilneas	20	13	13	0	0	0	0	3102	554	0	1		
+mop	qdb:mop:4714:Alliance	Gilneas Quests (Alliance)	Quests	Alliance	179	Gilneas	170	139	139	0	0	0	0	24730	4416	0	1		
+mop	qdb:mop:4737:Horde	Kezan Quests (Horde)	Quests	Horde	194	Kezan	105	90	90	0	0	0	0	7535	1345	0	1		
+mop	qdb:mop:4812:Both	Icecrown Citadel - Raid Quests	Quests	Both	186	Icecrown Citadel	179	140	140	0	0	0	0	3942	352	0	1		
+mop	qdb:mop:4820:Alliance	Halls of Reflection - Dungeon Quests (Alliance)	Quests	Alliance	185	Halls of Reflection	5	4	4	0	0	0	0	0	0	0	1		
+mop	qdb:mop:4945:Both	Halls of Origination Quests	Quests	Both	297	Halls of Origination	6	4	4	0	0	0	0	0	0	0	1		
+mop	qdb:mop:5034:Both	Uldum Quests	Quests	Both	249	Uldum	354	294	294	0	0	0	0	182075	25976	0	1		
+mop	qdb:mop:5088:Both	The Stonecore Quests	Quests	Both	324	The Stonecore	6	5	5	0	0	0	0	0	0	0	1		
+mop	qdb:mop:5145:Both	Abyssal Depths Quests	Quests	Both	204	Abyssal Depths	34	29	29	0	0	0	0	6118	868	0	1		
+mop	qdb:mop:5287:Both	The Cape of Stranglethorn Quests	Quests	Both	210	The Cape of Stranglethorn	288	261	261	0	0	0	0	50844	8654	0	1		
+mop	qdb:mop:5389:Both	Tol Barad Peninsula Quests	Quests	Both	245	Tol Barad Peninsula	130	130	130	0	0	0	0	24948	2228	0	1		
+mop	qdb:mop:5789:Both	End Time Quests	Quests	Both	401	End Time	3	2	2	0	0	0	0	0	0	0	1		
+mop	qdb:mop:6176:Both	Coldridge Valley Quests	Quests	Both	427	Coldridge Valley	5	3	3	0	0	0	0	351	63	0	1		
+mop	qdb:mop:6452:Both	Camp Narache Quests	Quests	Both	462	Camp Narache	35	27	27	0	0	0	0	2694	481	0	1		
+mop	qdb:mop:6456:Both	Ammen Vale Quests	Quests	Both	468	Ammen Vale	4	3	3	0	0	0	0	78	14	0	1		
+mop	zygor:Achievement Guides\Collections\Represent	Represent	Achievements	Both	Represent		4	4	1	3	0	3	0	408	1027	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Dungeons\Amber Void	Amber Void	Achievements	Both	Amber Void		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Dungeons\Defenseless	Defenseless	Achievements	Both	Defenseless		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Dungeons\Gotta Go!	Gotta Go!	Achievements	Both	Gotta Go!		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Dungeons\Lightning Struck	Lightning Struck	Achievements	Both	Lightning Struck		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Dungeons\On The Rocks	On The Rocks	Achievements	Both	On The Rocks		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Dungeons\Split Personality	Split Personality	Achievements	Both	Split Personality		2	2	0	2	0	2	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Dungeons\Zombiefest!	Zombiefest!	Achievements	Both	Zombiefest!		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Boned (25 player)	Boned (25 player)	Achievements	Both	Boned		5	3	3	0	0	0	0	210	37	1	1		
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Dances with Oozes(25 player)	Dances with Oozes(25 player)	Achievements	Both	Dances with Oozes		1	1	1	0	0	0	0	275	49	0	1		
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\The Descent into Madness	The Descent into Madness	Achievements	Both	The Descent into Madness		2	2	0	2	0	2	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Earth, Wind & Fire (25 player)	Earth, Wind & Fire (25 player)	Achievements	Both	Earth, Wind & Fire		3	3	0	3	0	3	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\The Frostwing Halls (10 player)	The Frostwing Halls (10 player)	Achievements	Both	The Frostwing Halls		2	2	0	2	0	2	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Getting Back to Nature	Getting Back to Nature	Achievements	Both	Getting Back to Nature		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Heroic: The Crimson Hall (10 player)	Heroic: The Crimson Hall (10 player)	Achievements	Both	Heroic: The Crimson Hall		2	2	0	2	0	2	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Hot Pocket	Hot Pocket	Achievements	Both	Hot Pocket		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\I Could Say That This Cache Was Rare	I Could Say That This Cache Was Rare	Achievements	Both	I Could Say That This Cache Was Rare		2	2	0	2	0	2	0	1221	218	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\I've Gone and Made a Mess (10 player)	I've Gone and Made a Mess (10 player)	Achievements	Both	I've Gone and Made a Mess		1	1	1	0	0	0	0	0	0	1	1		
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Just Can't Get Enough (25 player)	Just Can't Get Enough (25 player)	Achievements	Both	Just Can't Get Enough		7	6	4	2	0	2	0	956	171	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Knock on Wood	Knock on Wood	Achievements	Both	Knock on Wood		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Make Quick Werk of Him (10 player)	Make Quick Werk of Him (10 player)	Achievements	Both	Make Quick Werk of Him		7	6	6	0	0	0	0	352	63	1	1		
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Momma Said Knock You Out (10 player)	Momma Said Knock You Out (10 player)	Achievements	Both	Momma Said Knock You Out		1	1	0	1	0	1	0	249	45	0	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Nausea, Heartburn, Indigestion... (25 player)	Nausea, Heartburn, Indigestion... (25 player)	Achievements	Both	Nausea, Heartburn, Indigestion...		1	1	1	0	0	0	0	0	0	1	1		
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Nine Lives	Nine Lives	Achievements	Both	Nine Lives		3	3	0	3	0	3	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Once Bitten, Twice Shy (25 player)	Once Bitten, Twice Shy (25 player)	Achievements	Both	Once Bitten, Twice Shy		1	1	1	0	0	0	0	0	0	1	1		
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\The Plague Quarter (10 player)	The Plague Quarter (10 player)	Achievements	Both	The Plague Quarter		3	3	0	3	0	3	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Rubble and Roll	Rubble and Roll	Achievements	Both	Rubble and Roll		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Sapphiron's Demise (25 player)	Sapphiron's Demise (25 player)	Achievements	Both	Sapphiron's Demise		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Shocking! (10 player)	Shocking! (10 player)	Achievements	Both	Shocking!		1	1	0	1	0	1	0	507	91	0	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\The Spellweaver's Downfall (25 player)	The Spellweaver's Downfall (25 player)	Achievements	Both	The Spellweaver's Downfall		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Subtraction (10 player)	Subtraction (10 player)	Achievements	Both	Subtraction		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Three Lights in the Darkness	Three Lights in the Darkness	Achievements	Both	Three Lights in the Darkness		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Twilight Assist (25 player)	Twilight Assist (25 player)	Achievements	Both	Twilight Assist		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Who Needs Bloodlust?	Who Needs Bloodlust?	Achievements	Both	Who Needs Bloodlust?		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\Ascendant Descending	Ascendant Descending	Achievements	Both	Ascendant Descending		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\Extra Credit Bonus Stage	Extra Credit Bonus Stage	Achievements	Both	Extra Credit Bonus Stage		7	7	5	2	0	2	0	1141	204	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\Heroic: Blackrock Caverns	Heroic: Blackrock Caverns	Achievements	Both	Heroic: Blackrock Caverns		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\Heroic: The Stonecore	Heroic: The Stonecore	Achievements	Both	Heroic: The Stonecore		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\It's Frost Damage	It's Frost Damage	Achievements	Both	It's Frost Damage		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\Ohganot So Fast!	Ohganot So Fast!	Achievements	Both	Ohganot So Fast!		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\Ring Out!	Ring Out!	Achievements	Both	Ring Out!		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Dungeons\That's Not Canon!	That's Not Canon!	Achievements	Both	That's Not Canon!		1	1	0	1	0	1	0	0	0	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\The Abyss Will Gaze Back Into You	The Abyss Will Gaze Back Into You	Achievements	Both	The Abyss Will Gaze Back Into You		13	12	11	1	0	1	0	2108	376	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Do a Barrel Roll!	Do a Barrel Roll!	Achievements	Both	Do a Barrel Roll!		7	6	5	1	0	1	0	728	130	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Heroic: Al'Akir	Heroic: Al'Akir	Achievements	Both	Heroic: Al'Akir		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Heroic: Chimaeron	Heroic: Chimaeron	Achievements	Both	Heroic: Chimaeron		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Heroic: Halfus Wyrmbreaker	Heroic: Halfus Wyrmbreaker	Achievements	Both	Heroic: Halfus Wyrmbreaker		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Heroic: Morchok	Heroic: Morchok	Achievements	Both	Heroic: Morchok		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Heroic: Valiona and Theralion	Heroic: Valiona and Theralion	Achievements	Both	Heroic: Valiona and Theralion		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Minutes to Midnight	Minutes to Midnight	Achievements	Both	Minutes to Midnight		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Share the Pain	Share the Pain	Achievements	Both	Share the Pain		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Classic Raids\Classic Raider	Classic Raider	Achievements	Both	Classic Raider		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Northrend Raids\Glory of the Icecrown Raider (25 Player)	Glory of the Icecrown Raider (25 Player)	Achievements	Both	Glory of the Icecrown Raider		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Looking For Multitudes	Looking For Multitudes	Achievements	Both	Looking For Multitudes		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Eastern Kingdoms\Explore Deadwind Pass	Explore Deadwind Pass	Achievements	Both	Explore Deadwind Pass		3	3	3	0	0	0	0	959	171	1	1		
+mop	zygor:Achievement Guides\Exploration\Eastern Kingdoms\Explore Ghostlands	Explore Ghostlands	Achievements	Both	Explore Ghostlands		16	16	16	0	0	0	0	7111	2186	0	1		
+mop	zygor:Achievement Guides\Exploration\Eastern Kingdoms\Explore Redridge Mountains	Explore Redridge Mountains	Achievements	Both	Explore Redridge Mountains		13	13	13	0	0	0	0	4224	1607	0	1		
+mop	zygor:Achievement Guides\Exploration\Eastern Kingdoms\Explore Westfall	Explore Westfall	Achievements	Both	Explore Westfall		13	13	13	0	0	0	0	7660	953	0	1		
+mop	zygor:Achievement Guides\Exploration\Kalimdor\Explore Darkshore	Explore Darkshore	Achievements	Both	Explore Darkshore		11	11	11	0	0	0	0	7386	2013	0	1		
+mop	zygor:Achievement Guides\Exploration\Kalimdor\Explore Moonglade	Explore Moonglade	Achievements	Both	Explore Moonglade		4	4	4	0	0	0	0	2638	471	0	1		
+mop	zygor:Achievement Guides\Exploration\Kalimdor\Explore Tanaris	Explore Tanaris	Achievements	Both	Explore Tanaris		16	16	16	0	0	0	0	25984	2726	0	1		
+mop	zygor:Achievement Guides\Exploration\Outland\Bloody Rare/Medium Rare	Bloody Rare/Medium Rare	Achievements	Both	Bloody Rare/Medium Rare		20	20	0	20	0	20	0	31131	5673	0	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Exploration\Outland\Explore Terokkar Forest	Explore Terokkar Forest	Achievements	Both	Explore Terokkar Forest		21	21	21	0	0	0	0	18279	2831	0	1		
+mop	zygor:Achievement Guides\Exploration\Northrend\Explore Dragonblight	Explore Dragonblight	Achievements	Both	Explore Dragonblight		17	17	17	0	0	0	0	12632	3583	0	1		
+mop	zygor:Achievement Guides\Exploration\Northrend\Explore Zul'Drak	Explore Zul'Drak	Achievements	Both	Explore Zul'Drak		14	14	14	0	0	0	0	12061	2052	0	1		
+mop	zygor:Achievement Guides\Exploration\Cataclysm\Explore Uldum	Explore Uldum	Achievements	Both	Explore Uldum		22	22	22	0	0	0	0	11777	2816	0	1		
+mop	zygor:Achievement Guides\General\Cataclysmically Delicious	Cataclysmically Delicious	Achievements	Both	Cataclysmically Delicious		180	178	20	158	0	158	0	69768	7213	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\General\Going Down?	Going Down?	Achievements	Both	Going Down?		1	0	0	0	0	0	0	0	0	0	1		
+mop	zygor:Achievement Guides\General\The Right Stuff	The Right Stuff	Achievements	Both	The Right Stuff		4	4	0	4	0	4	0	892	159	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\General\You'll Feel Right as Rain	You'll Feel Right as Rain	Achievements	Both	You'll Feel Right as Rain		16	16	2	14	0	14	0	1867	333	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Cooking\Let's Do Lunch: Ironforge	Let's Do Lunch: Ironforge	Achievements	Both	Let's Do Lunch: Ironforge		28	26	14	12	0	12	0	7292	613	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Fishing\250 Fish	250 Fish	Achievements	Both	250 Fish		2	2	1	1	0	1	0	4635	281	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Fishing\Old Ironjaw	Old Ironjaw	Achievements	Both	Old Ironjaw		2	2	1	1	0	1	0	4575	270	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Kalimdor\Glutton for Fiery Punishment	Glutton for Fiery Punishment	Achievements	Both	Glutton for Fiery Punishment		2	2	1	1	0	1	0	1337	768	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Northrend\Mine Sweeper	Mine Sweeper	Achievements	Both	Mine Sweeper		2	2	1	1	0	1	0	2006	1601	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Cataclysm\Consumed by Nightmare	Consumed by Nightmare	Achievements	Both	Consumed by Nightmare		417	389	237	152	0	152	0	46997	7111	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\20 Dungeon Quests Completed	20 Dungeon Quests Completed	Achievements	Both	20 Dungeon Quests Completed		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Justly Rewarded	Justly Rewarded	Achievements	Both	Justly Rewarded		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Dungeons\Bomberman	Bomberman	Achievements	Both	Bomberman		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Dungeons\Hate Leads to Suffering	Hate Leads to Suffering	Achievements	Both	Hate Leads to Suffering		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Dungeons\Humane Society	Humane Society	Achievements	Both	Humane Society		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Dungeons\The Obvious Solution	The Obvious Solution	Achievements	Both	The Obvious Solution		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Dungeons\Run with the Wind	Run with the Wind	Achievements	Both	Run with the Wind		3	3	0	3	0	3	0	279	50	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Raids\And... It's Good!	And... It's Good!	Achievements	Both	And... It's Good!		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Raids\Gamon Will Save Us!	Gamon Will Save Us!	Achievements	Both	Gamon Will Save Us!		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Raids\Heroic: Gara'jal the Spiritbinder	Heroic: Gara'jal the Spiritbinder	Achievements	Both	Heroic: Gara'jal the Spiritbinder		2	2	0	2	0	2	0	204	36	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Raids\Heroic: Tsulong	Heroic: Tsulong	Achievements	Both	Heroic: Tsulong		3	3	0	3	0	3	0	200	36	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Raids\Last Stand of the Zandalari	Last Stand of the Zandalari	Achievements	Both	Last Stand of the Zandalari		6	6	0	6	0	6	0	966	173	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Raids\Overzealous	Overzealous	Achievements	Both	Overzealous		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Raids\Straight Six	Straight Six	Achievements	Both	Straight Six		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Pandaria Scenarios\For the Swarm	For the Swarm	Achievements	Both	For the Swarm		3	3	0	3	0	3	0	325	58	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Mists of Pandaria\Champions of Lei Shen	Champions of Lei Shen	Achievements	Both	Champions of Lei Shen		21	21	0	21	0	21	0	4432	791	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Mists of Pandaria\Glorious!	Glorious!	Achievements	Both	Glorious!		113	113	0	113	0	113	0	49222	8338	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Mists of Pandaria\Killing Time	Killing Time	Achievements	Both	Killing Time		65	65	0	65	0	65	0	13951	1540	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Mists of Pandaria\Explore Jade Forest	Explore Jade Forest	Achievements	Both	Explore Jade Forest		18	18	17	1	0	1	0	16602	2423	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Mists of Pandaria\Pilgrimage	Pilgrimage	Achievements	Both	Pilgrimage		12	12	9	3	0	3	0	6330	801	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Mists of Pandaria\The Song of the Yaungol	The Song of the Yaungol	Achievements	Both	The Song of the Yaungol		9	9	0	9	0	9	0	13364	1465	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Exploration\Mists of Pandaria\What is Worth Fighting For	What is Worth Fighting For	Achievements	Both	What is Worth Fighting For		11	11	0	11	0	11	0	15234	1946	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\General\Double Agent	Double Agent	Achievements	Both	Double Agent		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\General\Pandaren Delicacies	Pandaren Delicacies	Achievements	Both	Pandaren Delicacies		131	131	5	126	0	126	0	12984	1219	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Collect\Building a Team	Building a Team	Achievements	Both	Building a Team		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Collect\Master Pet Hunter	Master Pet Hunter	Achievements	Both	Master Pet Hunter		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Collect\That was Close!	That was Close!	Achievements	Both	That was Close!		1	1	0	1	0	1	0	0	275	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Battle\The Celestial Tournament	The Celestial Tournament	Achievements	Both	The Celestial Tournament		36	36	2	34	0	34	0	3102	554	2	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Battle\Legendary Pet Battler	Legendary Pet Battler	Achievements	Both	Legendary Pet Battler		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Battle\No Time To Heal	No Time To Heal	Achievements	Both	No Time To Heal		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Level\Just a Pup	Just a Pup	Achievements	Both	Just a Pup		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\I Choose You	I Choose You	Achievements	Both	I Choose You		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Pet Battles\Collect\That's a Lot of Pet Food	That's a Lot of Pet Food	Achievements	Both	That's a Lot of Pet Food		12	12	1	11	0	11	0	890	159	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Cooking\Master of the Oven	Master of the Oven	Achievements	Both	Master of the Oven		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Fishing\The Pandarian Angler	The Pandarian Angler	Achievements	Both	The Pandarian Angler		27	25	18	7	0	7	0	11799	1539	1	1	use without item or QID	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Boop	Boop	Achievements	Both	Boop		3	3	0	3	0	3	0	1111	198	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Dog Pile	Dog Pile	Achievements	Both	Dog Pile		7	7	1	6	0	6	0	931	166	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Getting Around with the Shado-Pan	Getting Around with the Shado-Pan	Achievements	Both	Getting Around with the Shado-Pan		5	5	0	5	0	5	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Know Your Role	Know Your Role	Achievements	Both	Know Your Role		10	10	0	10	0	10	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\One Step at a Time	One Step at a Time	Achievements	Both	One Step at a Time		81	78	63	15	0	15	0	17320	3093	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Proven Strength	Proven Strength	Achievements	Both	Proven Strength		45	45	12	33	0	33	0	5672	787	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Shadow Hopper	Shadow Hopper	Achievements	Both	Shadow Hopper		9	9	1	8	0	8	0	7508	588	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Stormbreaker	Stormbreaker	Achievements	Both	Stormbreaker		18	18	0	18	0	18	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Mists of Pandaria\Upjade Complete	Upjade Complete	Achievements	Both	Upjade Complete		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Reputation\Mists of Pandaria\Kirin Tor Offensive	Kirin Tor Offensive	Achievements	Both	Kirin Tor Offensive		13	13	5	8	0	8	0	7684	654	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Scenarios\Mists of Pandaria\Binan Village All-Star	Binan Village All-Star	Achievements	Both	Binan Village All-Star		22	22	0	22	0	22	0	254	45	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Scenarios\Mists of Pandaria\Fight Anger with Anger	Fight Anger with Anger	Achievements	Both	Fight Anger with Anger		19	17	12	5	0	5	0	1066	190	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Scenarios\Mists of Pandaria\It's a Trap!	It's a Trap!	Achievements	Both	It's a Trap!		3	3	0	3	0	3	0	375	67	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Scenarios\Mists of Pandaria\No Egg Left Behind	No Egg Left Behind	Achievements	Both	No Egg Left Behind		16	14	7	7	0	7	0	1122	200	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Scenarios\Mists of Pandaria\Save it for Later	Save it for Later	Achievements	Both	Save it for Later		3	3	0	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Scenarios\Mists of Pandaria\Yaungolian Barbecue	Yaungolian Barbecue	Achievements	Both	Yaungolian Barbecue		3	3	0	3	0	3	0	161	29	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\World Events\Brawler's Guild\Haters Gonna Hate	Haters Gonna Hate	Achievements	Both	Haters Gonna Hate		6	6	0	6	0	6	0	51	9	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Dungeons & Raids\Cataclysm Raids\Four Play	Four Play	Achievements	Both	Four Play		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Fishing\Journeyman Fisherman	Journeyman Fisherman	Achievements	Both	Journeyman Fisherman		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Fishing\Zen Master Fisherman	Zen Master Fisherman	Achievements	Both	Zen Master Fisherman		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Fishing\The Coin Master	The Coin Master	Achievements	Both	The Coin Master		6	3	1	2	0	2	0	94	17	1	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Kalimdor\Joy Ride	Joy Ride	Achievements	Both	Joy Ride		2	2	0	2	0	2	0	891	1389	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Quests\Cataclysm\The Fiery Lords of Sethria's Roost	The Fiery Lords of Sethria's Roost	Achievements	Both	The Fiery Lords of Sethria's Roost		7	7	1	6	0	6	0	6716	962	0	1	objective without QID or loot	
+mop	zygor:Achievement Guides\Quests\Cataclysm\Master of the Molten Flow	Master of the Molten Flow	Achievements	Both	Master of the Molten Flow		6	6	0	6	0	6	0	81	14	1	1	objective without QID or loot	
+mop	zygor:Achievement Guides\General\Superior	Superior	Achievements	Both	Superior		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Dailies Guides\Cooking\Darnassus Cooking Dailies	Darnassus Cooking Dailies	Dailies	Both	Darnassus Cooking Dailies		23	21	9	12	0	12	0	1825	326	1	1	note-class step (N)	
+mop	zygor:Daily Guides\Cataclysm Dailies\Uldum Dailies with Pre-Quests	Uldum Dailies with Pre-Quests	Dailies	Both	Uldum Dailies with Pre-Quests		13	13	6	7	0	7	0	24602	1277	0	1	note-class step (N)	
+mop	zygor:Daily Guides\Cataclysm Dailies\Reputation\Ramkahen	Ramkahen	Dailies	Both	Ramkahen		12	12	5	7	0	7	0	2739	471	0	1	note-class step (N)	
+mop	zygor:Daily Guides\Mists of Pandaria Dailies\Kirin Tor Offensive Dailies	Kirin Tor Offensive Dailies	Dailies	Both	Kirin Tor Offensive Dailies		355	295	185	110	0	110	0	36967	6601	1	1	note-class step (N)	
+mop	zygor:Dailies Guides\Wrath of the Lich King\Jewelcrafting Dailies	Jewelcrafting Dailies	Dailies	Both	Jewelcrafting Dailies		58	28	21	7	0	7	0	11883	1803	1	1	note-class step (N)	
+mop	zygor:Dailies Guides\Wrath of the Lich King\Icecrown\Shadowvault Dailies	Shadowvault Dailies	Dailies	Both	Shadowvault Dailies		22	21	8	13	0	13	0	11469	1652	0	1	note-class step (N)	
+mop	zygor:Dailies Guides\Wrath of the Lich King\Argent Tournament Grounds\Champion of Stormwind	Champion of Stormwind	Dailies	Both	Champion of Stormwind		103	86	48	38	0	38	0	45208	6874	0	1	note-class step (N)	
+mop	zygor:Dailies Guides\Cataclysm\Hyjal\Mount Hyjal Dailies	Mount Hyjal Dailies	Dailies	Both	Mount Hyjal Dailies		15	11	4	7	0	7	0	1835	1257	0	1	note-class step (N)	
+mop	zygor:Daily Guides\Mists of Pandaria Dailies\The August Celestials Dailies	The August Celestials Dailies	Dailies	Both	The August Celestials Dailies		237	227	122	105	0	105	0	34162	4158	1	1	note-class step (N)	
+mop	zygor:Daily Guides\Mists of Pandaria Dailies\Pandaria Cooking Dailies	Pandaria Cooking Dailies	Dailies	Both	Pandaria Cooking Dailies		105	97	39	58	0	58	0	7422	1249	0	1	note-class step (N)	
+mop	zygor:Dailies Guides\The Burning Crusade\Netherwing\Netherwing Eggs	Netherwing Eggs	Dailies	Both	Netherwing Eggs		73	70	4	66	0	66	0	8583	2365	0	1	note-class step (N)	
+mop	zygor:Dailies Guides\Fishing\Undercity Fishing Dailies	Undercity Fishing Dailies	Dailies	Both	Undercity Fishing Dailies		26	21	11	10	0	10	0	3927	2280	0	1	note-class step (N)	
+mop	zygor:Daily Guides\Cataclysm Dailies\Reputation\Hellscream's Reach	Hellscream's Reach	Dailies	Both	Hellscream's Reach		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Dailies Guides\Wrath of the Lich King\Argent Tournament Grounds\Champion of Sen'jin	Champion of Sen'jin	Dailies	Both	Champion of Sen'jin		104	87	48	39	0	39	0	42016	7146	0	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Shadowfang Keep (22-30)	Shadowfang Keep (22-30)	Dungeons	Both	Shadowfang Keep		21	21	1	20	0	20	0	212	38	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Scarlet Monastery (Library) (31-37)	Scarlet Monastery (Library) (31-37)	Dungeons	Both	Scarlet Monastery		5	5	1	4	0	4	0	373	67	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Maraudon (Wicked Grotto - Purple) (45-53)	Maraudon (Wicked Grotto - Purple) (45-53)	Dungeons	Both	Maraudon		4	4	1	3	0	3	0	611	68	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Scholomance (58-60)	Scholomance (58-60)	Dungeons	Both	Scholomance		29	29	1	28	0	28	0	150	17	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Dire Maul North Tribute (58-60)	Dire Maul North Tribute (58-60)	Dungeons	Both	Dire Maul North Tribute		16	16	5	11	0	11	0	0	0	0	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\The Stockade Quests	The Stockade Quests	Dungeons	Both	The Stockade Quests		52	41	27	14	0	14	0	23118	1532	3	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Razorfen Downs Quests	Razorfen Downs Quests	Dungeons	Both	Razorfen Downs Quests		25	22	12	10	0	10	0	7221	1143	2	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Dire Maul East Quests	Dire Maul East Quests	Dungeons	Both	Dire Maul East Quests		42	34	12	22	0	22	0	63278	3389	2	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Dungeons\Stratholme - Undead Side Quests	Stratholme - Undead Side Quests	Dungeons	Both	Stratholme - Undead Side Quests		94	84	42	42	0	42	0	13784	2679	14	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Classic Raids\Onyxia's Lair (60)	Onyxia's Lair (60)	Dungeons	Both	Onyxia's Lair		11	11	6	5	0	5	0	618	798	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Dungeons\The Slave Pens (62-70)	The Slave Pens (62-70)	Dungeons	Both	The Slave Pens		7	7	1	6	0	6	0	535	48	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Dungeons\The Black Morass (68-70)	The Black Morass (68-70)	Dungeons	Both	The Black Morass		7	7	1	6	0	6	0	654	58	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Dungeons\The Botanica (70)	The Botanica (70)	Dungeons	Both	The Botanica		11	11	1	10	0	10	0	455	81	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Raids\Karazhan	Karazhan	Dungeons	Both	Karazhan		178	173	135	38	0	38	0	10984	1961	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Dungeons\Mana-Tombs Quests	Mana-Tombs Quests	Dungeons	Both	Mana-Tombs Quests		76	61	32	29	0	29	0	35678	4419	5	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Dungeons\The Botanica Quests	The Botanica Quests	Dungeons	Both	The Botanica Quests		68	58	39	19	0	19	0	38779	4842	3	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Dungeons\Shadow Labyrinth Quests	Shadow Labyrinth Quests	Dungeons	Both	Shadow Labyrinth Quests		139	116	76	40	0	40	0	89886	11559	3	1	note-class step (N)	
+mop	zygor:Dungeon Guides\The Burning Crusade Dungeons\Mount Hyjal Attunement	Mount Hyjal Attunement	Dungeons	Both	Mount Hyjal Attunement		9	6	3	3	0	3	0	1693	1590	0	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Wrath of the Lich King Dungeons\Violet Hold (75-77)	Violet Hold (75-77)	Dungeons	Both	Violet Hold		38	38	0	38	0	38	0	0	0	0	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Wrath of the Lich King Dungeons\The Oculus (79-80)	The Oculus (79-80)	Dungeons	Both	The Oculus		8	8	0	8	0	8	0	0	0	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Wrath of the Lich King Dungeons\Trial of the Crusader	Trial of the Crusader	Dungeons	Both	Trial of the Crusader		25	25	0	25	0	25	0	517	92	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Wrath of the Lich King Raids\The Obsidian Sanctum	The Obsidian Sanctum	Dungeons	Both	The Obsidian Sanctum		21	20	2	18	0	18	0	867	155	2	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Wrath of the Lich King Raids\Icecrown Citadel (10)	Icecrown Citadel (10)	Dungeons	Both	Icecrown Citadel		37	37	2	35	0	35	0	8130	1452	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Wrath of the Lich King Dungeons\Azjol-Nerub Quests	Azjol-Nerub Quests	Dungeons	Both	Azjol-Nerub Quests		11	10	5	5	0	5	0	2672	444	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Wrath of the Lich King Dungeons\Halls of Stone Quests	Halls of Stone Quests	Dungeons	Both	Halls of Stone Quests		5	5	2	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Cataclysm Dungeons\Blackrock Caverns	Blackrock Caverns	Dungeons	Both	Blackrock Caverns		64	56	31	25	0	25	0	4706	840	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Cataclysm Dungeons\Vortex Pinnacle	Vortex Pinnacle	Dungeons	Both	Vortex Pinnacle		39	37	18	19	0	19	0	3886	694	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Cataclysm Raids\Throne of the Four Winds	Throne of the Four Winds	Dungeons	Both	Throne of the Four Winds		9	9	0	9	0	9	0	0	0	2	1	objective without QID or loot	
+mop	zygor:Dungeon Guides\Pandaria Dungeons\Gate of the Setting Sun	Gate of the Setting Sun	Dungeons	Both	Gate of the Setting Sun		26	25	11	14	0	14	0	2280	407	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Pandaria Dungeons\Siege of Niuzao Temple	Siege of Niuzao Temple	Dungeons	Both	Siege of Niuzao Temple		29	28	17	11	0	11	0	3066	548	1	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Pandaria Raids\Throne of Thunder	Throne of Thunder	Dungeons	Both	Throne of Thunder		132	129	79	50	0	50	0	13653	2438	3	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Pandaria Scenarios\A Brewing Storm	A Brewing Storm	Dungeons	Both	A Brewing Storm		11	10	2	8	0	8	0	1964	337	3	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Pandaria Scenarios\Theramore's Fall	Theramore's Fall	Dungeons	Both	Theramore's Fall		17	17	0	17	0	17	0	0	0	0	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Pandaria Scenarios\Domination Point	Domination Point	Dungeons	Both	Domination Point		20	19	0	19	0	19	0	4453	746	0	1	note-class step (N)	
+mop	zygor:Events Guides\Brewfest\Achievements\Disturbing the Peace	Disturbing the Peace	Events	Both	Disturbing the Peace		19	17	11	6	0	6	0	63	1357	0	1	note-class step (N)	
+mop	zygor:Events Guides\Brewfest\Achievements\The Brewfest Diet	The Brewfest Diet	Events	Both	The Brewfest Diet		20	20	8	12	0	12	0	567	820	0	1	buy without loot list	
+mop	zygor:Events Guides\Children's Week\Achievements\Daily Chores	Daily Chores	Events	Both	Daily Chores		4	4	2	2	0	2	0	3344	303	0	1	note-class step (N)	
+mop	zygor:Events Guides\Darkmoon Faire\Achievements\Taking the Show on the Road	Taking the Show on the Road	Events	Both	Taking the Show on the Road		21	21	12	9	0	9	0	21902	3509	2	1	use without item or QID	
+mop	zygor:Events Guides\Hallow's End\Hallow's End Quests	Hallow's End Quests	Events	Both	Hallow's End Quests		86	82	43	39	0	39	0	11217	3076	0	1	note-class step (N)	
+mop	zygor:Events Guides\Hallow's End\Achievements\Trick or Treat!	Trick or Treat!	Events	Both	Trick or Treat!		4	4	2	2	0	2	0	689	123	0	1	note-class step (N)	
+mop	zygor:Events Guides\Hallow's End\Achievements\Check Your Head	Check Your Head	Events	Both	Check Your Head		2	2	1	1	0	1	0	0	573	0	1	note-class step (N)	
+mop	zygor:Events Guides\Feast of Winter Veil\Achievements\'Tis the Season	'Tis the Season	Events	Both	'Tis the Season		39	39	16	23	0	23	0	958	835	0	1	note-class step (N)	
+mop	zygor:Events Guides\Feast of Winter Veil\Achievements\Holiday Bromance	Holiday Bromance	Events	Both	Holiday Bromance		28	20	2	18	0	18	0	14327	1605	0	1	note-class step (N)	
+mop	zygor:Events Guides\Feast of Winter Veil\Achievements\With a Little Helper from My Friends	With a Little Helper from My Friends	Events	Both	With a Little Helper from My Friends		3	3	1	2	0	2	0	729	833	0	1	note-class step (N)	
+mop	zygor:Events Guides\Love is in the Air\Achievements\Charming	Charming	Events	Both	Charming		4	4	3	1	0	1	0	3786	369	0	1	note-class step (N)	
+mop	zygor:Events Guides\Love is in the Air\Achievements\Lovely Luck Is On Your Side	Lovely Luck Is On Your Side	Events	Both	Lovely Luck Is On Your Side		6	6	3	3	0	3	0	728	130	0	1	note-class step (N)	
+mop	zygor:Events Guides\Love is in the Air\Achievements\The Rocket's Pink Glare	The Rocket's Pink Glare	Events	Both	The Rocket's Pink Glare		4	4	2	2	0	2	0	728	130	0	1	note-class step (N)	
+mop	zygor:Events Guides\Lunar Festival\Achievements\25 Coins of Ancestry	25 Coins of Ancestry	Events	Both	25 Coins of Ancestry		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Events Guides\Lunar Festival\Achievements\Elders of the Dungeons	Elders of the Dungeons	Events	Both	Elders of the Dungeons		113	113	100	13	0	13	0	6897	1232	8	1	note-class step (N)	
+mop	zygor:Events Guides\Lunar Festival\Achievements\Lunar Festival Finery	Lunar Festival Finery	Events	Both	Lunar Festival Finery		2	2	1	1	0	1	0	0	0	1	1	note-class step (N)	
+mop	zygor:Events Guides\Midsummer Fire Festival\Torch Juggler	Torch Juggler	Events	Both	Torch Juggler		4	4	2	2	0	2	0	0	965	0	1	note-class step (N)	
+mop	zygor:Events Guides\Pilgrim's Bounty\Achievements\Pilgrim's Paunch	Pilgrim's Paunch	Events	Both	Pilgrim's Paunch		40	40	0	40	0	40	0	15415	5047	0	1	note-class step (N)	
+mop	zygor:Events Guides\Pilgrim's Bounty\Achievements\The Turkinator	The Turkinator	Events	Both	The Turkinator		2	0	0	0	0	0	0	0	0	0	1		
+mop	zygor:Events Guides\Noblegarden\Achievements\Desert Rose	Desert Rose	Events	Both	Desert Rose		12	12	7	5	0	5	0	18023	1959	0	1	note-class step (N)	
+mop	zygor:Events Guides\Noblegarden\Achievements\Spring Fling	Spring Fling	Events	Both	Spring Fling		10	9	5	4	0	4	0	3967	2057	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Cataclysm 80-85\Mount Hyjal (80-82)	Mount Hyjal (80-82)	Leveling	Both	Mount Hyjal		644	593	365	228	0	228	0	71049	7071	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Pandaria (85-90)\Valley of the Four Winds (86-87)	Valley of the Four Winds (86-87)	Leveling	Both	Valley of the Four Winds		448	407	213	194	0	194	0	36866	3292	1	0	note-class step (N)	
+mop	zygor:Leveling Guides\Pandaria (85-90)\Trial of the Black Prince	Trial of the Black Prince	Leveling	Both	Trial of the Black Prince		116	109	71	38	0	38	0	38569	4489	4	1	note-class step (N)	
+mop	zygor:Leveling Guides\Starter Guides\Draenei Starter (1-5)	Draenei Starter (1-5)	Leveling	Both	Draenei Starter		111	93	57	36	0	36	0	4892	1907	0	0	note-class step (N)	
+mop	zygor:Leveling Guides\Eastern Kingdoms (1-60)\Elwynn Forest (5-10)	Elwynn Forest (5-10)	Leveling	Both	Elwynn Forest		151	139	91	48	0	48	0	20353	3850	0	0	note-class step (N)	
+mop	zygor:Leveling Guides\Eastern Kingdoms (1-60)\The Hinterlands (30-34)	The Hinterlands (30-34)	Leveling	Both	The Hinterlands		164	147	98	49	0	49	0	31184	3835	0	0	note-class step (N)	
+mop	zygor:Leveling Guides\Eastern Kingdoms (1-60)\Eastern Plaguelands (39-44)	Eastern Plaguelands (39-44)	Leveling	Both	Eastern Plaguelands		380	332	208	124	0	124	0	42529	4310	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Eastern Kingdoms (1-60)\Blasted Lands (58-60)	Blasted Lands (58-60)	Leveling	Both	Blasted Lands		224	176	106	70	0	70	0	40259	2810	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Kalimdor (1-60)\Stonetalon Mountains (27-33)	Stonetalon Mountains (27-33)	Leveling	Both	Stonetalon Mountains		315	280	175	105	0	105	0	44303	6590	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Kalimdor (1-60)\Tanaris (45-48)	Tanaris (45-48)	Leveling	Both	Tanaris		183	167	115	52	0	52	0	37289	3397	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Outland (60-70)\Zangarmarsh (62-64)	Zangarmarsh (62-64)	Leveling	Both	Zangarmarsh		268	238	157	81	0	81	0	39574	4101	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Northrend (70-80)\Howling Fjord (70-72)	Howling Fjord (70-72)	Leveling	Both	Howling Fjord		736	625	378	247	0	247	0	114530	10949	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Northrend (70-80)\The Storm Peaks (78-80)	The Storm Peaks (78-80)	Leveling	Both	The Storm Peaks		463	403	251	152	0	152	0	102453	8527	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (1-60)\Death Knight (55-58) (Speed)	Death Knight (55-58) (Speed)	Leveling	Both	Death Knight		269	201	115	86	0	86	0	38238	3771	1	1	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (1-60)\Western Plaguelands (36-41) (Speed)	Western Plaguelands (36-41) (Speed)	Leveling	Both	Western Plaguelands		262	235	141	94	0	94	0	28709	3804	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (1-60)\Blasted Lands (58-60) (Speed)	Blasted Lands (58-60) (Speed)	Leveling	Both	Blasted Lands		228	180	107	73	0	73	0	41603	3009	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (60-70)\Zangarmarsh (62-64) (Speed)	Zangarmarsh (62-64) (Speed)	Leveling	Both	Zangarmarsh		265	235	155	80	0	80	0	41295	3874	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (70-80)\Dragonblight (72-74) (Speed)	Dragonblight (72-74) (Speed)	Leveling	Both	Dragonblight		615	525	324	201	0	201	0	89539	9432	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Starter Guides\Blood Elf Starter (1-5)	Blood Elf Starter (1-5)	Leveling	Both	Blood Elf Starter		112	55	34	21	0	21	0	1450	1987	0	0	note-class step (N)	
+mop	zygor:Leveling Guides\Starter Guides\Undead Starter (1-5)	Undead Starter (1-5)	Leveling	Both	Undead Starter		112	74	48	26	0	26	0	2491	1947	0	0	note-class step (N)	
+mop	zygor:Leveling Guides\Eastern Kingdoms (1-60)\Northern Stranglethorn (26-31)	Northern Stranglethorn (26-31)	Leveling	Both	Northern Stranglethorn		271	237	151	86	0	86	0	48963	7239	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Kalimdor (1-60)\Mulgore (5-10)	Mulgore (5-10)	Leveling	Both	Mulgore		143	74	46	28	0	28	0	20637	4356	0	0	note-class step (N)	
+mop	zygor:Leveling Guides\Kalimdor (1-60)\Dustwallow Marsh (35-39)	Dustwallow Marsh (35-39)	Leveling	Both	Dustwallow Marsh		256	231	144	87	0	87	0	44690	5333	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Kalimdor (1-60)\Un'Goro Crater (55-57)	Un'Goro Crater (55-57)	Leveling	Both	Un'Goro Crater		257	222	128	94	0	94	0	69083	5456	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Northrend (70-80)\The Storm Peaks (77-79)	The Storm Peaks (77-79)	Leveling	Both	The Storm Peaks		512	450	281	169	0	169	0	100410	9573	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (1-60)\Durotar (5-11) (Speed)	Durotar (5-11) (Speed)	Leveling	Both	Durotar		192	173	105	68	0	68	0	24065	5376	0	0	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (1-60)\The Cape of Stranglethorn (31-36) (Speed)	The Cape of Stranglethorn (31-36) (Speed)	Leveling	Both	The Cape of Stranglethorn		328	296	170	126	0	126	0	74226	9701	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Speedleveling (1-80)\Speedleveling (60-70)\Zangarmarsh (62-63) (Speed)	Zangarmarsh (62-63) (Speed)	Leveling	Both	Zangarmarsh		266	236	152	84	0	84	0	42800	4625	0	1	note-class step (N)	
+mop	zygor:Leveling Guides\Starter Guides\Pandaren (1-12)	Pandaren (1-12)	Leveling	Both	Pandaren		372	360	221	139	0	139	0	29634	5807	2	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Chimaeras\White Chimaera	White Chimaera	Pets & Mounts	Both	White Chimaera		2	2	0	2	0	2	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Clefthooves\Rhinos\White Rhino	White Rhino	Pets & Mounts	Both	White Rhino		2	2	0	2	0	2	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Devilsaurs\White Devilsaur	White Devilsaur	Pets & Mounts	Both	White Devilsaur		2	2	0	2	0	2	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Silithids\Ant Silithids\Green Ant Silithid	Green Ant Silithid	Pets & Mounts	Both	Green Ant Silithid		5	5	0	5	0	5	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Silithids\Silithid Colossi\Damaged Pink Silithid Colossi (Rare Spawn)	Damaged Pink Silithid Colossi (Rare Spawn)	Pets & Mounts	Both	Damaged Pink Silithid Colossi		2	2	0	2	0	2	0	9738	735	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Silithids\Tan Silithid	Tan Silithid	Pets & Mounts	Both	Tan Silithid		2	2	0	2	0	2	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Spirit Beasts\Spirit Cats\Green Spectral Saber Tiger	Green Spectral Saber Tiger	Pets & Mounts	Both	Green Spectral Saber Tiger		9	9	6	3	0	3	0	12582	613	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Spirit Beasts\Spirit Wolves\Stormy Dark Blue Spirit Wolf	Stormy Dark Blue Spirit Wolf	Pets & Mounts	Both	Stormy Dark Blue Spirit Wolf		2	2	0	2	0	2	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Worms\Jormungars\White Jormungar	White Jormungar	Pets & Mounts	Both	White Jormungar		2	2	0	2	0	2	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Beast Mastery Exotic Pets\Worms\Pink Worm	Pink Worm	Pets & Mounts	Both	Pink Worm		2	2	0	2	0	2	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Beetles\Scarabs\Turquoise-Spotted Green Scarab	Turquoise-Spotted Green Scarab	Pets & Mounts	Both	Turquoise-Spotted Green Scarab		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Beetles\Copper Beetle	Copper Beetle	Pets & Mounts	Both	Copper Beetle		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Beetles\Red Beetle	Red Beetle	Pets & Mounts	Both	Red Beetle		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Boars\Felboars\Yellow and Black Felboar	Yellow and Black Felboar	Pets & Mounts	Both	Yellow and Black Felboar		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Boars\Brown Boar	Brown Boar	Pets & Mounts	Both	Brown Boar		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Cats\Lions\Black Lion	Black Lion	Pets & Mounts	Both	Black Lion		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Cats\Mystic Cats\Brown and Tan Mystic Cat (Rare Spawn)	Brown and Tan Mystic Cat (Rare Spawn)	Pets & Mounts	Both	Brown and Tan Mystic Cat		1	1	0	1	0	1	0	0	495	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Cats\Mystic Cats\Striped Orange Mystic Cat	Striped Orange Mystic Cat	Pets & Mounts	Both	Striped Orange Mystic Cat		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Cats\Saber Cats\Icy Blue Saber Cat	Icy Blue Saber Cat	Pets & Mounts	Both	Icy Blue Saber Cat		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Cats\Saber Cats\White Saber Cat	White Saber Cat	Pets & Mounts	Both	White Saber Cat		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Cats\Icy Blue Cat (Rare Spawn)	Icy Blue Cat (Rare Spawn)	Pets & Mounts	Both	Icy Blue Cat		1	1	0	1	0	1	0	0	733	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Cats\Striped White Cat	Striped White Cat	Pets & Mounts	Both	Striped White Cat		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Dogs\Demon Dogs\Gray Demon Dog	Gray Demon Dog	Pets & Mounts	Both	Gray Demon Dog		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Dogs\Mastiffs\Gray Mastiff	Gray Mastiff	Pets & Mounts	Both	Gray Mastiff		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Foxes\Brown Fox	Brown Fox	Pets & Mounts	Both	Brown Fox		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Gorillas\Gray Gorilla	Gray Gorilla	Pets & Mounts	Both	Gray Gorilla		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Hyenas\Gray Hyena	Gray Hyena	Pets & Mounts	Both	Gray Hyena		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Monkeys\Black Monkey with Fez (Rare Spawn)	Black Monkey with Fez (Rare Spawn)	Pets & Mounts	Both	Black Monkey with Fez		1	1	0	1	0	1	0	0	719	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Raptors\Spiky Raptors\Brown Spiky Raptor	Brown Spiky Raptor	Pets & Mounts	Both	Brown Spiky Raptor		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Raptors\Gray Raptor	Gray Raptor	Pets & Mounts	Both	Gray Raptor		4	4	0	4	0	4	0	0	751	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Ravagers\Dire Ravagers\Purple Dire Ravager	Purple Dire Ravager	Pets & Mounts	Both	Purple Dire Ravager		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Ravagers\Green and Yellow Ravager	Green and Yellow Ravager	Pets & Mounts	Both	Green and Yellow Ravager		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Ravagers\Purple, Rose, and Blue Ravager #1	Purple, Rose, and Blue Ravager #1	Pets & Mounts	Both	Purple, Rose, and Blue Ravager #1		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Scorpids\Black Scorpid	Black Scorpid	Pets & Mounts	Both	Black Scorpid		1	1	0	1	0	1	0	7953	437	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Scorpids\Red Scorpid	Red Scorpid	Pets & Mounts	Both	Red Scorpid		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Serpents\Green Serpent	Green Serpent	Pets & Mounts	Both	Green Serpent		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Spiders\Barbed Spiders\Red and Black Barbed Spider	Red and Black Barbed Spider	Pets & Mounts	Both	Red and Black Barbed Spider		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Spiders\Bone Spiders\Rusty Bone Spider	Rusty Bone Spider	Pets & Mounts	Both	Rusty Bone Spider		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Spiders\Tarantulas\Green Tarantula	Green Tarantula	Pets & Mounts	Both	Green Tarantula		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Spiders\Crystal Spider	Crystal Spider	Pets & Mounts	Both	Crystal Spider		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Spiders\Red Spider	Red Spider	Pets & Mounts	Both	Red Spider		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Tallstriders\Turqouise Tallstrider	Turqouise Tallstrider	Pets & Mounts	Both	Turqouise Tallstrider		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Warp Stalkers\White Warp Stalker	White Warp Stalker	Pets & Mounts	Both	White Warp Stalker		7	7	0	7	0	7	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Wolves\Saber Worgs\Black Saber Worg	Black Saber Worg	Pets & Mounts	Both	Black Saber Worg		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Wolves\Saddled Worgs\Black Saddled Worg	Black Saddled Worg	Pets & Mounts	Both	Black Saddled Worg		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Ground Pets\Wolves\Worgs\Ghost Worg	Ghost Worg	Pets & Mounts	Both	Ghost Worg		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Bats\Purple-Red Bat	Purple-Red Bat	Pets & Mounts	Both	Purple-Red Bat		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Birds of Prey\Owls\Black Owl	Black Owl	Pets & Mounts	Both	Black Owl		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Birds of Prey\Owls\Purple Owl	Purple Owl	Pets & Mounts	Both	Purple Owl		1	1	0	1	0	1	0	15671	481	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Birds of Prey\Parrots\Blue Parrot	Blue Parrot	Pets & Mounts	Both	Blue Parrot		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Birds of Prey\Parrots\Red Parrot	Red Parrot	Pets & Mounts	Both	Red Parrot		1	1	0	1	0	1	0	0	534	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Carrion Birds\Two-Headed Vultures\Blue Two-Headed Vulture	Blue Two-Headed Vulture	Pets & Mounts	Both	Blue Two-Headed Vulture		5	5	2	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Carrion Birds\Two-Headed Vultures\White Two-Headed Vulture	White Two-Headed Vulture	Pets & Mounts	Both	White Two-Headed Vulture		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Carrion Birds\Vultures\Red Vulture	Red Vulture	Pets & Mounts	Both	Red Vulture		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Dragonhawks\Pink and Purple Dragonhawk	Pink and Purple Dragonhawk	Pets & Mounts	Both	Pink and Purple Dragonhawk		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Moths\Blue and Yellow Moth	Blue and Yellow Moth	Pets & Mounts	Both	Blue and Yellow Moth		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Moths\White and Yellow Moth (Rare Spawn)	White and Yellow Moth (Rare Spawn)	Pets & Mounts	Both	White and Yellow Moth		1	1	0	1	0	1	0	10047	773	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Serpents\Arcane Wyrms\Blue Arcane Wyrm	Blue Arcane Wyrm	Pets & Mounts	Both	Blue Arcane Wyrm		1	1	0	1	0	1	0	0	394	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Sporebats\Green Sporebat	Green Sporebat	Pets & Mounts	Both	Green Sporebat		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Wasps\Fireflies\Red Firefly	Red Firefly	Pets & Mounts	Both	Red Firefly		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Wasps\Green and Red Wasp	Green and Red Wasp	Pets & Mounts	Both	Green and Red Wasp		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Wasps\White Wasp (Rare Spawn)	White Wasp (Rare Spawn)	Pets & Mounts	Both	White Wasp		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Wind Serpents\Spiked Wind Serpents\Gray and Yellow Spiked Wind Serpent (Rare Spawn)	Gray and Yellow Spiked Wind Serpent (Rare Spawn)	Pets & Mounts	Both	Gray and Yellow Spiked Wind Serpent		1	1	0	1	0	1	0	0	915	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Wind Serpents\Spiked Wind Serpents\Yellow Spiked Wind Serpent (Rare Spawn)	Yellow Spiked Wind Serpent (Rare Spawn)	Pets & Mounts	Both	Yellow Spiked Wind Serpent		1	1	0	1	0	1	0	0	740	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Flying Pets\Wind Serpents\Red Wind Serpent	Red Wind Serpent	Pets & Mounts	Both	Red Wind Serpent		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Water Pets\Crabs\Spiked Crabs\Green Spiked Crab	Green Spiked Crab	Pets & Mounts	Both	Green Spiked Crab		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Water Pets\Crabs\Spiked Crabs\Red-Black Spiked Crab	Red-Black Spiked Crab	Pets & Mounts	Both	Red-Black Spiked Crab		1	1	0	1	0	1	0	0	809	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Water Pets\Crocolisks\Greater Crocolisks\Brown Greater Crocolisk	Brown Greater Crocolisk	Pets & Mounts	Both	Brown Greater Crocolisk		1	1	0	1	0	1	0	0	0	0	1	use without item or QID	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Water Pets\Crocolisks\Yellow Crocolisk	Yellow Crocolisk	Pets & Mounts	Both	Yellow Crocolisk		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Hunter Pets\Water Pets\Turtles\Orange Turtle	Orange Turtle	Pets & Mounts	Both	Orange Turtle		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Paladin\Charger	Charger	Pets & Mounts	Both	Charger		3	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Argent Tournament Mounts\Darnassus Mounts	Darnassus Mounts	Pets & Mounts	Both	Darnassus Mounts		6	6	0	6	0	6	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Dailies Mounts\White Polar Bear	White Polar Bear	Pets & Mounts	Both	White Polar Bear		26	22	15	7	0	7	0	4346	1907	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Dungeon Mounts\Swift White Hawkstrider	Swift White Hawkstrider	Pets & Mounts	Both	Swift White Hawkstrider		4	4	1	3	0	3	0	229	41	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Event Mounts\Love is in the Air\Swift Lovebird	Swift Lovebird	Pets & Mounts	Both	Swift Lovebird		4	4	0	4	0	4	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Faction Mounts\Tiger Mounts	Tiger Mounts	Pets & Mounts	Both	Tiger Mounts		24	24	7	17	0	17	0	403	72	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Player vs. Player Mounts\Black War Steed	Black War Steed	Pets & Mounts	Both	Black War Steed		3	3	1	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Profession Mounts\Archaeology\Ultramarine Qiraji Battle Tank	Ultramarine Qiraji Battle Tank	Pets & Mounts	Both	Ultramarine Qiraji Battle Tank		7	7	1	6	0	6	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Reputation Mounts\Camel Mounts	Camel Mounts	Pets & Mounts	Both	Camel Mounts		16	16	6	10	0	10	0	24602	1277	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Trading Card Mounts\Big Battle Bear	Big Battle Bear	Pets & Mounts	Both	Big Battle Bear		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Trading Card Mounts\Wooly White Rhino	Wooly White Rhino	Pets & Mounts	Both	Wooly White Rhino		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Unavailable Mounts\Brewfest Ram	Brewfest Ram	Pets & Mounts	Both	Brewfest Ram		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Unavailable Mounts\Swift Razzashi Raptor	Swift Razzashi Raptor	Pets & Mounts	Both	Swift Razzashi Raptor		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Achievement Mounts\Albino Drake	Albino Drake	Pets & Mounts	Both	Albino Drake		2	2	1	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Achievement Mounts\Green Proto-Drake	Green Proto-Drake	Pets & Mounts	Both	Green Proto-Drake		10	10	1	9	0	9	0	269	722	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Achievement Mounts\Volcanic Stone Drake	Volcanic Stone Drake	Pets & Mounts	Both	Volcanic Stone Drake		65	65	7	58	0	58	0	4726	844	7	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Blizzard Store Mounts\Swift Windsteed	Swift Windsteed	Pets & Mounts	Both	Swift Windsteed		2	2	1	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Dungeon Mounts\Bronze Drake	Bronze Drake	Pets & Mounts	Both	Bronze Drake		6	6	3	3	0	3	0	732	131	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Miscellaneous Mounts\Obsidian Nightwing	Obsidian Nightwing	Pets & Mounts	Both	Obsidian Nightwing		3	3	1	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Profession Mounts\Tailoring\Flying Carpet	Flying Carpet	Pets & Mounts	Both	Flying Carpet		51	49	39	10	0	10	0	13063	3072	3	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Raid Mounts\Experiment 12-B	Experiment 12-B	Pets & Mounts	Both	Experiment 12-B		4	4	1	3	0	3	0	151	27	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Raid Mounts\Twilight Drake	Twilight Drake	Pets & Mounts	Both	Twilight Drake		5	5	2	3	0	3	0	618	110	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Reputation Mounts\Netherwing Drakes\Netherwing Egg Hunting - Optimized Path	Netherwing Egg Hunting - Optimized Path	Pets & Mounts	Both	Netherwing Egg Hunting - Optimized Path		73	73	0	73	0	73	0	1602	1678	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Trading Card Mounts\X-51 Nether-Rocket	X-51 Nether-Rocket	Pets & Mounts	Both	X-51 Nether-Rocket		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Unavailable Mounts\Deadly Gladiator's Frost Wyrm	Deadly Gladiator's Frost Wyrm	Pets & Mounts	Both	Deadly Gladiator's Frost Wyrm		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Unavailable Mounts\Swift Nether Drake	Swift Nether Drake	Pets & Mounts	Both	Swift Nether Drake		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Vendor Mounts\Gryphons	Gryphons	Pets & Mounts	Both	Gryphons		9	9	0	9	0	9	0	0	0	0	1	buy without loot list	
+mop	zygor:Pets & Mounts Guides\Mounts\Argent Tournament Guides\Crusader Title Guide\Draenei Champion Rank	Draenei Champion Rank	Pets & Mounts	Both	Draenei Champion Rank		55	46	26	20	0	20	0	13948	3770	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Argent Tournament Guides\Home Cities Reputation\Ironforge & Gnomeregan\Dwarf	Dwarf	Pets & Mounts	Both	Dwarf		97	82	47	35	0	35	0	24629	4777	0	0	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Argent Tournament Guides\Argent Tournament Grounds Champion Rank Dailies - Death Knight Only	Argent Tournament Grounds Champion Rank Dailies - Death Knight Only	Pets & Mounts	Both	Argent Tournament Grounds Champion Rank Dailies - Death Knight Only		30	28	12	16	0	16	0	9894	2379	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Reputation Mounts\Black Dragon Turtle	Black Dragon Turtle	Pets & Mounts	Both	Black Dragon Turtle		4	4	1	3	0	3	0	478	817	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Reputation Mounts\Great Green Dragon Turtle	Great Green Dragon Turtle	Pets & Mounts	Both	Great Green Dragon Turtle		4	4	1	3	0	3	0	957	171	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Reputation Mounts\Red Dragon Turtle	Red Dragon Turtle	Pets & Mounts	Both	Red Dragon Turtle		4	4	1	3	0	3	0	957	171	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Dropped Mounts\Cobalt Primordial Direhorn	Cobalt Primordial Direhorn	Pets & Mounts	Both	Cobalt Primordial Direhorn		3	3	2	1	0	1	0	48	9	1	1	objective without QID or loot	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Reputation Mounts\Amber Scorpion	Amber Scorpion	Pets & Mounts	Both	Amber Scorpion		4	4	1	3	0	3	0	6890	455	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Reputation Mounts\Golden Riding Crane	Golden Riding Crane	Pets & Mounts	Both	Golden Riding Crane		5	5	1	4	0	4	0	4927	564	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Unavailable Mounts\Kor'kron War Wolf	Kor'kron War Wolf	Pets & Mounts	Both	Kor'kron War Wolf		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Achievement Mounts\Ashen Pandaren Phoenix	Ashen Pandaren Phoenix	Pets & Mounts	Both	Ashen Pandaren Phoenix		5	5	2	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Achievement Mounts\Thundering Jade Cloud Serpent	Thundering Jade Cloud Serpent	Pets & Mounts	Both	Thundering Jade Cloud Serpent		6	6	1	5	0	5	0	298	816	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Dropped Mounts\Thundering Cobalt Cloud Serpent	Thundering Cobalt Cloud Serpent	Pets & Mounts	Both	Thundering Cobalt Cloud Serpent		3	3	2	1	0	1	0	539	96	1	1	objective without QID or loot	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\PVP Mounts\Malevolent Gladiator's Cloud Serpent	Malevolent Gladiator's Cloud Serpent	Pets & Mounts	Both	Malevolent Gladiator's Cloud Serpent		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Profession Mounts\Jewelcrafting\Jade Panther	Jade Panther	Pets & Mounts	Both	Jade Panther		17	17	8	9	0	9	0	4265	564	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Raid Mounts\Clutch of Ji-kun	Clutch of Ji-kun	Pets & Mounts	Both	Clutch of Ji-kun		5	5	3	2	0	2	0	331	59	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Reputation Mounts\Thundering August Cloud Serpent	Thundering August Cloud Serpent	Pets & Mounts	Both	Thundering August Cloud Serpent		4	4	1	3	0	3	0	907	162	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Argent Tournament Mounts\Mounts\Darkspear Trolls	Darkspear Trolls	Pets & Mounts	Both	Darkspear Trolls		60	51	26	25	0	25	0	13270	3107	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Dailies Mounts\Darkmoon Faire Mounts	Darkmoon Faire Mounts	Pets & Mounts	Both	Darkmoon Faire Mounts		7	7	0	7	0	7	0	247	44	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Faction Mounts\Trike Mounts	Trike Mounts	Pets & Mounts	Both	Trike Mounts		5	5	0	5	0	5	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Player vs. Player Mounts\Red Skeletal Warhorse	Red Skeletal Warhorse	Pets & Mounts	Both	Red Skeletal Warhorse		3	3	1	2	0	2	0	0	0	0	1	buy without loot list	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Unavailable Mounts\Arctic Wolf	Arctic Wolf	Pets & Mounts	Both	Arctic Wolf		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Ground Mounts\Unavailable Mounts\Swift Horde Wolf	Swift Horde Wolf	Pets & Mounts	Horde	Swift Horde Wolf		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Flying Mounts\Profession Mounts\Tailoring\Frosty Flying Carpet	Frosty Flying Carpet	Pets & Mounts	Both	Frosty Flying Carpet		19	18	6	12	0	12	0	324	1229	1	1	buy without loot list	
+mop	zygor:Pets & Mounts Guides\Mounts\Argent Tournament Guides\Crusader Title\Orc Champion Rank	Orc Champion Rank	Pets & Mounts	Both	Orc Champion Rank		55	46	26	20	0	20	0	13418	3420	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Argent Tournament Guides\Required Home Cities Reputation\Darkspear Trolls & Orgrimmar\Troll	Troll	Pets & Mounts	Both	Troll		237	223	150	73	0	73	0	27773	6283	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Mounts\Argent Tournament Guides\Champion Rank Dailies - Non-Death Knight Only	Champion Rank Dailies - Non-Death Knight Only	Pets & Mounts	Both	Champion Rank Dailies - Non-Death Knight Only		30	28	12	16	0	16	0	10247	3018	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Magical Crawdad	Magical Crawdad	Pets & Mounts	Both	Magical Crawdad		6	6	4	2	0	2	0	1444	1763	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Speedy	Speedy	Pets & Mounts	Both	Speedy		8	8	1	7	0	7	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Dun Morogh Cub	Dun Morogh Cub	Pets & Mounts	Both	Dun Morogh Cub		6	6	2	4	0	4	0	2099	1746	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Silver Tabby Cat	Silver Tabby Cat	Pets & Mounts	Both	Silver Tabby Cat		6	6	2	4	0	4	0	216	1014	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Egbert	Egbert	Pets & Mounts	Both	Egbert		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Pint-Sized Pink Pachyderm	Pint-Sized Pink Pachyderm	Pets & Mounts	Both	Pint-Sized Pink Pachyderm		6	6	2	4	0	4	0	4462	500	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Winter Reindeer	Winter Reindeer	Pets & Mounts	Both	Winter Reindeer		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Dragonkin Pets\Silver Dragonhawk Hatchling	Silver Dragonhawk Hatchling	Pets & Mounts	Both	Silver Dragonhawk Hatchling		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Pebble	Pebble	Pets & Mounts	Both	Pebble		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Blue Mini Jouster	Blue Mini Jouster	Pets & Mounts	Both	Blue Mini Jouster		5	5	2	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Pterrordax Hatchling	Pterrordax Hatchling	Pets & Mounts	Both	Pterrordax Hatchling		5	5	2	3	0	3	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Great Horned Owl	Great Horned Owl	Pets & Mounts	Both	Great Horned Owl		4	4	1	3	0	3	0	219	673	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Father Winter's Helper	Father Winter's Helper	Pets & Mounts	Both	Father Winter's Helper		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Moonkin Hatchling (Alliance)	Moonkin Hatchling (Alliance)	Pets & Mounts	Alliance	Moonkin Hatchling		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Magic Pets\Enchanted Lantern	Enchanted Lantern	Pets & Mounts	Both	Enchanted Lantern		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Magic Pets\Willy	Willy	Pets & Mounts	Both	Willy		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Mechanical Pets\Lil' Smoky	Lil' Smoky	Pets & Mounts	Both	Lil' Smoky		44	43	29	14	0	14	0	20286	2557	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Undead Pets\Creepy Crate	Creepy Crate	Pets & Mounts	Both	Creepy Crate		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Fishy	Fishy	Pets & Mounts	Both	Fishy		15	15	9	6	0	6	0	3234	429	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Pandaren Water Spirit	Pandaren Water Spirit	Pets & Mounts	Both	Pandaren Water Spirit		19	19	7	12	0	12	0	23335	2770	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Snowy Panda	Snowy Panda	Pets & Mounts	Both	Snowy Panda		239	225	122	103	0	103	0	170042	20335	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Darkmoon Turtle	Darkmoon Turtle	Pets & Mounts	Both	Darkmoon Turtle		11	11	1	10	0	10	0	819	146	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Mojo	Mojo	Pets & Mounts	Both	Mojo		6	6	3	3	0	3	0	762	136	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Spotted Bell Frog	Spotted Bell Frog	Pets & Mounts	Both	Spotted Bell Frog		3	3	0	3	0	3	0	664	118	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Turquoise Turtle	Turquoise Turtle	Pets & Mounts	Both	Turquoise Turtle		3	3	0	3	0	3	0	12052	835	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Ash Lizard	Ash Lizard	Pets & Mounts	Both	Ash Lizard		3	3	0	3	0	3	0	11831	847	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Black Tabby Cat	Black Tabby Cat	Pets & Mounts	Both	Black Tabby Cat		5	5	2	3	0	3	0	442	841	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Coral Snake	Coral Snake	Pets & Mounts	Both	Coral Snake		3	3	0	3	0	3	0	866	912	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Desert Spider	Desert Spider	Pets & Mounts	Both	Desert Spider		3	3	0	3	0	3	0	3239	332	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Festering Maggot	Festering Maggot	Pets & Mounts	Both	Festering Maggot		3	3	0	3	0	3	0	1178	1121	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Horned Lizard	Horned Lizard	Pets & Mounts	Both	Horned Lizard		3	3	0	3	0	3	0	1250	907	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Lizard Hatchling	Lizard Hatchling	Pets & Mounts	Both	Lizard Hatchling		3	3	0	3	0	3	0	150	517	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Obsidian Hatchling	Obsidian Hatchling	Pets & Mounts	Both	Obsidian Hatchling		6	6	2	4	0	4	0	93	883	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Ravasaur Hatchling	Ravasaur Hatchling	Pets & Mounts	Both	Ravasaur Hatchling		5	5	2	3	0	3	0	660	1074	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Scorpid	Scorpid	Pets & Mounts	Both	Scorpid		3	3	0	3	0	3	0	746	1039	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Smolderweb Hatchling	Smolderweb Hatchling	Pets & Mounts	Both	Smolderweb Hatchling		6	6	3	3	0	3	0	533	95	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Striped-Tailed Scorpid	Striped-Tailed Scorpid	Pets & Mounts	Both	Striped-Tailed Scorpid		3	3	0	3	0	3	0	1205	215	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Warpstalker Hatchling	Warpstalker Hatchling	Pets & Mounts	Both	Warpstalker Hatchling		3	3	0	3	0	3	0	775	1201	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Alpine Chipmunk	Alpine Chipmunk	Pets & Mounts	Both	Alpine Chipmunk		3	3	0	3	0	3	0	212	1014	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Black Rat	Black Rat	Pets & Mounts	Both	Black Rat		3	3	0	3	0	3	0	489	528	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Creepy Crawly	Creepy Crawly	Pets & Mounts	Both	Creepy Crawly		3	3	0	3	0	3	0	470	879	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Elfin Rabbit	Elfin Rabbit	Pets & Mounts	Both	Elfin Rabbit		3	3	0	3	0	3	0	6819	789	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Giant Sewer Rat	Giant Sewer Rat	Pets & Mounts	Both	Giant Sewer Rat		5	5	2	3	0	3	0	101	825	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Highlands Mouse	Highlands Mouse	Pets & Mounts	Both	Highlands Mouse		3	3	0	3	0	3	0	1856	983	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Long-tailed Mole	Long-tailed Mole	Pets & Mounts	Both	Long-tailed Mole		3	3	0	3	0	3	0	12439	620	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Nether Roach	Nether Roach	Pets & Mounts	Both	Nether Roach		3	3	0	3	0	3	0	1039	1185	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Red-Tailed Chipmunk	Red-Tailed Chipmunk	Pets & Mounts	Both	Red-Tailed Chipmunk		3	3	0	3	0	3	0	909	1552	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Shimmershell Snail	Shimmershell Snail	Pets & Mounts	Both	Shimmershell Snail		4	4	0	4	0	4	0	1407	898	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Squirrel	Squirrel	Pets & Mounts	Both	Squirrel		3	3	0	3	0	3	0	257	618	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Tainted Cockroach	Tainted Cockroach	Pets & Mounts	Both	Tainted Cockroach		3	3	0	3	0	3	0	1610	729	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Zergling	Zergling	Pets & Mounts	Both	Zergling		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Dragonkin Pets\Dark Whelpling	Dark Whelpling	Pets & Mounts	Both	Dark Whelpling		5	5	2	3	0	3	0	652	621	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Dragonkin Pets\Lil' Deathwing	Lil' Deathwing	Pets & Mounts	Both	Lil' Deathwing		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Dragonkin Pets\Spawn of Onyxia	Spawn of Onyxia	Pets & Mounts	Both	Spawn of Onyxia		3	3	0	3	0	3	0	867	772	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Amethyst Shale Hatchling	Amethyst Shale Hatchling	Pets & Mounts	Both	Amethyst Shale Hatchling		3	3	0	3	0	3	0	1304	943	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Crimson Shale Hatchling	Crimson Shale Hatchling	Pets & Mounts	Both	Crimson Shale Hatchling		3	3	0	3	0	3	0	2252	402	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Lava Crab	Lava Crab	Pets & Mounts	Both	Lava Crab		3	3	0	3	0	3	0	254	372	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Spirit of Summer	Spirit of Summer	Pets & Mounts	Both	Spirit of Summer		6	6	2	4	0	4	0	139	693	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Water Waveling	Water Waveling	Pets & Mounts	Both	Water Waveling		3	3	0	3	0	3	0	1002	1268	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Cockatiel	Cockatiel	Pets & Mounts	Both	Cockatiel		6	6	2	4	0	4	0	580	1109	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Dragonbone Hatchling	Dragonbone Hatchling	Pets & Mounts	Both	Dragonbone Hatchling		3	3	0	3	0	3	0	431	1011	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Green Wing Macaw	Green Wing Macaw	Pets & Mounts	Both	Green Wing Macaw		6	6	3	3	0	3	0	270	861	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Horde Balloon	Horde Balloon	Pets & Mounts	Horde	Horde Balloon		10	10	5	5	0	5	0	283	746	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Oasis Moth	Oasis Moth	Pets & Mounts	Both	Oasis Moth		4	4	0	4	0	4	0	12780	610	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Silky Moth	Silky Moth	Pets & Mounts	Both	Silky Moth		3	3	0	3	0	3	0	16525	435	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Turkey	Turkey	Pets & Mounts	Both	Turkey		3	3	0	3	0	3	0	751	794	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Deathy	Deathy	Pets & Mounts	Both	Deathy		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Harbinger of Flame	Harbinger of Flame	Pets & Mounts	Both	Harbinger of Flame		6	6	2	4	0	4	0	760	136	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Murkalot	Murkalot	Pets & Mounts	Both	Murkalot		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Sporeling Sprout	Sporeling Sprout	Pets & Mounts	Both	Sporeling Sprout		3	3	0	3	0	3	0	1637	292	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Magic Pets\Jade Oozeling	Jade Oozeling	Pets & Mounts	Both	Jade Oozeling		3	3	0	3	0	3	0	414	1250	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Magic Pets\Mini Mindslayer	Mini Mindslayer	Pets & Mounts	Both	Mini Mindslayer		6	6	3	3	0	3	0	2434	1620	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Magic Pets\Twilight Fiendling	Twilight Fiendling	Pets & Mounts	Both	Twilight Fiendling		3	3	0	3	0	3	0	487	649	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Mechanical Pets\Darkmoon Tonk	Darkmoon Tonk	Pets & Mounts	Both	Darkmoon Tonk		7	7	2	5	0	5	0	813	145	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Mechanical Pets\Mechanical Pandaren Dragonling	Mechanical Pandaren Dragonling	Pets & Mounts	Both	Mechanical Pandaren Dragonling		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Mechanical Pets\Warbot	Warbot	Pets & Mounts	Both	Warbot		6	6	2	4	0	4	0	183	33	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Undead Pets\Fungal Abomination	Fungal Abomination	Pets & Mounts	Both	Fungal Abomination		6	6	3	3	0	3	0	657	117	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Undead Pets\Landro's Lichling	Landro's Lichling	Pets & Mounts	Both	Landro's Lichling		5	5	2	3	0	3	0	636	114	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Undead Pets\Spirit Crab	Spirit Crab	Pets & Mounts	Both	Spirit Crab		3	3	0	3	0	3	0	1215	1437	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Garden Frog	Garden Frog	Pets & Mounts	Both	Garden Frog		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Kuitan Mongoose	Kuitan Mongoose	Pets & Mounts	Both	Kuitan Mongoose		2	2	0	2	0	2	0	7083	508	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Sifang Otter	Sifang Otter	Pets & Mounts	Both	Sifang Otter		2	2	0	2	0	2	0	3825	402	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Spirebound Crab	Spirebound Crab	Pets & Mounts	Both	Spirebound Crab		2	2	0	2	0	2	0	5624	452	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Aquatic Pets\Tiny Red Carp	Tiny Red Carp	Pets & Mounts	Both	Tiny Red Carp		4	4	2	2	0	2	0	9009	867	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Amethyst Spiderling	Amethyst Spiderling	Pets & Mounts	Both	Amethyst Spiderling		2	2	0	2	0	2	0	5970	476	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Direhorn Runt	Direhorn Runt	Pets & Mounts	Both	Direhorn Runt		5	5	2	3	0	3	0	8755	538	0	1	objective without QID or loot	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Moon Moon	Moon Moon	Pets & Mounts	Both	Moon Moon		4	4	2	2	0	2	0	194	35	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Stunted Direhorn	Stunted Direhorn	Pets & Mounts	Both	Stunted Direhorn		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Beast Pets\Zandalari Anklerender	Zandalari Anklerender	Pets & Mounts	Both	Zandalari Anklerender		4	4	2	2	0	2	0	435	78	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Bandicoon	Bandicoon	Pets & Mounts	Both	Bandicoon		2	2	0	2	0	2	0	6785	405	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Malayan Quillrat	Malayan Quillrat	Pets & Mounts	Both	Malayan Quillrat		2	2	0	2	0	2	0	1051	188	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Rapana Whelk	Rapana Whelk	Pets & Mounts	Both	Rapana Whelk		2	2	0	2	0	2	0	3700	309	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Critter Pets\Tolai Hare	Tolai Hare	Pets & Mounts	Both	Tolai Hare		2	2	0	2	0	2	0	4606	316	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Dragonkin Pets\Wild Crimson Hatchling	Wild Crimson Hatchling	Pets & Mounts	Both	Wild Crimson Hatchling		2	2	0	2	0	2	0	4074	261	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Electrified Razortooth	Electrified Razortooth	Pets & Mounts	Both	Electrified Razortooth		2	2	0	2	0	2	0	0	0	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Ominous Flame	Ominous Flame	Pets & Mounts	Both	Ominous Flame		4	4	2	2	0	2	0	268	48	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Elemental Pets\Terrible Turnip	Terrible Turnip	Pets & Mounts	Both	Terrible Turnip		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Chi-Chi, Hatchling of Chi-Ji	Chi-Chi, Hatchling of Chi-Ji	Pets & Mounts	Both	Chi-Chi, Hatchling of Chi-Ji		43	43	5	38	0	38	0	4691	838	2	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Ji-Kun Hatchling	Ji-Kun Hatchling	Pets & Mounts	Both	Ji-Kun Hatchling		4	4	2	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Flying Pets\Sky Lantern	Sky Lantern	Pets & Mounts	Both	Sky Lantern		6	6	1	5	0	5	0	672	120	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Humanoid Pets\Fiendish Imp	Fiendish Imp	Pets & Mounts	Both	Fiendish Imp		4	4	2	2	0	2	0	103	18	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Magic Pets\Gusting Grimoire	Gusting Grimoire	Pets & Mounts	Both	Gusting Grimoire		3	3	2	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Magic Pets\Spectral Cub	Spectral Cub	Pets & Mounts	Both	Spectral Cub		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Mechanical Pets\Pierre	Pierre	Pets & Mounts	Both	Pierre		31	31	22	9	0	9	0	9041	1193	1	1	note-class step (N)	
+mop	zygor:Pets & Mounts Guides\Battle Pets\Undead Pets\Wayward Spirit	Wayward Spirit	Pets & Mounts	Both	Wayward Spirit		4	4	2	2	0	2	0	156	28	1	1	note-class step (N)	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Big Bear Meat	Big Bear Meat	Professions	Both	Big Bear Meat		8	8	7	1	0	1	0	1807	323	1	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Crawler Claw	Crawler Claw	Professions	Both	Crawler Claw		20	18	16	2	0	2	0	11300	873	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Goretusk Liver	Goretusk Liver	Professions	Both	Goretusk Liver		20	20	19	1	0	1	0	3318	555	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Murloc Eye	Murloc Eye	Professions	Both	Murloc Eye		2	2	1	1	0	1	0	966	128	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Scorpid Stinger	Scorpid Stinger	Professions	Both	Scorpid Stinger		12	12	11	1	0	1	0	1651	1003	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Stringy Vulture Meat	Stringy Vulture Meat	Professions	Both	Stringy Vulture Meat		20	20	19	1	0	1	0	2467	1116	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Tough Condor Meat	Tough Condor Meat	Professions	Both	Tough Condor Meat		6	6	5	1	0	1	0	4692	370	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Elements\Farming Guides\Elemental Fire	Elemental Fire	Professions	Both	Elemental Fire		2	2	1	1	0	1	0	0	553	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Elements\Farming Guides\Essence of Water	Essence of Water	Professions	Both	Essence of Water		2	2	1	1	0	1	0	0	650	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Enchanting\Farming Guides\Strange Dust	Strange Dust	Professions	Both	Strange Dust		1	1	1	0	0	0	0	0	0	0	1		
+mop	zygor:Profession Guides\Enchanting\Farming Guides\Large Brilliant Shard	Large Brilliant Shard	Professions	Both	Large Brilliant Shard		1	1	1	0	0	0	0	0	0	0	1		
+mop	zygor:Profession Guides\Enchanting\Farming Guides\Greater Mystic Essence	Greater Mystic Essence	Professions	Both	Greater Mystic Essence		1	1	1	0	0	0	0	0	0	0	1		
+mop	zygor:Profession Guides\Fishing\Farming Guides\Figluster's Mudfish	Figluster's Mudfish	Professions	Both	Figluster's Mudfish		3	3	1	2	0	2	0	0	641	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Fishing\Farming Guides\Raw Longjaw Mud Snapper	Raw Longjaw Mud Snapper	Professions	Both	Raw Longjaw Mud Snapper		2	2	1	1	0	1	0	0	741	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Silverleaf	Silverleaf	Professions	Both	Silverleaf		43	43	42	1	0	1	0	6995	1249	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Fadeleaf	Fadeleaf	Professions	Both	Fadeleaf		28	28	27	1	0	1	0	9853	1540	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Black Lotus	Black Lotus	Professions	Both	Black Lotus		52	50	48	2	0	2	0	11319	1340	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Kingsblood	Kingsblood	Professions	Both	Kingsblood		18	18	17	1	0	1	0	14938	1447	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Sungrass	Sungrass	Professions	Both	Sungrass		28	28	27	1	0	1	0	11517	818	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Mining\Farming Guides\Rough Stone	Rough Stone	Professions	Both	Rough Stone		62	62	61	1	0	1	0	9376	1388	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Mining\Farming Guides\Heavy Stone	Heavy Stone	Professions	Both	Heavy Stone		65	65	64	1	0	1	0	18831	3888	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Mining\Farming Guides\Thorium Ore	Thorium Ore	Professions	Both	Thorium Ore		61	61	59	2	0	2	0	12456	1682	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Skinning\Farming Guides\Light Leather	Light Leather	Professions	Both	Light Leather		2	2	1	1	0	1	0	0	538	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Skinning\Farming Guides\Turtle Scale	Turtle Scale	Professions	Both	Turtle Scale		2	2	1	1	0	1	0	0	611	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Skinning\Farming Guides\Devilsaur Leather	Devilsaur Leather	Professions	Both	Devilsaur Leather		2	2	1	1	0	1	0	4178	372	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Skinning\Farming Guides\Light Hide	Light Hide	Professions	Both	Light Hide		13	13	12	1	0	1	0	7934	970	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Tailoring\Farming Guides\Runecloth	Runecloth	Professions	Both	Runecloth		2	2	1	1	0	1	0	7890	709	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Dropped\Farming Guides\Sharp Claw	Sharp Claw	Professions	Both	Sharp Claw		12	12	11	1	0	1	0	768	1166	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Dropped\Farming Guides\Giant Egg	Giant Egg	Professions	Both	Giant Egg		2	2	1	1	0	1	0	0	1039	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Archaeology\Leveling Guides\Archaeology (1-600)	Archaeology (1-600)	Professions	Both	Archaeology		26	26	0	26	0	26	0	10226	2118	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Leveling Guides\Herbalism (1-600)	Herbalism (1-600)	Professions	Both	Herbalism		1026	1026	980	46	0	46	0	215262	38317	1	1	note-class step (N)	
+mop	zygor:Profession Guides\Tailoring\Leveling Guides\Tailoring (1-600)	Tailoring (1-600)	Professions	Both	Tailoring		626	565	311	254	0	254	0	209327	41049	1	1	note-class step (N)	
+mop	zygor:Profession Guides\General Farming Guides\Primal Shadow	Primal Shadow	Professions	Both	Primal Shadow		10	8	6	2	0	2	0	1132	792	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\General Farming Guides\Volatile Air	Volatile Air	Professions	Both	Volatile Air		6	6	5	1	0	1	0	888	951	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\General Farming Guides\Eternal Water	Eternal Water	Professions	Both	Eternal Water		2	2	1	1	0	1	0	0	793	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Skinning\Farming Guides\Wind Scales	Wind Scales	Professions	Both	Wind Scales		25	25	24	1	0	1	0	1531	1522	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Skinning\Farming Guides\Deepsea Scale	Deepsea Scale	Professions	Both	Deepsea Scale		2	2	1	1	0	1	0	0	1194	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Netherbloom	Netherbloom	Professions	Both	Netherbloom		124	124	123	1	0	1	0	17329	4346	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Icethorn	Icethorn	Professions	Both	Icethorn		99	99	98	1	0	1	0	13972	4188	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Cinderbloom	Cinderbloom	Professions	Both	Cinderbloom		44	44	43	1	0	1	0	16853	3999	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Enchanting\Farming Guides\Lesser Planar Essence	Lesser Planar Essence	Professions	Both	Lesser Planar Essence		1	1	1	0	0	0	0	0	0	0	1		
+mop	zygor:Profession Guides\Enchanting\Farming Guides\Greater Celestial Essence	Greater Celestial Essence	Professions	Both	Greater Celestial Essence		1	1	1	0	0	0	0	0	0	0	1		
+mop	zygor:Profession Guides\Mining\Farming Guides\Fel Iron Ore	Fel Iron Ore	Professions	Both	Fel Iron Ore		51	51	50	1	0	1	0	8101	2248	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Mining\Farming Guides\Elementium (Uldum)	Elementium (Uldum)	Professions	Both	Elementium		104	104	102	2	0	2	0	14662	3414	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Jewelcrafting\Farming Guides\Hessonite	Hessonite	Professions	Both	Hessonite		2	2	1	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Jewelcrafting\Farming Guides\Demonseye	Demonseye	Professions	Both	Demonseye		2	2	1	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Fishing\Farming Guides\Spotted Feltail	Spotted Feltail	Professions	Both	Spotted Feltail		3	3	1	2	0	2	0	0	959	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Fishing\Farming Guides\Algaefin Rockfish	Algaefin Rockfish	Professions	Both	Algaefin Rockfish		2	2	1	1	0	1	0	0	1093	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Fishing\Farming Guides\Fathom Eel	Fathom Eel	Professions	Both	Fathom Eel		29	29	28	1	0	1	0	8013	1856	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Buzzard Meat	Buzzard Meat	Professions	Both	Buzzard Meat		2	2	1	1	0	1	0	0	760	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Strange Spores	Strange Spores	Professions	Both	Strange Spores		54	54	52	2	0	2	0	11924	1458	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Ravager Flesh	Ravager Flesh	Professions	Both	Ravager Flesh		2	2	1	1	0	1	0	2030	363	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Farming Guides\Shoveltusk Flank	Shoveltusk Flank	Professions	Both	Shoveltusk Flank		16	16	15	1	0	1	0	3069	1865	0	1	objective without QID or loot	
+mop	zygor:Profession Guides\Cooking\Leveling Guides\Way of the Brew	Way of the Brew	Professions	Both	Way of the Brew		25	19	5	14	0	14	0	1047	187	1	1	note-class step (N)	
+mop	zygor:Profession Guides\Herbalism\Farming Guides\Golden Lotus	Golden Lotus	Professions	Both	Golden Lotus		150	150	149	1	0	1	0	19783	3142	0	1	note-class step (N)	
+mop	zygor:Profession Guides\Mining\Farming Guides\Kyparite	Kyparite	Professions	Both	Kyparite		41	41	39	2	0	2	0	11188	1468	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Classic Reputations\Gnomeregan	Gnomeregan	Reputation	Both	Gnomeregan		2	2	0	2	0	2	0	0	494	0	1	buy without loot list	
+mop	zygor:Reputation Guides\Classic Reputations\The Steamwheedle Cartel	The Steamwheedle Cartel	Reputation	Both	The Steamwheedle Cartel		69	69	24	45	0	45	0	45880	6205	2	1	note-class step (N)	
+mop	zygor:Reputation Guides\Burning Crusade Reputations\Honor Hold	Honor Hold	Reputation	Both	Honor Hold		347	288	180	108	0	108	0	67798	10559	8	1	note-class step (N)	
+mop	zygor:Reputation Guides\Burning Crusade Reputations\Sha'tari Skyguard	Sha'tari Skyguard	Reputation	Both	Sha'tari Skyguard		116	97	48	49	0	49	0	27852	4226	1	1	note-class step (N)	
+mop	zygor:Reputation Guides\Wrath of the Lich King Reputations\Alliance Vanguard	Alliance Vanguard	Reputation	Alliance	Alliance Vanguard		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Wrath of the Lich King Reputations\Knights of the Ebon Blade	Knights of the Ebon Blade	Reputation	Both	Knights of the Ebon Blade		74	60	35	25	0	25	0	9509	3245	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Cataclysm Reputations\Ramkahen	Ramkahen	Reputation	Both	Ramkahen		20	20	5	15	0	15	0	5325	1897	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Mists of Pandaria Reputations\Shado-Pan Assault	Shado-Pan Assault	Reputation	Both	Shado-Pan Assault		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Mists of Pandaria Reputations\Tiller's Union\Ella	Ella	Reputation	Both	Ella		56	49	20	29	0	29	0	9512	1571	1	1	note-class step (N)	
+mop	zygor:Reputation Guides\Mists of Pandaria Reputations\Tiller's Union\Old Hillpaw	Old Hillpaw	Reputation	Both	Old Hillpaw		32	32	13	19	0	19	0	6511	947	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Burning Crusade Reputations\The Aldor	The Aldor	Reputation	Both	The Aldor		244	189	112	77	0	77	0	83674	10277	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Classic Reputations\The Defilers	The Defilers	Reputation	Both	The Defilers		7	7	3	4	0	4	0	2526	1391	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Classic Reputations\Warsong Outriders	Warsong Outriders	Reputation	Both	Warsong Outriders		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Cataclysm Reputations\Dragonmaw Clan	Dragonmaw Clan	Reputation	Both	Dragonmaw Clan		30	28	14	14	0	14	0	5307	692	0	1	note-class step (N)	
+mop	zygor:Title Guides\Burning Crusade Titles\Reputations\Of the Shattered Sun	Of the Shattered Sun	Titles	Both	Of the Shattered Sun		136	99	60	39	0	39	0	81000	8828	0	1	note-class step (N)	
+mop	zygor:Title Guides\Wrath of the Lich King Titles\Dungeons & Raids\The Light of Dawn	The Light of Dawn	Titles	Both	The Light of Dawn		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Title Guides\Wrath of the Lich King Titles\Player versus Player\Arena Master	Arena Master	Titles	Both	Arena Master		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Achievement Guides\Professions\Cooking\Grand Master Cook	Grand Master Cook	Achievements	Both	Grand Master Cook		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+mop	zygor:Title Guides\Wrath of the Lich King Titles\Quests\Loremaster of Eastern Kingdoms	Loremaster of Eastern Kingdoms	Titles	Both	Loremaster of Eastern Kingdoms		16	16	0	16	0	16	0	0	0	0	1	note-class step (N)	
+mop	zygor:Title Guides\Cataclysm Titles\Dungeons & Raids\Blackwing's Bane	Blackwing's Bane	Titles	Both	Blackwing's Bane		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Title Guides\Cataclysm Titles\Dungeons & Raids\Savior of Azeroth	Savior of Azeroth	Titles	Both	Savior of Azeroth		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+mop	zygor:Reputation Guides\Wrath of the Lich King Reuptations\Argent Crusade	Argent Crusade	Reputation	Both	Argent Crusade		148	130	75	55	0	55	0	37113	10576	0	1	note-class step (N)	
+mop	zygor:Dungeon Guides\Pandaria Scenarios\Blood in the Snow	Blood in the Snow	Dungeons	Both	Blood in the Snow		10	9	0	9	0	9	0	3053	545	1	1	objective without QID or loot	
+mop	wowpro:JamBla6870	Blade's Edge Mountains	Leveling	Alliance	Blade's Edge Mountains		327	268	258	10	0	10	0	76547	6909	0	1	note-class step (r)	
+mop	wowpro:BitAra2025	Arathi Highlands	Leveling	Alliance	Arathi Highlands		87	72	72	0	0	0	0	15436	3804	0	1		
+mop	wowpro:BitCap3035	The Cape of Stranglethorn	Leveling	Alliance	The Cape of Stranglethorn		214	176	175	1	0	1	0	40401	5533	0	1	note-class step (N)	
+mop	wowpro:WkjFer3540	Feralas	Leveling	Alliance	Feralas		172	152	151	1	0	1	0	39859	5845	0	1	note-class step (r)	
+mop	wowpro:WkjSton2530	Stonetalon Mountains	Leveling	Alliance	Stonetalon Mountains		224	182	180	2	0	2	0	38431	4698	0	1	note-class step (N)	
+mop	wowpro:BitWes3540	Western Plaguelands	Leveling	Alliance	Western Plaguelands		179	148	146	2	0	2	0	18197	2967	0	1	note-class step (r)	
+mop	wowpro:GylGno0105	Gnome: Intro	Leveling	Alliance	New Tinkertown (Gnome)		98	65	64	1	0	1	0	11695	1364	0	1	note-class step (r)	
+mop	wowpro:JamBor6872	Borean Tundra	Leveling	Alliance	Borean Tundra		467	396	387	9	0	9	0	89883	7749	0	1	note-class step (N)	
+mop	wowpro:JamBla6970	Blade's Edge Mountains	Leveling	Horde	Blade's Edge Mountains		325	250	248	2	0	2	0	88968	8389	0	1	note-class step (r)	
+mop	wowpro:JiyAra2530	Arathi Highlands	Leveling	Horde	Arathi Highlands		107	91	90	1	0	1	0	24110	5033	0	0	note-class step (r)	
+mop	wowpro:WkjCap3035	Cape of Stranglethorn	Leveling	Horde	The Cape of Stranglethorn		208	173	172	1	0	1	0	62737	6486	0	1	note-class step (r)	
+mop	wowpro:AyaHil2025	Hillsbrad Foothills	Leveling	Horde	Hillsbrad Foothills		250	203	189	14	0	14	0	42936	6988	0	1	note-class step (N)	
+mop	wowpro:JiySto2530	Stonetalon Mountains	Leveling	Horde	Stonetalon Mountains		170	136	128	8	0	8	0	44794	5941	0	1	note-class step (N)	
+mop	wowpro:JiyWes3540	Western Plaguelands	Leveling	Horde	Western Plaguelands		196	159	151	8	0	8	0	42060	4668	0	1	note-class step (N)	
+mop	wowpro:GylNar0105	Tauren: Intro	Leveling	Horde	Camp Narache (Tauren)		140	77	74	3	0	3	0	16033	3295	0	1	travel step with unresolvable zone	
+mop	wowpro:JamGriH7577	Grizzly Hills	Leveling	Horde	Grizzly Hills		318	269	251	18	0	18	0	104252	9389	0	1	note-class step (N)	
+mop	wowpro:CraEas4045	Eastern Plaguelands	Leveling	Neutral	Eastern Plaguelands		323	246	228	18	0	18	0	75079	6518	0	1	note-class step (N)	
+mop	wowpro:JiyWin5055	Winterspring	Leveling	Neutral	Winterspring		193	166	164	2	0	2	0	35402	3847	0	1	note-class step (N)	
+mop	wowpro:EmmTow8990	Townlong Steppes	Leveling	Neutral	Townlong Steppes		302	251	240	11	0	11	0	27833	2470	1	1	note-class step ($)	
+mop	wowpro:Enchanting	Enchanting	Professions	Neutral	Enchanting		157	116	1	115	0	115	0	0	0	0	1	note-class step (M)	
+mop	wowpro:BlancLTW_Cata	Leatherworking_Cataclysm	Professions	Neutral	Leatherworking_Cata		110	92	1	91	0	91	0	0	0	0	1	note-class step (M)	

@@ -1,0 +1,186 @@
+flavor	guide	name	type	faction	zone	zone_name	steps	simulated	auto	manual	stalls	forced	laps	yards	seconds	no_route	finished	manual_reason	error
+era	qdb:era:3:Alliance	Badlands Quests (Alliance)	Quests	Alliance	1418	Badlands	29	26	26	0	0	0	0	7415	1143	0	1		
+era	qdb:era:10:Horde	Duskwood Quests (Horde)	Quests	Horde	1431	Duskwood	9	8	8	0	0	0	0	2782	489	0	1		
+era	qdb:era:14:Horde	Durotar Quests (Horde)	Quests	Horde	1411	Durotar	196	153	153	0	0	0	0	57936	11104	0	1		
+era	qdb:era:16:Horde	Azshara Quests (Horde)	Quests	Horde	1447	Azshara	21	19	19	0	0	0	0	17463	1830	0	1		
+era	qdb:era:28:Alliance	Western Plaguelands Quests (Alliance)	Quests	Alliance	1422	Western Plaguelands	92	78	78	0	0	0	0	43725	3448	0	1		
+era	qdb:era:36:Horde	Alterac Mountains Quests (Horde)	Quests	Horde	1416	Alterac Mountains	42	35	35	0	0	0	0	5931	1547	0	1		
+era	qdb:era:44:Alliance	Redridge Mountains Quests (Alliance)	Quests	Alliance	1433	Redridge Mountains	96	83	83	0	0	0	0	31005	4471	0	1		
+era	qdb:era:46:Alliance	Burning Steppes Quests (Alliance)	Quests	Alliance	1428	Burning Steppes	54	48	48	0	0	0	0	13369	1334	0	1		
+era	qdb:era:85:Both	Tirisfal Glades Quests	Quests	Both	1420	Tirisfal Glades	2	2	2	0	0	0	0	550	98	0	1		
+era	qdb:era:139:Alliance	Eastern Plaguelands Quests (Alliance)	Quests	Alliance	1423	Eastern Plaguelands	53	38	38	0	0	0	0	20708	3034	0	1		
+era	qdb:era:215:Horde	Mulgore Quests (Horde)	Quests	Horde	1412	Mulgore	132	114	114	0	0	0	0	33324	5690	0	1		
+era	qdb:era:357:Both	Feralas Quests	Quests	Both	1444	Feralas	26	26	26	0	0	0	0	9838	3204	0	1		
+era	qdb:era:400:Both	Thousand Needles Quests	Quests	Both	1441	Thousand Needles	66	58	58	0	0	0	0	34712	5716	0	1		
+era	qdb:era:406:Both	Stonetalon Mountains Quests	Quests	Both	1442	Stonetalon Mountains	12	10	10	0	0	0	0	10363	1622	0	1		
+era	qdb:era:490:Both	Un'Goro Crater Quests	Quests	Both	1449	Un'Goro Crater	106	91	91	0	0	0	0	50647	7646	0	1		
+era	qdb:era:618:Both	Winterspring Quests	Quests	Both	1452	Winterspring	130	117	117	0	0	0	0	102708	16905	0	1		
+era	qdb:era:1377:Alliance	Silithus Quests (Alliance)	Quests	Alliance	1451	Silithus	52	48	48	0	0	0	0	2662	297	0	1		
+era	qdb:era:1519:Alliance	Stormwind City Quests (Alliance)	Quests	Alliance	1453	Stormwind City	502	404	404	0	0	0	0	322779	32147	0	1		
+era	qdb:era:1583:Horde	Blackrock Spire - Dungeon Quests (Horde)	Quests	Horde	253		3	2	2	0	0	0	0	0	0	0	1		
+era	qdb:era:1637:Horde	Orgrimmar Quests (Horde)	Quests	Horde	1454	Orgrimmar	427	350	350	0	0	0	0	208274	26062	0	1		
+era	qdb:era:1977:Horde	Zul'Gurub - Dungeon pre-cata ZG Quests (Horde)	Quests	Horde	233		3	3	3	0	0	0	0	0	0	0	1		
+era	qdb:era:2557:Both	Dire Maul - Dungeon Quests	Quests	Both	234		72	59	59	0	0	0	0	0	0	0	1		
+era	qdb:era:2717:Both	Molten Core - Raid Quests	Quests	Both	232		18	18	18	0	0	0	0	0	0	0	1		
+era	qdb:era:3428:Both	Ahn'Qiraj - Raid Quests	Quests	Both	320		121	86	86	0	0	0	0	0	0	0	1		
+era	zygor:Dungeon Guides\Wailing Caverns (15-25)	Wailing Caverns (15-25)	Dungeons	Both	Wailing Caverns		18	18	0	18	0	18	0	0	0	0	1	objective without QID or loot	
+era	zygor:Dungeon Guides\Razorfen Kraul (30-40)	Razorfen Kraul (30-40)	Dungeons	Both	Razorfen Kraul		17	17	0	17	0	17	0	0	0	0	1	objective without QID or loot	
+era	zygor:Dungeon Guides\Uldaman (42-52)	Uldaman (42-52)	Dungeons	Both	Uldaman		15	15	0	15	0	15	0	0	0	0	1	objective without QID or loot	
+era	zygor:Dungeon Guides\The Temple of Atal'Hakkar (50-60)	The Temple of Atal'Hakkar (50-60)	Dungeons	Both	The Temple of Atal'Hakkar		18	18	0	18	0	18	0	0	0	0	1	objective without QID or loot	
+era	zygor:Dungeon Guides\Dire Maul North (58-60)	Dire Maul North (58-60)	Dungeons	Both	Dire Maul North		14	14	0	14	0	14	0	0	0	0	1	objective without QID or loot	
+era	zygor:Dungeon Guides\The Deadmines Quests	The Deadmines Quests	Dungeons	Both	The Deadmines Quests		69	62	43	19	0	19	0	25465	2843	0	1	note-class step (N)	
+era	zygor:Dungeon Guides\Scarlet Monastery Armory Quests	Scarlet Monastery Armory Quests	Dungeons	Both	Scarlet Monastery Armory Quests		18	18	10	8	0	8	0	9506	3234	0	1	note-class step (N)	
+era	zygor:Dungeon Guides\Temple of Atal'Hakkar Quests	Temple of Atal'Hakkar Quests	Dungeons	Both	Temple of Atal'Hakkar Quests		117	96	60	36	0	36	0	116138	15931	0	1	note-class step (N)	
+era	zygor:Dungeon Guides\Scholomance Quests	Scholomance Quests	Dungeons	Both	Scholomance Quests		206	178	119	59	0	59	0	90336	18809	0	1	note-class step (N)	
+era	zygor:Dungeon Guides\Gnomeregan Raid (40)	Gnomeregan Raid (40)	Dungeons	Both	Gnomeregan Raid		14	14	0	14	0	14	0	0	0	0	1	objective without QID or loot	
+era	zygor:Dungeon Guides\Sunken Temple Raid Quests (25)	Sunken Temple Raid Quests (25)	Dungeons	Both	Sunken Temple Raid Quests		284	138	89	49	0	49	0	161459	24820	0	1	note-class step (N)	
+era	zygor:Dungeon Guides\Scarlet Monastery Graveyard Quests	Scarlet Monastery Graveyard Quests	Dungeons	Both	Scarlet Monastery Graveyard Quests		19	17	10	7	0	7	0	18032	2076	0	1	note-class step (N)	
+era	zygor:Events Guides\Darkmoon Faire\Elwynn Forest\Yebb Neblegear Turn-Ins (Elwynn Forest)	Yebb Neblegear Turn-Ins (Elwynn Forest)	Events	Both	Yebb Neblegear Turn-Ins		28	26	10	16	0	16	0	14951	3675	0	1	note-class step (N)	
+era	zygor:Events Guides\Darkmoon Faire\Mulgore\Kerri Hicks Turn-Ins (Mulgore)	Kerri Hicks Turn-Ins (Mulgore)	Events	Both	Kerri Hicks Turn-Ins		22	20	10	10	0	10	0	5711	2255	0	1	note-class step (N)	
+era	zygor:Events Guides\Hallow's End\Hallow's End Quests	Hallow's End Quests	Events	Both	Hallow's End Quests		36	33	14	19	0	19	0	13263	3320	0	1	note-class step (N)	
+era	zygor:Events Guides\Love is in the Air\Gift Giving	Gift Giving	Events	Both	Gift Giving		80	78	60	18	0	18	0	17193	2758	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Night Elf Starter (1-13)	Night Elf Starter (1-13)	Leveling	Both	Night Elf Starter		543	434	254	180	0	180	0	80469	11668	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Ashenvale & Stonetalon Mountains (21-24)	Ashenvale & Stonetalon Mountains (21-24)	Leveling	Both	Ashenvale & Stonetalon Mountains		193	146	83	63	0	63	0	69061	7448	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Hillsbrad Foothills & Arathi Highlands (32-33)	Hillsbrad Foothills & Arathi Highlands (32-33)	Leveling	Both	Hillsbrad Foothills & Arathi Highlands		86	79	44	35	0	35	0	15450	2434	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Arathi Highlands & Alterac Mountains (39-40)	Arathi Highlands & Alterac Mountains (39-40)	Leveling	Both	Arathi Highlands & Alterac Mountains		198	158	104	54	0	54	0	47195	5252	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Tanaris (43-44)	Tanaris (43-44)	Leveling	Both	Tanaris		55	50	26	24	0	24	0	7463	1338	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Searing Gorge (50-51)	Searing Gorge (50-51)	Leveling	Both	Searing Gorge		135	115	66	49	0	49	0	15836	3436	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Winterspring & Felwood (54-56)	Winterspring & Felwood (54-56)	Leveling	Both	Winterspring & Felwood		221	191	130	61	0	61	0	73738	7197	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Ruins of Ahn'Qiraj Ring Quest	Ruins of Ahn'Qiraj Ring Quest	Leveling	Both	Ruins of Ahn'Qiraj Ring Quest		58	31	27	4	0	4	0	17686	880	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Ahn'Qiraj Gear\Temple of Ahn'Qiraj Chest Quest	Temple of Ahn'Qiraj Chest Quest	Leveling	Both	Temple of Ahn'Qiraj Chest Quest		58	22	18	4	0	4	0	0	0	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Cenarion Field Duty Logistics Assignments	Cenarion Field Duty Logistics Assignments	Leveling	Both	Cenarion Field Duty Logistics Assignments		84	63	51	12	0	12	0	18731	3867	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Mage Class Quests	Mage Class Quests	Leveling	Both	Mage Class Quests		149	23	3	20	0	20	0	39255	6758	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Consumed by Rage [Wetlands]	Consumed by Rage [Wetlands]	Leveling	Both	Consumed by Rage [Wetlands]		2	2	1	1	0	1	0	0	1080	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Endless Rage [Darkshore]	Endless Rage [Darkshore]	Leveling	Both	Endless Rage [Darkshore]		2	2	1	1	0	1	0	0	724	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Furious Thunder [Elwynn Forest]	Furious Thunder [Elwynn Forest]	Leveling	Both	Furious Thunder [Elwynn Forest]		2	2	1	1	0	1	0	0	912	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Victory Rush (Dwarf Only) [Dun Morogh]	Victory Rush (Dwarf Only) [Dun Morogh]	Leveling	Both	Victory Rush (Dwarf Only) [Dun Morogh]		8	6	3	3	0	3	0	4527	804	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Phase 2 Runes\Enraged Regeneration	Enraged Regeneration	Leveling	Both	Enraged Regeneration		29	26	11	15	0	15	0	26094	4351	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Phase 3 Runes\Sword and Board	Sword and Board	Leveling	Both	Sword and Board		26	17	7	10	0	10	0	23953	5579	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Phase 4 Runes\Fresh Meat	Fresh Meat	Leveling	Both	Fresh Meat		2	2	1	1	0	1	0	124	1074	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Paladin\Avenger's Shield [Redridge Mountains]	Avenger's Shield [Redridge Mountains]	Leveling	Both	Avenger's Shield [Redridge Mountains]		2	2	1	1	0	1	0	1403	246	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Paladin\Aura Mastery [Duskwood]	Aura Mastery [Duskwood]	Leveling	Both	Aura Mastery [Duskwood]		7	7	2	5	0	5	0	5165	748	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Paladin\Inspiration Exemplar [Dun Morogh]	Inspiration Exemplar [Dun Morogh]	Leveling	Both	Inspiration Exemplar [Dun Morogh]		3	3	1	2	0	2	0	5115	587	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Paladin\Phase 2 Runes\Sacred Shield	Sacred Shield	Leveling	Both	Sacred Shield		7	7	2	5	0	5	0	2413	2452	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Paladin\Phase 3 Runes\Wrath	Wrath	Leveling	Both	Wrath		4	4	1	3	0	3	0	11634	735	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Paladin\Phase 4 Runes\Exorcist (Skill Book)	Exorcist (Skill Book)	Leveling	Both	Exorcist		2	2	0	2	0	2	0	9245	562	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Between the Eyes [Teldrassil]	Between the Eyes [Teldrassil]	Leveling	Both	Between the Eyes [Teldrassil]		4	4	2	2	0	2	0	200	849	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Main Gauche [The Barrens]	Main Gauche [The Barrens]	Leveling	Both	Main Gauche [The Barrens]		22	18	8	10	0	10	0	10406	3544	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Quick Draw [Teldrassil]	Quick Draw [Teldrassil]	Leveling	Both	Quick Draw [Teldrassil]		11	11	8	3	0	3	0	15146	1328	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Shadowstrike (Gnome Only) [Dun Morogh]	Shadowstrike (Gnome Only) [Dun Morogh]	Leveling	Both	Shadowstrike (Gnome Only) [Dun Morogh]		9	8	3	5	0	5	0	2128	1161	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Phase 2 Runes\Master of Subtlety [Stranglethorn Vale]	Master of Subtlety [Stranglethorn Vale]	Leveling	Both	Master of Subtlety [Stranglethorn Vale]		10	10	5	5	0	5	0	11695	1378	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Phase 3 Runes\Combat Potency	Combat Potency	Leveling	Both	Combat Potency		26	17	7	10	0	10	0	12292	5216	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Phase 4 Runes\Blunderbuss	Blunderbuss	Leveling	Both	Blunderbuss		12	12	2	10	0	10	0	10148	2856	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Phase 4 Runes\Occult Poison (Skill Book)	Occult Poison (Skill Book)	Leveling	Both	Occult Poison		4	4	0	4	0	4	0	11753	1459	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Homunculi [Elwynn Forest]	Homunculi [Elwynn Forest]	Leveling	Both	Homunculi [Elwynn Forest]		6	4	3	1	0	1	0	2303	1193	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Power Word: Barrier [Redridge Mountains]	Power Word: Barrier [Redridge Mountains]	Leveling	Both	Power Word: Barrier [Redridge Mountains]		6	4	3	1	0	1	0	6465	781	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Shared Pain [Dun Morogh]	Shared Pain [Dun Morogh]	Leveling	Both	Shared Pain [Dun Morogh]		3	3	2	1	0	1	0	6781	706	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Twisted Faith [Westfall]	Twisted Faith [Westfall]	Leveling	Both	Twisted Faith [Westfall]		3	3	2	1	0	1	0	5460	694	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Phase 2 Runes\Empowered Renew [Thousand Needles]	Empowered Renew [Thousand Needles]	Leveling	Both	Empowered Renew [Thousand Needles]		2	2	1	1	0	1	0	0	982	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Phase 3 Runes\Surge of Light	Surge of Light	Leveling	Both	Surge of Light		4	4	1	3	0	3	0	0	713	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Phase 4 Runes\Soul Warding	Soul Warding	Leveling	Both	Soul Warding		6	6	1	5	0	5	0	0	0	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Burnout [Dun Morogh]	Burnout [Dun Morogh]	Leveling	Both	Burnout [Dun Morogh]		2	2	1	1	0	1	0	8698	588	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Ice Lance [Elwynn Forest]	Ice Lance [Elwynn Forest]	Leveling	Both	Ice Lance [Elwynn Forest]		8	6	3	3	0	3	0	3775	482	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Regeneration [Loch Modan]	Regeneration [Loch Modan]	Leveling	Both	Regeneration [Loch Modan]		4	4	1	3	0	3	0	6668	591	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Phase 2 Runes\Hot Streak [Alterac Mountains]	Hot Streak [Alterac Mountains]	Leveling	Both	Hot Streak [Alterac Mountains]		4	4	2	2	0	2	0	6610	586	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Phase 3 Runes\Displacement	Displacement	Leveling	Both	Displacement		14	14	5	9	0	9	0	33686	4041	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Phase 4 Runes\Overheat	Overheat	Leveling	Both	Overheat		6	3	3	0	0	0	0	3422	587	0	1		
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Demonic Grace [Elwynn Forest]	Demonic Grace [Elwynn Forest]	Leveling	Both	Demonic Grace [Elwynn Forest]		9	9	5	4	0	4	0	14002	1220	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Incinerate [Redridge Mountains]	Incinerate [Redridge Mountains]	Leveling	Both	Incinerate [Redridge Mountains]		2	2	1	1	0	1	0	4358	401	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Shadow Bolt Volley [Loch Modan]	Shadow Bolt Volley [Loch Modan]	Leveling	Both	Shadow Bolt Volley [Loch Modan]		2	2	1	1	0	1	0	4124	724	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Phase 2 Runes\Invocation [Arathi Highlands]	Invocation [Arathi Highlands]	Leveling	Both	Invocation [Arathi Highlands]		8	8	4	4	0	4	0	4686	475	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Phase 3 Runes\Unstable Affliction	Unstable Affliction	Leveling	Both	Unstable Affliction		38	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Phase 4 Runes\Fel Armor (Skill Book)	Fel Armor (Skill Book)	Leveling	Both	Fel Armor		4	4	0	4	0	4	0	7094	1298	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Beast Mastery [Loch Modan]	Beast Mastery [Loch Modan]	Leveling	Both	Beast Mastery [Loch Modan]		2	2	1	1	0	1	0	0	959	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Explosive Shot [Dun Morogh]	Explosive Shot [Dun Morogh]	Leveling	Both	Explosive Shot [Dun Morogh]		3	3	1	2	0	2	0	4466	572	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Master Marksman [Dun Morogh]	Master Marksman [Dun Morogh]	Leveling	Both	Master Marksman [Dun Morogh]		5	5	1	4	0	4	0	561	100	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Phase 2 Runes\Expose Weakness	Expose Weakness	Leveling	Both	Expose Weakness		14	11	7	4	0	4	0	23564	3292	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Phase 3 Runes\Raptor Fury	Raptor Fury	Leveling	Both	Raptor Fury		2	2	1	1	0	1	0	0	963	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Phase 4 Runes\Resourcefulness	Resourcefulness	Leveling	Both	Resourcefulness		8	8	6	2	0	2	0	2780	1485	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Druid\Lacerate [Loch Modan]	Lacerate [Loch Modan]	Leveling	Both	Lacerate [Loch Modan]		4	4	2	2	0	2	0	7287	612	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Druid\Starsurge [Wetlands]	Starsurge [Wetlands]	Leveling	Both	Starsurge [Wetlands]		6	6	4	2	0	2	0	3198	524	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Druid\Phase 2 Runes\Dreamstate [Desolace]	Dreamstate [Desolace]	Leveling	Both	Dreamstate [Desolace]		7	7	4	3	0	3	0	2173	1341	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Druid\Phase 3 Runes\Elune's Fires	Elune's Fires	Leveling	Both	Elune's Fires		13	13	8	5	0	5	0	12413	1745	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Druid\Phase 4 Runes\Tree of Life	Tree of Life	Leveling	Both	Tree of Life		6	6	1	5	0	5	0	5820	863	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Phase 4 Ring Runes\Rune of Axe Specialization	Rune of Axe Specialization	Leveling	Both	Rune of Axe Specialization		3	3	1	2	0	2	0	0	993	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Phase 4 Ring Runes\Rune of Frost Specialization	Rune of Frost Specialization	Leveling	Both	Rune of Frost Specialization		3	3	1	2	0	2	0	0	1142	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Phase 4 Ring Runes\Rune of Shadow Specialization	Rune of Shadow Specialization	Leveling	Both	Rune of Shadow Specialization		3	3	1	2	0	2	0	0	1120	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Events\Nightmare Incursion\Ashenvale Nightmare Incursion	Ashenvale Nightmare Incursion	Leveling	Both	Ashenvale Nightmare Incursion		22	21	10	11	0	11	0	6971	2029	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Events\Demon Fall Canyon Dungeon Unlock	Demon Fall Canyon Dungeon Unlock	Leveling	Both	Demon Fall Canyon Dungeon Unlock		8	7	3	4	0	4	0	15353	2253	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Orc & Troll Starter (1-12)	Orc & Troll Starter (1-12)	Leveling	Both	Orc & Troll Starter		668	485	194	291	0	291	0	63685	11254	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Hillsbrad Foothills (22-24)	Hillsbrad Foothills (22-24)	Leveling	Both	Hillsbrad Foothills		219	156	85	71	0	71	0	31339	10057	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Arathi Highlands (32-33)	Arathi Highlands (32-33)	Leveling	Both	Arathi Highlands		54	36	23	13	0	13	0	10603	2819	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Arathi Highlands (38-39)	Arathi Highlands (38-39)	Leveling	Both	Arathi Highlands		77	67	35	32	0	32	0	16800	2596	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Dustwallow Marsh (42-42)	Dustwallow Marsh (42-42)	Leveling	Both	Dustwallow Marsh		66	54	38	16	0	16	0	6712	1362	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Dustwallow Marsh (48-48)	Dustwallow Marsh (48-48)	Leveling	Both	Dustwallow Marsh		60	48	34	14	0	14	0	22562	2449	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Burning Steppes (52-52)	Burning Steppes (52-52)	Leveling	Both	Burning Steppes		59	52	22	30	0	30	0	21047	3225	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Azshara (54-54)	Azshara (54-54)	Leveling	Both	Azshara		33	26	17	9	0	9	0	8308	927	0	0	note-class step (N)	
+era	zygor:Leveling Guides\Eastern Plaguelands (56-57)	Eastern Plaguelands (56-57)	Leveling	Both	Eastern Plaguelands		100	78	46	32	0	32	0	23649	3239	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Blood Frenzy [Tirisfal Glades]	Blood Frenzy [Tirisfal Glades]	Leveling	Both	Blood Frenzy [Tirisfal Glades]		4	4	1	3	0	3	0	763	136	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warrior\Frenzied Assault (Tirisfal Glades)	Frenzied Assault (Tirisfal Glades)	Leveling	Both	Frenzied Assault		7	7	1	6	0	6	0	892	159	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Between the Eyes [Orgrimmar]	Between the Eyes [Orgrimmar]	Leveling	Both	Between the Eyes [Orgrimmar]		2	2	1	1	0	1	0	0	1215	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Quick Draw [Tirisfal Glades]	Quick Draw [Tirisfal Glades]	Leveling	Both	Quick Draw [Tirisfal Glades]		11	11	8	3	0	3	0	2178	1675	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Rogue\Slaughter from the Shadows [Durotar]	Slaughter from the Shadows [Durotar]	Leveling	Both	Slaughter from the Shadows [Durotar]		4	4	1	3	0	3	0	0	1317	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Penanace (Troll Only) [Durotar]	Penanace (Troll Only) [Durotar]	Leveling	Both	Penanace (Troll Only) [Durotar]		8	8	3	5	0	5	0	3911	665	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Priest\Twisted Faith [The Barrens]	Twisted Faith [The Barrens]	Leveling	Both	Twisted Faith [The Barrens]		9	9	6	3	0	3	0	3996	675	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Fingers of Frost [Durotar]	Fingers of Frost [Durotar]	Leveling	Both	Fingers of Frost [Durotar]		2	1	1	0	0	0	0	3118	557	0	1		
+era	zygor:Leveling Guides\Season of Discovery Runes\Mage\Regeneration [Silverpine Forest]	Regeneration [Silverpine Forest]	Leveling	Both	Regeneration [Silverpine Forest]		4	4	1	3	0	3	0	1956	1502	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Demonic Tactics [Tirisfal Glades]	Demonic Tactics [Tirisfal Glades]	Leveling	Both	Demonic Tactics [Tirisfal Glades]		11	11	7	4	0	4	0	7424	1265	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Warlock\Shadow Bolt Volley [Silverpine Forest]	Shadow Bolt Volley [Silverpine Forest]	Leveling	Both	Shadow Bolt Volley [Silverpine Forest]		6	6	3	3	0	3	0	2997	535	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Carve [Mulgore]	Carve [Mulgore]	Leveling	Both	Carve [Mulgore]		8	8	3	5	0	5	0	1120	1370	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Hunter\Flanking Strike [Durotar]	Flanking Strike [Durotar]	Leveling	Both	Flanking Strike [Durotar]		5	5	3	2	0	2	0	5285	926	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Season of Discovery Runes\Druid\Lacerate [The Barrens]	Lacerate [The Barrens]	Leveling	Both	Lacerate [The Barrens]		4	4	2	2	0	2	0	4992	850	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Shaman\Ancestral Guidance [Mulgore]	Ancestral Guidance [Mulgore]	Leveling	Both	Ancestral Guidance [Mulgore]		4	4	2	2	0	2	0	2034	363	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Shaman\Molten Blast [Durotar]	Molten Blast [Durotar]	Leveling	Both	Molten Blast [Durotar]		7	7	2	5	0	5	0	6314	1101	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Shaman\Shield Mastery [Durotar]	Shield Mastery [Durotar]	Leveling	Both	Shield Mastery [Durotar]		7	7	2	5	0	5	0	1816	324	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Shaman\Phase 2 Runes\Fire Nova	Fire Nova	Leveling	Both	Fire Nova		28	28	10	18	0	18	0	37892	4435	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Shaman\Phase 3 Runes\Burn	Burn	Leveling	Both	Burn		38	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+era	zygor:Leveling Guides\Season of Discovery Runes\Shaman\Phase 4 Runes\Storm, Earth, and Fire	Storm, Earth, and Fire	Leveling	Both	Storm, Earth, and Fire		4	4	1	3	0	3	0	2826	505	0	1	objective without QID or loot	
+era	zygor:Leveling Guides\Points of interest	Points of interest	Leveling	Both	Points of interest		1	1	0	1	0	1	0	0	0	0	1	note-class step (N)	
+era	zygor:Profession Guides\Cooking\Farming Guides\Small Egg	Small Egg	Professions	Both	Small Egg		17	17	16	1	0	1	0	3282	586	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Cooking\Farming Guides\Boar Intestines	Boar Intestines	Professions	Both	Boar Intestines		46	44	42	2	0	2	0	4449	1610	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Cooking\Farming Guides\Goretusk Snout	Goretusk Snout	Professions	Both	Goretusk Snout		30	30	29	1	0	1	0	3186	569	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Cooking\Farming Guides\Crocolisk Meat	Crocolisk Meat	Professions	Both	Crocolisk Meat		34	32	30	2	0	2	0	9125	909	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Cooking\Farming Guides\Big Bear Meat	Big Bear Meat	Professions	Both	Big Bear Meat		20	20	19	1	0	1	0	8374	828	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Cooking\Farming Guides\Stag Meat	Stag Meat	Professions	Both	Stag Meat		40	38	36	2	0	2	0	2660	1219	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Cooking\Farming Guides\Raptor Flesh	Raptor Flesh	Professions	Both	Raptor Flesh		28	26	24	2	0	2	0	1866	1447	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Elements\Farming Guides\Essence of Air	Essence of Air	Professions	Both	Essence of Air		2	2	1	1	0	1	0	0	1145	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Elements\Farming Guides\Globe of Water	Globe of Water	Professions	Both	Globe of Water		2	2	1	1	0	1	0	12887	1058	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Elements\Farming Guides\Elemental Air	Elemental Air	Professions	Both	Elemental Air		2	2	1	1	0	1	0	0	712	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Enchanting\Farming Guides\Greater Eternal Essence	Greater Eternal Essence	Professions	Both	Greater Eternal Essence		1	1	1	0	0	0	0	0	0	0	1		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Soul Dust	Soul Dust	Professions	Both	Soul Dust		1	1	1	0	0	0	0	0	0	0	1		
+era	zygor:Profession Guides\Enchanting\Farming Guides\Dream Dust	Dream Dust	Professions	Both	Dream Dust		1	1	1	0	0	0	0	0	0	0	1		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Rainbow Fin Albacore	Raw Rainbow Fin Albacore	Professions	Both	Raw Rainbow Fin Albacore		1	1	1	0	0	0	0	3176	176	0	1		
+era	zygor:Profession Guides\Fishing\Farming Guides\Raw Sunscale Salmon	Raw Sunscale Salmon	Professions	Both	Raw Sunscale Salmon		1	1	1	0	0	0	0	0	730	0	1		
+era	zygor:Profession Guides\Herbalism\Farming Guides\Stranglekelp	Stranglekelp	Professions	Both	Stranglekelp		50	48	46	2	0	2	0	10140	3004	0	1	note-class step (N)	
+era	zygor:Profession Guides\Herbalism\Farming Guides\Kingsblood	Kingsblood	Professions	Both	Kingsblood		27	27	26	1	0	1	0	15016	1875	0	1	note-class step (N)	
+era	zygor:Profession Guides\Herbalism\Farming Guides\Wildvine	Wildvine	Professions	Both	Wildvine		2	2	1	1	0	1	0	3421	598	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Herbalism\Farming Guides\Ghost Mushroom	Ghost Mushroom	Professions	Both	Ghost Mushroom		10	10	9	1	0	1	0	1460	261	0	1	note-class step (N)	
+era	zygor:Profession Guides\Herbalism\Farming Guides\Icecap	Icecap	Professions	Both	Icecap		49	49	48	1	0	1	0	5894	2140	0	1	note-class step (N)	
+era	zygor:Profession Guides\Mining\Farming Guides\Rough Stone	Rough Stone	Professions	Both	Rough Stone		62	62	61	1	0	1	0	6376	2072	0	1	note-class step (N)	
+era	zygor:Profession Guides\Mining\Farming Guides\Heavy Stone	Heavy Stone	Professions	Both	Heavy Stone		66	66	65	1	0	1	0	16630	2144	0	1	note-class step (N)	
+era	zygor:Profession Guides\Mining\Farming Guides\Thorium Ore	Thorium Ore	Professions	Both	Thorium Ore		60	60	59	1	0	1	0	7398	2202	0	1	note-class step (N)	
+era	zygor:Profession Guides\Skinning\Farming Guides\Ruined Leather Scraps	Ruined Leather Scraps	Professions	Both	Ruined Leather Scraps		2	2	1	1	0	1	0	0	1107	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Skinning\Farming Guides\Medium Hide	Medium Hide	Professions	Both	Medium Hide		2	2	1	1	0	1	0	0	1142	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Skinning\Farming Guides\Thick Leather	Thick Leather	Professions	Both	Thick Leather		2	2	1	1	0	1	0	9788	1029	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Skinning\Farming Guides\Warbear Leather	Warbear Leather	Professions	Both	Warbear Leather		2	2	1	1	0	1	0	0	1045	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Skinning\Farming Guides\Red Dragonscale	Red Dragonscale	Professions	Both	Red Dragonscale		2	2	1	1	0	1	0	5475	782	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Tailoring\Farming Guides\Runecloth	Runecloth	Professions	Both	Runecloth		2	2	1	1	0	1	0	4828	785	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Tailoring\Farming Guides\Ironweb Spider Silk	Ironweb Spider Silk	Professions	Both	Ironweb Spider Silk		2	2	1	1	0	1	0	0	1051	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Dropped\Farming Guides\Huge Venom Sac	Huge Venom Sac	Professions	Both	Huge Venom Sac		24	24	23	1	0	1	0	2281	407	0	1	objective without QID or loot	
+era	zygor:Profession Guides\Blacksmithing\Specialization\Armorsmith\Armorsmith Questline	Armorsmith Questline	Professions	Both	Armorsmith Questline		98	66	32	34	0	34	0	15316	3601	0	1	note-class step (N)	
+era	zygor:Profession Guides\Engineering\Specialization\Gnomish Engineering\Gnomish Engineering Questline	Gnomish Engineering Questline	Professions	Both	Gnomish Engineering Questline		45	28	9	19	0	19	0	20612	1572	0	1	note-class step (N)	
+era	zygor:Profession Guides\Leatherworking\Specialization\Elemental Leatherworking\Elemental Leatherworking Questline	Elemental Leatherworking Questline	Professions	Both	Elemental Leatherworking Questline		12	8	2	6	0	6	0	2970	339	0	1	note-class step (N)	
+era	zygor:Profession Guides\Non-Trainer Recipes\Blacksmithing\Armorsmith\Dark Iron Helm	Dark Iron Helm	Professions	Both	Dark Iron Helm		5	5	1	4	0	4	0	0	0	0	1	note-class step (N)	
+era	zygor:Profession Guides\Non-Trainer Recipes\Engineering\Goblin Engineering\Dimensional Ripper - Everlook	Dimensional Ripper - Everlook	Professions	Both	Dimensional Ripper - Everlook		3	3	1	2	0	2	0	0	818	0	1	note-class step (N)	
+era	zygor:Reputation Guides\Reputations\Hydraxian Waterlords	Hydraxian Waterlords	Reputation	Both	Hydraxian Waterlords		2	2	0	2	0	2	0	0	0	0	1	note-class step (N)	
+era	zygor:Reputation Guides\Reputations\Darnassus	Darnassus	Reputation	Both	Darnassus		14	10	4	6	0	6	0	8457	549	0	1	note-class step (N)	
+era	zygor:Reputation Guides\Reputations\Orgrimmar	Orgrimmar	Reputation	Both	Orgrimmar		14	10	4	6	0	6	0	11181	763	0	1	note-class step (N)	
+era	wowpro:ClassicDarkshore1220	Darkshore 12-20	Leveling	Alliance	Darkshore		277	206	183	23	0	23	0	125615	18121	0	1	note-class step (N)	
+era	wowpro:Cag_AStocks	Dungeon: The Stockade	Leveling	Alliance	Orgrimmar		18	17	16	1	0	1	0	26039	3793	0	1	note-class step (N)	
+era	wowpro:Cag_ARFD	Dungeon: Razorfen Downs	Leveling	Alliance	Stormwind		1	1	0	1	0	1	0	6758	612	0	1	note-class step (N)	
+era	wowpro:ClassicAlliance5055	Alliance Leveling 50-55	Leveling	Alliance	Tanaris		479	401	393	8	0	8	0	288896	22932	0	1	note-class step (N)	
+era	wowpro:Cag_HScholo	Dungeon: Scholomance	Leveling	Alliance	Stormwind		1	1	0	1	0	1	0	0	708	0	1	note-class step (N)	
+era	wowpro:ClassicTirisfalGlades0112	Tirisfal Glades	Leveling	Horde	Tirisfal Glades		274	203	182	21	0	21	0	59043	9124	0	1	note-class step (=)	
+era	wowpro:ClassicHorde3140	Horde Chapter 2	Leveling	Horde	Thousand Needles		662	532	503	29	0	29	0	404857	72310	0	1	note-class step (N)	
+era	wowpro:ClassicHordeWinterspring5455	Winterspring (54-55)	Leveling	Horde	Winterspring		50	42	42	0	0	0	0	37477	4237	0	1		
+era	wowpro:First Aid	First Aid	Professions	Neutral	First Aid		43	28	8	20	0	20	0	1779	1443	0	1	note-class step (M)	
